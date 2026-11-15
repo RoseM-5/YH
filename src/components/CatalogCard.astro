@@ -1,0 +1,43 @@
+---
+interface ProductCard {
+  id: string;
+  model: string;
+  name: string;
+  categoryKey: string;
+  categoryName: string;
+  summary: string;
+  bestImage: string;
+  bestImageAlt: string;
+}
+interface Props {
+  product: ProductCard;
+  index?: number;
+}
+const { product, index = 0 } = Astro.props;
+---
+
+<article
+  class="catalog-card"
+  data-product-card
+  data-category={product.categoryKey}
+  data-search={`${product.model} ${product.name} ${product.categoryName} ${product.summary}`.toLocaleLowerCase()}
+  style={`--card-order:${index % 3}`}
+>
+  <div class="catalog-card-media">
+    <img src={product.bestImage} alt={product.bestImageAlt} loading="lazy" decoding="async" />
+    <span class="catalog-card-index">{String(index + 1).padStart(2, '0')}</span>
+  </div>
+  <div class="catalog-card-body">
+    <span class="catalog-card-category">{product.categoryName}</span>
+    <h3>{product.model}</h3>
+    <p>{product.summary}</p>
+    <span class="catalog-card-arrow" aria-hidden="true">
+      ↗
+    </span>
+  </div>
+  <a
+    class="catalog-card-link"
+    href={`/products/${product.id}/`}
+    aria-label={`查看 ${product.model} 产品详情`}
+  ></a>
+</article>

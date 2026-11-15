@@ -1,0 +1,78 @@
+﻿source_page,models,role,caption,file,width,height,source_image_number,has_transparency_mask
+1,YH-1000;YH-1001,scene,Catapult (10-20kg),images/page-01_image-004.jpg,1463,788,4,False
+1,YH-1000;YH-1001,scene,Runway,images/page-01_image-005.jpg,782,453,5,False
+1,YH-1001,product,YH-1001 aircraft,images/page-01_image-013.png,820,459,13,True
+1,YH-1000,diagram,YH-1000 aircraft structure,images/page-01_image-017.jpg,644,327,17,False
+2,YH-1002,scene,Catapult (100-180kg),images/page-02_image-020.jpg,986,296,20,False
+2,YH-1002,scene,Rocket booster (10-200kg); two-panel source image,images/page-02_image-021.jpg,987,1033,21,False
+2,YH-1002,product,Disassembled components,images/page-02_image-022.jpg,601,485,22,False
+2,YH-1002,product,Perspective view,images/page-02_image-023.jpg,646,485,23,False
+2,YH-1002,product,Side perspective view,images/page-02_image-024.jpg,647,485,24,False
+2,YH-1002,product,Front view,images/page-02_image-025.jpg,647,485,25,False
+3,YH-1003,product,"Aircraft and launch stand, rear view",images/page-03_image-030.png,1087,779,30,True
+3,YH-1003,product,"Aircraft and launch stand, perspective view",images/page-03_image-032.png,928,866,32,True
+3,YH-1003,detail,Airframe parts in production,images/page-03_image-034.jpg,879,1173,34,False
+3,YH-1003,detail,Fuselage parts in production,images/page-03_image-035.jpg,778,584,35,False
+3,YH-1003,scene,Aircraft at outdoor site,images/page-03_image-036.jpg,779,584,36,False
+3,YH-1003,detail,Aircraft in workshop,images/page-03_image-037.jpg,780,585,37,False
+3,YH-1003,scene,Aircraft on runway,images/page-03_image-038.jpg,780,586,38,False
+3,YH-1003,scene,Takeoff video preview still,images/page-03_image-039.jpg,650,352,39,False
+3,YH-1003,scene,Flight-test video preview still,images/page-03_image-040.png,647,355,40,True
+4,YH-2000,detail,Waterproof surface detail,images/page-04_image-044.jpg,391,266,44,False
+4,YH-2000,detail,Hybrid propulsion detail,images/page-04_image-045.jpg,444,303,45,False
+4,YH-2000,diagram,Modular assembly diagram,images/page-04_image-046.jpg,548,373,46,False
+4,YH-2000,product,Aircraft perspective rendering,images/page-04_image-047.png,1087,414,47,True
+4,YH-2000,diagram,Aircraft dimensions diagram,images/page-04_image-049.jpg,759,775,49,False
+5,YH-2001,diagram,Rapid assembly/disassembly,images/page-05_image-052.jpg,789,536,52,False
+5,YH-2001,product,Top view,images/page-05_image-053.jpg,793,540,53,False
+5,YH-2001,product,Side view,images/page-05_image-054.jpg,793,540,54,False
+5,YH-2001,scene,Aircraft in flight scene,images/page-05_image-055.jpg,1395,1128,55,False
+6,YH-2002,diagram,Rapid assembly/disassembly,images/page-06_image-058.jpg,754,512,58,False
+6,YH-2002,product,Top view,images/page-06_image-059.jpg,763,520,59,False
+6,YH-2002,product,Side view,images/page-06_image-060.jpg,763,520,60,False
+6,YH-2002,scene,Aircraft in flight scene,images/page-06_image-061.jpg,1395,1128,61,False
+7,YH-2003,diagram,Rapid assembly/disassembly,images/page-07_image-064.jpg,759,516,64,False
+7,YH-2003,product,Top view,images/page-07_image-065.jpg,765,521,65,False
+7,YH-2003,product,Side view,images/page-07_image-066.jpg,765,521,66,False
+7,YH-2003,scene,Aircraft in flight scene,images/page-07_image-067.jpg,1395,1128,67,False
+8,YH-2004,diagram,Rapid assembly/disassembly,images/page-08_image-070.jpg,616,418,70,False
+8,YH-2004,product,Top view,images/page-08_image-071.jpg,782,532,71,False
+8,YH-2004,product,Side view,images/page-08_image-072.jpg,778,530,72,False
+8,YH-2004,scene,Aircraft in flight scene,images/page-08_image-073.jpg,1395,1128,73,False
+9,YH-2005,diagram,Rapid assembly/disassembly,images/page-09_image-076.jpg,610,414,76,False
+9,YH-2005,product,Top view,images/page-09_image-077.jpg,778,530,77,False
+9,YH-2005,product,Side view,images/page-09_image-078.jpg,782,532,78,False
+9,YH-2005,scene,Aircraft in flight scene,images/page-09_image-079.jpg,1395,1128,79,False
+10,YH-2006,product,Rear view,images/page-10_image-082.jpg,432,293,82,False
+10,YH-2006,detail,Engine detail,images/page-10_image-083.jpg,564,384,83,False
+10,YH-2006,detail,Wing connection detail,images/page-10_image-084.jpg,564,384,84,False
+10,YH-2006,scene,Aircraft in flight scene,images/page-10_image-085.jpg,1395,1128,85,False
+11,YH-2008,product,Side view,images/page-11_image-088.jpg,784,532,88,False
+11,YH-2008,product,Front view,images/page-11_image-089.jpg,782,532,89,False
+11,YH-2008,product,Top view,images/page-11_image-090.jpg,781,532,90,False
+11,YH-2008,scene,Aircraft in flight scene,images/page-11_image-091.jpg,1395,1128,91,False
+12,YH-2009,product,Right view,images/page-12_image-094.jpg,786,534,94,False
+12,YH-2009,product,Rear view,images/page-12_image-095.jpg,782,533,95,False
+12,YH-2009,product,Front view,images/page-12_image-096.jpg,782,533,96,False
+12,YH-2009,scene,Aircraft in flight scene,images/page-12_image-097.jpg,1395,1128,97,False
+13,YH-3000,product,Left view,images/page-13_image-100.png,381,259,100,True
+13,YH-3000,product,Side view,images/page-13_image-102.png,381,259,102,True
+13,YH-3000,product,Front view,images/page-13_image-104.png,381,259,104,True
+13,YH-3000,scene,Aircraft in flight above coast,images/page-13_image-106.jpg,1394,1128,106,False
+14,YH-3001,diagram,Rapid assembly/disassembly,images/page-14_image-109.png,381,259,109,True
+14,YH-3001,product,Top view,images/page-14_image-111.png,381,259,111,True
+14,YH-3001,product,Side view,images/page-14_image-113.png,381,259,113,True
+14,YH-3001,scene,Aircraft in flight scene,images/page-14_image-115.jpg,1394,1128,115,False
+15,YH-3002,product,Top view,images/page-15_image-118.png,381,259,118,True
+15,YH-3002,product,Side view,images/page-15_image-120.png,381,259,120,True
+15,YH-3002,scene,Aircraft in flight scene,images/page-15_image-122.jpg,1394,1128,122,False
+16,WP-4000,product,WP-4000 engine,images/page-16_image-129.png,774,580,129,True
+17,WP-4001,product,MTJ-80 engine,images/page-17_image-135.png,601,431,135,True
+17,WP-4001,product,MTJ-220 engine,images/page-17_image-137.png,726,678,137,True
+17,WP-4001,detail,Engine parts and equipment montage,images/page-17_image-139.png,1104,229,139,True
+18,YH-4000,scene,Mountain and cloud background,images/page-18_image-143.jpg,2380,606,143,False
+18,YH-4000,product,YH-4000 aircraft in mountain scene,images/page-18_image-144.jpg,490,536,144,False
+19,YH-4001,scene,YH-4001 aircraft in mountain scene,images/page-19_image-147.png,2380,607,147,True
+19,YH-4001,product,YH-4001 close view in mountain scene,images/page-19_image-149.jpg,502,440,149,False
+20,YH-4002,scene,Mountain and cloud background,images/page-20_image-152.jpg,2380,606,152,False
+20,YH-4002,product,YH-4002 aircraft in mountain scene,images/page-20_image-153.jpg,514,450,153,False

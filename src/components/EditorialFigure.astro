@@ -1,0 +1,16 @@
+---
+interface Props {
+  image: string;
+  imageAlt: string;
+  className?: string;
+}
+const { image, imageAlt, className = '' } = Astro.props;
+const small = image.replace(/\.webp$/, '-sm.webp');
+---
+
+<figure class:list={['editorial-figure', className]}>
+  <picture>
+    <source media="(max-width: 700px)" srcset={small} />
+    <img src={image} alt={imageAlt} loading="lazy" decoding="async" />
+  </picture>
+</figure>

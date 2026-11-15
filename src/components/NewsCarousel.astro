@@ -1,0 +1,71 @@
+---
+interface Article {
+  slug: string;
+  title: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+  topic: string;
+}
+interface Props {
+  articles: Article[];
+}
+const { articles } = Astro.props;
+const shortTitles: Record<string, string> = {
+  'repeatable-aerial-imagery': '生态修复与空中影像',
+  'facility-inspection-workflow': '无人机巡检与设施维护',
+  'disaster-communication-system': '灾后空中通信',
+  'airframe-system-validation': '机架材料与整机验证',
+};
+---
+
+<section class="news-latest editorial-section" aria-labelledby="latest-title" data-news-carousel>
+  <div class="editorial-wrap">
+    <div class="news-latest-head" data-reveal>
+      <div>
+        <span class="editorial-kicker">LATEST INSIGHTS</span>
+        <h2 id="latest-title">更多资讯</h2>
+        <p>从任务需求到平台选型，持续整理可核查的行业观察与产品思路。</p>
+      </div>
+    </div>
+    <div class="news-carousel-shell">
+      <button class="news-carousel-arrow is-prev" type="button" data-news-prev aria-label="上一条资讯" aria-controls="news-carousel-track">←</button>
+      <div
+        class="news-carousel-track"
+        id="news-carousel-track"
+        data-news-track
+        tabindex="0"
+        role="region"
+        aria-label="更多资讯，使用左右方向键切换"
+      >
+        {articles.map((article) => (
+          <a
+            class="news-carousel-card"
+            data-news-slide
+            href={`/news/${article.slug}/`}
+            aria-label={`${shortTitles[article.slug] ?? article.title}，阅读文章`}
+          >
+            <div class="news-carousel-image">
+              <img src={article.image} alt={article.imageAlt} loading="lazy" decoding="async" />
+            </div>
+            <div class="news-carousel-copy">
+              <span>{article.topic}</span>
+              <h3>{shortTitles[article.slug] ?? article.title}</h3>
+              <p>{article.summary}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+      <button class="news-carousel-arrow is-next" type="button" data-news-next aria-label="下一条资讯" aria-controls="news-carousel-track">→</button>
+    </div>
+    <div class="news-carousel-foot" aria-label="轮播进度">
+      <div class="news-carousel-progress" aria-hidden="true"><span data-news-progress></span></div>
+      <output data-news-count aria-live="polite">01 / 04</output>
+    </div>
+    <p class="news-carousel-note">公开行业场景仅作示意，非 YH 客户项目；产品图片来自提供的画册。</p>
+  </div>
+</section>
+
+<script>
+  import '../scripts/news-carousel.ts';
+</script>

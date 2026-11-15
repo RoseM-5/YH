@@ -1,0 +1,90 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import EditorialCard from '../../components/EditorialCard.astro';
+import NewsCarousel from '../../components/NewsCarousel.astro';
+import Topography from '../../components/Topography.jsx';
+import { articles } from '../../data/editorial';
+import '../../styles/editorial.css';
+
+const featuredSlugs = [
+  'light-vtol-selection-guide',
+  'carbon-frame-three-numbers',
+  'md-g-payload-guide',
+];
+const featuredArticles = featuredSlugs
+  .map((slug) => articles.find((article) => article.slug === slug))
+  .filter((article): article is (typeof articles)[number] => article !== undefined);
+const latestArticles = articles.filter((article) => article.kind !== 'product');
+---
+
+<SiteLayout
+  title="新闻与活动"
+  description="阅读 YH 产品选型文章与公开行业观察；活动时间及报名方式确认后公布。"
+  newsLanding={true}
+>
+  <div class="news-landing">
+    <header class="news-masthead">
+      <div class="news-topography" aria-hidden="true">
+        <Topography
+          client:visible
+          color="#2379b7"
+          lineCount={26}
+          lineWidth={1.55}
+          glow={0.18}
+          speed={0.16}
+          morph={0.14}
+          brightness={1.25}
+          opacity={0.96}
+          mouseInteraction={false}
+          clickEffect="none"
+          markers="none"
+          dpr={1.5}
+        />
+      </div>
+      <div class="editorial-wrap news-masthead-content">
+        <span class="editorial-kicker">INSIGHTS &amp; EVENTS</span>
+        <h1>新闻与活动</h1>
+        <p>从真实产品资料出发，阅读选型思路与行业现场观察。</p>
+      </div>
+    </header>
+
+    <section class="editorial-section news-featured" aria-labelledby="featured-title">
+      <div class="editorial-wrap">
+        <div class="editorial-section-head" data-reveal>
+          <div>
+            <span class="editorial-kicker">EDITOR'S PICK</span>
+            <h2 id="featured-title">精选资讯</h2>
+          </div>
+        </div>
+        <div class="editorial-card-grid news-feature-grid">
+          {featuredArticles.map((article, index) => (
+            <EditorialCard
+              href={`/news/${article.slug}/`}
+              image={article.image}
+              imageAlt={article.imageAlt}
+              index={String(index + 1).padStart(2, '0')}
+              topic={article.topic}
+              title={article.title}
+              summary={article.summary}
+              layout="overlay"
+              className={index === 0 ? 'is-lead' : ''}
+              mediaLabel="YH 产品画册图"
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <NewsCarousel articles={latestArticles} />
+
+    <section class="editorial-activity news-activity" aria-labelledby="activity-title">
+      <div class="editorial-wrap editorial-activity-inner" data-reveal>
+        <div>
+          <span class="editorial-kicker">EVENTS / UPDATE</span>
+          <h2 id="activity-title">活动信息待公布</h2>
+        </div>
+        <p>时间与报名方式确认后更新</p>
+      </div>
+    </section>
+  </div>
+</SiteLayout>

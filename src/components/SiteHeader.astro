@@ -1,0 +1,148 @@
+---
+import catalog from '../data/products.json';
+
+interface Props {
+  home?: boolean;
+}
+
+const { home = false } = Astro.props;
+const currentPath = Astro.url.pathname;
+const products = catalog.products;
+const categories = catalog.categories.map((category) => [category.key, category.name] as const);
+const featured = categories.flatMap(([key]) =>
+  products.filter((product) => product.categoryKey === key).slice(0, 3),
+);
+const first = featured[0];
+---
+
+<a class="skip-link" href="#main">
+  跳转到内容
+</a>
+<header class:list={['site-header', { 'is-home': home }]} id="site-header">
+  <div class="nav-shell wrap">
+    <a class="site-brand" href="/" aria-label="YH 首页">
+      <img src="/media/brand/logo-horizontal.png" alt="YH" width="164" height="55" />
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <details class="product-menu" id="product-menu">
+        <summary>
+          产品 <span aria-hidden="true">⌄</span>
+        </summary>
+        <div class="mega-menu">
+          <div class="mega-visual">
+            {first && (
+              <img
+                data-mega-preview
+                src={first.bestImage}
+                alt={`${first.model} 产品图`}
+                width="520"
+                height="390"
+              />
+            )}
+            <div class="mega-caption">
+              <span>YH / PRODUCT SYSTEM</span>
+              <strong data-mega-caption>{first?.model}</strong>
+            </div>
+          </div>
+          <div class="mega-content">
+            <div class="mega-heading">
+              <span>产品体系</span>
+              <a href="/products/">
+                查看全部 <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="mega-grid">
+              {categories.map(([key, name]) => (
+                <div class="mega-group">
+                  <a
+                    class="mega-group-title"
+                    href={`/products/?category=${encodeURIComponent(key)}`}
+                  >
+                    {name} <span aria-hidden="true">↗</span>
+                  </a>
+                  {products
+                    .filter((product) => product.categoryKey === key)
+                    .slice(0, 3)
+                    .map((product) => (
+                      <a
+                        class="mega-model"
+                        href={`/products/${product.id}/`}
+                        data-mega-image={product.bestImage}
+                        data-mega-alt={`${product.model} 产品图`}
+                        data-mega-name={product.model}
+                      >
+                        {product.model}
+                      </a>
+                    ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </details>
+      <a href="/solutions/" aria-current={currentPath.startsWith('/solutions/') ? 'page' : undefined}>解决方案</a>
+      <a href="/news/" aria-current={currentPath.startsWith('/news/') ? 'page' : undefined}>新闻与活动</a>
+      <a href="/contact/">联系我们</a>
+    </nav>
+    <div class="nav-actions">
+      <button type="button" class="nav-search" data-search-open aria-label="搜索产品">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.5" stroke="currentColor" stroke-width="1.7" />
+          <path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7" />
+        </svg>
+      </button>
+      <button
+        type="button"
+        class="mobile-toggle"
+        data-menu-toggle
+        aria-label="打开菜单"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="手机导航" hidden>
+    <details>
+      <summary>
+        产品 <span aria-hidden="true">+</span>
+      </summary>
+      <a href="/products/">全部产品</a>
+      {categories.map(([key, name]) => (
+        <a href={`/products/?category=${encodeURIComponent(key)}`}>{name}</a>
+      ))}
+    </details>
+    <a href="/solutions/" aria-current={currentPath.startsWith('/solutions/') ? 'page' : undefined}>解决方案</a>
+    <a href="/news/" aria-current={currentPath.startsWith('/news/') ? 'page' : undefined}>新闻与活动</a>
+    <a href="/contact/">联系我们</a>
+  </nav>
+</header>
+<dialog class="search-dialog" id="search-dialog" aria-labelledby="search-heading">
+  <div class="search-header">
+    <h2 id="search-heading">搜索产品</h2>
+    <button type="button" data-search-close aria-label="关闭搜索">
+      ×
+    </button>
+  </div>
+  <label for="site-search">输入型号或产品类型</label>
+  <input id="site-search" type="search" autocomplete="off" placeholder="例如 YH-2000、复合翼" />
+  <div class="search-results" id="search-results">
+    {products.map((product) => (
+      <a
+        href={`/products/${product.id}/`}
+        data-search-item
+        data-search-text={`${product.model} ${product.name} ${product.categoryName}`.toLowerCase()}
+        hidden
+      >
+        <span>{product.model}</span>
+        <strong>{product.categoryName}</strong>
+        <span aria-hidden="true">↗</span>
+      </a>
+    ))}
+    <p id="search-empty" hidden>
+      没有匹配的产品，请尝试其他型号或类别。
+    </p>
+  </div>
+</dialog>

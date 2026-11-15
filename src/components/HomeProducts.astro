@@ -1,0 +1,117 @@
+---
+interface Product {
+  id: string;
+  model: string;
+  name: string;
+  categoryName: string;
+  bestImage: string;
+  bestImageAlt: string;
+  gallery: { src: string; width: number; height: number }[];
+  imageTypes?: { diagram_structure?: { src: string }[] };
+}
+interface Props {
+  products: Product[];
+  promoProduct?: Product;
+}
+
+const { products, promoProduct: featured } = Astro.props;
+const productName = (product: Product) => product.name.replace(product.model, '').trim() || product.categoryName;
+const featuredImage = featured?.gallery.find((image) => image.src === featured.bestImage);
+const structureView = featured?.imageTypes?.diagram_structure?.[0]?.src;
+---
+
+<section class="yh-products yh-section" aria-label="产品展示" data-yh-product-carousel>
+  {featured && (
+    <article class="yh-product-promo" aria-labelledby="yh-product-promo-title" data-yh-reveal>
+      <div class="yh-product-promo-copy">
+        <img class="yh-product-promo-logo" src="/media/brand/logo-horizontal.png" alt="YH" width="110" height="41" loading="lazy" />
+        <h2 id="yh-product-promo-title">专业飞行装备 <span>{featured.model}</span></h2>
+        <p>{featured.categoryName}</p>
+        <a href={`/products/${featured.id}/`} class="yh-product-promo-link">
+          查看产品 <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <img
+        class="yh-product-promo-visual"
+        src={featured.bestImage}
+        alt={featured.bestImageAlt}
+        width={featuredImage?.width ?? 1536}
+        height={featuredImage?.height ?? 1024}
+        loading="lazy"
+      />
+      {structureView && (
+        <div class="yh-product-promo-preview">
+          <img src={structureView} alt="YH-1000 固定翼无人机机体结构示意图" width="644" height="327" loading="lazy" />
+          <span>YH-1000 · 机体结构</span>
+        </div>
+      )}
+    </article>
+  )}
+  <div class="yh-wrap">
+    <div class="yh-product-carousel-head" data-yh-reveal>
+      <h2 id="yh-products-title">更多产品</h2>
+      <a class="yh-product-view-all" href="/products/" aria-label="查看全部产品">
+        View All <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <div
+      class="yh-product-carousel-track"
+      data-yh-product-track
+      tabindex="0"
+      aria-label="产品轮播，可使用左右方向键切换"
+    >
+      {products.map((product, index) => (
+        <article class:list={['yh-product-slide', { 'is-selected': index === 0 }]} data-yh-product-slide>
+          <button
+            class="yh-product-select"
+            type="button"
+            data-yh-product-select={index}
+            aria-label={`选中 ${product.model}`}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            <span class="yh-product-slide-visual">
+              <img
+                src={product.bestImage}
+                alt={`${product.model} ${productName(product)}产品图`}
+                width="520"
+                height="340"
+                loading="lazy"
+              />
+            </span>
+            <span class="yh-product-slide-copy">
+              <span class="yh-product-slide-name">{productName(product)}</span>
+              <strong>{product.model}</strong>
+            </span>
+          </button>
+          <a class="yh-product-slide-link" href={`/products/${product.id}/`} aria-label={`查看 ${product.model} 详情`}>
+            查看产品 <span aria-hidden="true">↗</span>
+          </a>
+        </article>
+      ))}
+    </div>
+
+    <div class="yh-product-carousel-foot">
+      <div class="yh-product-carousel-dots" role="group" aria-label="选择产品">
+        {products.map((product, index) => (
+          <button
+            type="button"
+            data-yh-product-dot={index}
+            class:list={{ 'is-active': index === 0 }}
+            aria-label={`切换到 ${product.model}`}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          />
+        ))}
+      </div>
+      <div class="yh-product-carousel-arrows" role="group" aria-label="产品翻页">
+        <button type="button" data-yh-product-prev aria-label="上一款产品">
+          <span aria-hidden="true">←</span>
+        </button>
+        <button type="button" data-yh-product-next aria-label="下一款产品">
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </div>
+    <span class="sr-only" data-yh-product-status aria-live="polite"></span>
+  </div>
+</section>

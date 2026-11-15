@@ -1,0 +1,206 @@
+[
+  {
+    "name": "y200-field",
+    "source": "产品原图/Y-200_现场图.jpg",
+    "description": "Y-200 产品小图",
+    "sourceDimensions": [
+      538,
+      324
+    ],
+    "webDimensions": [
+      538,
+      324
+    ],
+    "webPath": "/media/editorial/y200-field.webp",
+    "mobilePath": "/media/editorial/y200-field-sm.webp",
+    "bytes": 15844,
+    "mobileBytes": 14676
+  },
+  {
+    "name": "y500-product",
+    "source": "产品原图/Y-500_产品图.jpg",
+    "description": "Y-500 产品图",
+    "sourceDimensions": [
+      1227,
+      695
+    ],
+    "webDimensions": [
+      1227,
+      695
+    ],
+    "webPath": "/media/editorial/y500-product.webp",
+    "mobilePath": "/media/editorial/y500-product-sm.webp",
+    "bytes": 14202,
+    "mobileBytes": 8602
+  },
+  {
+    "name": "y40-scene",
+    "source": "产品原图/Y-40_场景图.jpg",
+    "description": "Y-40 场景图",
+    "sourceDimensions": [
+      534,
+      324
+    ],
+    "webDimensions": [
+      534,
+      324
+    ],
+    "webPath": "/media/editorial/y40-scene.webp",
+    "mobilePath": "/media/editorial/y40-scene-sm.webp",
+    "bytes": 22280,
+    "mobileBytes": 20422
+  },
+  {
+    "name": "yh2000-view",
+    "source": "产品原图/YH-2000_产品视图.jpg",
+    "description": "YH-2000 产品视图",
+    "sourceDimensions": [
+      759,
+      775
+    ],
+    "webDimensions": [
+      759,
+      775
+    ],
+    "webPath": "/media/editorial/yh2000-view.webp",
+    "mobilePath": "/media/editorial/yh2000-view-sm.webp",
+    "bytes": 12788,
+    "mobileBytes": 10010
+  },
+  {
+    "name": "mdg48-scene",
+    "source": "产品原图/MD-G48_场景图.png",
+    "description": "MD-G48 场景图",
+    "sourceDimensions": [
+      3081,
+      2490
+    ],
+    "webDimensions": [
+      1732,
+      1400
+    ],
+    "webPath": "/media/editorial/mdg48-scene.webp",
+    "mobilePath": "/media/editorial/mdg48-scene-sm.webp",
+    "bytes": 74622,
+    "mobileBytes": 20820
+  },
+  {
+    "name": "mdx8-view",
+    "source": "产品原图/MD-X8_产品视图.png",
+    "description": "MD-X8 产品视图",
+    "sourceDimensions": [
+      808,
+      488
+    ],
+    "webDimensions": [
+      808,
+      488
+    ],
+    "webPath": "/media/editorial/mdx8-view.webp",
+    "mobilePath": "/media/editorial/mdx8-view-sm.webp",
+    "bytes": 9908,
+    "mobileBytes": 9372
+  },
+  {
+    "name": "hw61600-top",
+    "source": "产品原图/HW61600_产品俯视图.png",
+    "description": "HW61600 产品俯视图",
+    "sourceDimensions": [
+      818,
+      544
+    ],
+    "webDimensions": [
+      818,
+      544
+    ],
+    "webPath": "/media/editorial/hw61600-top.webp",
+    "mobilePath": "/media/editorial/hw61600-top-sm.webp",
+    "bytes": 13438,
+    "mobileBytes": 12550
+  },
+  {
+    "name": "workshop",
+    "source": "产品原图/明德新材_车间场景.png",
+    "description": "画册车间场景",
+    "sourceDimensions": [
+      1128,
+      680
+    ],
+    "webDimensions": [
+      1128,
+      680
+    ],
+    "webPath": "/media/editorial/workshop.webp",
+    "mobilePath": "/media/editorial/workshop-sm.webp",
+    "bytes": 88144,
+    "mobileBytes": 57978
+  },
+  {
+    "name": "usgs-2016-orthomosaic",
+    "source": "公开案例/USGS_2016_生态修复正射影像.jpg",
+    "description": "USGS 2016 正射影像",
+    "sourceDimensions": [
+      5674,
+      6242
+    ],
+    "webDimensions": [
+      1273,
+      1400
+    ],
+    "webPath": "/media/editorial/usgs-2016-orthomosaic.webp",
+    "mobilePath": "/media/editorial/usgs-2016-orthomosaic-sm.webp",
+    "bytes": 405476,
+    "mobileBytes": 98116
+  },
+  {
+    "name": "usgs-2023-meadow",
+    "source": "公开案例/USGS_2023_草甸测绘现场.jpg",
+    "description": "USGS 2023 草甸测绘现场",
+    "sourceDimensions": [
+      4032,
+      3024
+    ],
+    "webDimensions": [
+      1800,
+      1350
+    ],
+    "webPath": "/media/editorial/usgs-2023-meadow.webp",
+    "mobilePath": "/media/editorial/usgs-2023-meadow-sm.webp",
+    "bytes": 217022,
+    "mobileBytes": 71518
+  },
+  {
+    "name": "usgs-2021-burn",
+    "source": "公开案例/USGS_2021_火烧迹地无人机测绘.jpg",
+    "description": "USGS 2021 火烧迹地测绘",
+    "sourceDimensions": [
+      2456,
+      1638
+    ],
+    "webDimensions": [
+      1800,
+      1200
+    ],
+    "webPath": "/media/editorial/usgs-2021-burn.webp",
+    "mobilePath": "/media/editorial/usgs-2021-burn-sm.webp",
+    "bytes": 334030,
+    "mobileBytes": 58966
+  },
+  {
+    "name": "usgs-2018-fire",
+    "source": "公开案例/USGS_2018_火灾区域无人机调查.jpg",
+    "description": "USGS 2018 火灾区域调查",
+    "sourceDimensions": [
+      4032,
+      2268
+    ],
+    "webDimensions": [
+      1800,
+      1013
+    ],
+    "webPath": "/media/editorial/usgs-2018-fire.webp",
+    "mobilePath": "/media/editorial/usgs-2018-fire-sm.webp",
+    "bytes": 348044,
+    "mobileBytes": 88718
+  }
+]

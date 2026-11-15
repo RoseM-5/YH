@@ -1,0 +1,115 @@
+const header = document.querySelector<HTMLElement>('#site-header');
+const updateHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 40);
+updateHeader();
+window.addEventListener('scroll', updateHeader, { passive: true });
+
+const mobileButton = document.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+const mobileNav = document.querySelector<HTMLElement>('#mobile-nav');
+const closeMobile = () => {
+  if (!mobileButton || !mobileNav) return;
+  mobileNav.hidden = true;
+  mobileButton.setAttribute('aria-expanded', 'false');
+  mobileButton.setAttribute('aria-label', '打开菜单');
+  document.body.classList.remove('mobile-open');
+};
+mobileButton?.addEventListener('click', () => {
+  if (!mobileNav || !mobileButton) return;
+  const open = mobileNav.hidden === true;
+  mobileNav.hidden = !open;
+  mobileButton.setAttribute('aria-expanded', String(open));
+  mobileButton.setAttribute('aria-label', open ? '关闭菜单' : '打开菜单');
+  document.body.classList.toggle('mobile-open', open);
+});
+mobileNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMobile));
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 960) closeMobile();
+});
+
+const productMenu = document.querySelector<HTMLDetailsElement>('#product-menu');
+const hoverMenu = window.matchMedia('(hover: hover) and (min-width: 961px)');
+productMenu?.querySelector('summary')?.addEventListener('click', (event) => {
+  if (hoverMenu.matches && (event as MouseEvent).detail > 0) {
+    event.preventDefault();
+    productMenu.open = true;
+  }
+});
+productMenu?.addEventListener('mouseenter', () => {
+  if (hoverMenu.matches) productMenu.open = true;
+});
+productMenu?.addEventListener('mouseleave', () => {
+  if (hoverMenu.matches) productMenu.open = false;
+});
+const preview = productMenu?.querySelector<HTMLImageElement>('[data-mega-preview]');
+const previewCaption = productMenu?.querySelector<HTMLElement>('[data-mega-caption]');
+productMenu?.querySelectorAll<HTMLAnchorElement>('[data-mega-image]').forEach((link) => {
+  const update = () => {
+    if (!preview) return;
+    const next = link.dataset.megaImage;
+    if (!next || preview.src.endsWith(next)) return;
+    preview.classList.add('is-swapping');
+    const probe = new Image();
+    probe.onload = () => {
+      preview.src = next;
+      preview.alt = link.dataset.megaAlt ?? '';
+      if (previewCaption) previewCaption.textContent = link.dataset.megaName ?? '';
+      requestAnimationFrame(() => preview.classList.remove('is-swapping'));
+    };
+    probe.src = next;
+  };
+  link.addEventListener('mouseenter', update);
+  link.addEventListener('focus', update);
+});
+document.addEventListener('click', (event) => {
+  if (productMenu && !productMenu.contains(event.target as Node)) productMenu.open = false;
+});
+
+const searchDialog = document.querySelector<HTMLDialogElement>('#search-dialog');
+const searchInput = document.querySelector<HTMLInputElement>('#site-search');
+const searchItems = Array.from(document.querySelectorAll<HTMLElement>('[data-search-item]'));
+const emptyState = document.querySelector<HTMLElement>('#search-empty');
+document.querySelector('[data-search-open]')?.addEventListener('click', () => {
+  closeMobile();
+  searchDialog?.showModal();
+  searchInput?.focus();
+});
+document
+  .querySelector('[data-search-close]')
+  ?.addEventListener('click', () => searchDialog?.close());
+searchDialog?.addEventListener('click', (event) => {
+  if (event.target === searchDialog) searchDialog.close();
+});
+const filterSearch = () => {
+  const query = searchInput?.value.trim().toLowerCase() ?? '';
+  let visible = 0;
+  searchItems.forEach((item) => {
+    const match = Boolean(query && item.dataset.searchText?.includes(query) && visible < 8);
+    item.hidden = !match;
+    if (match) visible += 1;
+  });
+  if (emptyState) emptyState.hidden = !query || visible > 0;
+};
+searchInput?.addEventListener('input', filterSearch);
+
+if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const targets = document.querySelectorAll<HTMLElement>('[data-reveal]');
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.09, rootMargin: '0px 0px -35px 0px' },
+  );
+  targets.forEach((target, index) => {
+    if (target.getBoundingClientRect().top <= innerHeight * 0.88) return;
+    target.classList.add('reveal-ready');
+    target.style.setProperty('--reveal-delay', `${(index % 3) * 70}ms`);
+    observer.observe(target);
+  });
+}
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') closeMobile();
+});

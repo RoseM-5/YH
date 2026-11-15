@@ -1,0 +1,4462 @@
+{
+  "images": [
+    {
+      "source": "yh",
+      "file": "images/page-01_image-004.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 1,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Catapult (10-20kg)",
+      "models": [
+        "YH-1000",
+        "YH-1001"
+      ],
+      "width": 1463,
+      "height": 788,
+      "sourceBytes": 127533,
+      "publicPath": "/media/products/yh/page-01_image-004.webp",
+      "usage": [
+        "/products/yh-yh-1001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1463,
+      "outputHeight": 788
+    },
+    {
+      "source": "yh",
+      "file": "images/page-01_image-005.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 1,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Runway",
+      "models": [
+        "YH-1000",
+        "YH-1001"
+      ],
+      "width": 782,
+      "height": 453,
+      "sourceBytes": 27281,
+      "publicPath": "/media/products/yh/page-01_image-005.webp",
+      "usage": [
+        "/products/yh-yh-1001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 782,
+      "outputHeight": 453
+    },
+    {
+      "source": "yh",
+      "file": "images/page-01_image-013.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 1,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "YH-1001 aircraft",
+      "models": [
+        "YH-1001"
+      ],
+      "width": 820,
+      "height": 459,
+      "sourceBytes": 172555,
+      "publicPath": "/media/products/yh/page-01_image-013.webp",
+      "usage": [
+        "/products/yh-yh-1001/",
+        "/products/ card: yh-yh-1001"
+      ],
+      "unusedReason": null,
+      "outputWidth": 820,
+      "outputHeight": 459
+    },
+    {
+      "source": "yh",
+      "file": "images/page-01_image-017.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 1,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "YH-1000 aircraft structure",
+      "models": [
+        "YH-1000"
+      ],
+      "width": 644,
+      "height": 327,
+      "sourceBytes": 27479,
+      "publicPath": "/media/products/yh/page-01_image-017.webp",
+      "usage": [
+        "/products/yh-yh-1000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 644,
+      "outputHeight": 327
+    },
+    {
+      "source": "yh",
+      "file": "images/page-02_image-020.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 2,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Catapult (100-180kg)",
+      "models": [
+        "YH-1002"
+      ],
+      "width": 986,
+      "height": 296,
+      "sourceBytes": 40207,
+      "publicPath": "/media/products/yh/page-02_image-020.webp",
+      "usage": [
+        "/products/yh-yh-1002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 986,
+      "outputHeight": 296
+    },
+    {
+      "source": "yh",
+      "file": "images/page-02_image-021.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 2,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Rocket booster (10-200kg); two-panel source image",
+      "models": [
+        "YH-1002"
+      ],
+      "width": 987,
+      "height": 1033,
+      "sourceBytes": 96048,
+      "publicPath": "/media/products/yh/page-02_image-021.webp",
+      "usage": [
+        "/products/yh-yh-1002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 987,
+      "outputHeight": 1033
+    },
+    {
+      "source": "yh",
+      "file": "images/page-02_image-022.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 2,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Disassembled components",
+      "models": [
+        "YH-1002"
+      ],
+      "width": 601,
+      "height": 485,
+      "sourceBytes": 31900,
+      "publicPath": "/media/products/yh/page-02_image-022.webp",
+      "usage": [
+        "/products/yh-yh-1002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 601,
+      "outputHeight": 485
+    },
+    {
+      "source": "yh",
+      "file": "images/page-02_image-023.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 2,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Perspective view",
+      "models": [
+        "YH-1002"
+      ],
+      "width": 646,
+      "height": 485,
+      "sourceBytes": 13902,
+      "publicPath": "/media/products/yh/page-02_image-023.webp",
+      "usage": [
+        "/products/yh-yh-1002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 646,
+      "outputHeight": 485
+    },
+    {
+      "source": "yh",
+      "file": "images/page-02_image-024.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 2,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side perspective view",
+      "models": [
+        "YH-1002"
+      ],
+      "width": 647,
+      "height": 485,
+      "sourceBytes": 13580,
+      "publicPath": "/media/products/yh/page-02_image-024.webp",
+      "usage": [
+        "/products/yh-yh-1002/",
+        "/products/ card: yh-yh-1002"
+      ],
+      "unusedReason": null,
+      "outputWidth": 647,
+      "outputHeight": 485
+    },
+    {
+      "source": "yh",
+      "file": "images/page-02_image-025.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 2,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Front view",
+      "models": [
+        "YH-1002"
+      ],
+      "width": 647,
+      "height": 485,
+      "sourceBytes": 13431,
+      "publicPath": "/media/products/yh/page-02_image-025.webp",
+      "usage": [
+        "/products/yh-yh-1002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 647,
+      "outputHeight": 485
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-030.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Aircraft and launch stand, rear view",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 1087,
+      "height": 779,
+      "sourceBytes": 210912,
+      "publicPath": "/media/products/yh/page-03_image-030.webp",
+      "usage": [
+        "/products/yh-yh-1003/",
+        "/products/ card: yh-yh-1003"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1087,
+      "outputHeight": 779
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-032.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Aircraft and launch stand, perspective view",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 928,
+      "height": 866,
+      "sourceBytes": 352909,
+      "publicPath": "/media/products/yh/page-03_image-032.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 928,
+      "outputHeight": 866
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-034.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Airframe parts in production",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 879,
+      "height": 1173,
+      "sourceBytes": 94894,
+      "publicPath": "/media/products/yh/page-03_image-034.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 879,
+      "outputHeight": 1173
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-035.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Fuselage parts in production",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 778,
+      "height": 584,
+      "sourceBytes": 49412,
+      "publicPath": "/media/products/yh/page-03_image-035.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 778,
+      "outputHeight": 584
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-036.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft at outdoor site",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 779,
+      "height": 584,
+      "sourceBytes": 76166,
+      "publicPath": "/media/products/yh/page-03_image-036.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 779,
+      "outputHeight": 584
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-037.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Aircraft in workshop",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 780,
+      "height": 585,
+      "sourceBytes": 49796,
+      "publicPath": "/media/products/yh/page-03_image-037.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 780,
+      "outputHeight": 585
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-038.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft on runway",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 780,
+      "height": 586,
+      "sourceBytes": 71194,
+      "publicPath": "/media/products/yh/page-03_image-038.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 780,
+      "outputHeight": 586
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-039.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Takeoff video preview still",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 650,
+      "height": 352,
+      "sourceBytes": 20172,
+      "publicPath": "/media/products/yh/page-03_image-039.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 650,
+      "outputHeight": 352
+    },
+    {
+      "source": "yh",
+      "file": "images/page-03_image-040.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 3,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Flight-test video preview still",
+      "models": [
+        "YH-1003"
+      ],
+      "width": 647,
+      "height": 355,
+      "sourceBytes": 150913,
+      "publicPath": "/media/products/yh/page-03_image-040.webp",
+      "usage": [
+        "/products/yh-yh-1003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 647,
+      "outputHeight": 355
+    },
+    {
+      "source": "yh",
+      "file": "images/page-04_image-044.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 4,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Waterproof surface detail",
+      "models": [
+        "YH-2000"
+      ],
+      "width": 391,
+      "height": 266,
+      "sourceBytes": 8008,
+      "publicPath": "/media/products/yh/page-04_image-044.webp",
+      "usage": [
+        "/products/yh-yh-2000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 391,
+      "outputHeight": 266
+    },
+    {
+      "source": "yh",
+      "file": "images/page-04_image-045.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 4,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Hybrid propulsion detail",
+      "models": [
+        "YH-2000"
+      ],
+      "width": 444,
+      "height": 303,
+      "sourceBytes": 8878,
+      "publicPath": "/media/products/yh/page-04_image-045.webp",
+      "usage": [
+        "/products/yh-yh-2000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 444,
+      "outputHeight": 303
+    },
+    {
+      "source": "yh",
+      "file": "images/page-04_image-046.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 4,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Modular assembly diagram",
+      "models": [
+        "YH-2000"
+      ],
+      "width": 548,
+      "height": 373,
+      "sourceBytes": 10343,
+      "publicPath": "/media/products/yh/page-04_image-046.webp",
+      "usage": [
+        "/products/yh-yh-2000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 548,
+      "outputHeight": 373
+    },
+    {
+      "source": "yh",
+      "file": "images/page-04_image-047.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 4,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Aircraft perspective rendering",
+      "models": [
+        "YH-2000"
+      ],
+      "width": 1087,
+      "height": 414,
+      "sourceBytes": 229290,
+      "publicPath": "/media/products/yh/page-04_image-047.webp",
+      "usage": [
+        "/products/yh-yh-2000/",
+        "/products/ card: yh-yh-2000"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1087,
+      "outputHeight": 414
+    },
+    {
+      "source": "yh",
+      "file": "images/page-04_image-049.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 4,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Aircraft dimensions diagram",
+      "models": [
+        "YH-2000"
+      ],
+      "width": 759,
+      "height": 775,
+      "sourceBytes": 29598,
+      "publicPath": "/media/products/yh/page-04_image-049.webp",
+      "usage": [
+        "/products/yh-yh-2000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 759,
+      "outputHeight": 775
+    },
+    {
+      "source": "yh",
+      "file": "images/page-05_image-052.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 5,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Rapid assembly/disassembly",
+      "models": [
+        "YH-2001"
+      ],
+      "width": 789,
+      "height": 536,
+      "sourceBytes": 19943,
+      "publicPath": "/media/products/yh/page-05_image-052.webp",
+      "usage": [
+        "/products/yh-yh-2001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 789,
+      "outputHeight": 536
+    },
+    {
+      "source": "yh",
+      "file": "images/page-05_image-053.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 5,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-2001"
+      ],
+      "width": 793,
+      "height": 540,
+      "sourceBytes": 17641,
+      "publicPath": "/media/products/yh/page-05_image-053.webp",
+      "usage": [
+        "/products/yh-yh-2001/",
+        "/products/ card: yh-yh-2001"
+      ],
+      "unusedReason": null,
+      "outputWidth": 793,
+      "outputHeight": 540
+    },
+    {
+      "source": "yh",
+      "file": "images/page-05_image-054.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 5,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-2001"
+      ],
+      "width": 793,
+      "height": 540,
+      "sourceBytes": 13595,
+      "publicPath": "/media/products/yh/page-05_image-054.webp",
+      "usage": [
+        "/products/yh-yh-2001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 793,
+      "outputHeight": 540
+    },
+    {
+      "source": "yh",
+      "file": "images/page-05_image-055.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 5,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2001"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 65415,
+      "publicPath": "/media/products/yh/page-05_image-055.webp",
+      "usage": [
+        "/products/yh-yh-2001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-06_image-058.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 6,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Rapid assembly/disassembly",
+      "models": [
+        "YH-2002"
+      ],
+      "width": 754,
+      "height": 512,
+      "sourceBytes": 21233,
+      "publicPath": "/media/products/yh/page-06_image-058.webp",
+      "usage": [
+        "/products/yh-yh-2002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 754,
+      "outputHeight": 512
+    },
+    {
+      "source": "yh",
+      "file": "images/page-06_image-059.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 6,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-2002"
+      ],
+      "width": 763,
+      "height": 520,
+      "sourceBytes": 16786,
+      "publicPath": "/media/products/yh/page-06_image-059.webp",
+      "usage": [
+        "/products/yh-yh-2002/",
+        "/products/ card: yh-yh-2002"
+      ],
+      "unusedReason": null,
+      "outputWidth": 763,
+      "outputHeight": 520
+    },
+    {
+      "source": "yh",
+      "file": "images/page-06_image-060.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 6,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-2002"
+      ],
+      "width": 763,
+      "height": 520,
+      "sourceBytes": 12832,
+      "publicPath": "/media/products/yh/page-06_image-060.webp",
+      "usage": [
+        "/products/yh-yh-2002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 763,
+      "outputHeight": 520
+    },
+    {
+      "source": "yh",
+      "file": "images/page-06_image-061.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 6,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2002"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 128896,
+      "publicPath": "/media/products/yh/page-06_image-061.webp",
+      "usage": [
+        "/products/yh-yh-2002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-07_image-064.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 7,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Rapid assembly/disassembly",
+      "models": [
+        "YH-2003"
+      ],
+      "width": 759,
+      "height": 516,
+      "sourceBytes": 19712,
+      "publicPath": "/media/products/yh/page-07_image-064.webp",
+      "usage": [
+        "/products/yh-yh-2003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 759,
+      "outputHeight": 516
+    },
+    {
+      "source": "yh",
+      "file": "images/page-07_image-065.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 7,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-2003"
+      ],
+      "width": 765,
+      "height": 521,
+      "sourceBytes": 17234,
+      "publicPath": "/media/products/yh/page-07_image-065.webp",
+      "usage": [
+        "/products/yh-yh-2003/",
+        "/products/ card: yh-yh-2003"
+      ],
+      "unusedReason": null,
+      "outputWidth": 765,
+      "outputHeight": 521
+    },
+    {
+      "source": "yh",
+      "file": "images/page-07_image-066.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 7,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-2003"
+      ],
+      "width": 765,
+      "height": 521,
+      "sourceBytes": 13757,
+      "publicPath": "/media/products/yh/page-07_image-066.webp",
+      "usage": [
+        "/products/yh-yh-2003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 765,
+      "outputHeight": 521
+    },
+    {
+      "source": "yh",
+      "file": "images/page-07_image-067.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 7,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2003"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 60695,
+      "publicPath": "/media/products/yh/page-07_image-067.webp",
+      "usage": [
+        "/products/yh-yh-2003/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-08_image-070.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 8,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Rapid assembly/disassembly",
+      "models": [
+        "YH-2004"
+      ],
+      "width": 616,
+      "height": 418,
+      "sourceBytes": 14214,
+      "publicPath": "/media/products/yh/page-08_image-070.webp",
+      "usage": [
+        "/products/yh-yh-2004/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 616,
+      "outputHeight": 418
+    },
+    {
+      "source": "yh",
+      "file": "images/page-08_image-071.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 8,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-2004"
+      ],
+      "width": 782,
+      "height": 532,
+      "sourceBytes": 17582,
+      "publicPath": "/media/products/yh/page-08_image-071.webp",
+      "usage": [
+        "/products/yh-yh-2004/",
+        "/products/ card: yh-yh-2004"
+      ],
+      "unusedReason": null,
+      "outputWidth": 782,
+      "outputHeight": 532
+    },
+    {
+      "source": "yh",
+      "file": "images/page-08_image-072.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 8,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-2004"
+      ],
+      "width": 778,
+      "height": 530,
+      "sourceBytes": 15049,
+      "publicPath": "/media/products/yh/page-08_image-072.webp",
+      "usage": [
+        "/products/yh-yh-2004/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 778,
+      "outputHeight": 530
+    },
+    {
+      "source": "yh",
+      "file": "images/page-08_image-073.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 8,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2004"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 75577,
+      "publicPath": "/media/products/yh/page-08_image-073.webp",
+      "usage": [
+        "/products/yh-yh-2004/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-09_image-076.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 9,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Rapid assembly/disassembly",
+      "models": [
+        "YH-2005"
+      ],
+      "width": 610,
+      "height": 414,
+      "sourceBytes": 14792,
+      "publicPath": "/media/products/yh/page-09_image-076.webp",
+      "usage": [
+        "/products/yh-yh-2005/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 610,
+      "outputHeight": 414
+    },
+    {
+      "source": "yh",
+      "file": "images/page-09_image-077.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 9,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-2005"
+      ],
+      "width": 778,
+      "height": 530,
+      "sourceBytes": 15470,
+      "publicPath": "/media/products/yh/page-09_image-077.webp",
+      "usage": [
+        "/products/yh-yh-2005/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 778,
+      "outputHeight": 530
+    },
+    {
+      "source": "yh",
+      "file": "images/page-09_image-078.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 9,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-2005"
+      ],
+      "width": 782,
+      "height": 532,
+      "sourceBytes": 12736,
+      "publicPath": "/media/products/yh/page-09_image-078.webp",
+      "usage": [
+        "/products/yh-yh-2005/",
+        "/products/ card: yh-yh-2005"
+      ],
+      "unusedReason": null,
+      "outputWidth": 782,
+      "outputHeight": 532
+    },
+    {
+      "source": "yh",
+      "file": "images/page-09_image-079.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 9,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2005"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 69324,
+      "publicPath": "/media/products/yh/page-09_image-079.webp",
+      "usage": [
+        "/products/yh-yh-2005/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-10_image-082.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 10,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Rear view",
+      "models": [
+        "YH-2006"
+      ],
+      "width": 432,
+      "height": 293,
+      "sourceBytes": 11239,
+      "publicPath": "/media/products/yh/page-10_image-082.webp",
+      "usage": [
+        "/products/yh-yh-2006/",
+        "/products/ card: yh-yh-2006"
+      ],
+      "unusedReason": null,
+      "outputWidth": 432,
+      "outputHeight": 293
+    },
+    {
+      "source": "yh",
+      "file": "images/page-10_image-083.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 10,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Engine detail",
+      "models": [
+        "YH-2006"
+      ],
+      "width": 564,
+      "height": 384,
+      "sourceBytes": 19239,
+      "publicPath": "/media/products/yh/page-10_image-083.webp",
+      "usage": [
+        "/products/yh-yh-2006/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 564,
+      "outputHeight": 384
+    },
+    {
+      "source": "yh",
+      "file": "images/page-10_image-084.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 10,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Wing connection detail",
+      "models": [
+        "YH-2006"
+      ],
+      "width": 564,
+      "height": 384,
+      "sourceBytes": 13830,
+      "publicPath": "/media/products/yh/page-10_image-084.webp",
+      "usage": [
+        "/products/yh-yh-2006/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 564,
+      "outputHeight": 384
+    },
+    {
+      "source": "yh",
+      "file": "images/page-10_image-085.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 10,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2006"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 78404,
+      "publicPath": "/media/products/yh/page-10_image-085.webp",
+      "usage": [
+        "/products/yh-yh-2006/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-11_image-088.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 11,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-2008"
+      ],
+      "width": 784,
+      "height": 532,
+      "sourceBytes": 18181,
+      "publicPath": "/media/products/yh/page-11_image-088.webp",
+      "usage": [
+        "/products/yh-yh-2008/",
+        "/products/ card: yh-yh-2008"
+      ],
+      "unusedReason": null,
+      "outputWidth": 784,
+      "outputHeight": 532
+    },
+    {
+      "source": "yh",
+      "file": "images/page-11_image-089.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 11,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Front view",
+      "models": [
+        "YH-2008"
+      ],
+      "width": 782,
+      "height": 532,
+      "sourceBytes": 11357,
+      "publicPath": "/media/products/yh/page-11_image-089.webp",
+      "usage": [
+        "/products/yh-yh-2008/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 782,
+      "outputHeight": 532
+    },
+    {
+      "source": "yh",
+      "file": "images/page-11_image-090.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 11,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-2008"
+      ],
+      "width": 781,
+      "height": 532,
+      "sourceBytes": 15814,
+      "publicPath": "/media/products/yh/page-11_image-090.webp",
+      "usage": [
+        "/products/yh-yh-2008/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 781,
+      "outputHeight": 532
+    },
+    {
+      "source": "yh",
+      "file": "images/page-11_image-091.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 11,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2008"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 92901,
+      "publicPath": "/media/products/yh/page-11_image-091.webp",
+      "usage": [
+        "/products/yh-yh-2008/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-12_image-094.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 12,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Right view",
+      "models": [
+        "YH-2009"
+      ],
+      "width": 786,
+      "height": 534,
+      "sourceBytes": 18314,
+      "publicPath": "/media/products/yh/page-12_image-094.webp",
+      "usage": [
+        "/products/yh-yh-2009/",
+        "/products/ card: yh-yh-2009"
+      ],
+      "unusedReason": null,
+      "outputWidth": 786,
+      "outputHeight": 534
+    },
+    {
+      "source": "yh",
+      "file": "images/page-12_image-095.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 12,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Rear view",
+      "models": [
+        "YH-2009"
+      ],
+      "width": 782,
+      "height": 533,
+      "sourceBytes": 15743,
+      "publicPath": "/media/products/yh/page-12_image-095.webp",
+      "usage": [
+        "/products/yh-yh-2009/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 782,
+      "outputHeight": 533
+    },
+    {
+      "source": "yh",
+      "file": "images/page-12_image-096.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 12,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Front view",
+      "models": [
+        "YH-2009"
+      ],
+      "width": 782,
+      "height": 533,
+      "sourceBytes": 13026,
+      "publicPath": "/media/products/yh/page-12_image-096.webp",
+      "usage": [
+        "/products/yh-yh-2009/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 782,
+      "outputHeight": 533
+    },
+    {
+      "source": "yh",
+      "file": "images/page-12_image-097.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 12,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-2009"
+      ],
+      "width": 1395,
+      "height": 1128,
+      "sourceBytes": 66975,
+      "publicPath": "/media/products/yh/page-12_image-097.webp",
+      "usage": [
+        "/products/yh-yh-2009/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1395,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-13_image-100.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 13,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Left view",
+      "models": [
+        "YH-3000"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 29955,
+      "publicPath": "/media/products/yh/page-13_image-100.webp",
+      "usage": [
+        "/products/yh-yh-3000/",
+        "/products/ card: yh-yh-3000"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-13_image-102.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 13,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-3000"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 23129,
+      "publicPath": "/media/products/yh/page-13_image-102.webp",
+      "usage": [
+        "/products/yh-yh-3000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-13_image-104.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 13,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Front view",
+      "models": [
+        "YH-3000"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 32714,
+      "publicPath": "/media/products/yh/page-13_image-104.webp",
+      "usage": [
+        "/products/yh-yh-3000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-13_image-106.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 13,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight above coast",
+      "models": [
+        "YH-3000"
+      ],
+      "width": 1394,
+      "height": 1128,
+      "sourceBytes": 130151,
+      "publicPath": "/media/products/yh/page-13_image-106.webp",
+      "usage": [
+        "/products/yh-yh-3000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1394,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-14_image-109.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 14,
+      "role": "diagram",
+      "imageType": "diagram_structure",
+      "caption": "Rapid assembly/disassembly",
+      "models": [
+        "YH-3001"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 61587,
+      "publicPath": "/media/products/yh/page-14_image-109.webp",
+      "usage": [
+        "/products/yh-yh-3001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-14_image-111.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 14,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-3001"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 64396,
+      "publicPath": "/media/products/yh/page-14_image-111.webp",
+      "usage": [
+        "/products/yh-yh-3001/",
+        "/products/ card: yh-yh-3001"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-14_image-113.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 14,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-3001"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 42385,
+      "publicPath": "/media/products/yh/page-14_image-113.webp",
+      "usage": [
+        "/products/yh-yh-3001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-14_image-115.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 14,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-3001"
+      ],
+      "width": 1394,
+      "height": 1128,
+      "sourceBytes": 84941,
+      "publicPath": "/media/products/yh/page-14_image-115.webp",
+      "usage": [
+        "/products/yh-yh-3001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1394,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-15_image-118.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 15,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Top view",
+      "models": [
+        "YH-3002"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 64396,
+      "publicPath": "/media/products/yh/page-15_image-118.webp",
+      "usage": [
+        "/products/yh-yh-3002/",
+        "/products/ card: yh-yh-3002"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-15_image-120.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 15,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Side view",
+      "models": [
+        "YH-3002"
+      ],
+      "width": 381,
+      "height": 259,
+      "sourceBytes": 42385,
+      "publicPath": "/media/products/yh/page-15_image-120.webp",
+      "usage": [
+        "/products/yh-yh-3002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 381,
+      "outputHeight": 259
+    },
+    {
+      "source": "yh",
+      "file": "images/page-15_image-122.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 15,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Aircraft in flight scene",
+      "models": [
+        "YH-3002"
+      ],
+      "width": 1394,
+      "height": 1128,
+      "sourceBytes": 88470,
+      "publicPath": "/media/products/yh/page-15_image-122.webp",
+      "usage": [
+        "/products/yh-yh-3002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1394,
+      "outputHeight": 1128
+    },
+    {
+      "source": "yh",
+      "file": "images/page-16_image-129.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 16,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "WP-4000 engine",
+      "models": [
+        "WP-4000"
+      ],
+      "width": 774,
+      "height": 580,
+      "sourceBytes": 415270,
+      "publicPath": "/media/products/yh/page-16_image-129.webp",
+      "usage": [
+        "/products/yh-wp-4000/",
+        "/products/ card: yh-wp-4000"
+      ],
+      "unusedReason": null,
+      "outputWidth": 774,
+      "outputHeight": 580
+    },
+    {
+      "source": "yh",
+      "file": "images/page-17_image-135.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 17,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "MTJ-80 engine",
+      "models": [
+        "WP-4001"
+      ],
+      "width": 601,
+      "height": 431,
+      "sourceBytes": 293637,
+      "publicPath": "/media/products/yh/page-17_image-135.webp",
+      "usage": [
+        "/products/yh-wp-4001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 601,
+      "outputHeight": 431
+    },
+    {
+      "source": "yh",
+      "file": "images/page-17_image-137.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 17,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "MTJ-220 engine",
+      "models": [
+        "WP-4001"
+      ],
+      "width": 726,
+      "height": 678,
+      "sourceBytes": 349137,
+      "publicPath": "/media/products/yh/page-17_image-137.webp",
+      "usage": [
+        "/products/yh-wp-4001/",
+        "/products/ card: yh-wp-4001"
+      ],
+      "unusedReason": null,
+      "outputWidth": 726,
+      "outputHeight": 678
+    },
+    {
+      "source": "yh",
+      "file": "images/page-17_image-139.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 17,
+      "role": "detail",
+      "imageType": "product_detail",
+      "caption": "Engine parts and equipment montage",
+      "models": [
+        "WP-4001"
+      ],
+      "width": 1104,
+      "height": 229,
+      "sourceBytes": 404921,
+      "publicPath": "/media/products/yh/page-17_image-139.webp",
+      "usage": [
+        "/products/yh-wp-4001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1104,
+      "outputHeight": 229
+    },
+    {
+      "source": "yh",
+      "file": "images/page-18_image-143.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 18,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Mountain and cloud background",
+      "models": [
+        "YH-4000"
+      ],
+      "width": 2380,
+      "height": 606,
+      "sourceBytes": 117754,
+      "publicPath": "/media/products/yh/page-18_image-143.webp",
+      "usage": [
+        "/products/yh-yh-4000/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 458
+    },
+    {
+      "source": "yh",
+      "file": "images/page-18_image-144.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 18,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "YH-4000 aircraft in mountain scene",
+      "models": [
+        "YH-4000"
+      ],
+      "width": 490,
+      "height": 536,
+      "sourceBytes": 27649,
+      "publicPath": "/media/products/yh/page-18_image-144.webp",
+      "usage": [
+        "/products/yh-yh-4000/",
+        "/products/ card: yh-yh-4000"
+      ],
+      "unusedReason": null,
+      "outputWidth": 490,
+      "outputHeight": 536
+    },
+    {
+      "source": "yh",
+      "file": "images/page-19_image-147.png",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 19,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "YH-4001 aircraft in mountain scene",
+      "models": [
+        "YH-4001"
+      ],
+      "width": 2380,
+      "height": 607,
+      "sourceBytes": 1107086,
+      "publicPath": "/media/products/yh/page-19_image-147.webp",
+      "usage": [
+        "/products/yh-yh-4001/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 459
+    },
+    {
+      "source": "yh",
+      "file": "images/page-19_image-149.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 19,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "YH-4001 close view in mountain scene",
+      "models": [
+        "YH-4001"
+      ],
+      "width": 502,
+      "height": 440,
+      "sourceBytes": 26434,
+      "publicPath": "/media/products/yh/page-19_image-149.webp",
+      "usage": [
+        "/products/yh-yh-4001/",
+        "/products/ card: yh-yh-4001"
+      ],
+      "unusedReason": null,
+      "outputWidth": 502,
+      "outputHeight": 440
+    },
+    {
+      "source": "yh",
+      "file": "images/page-20_image-152.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 20,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Mountain and cloud background",
+      "models": [
+        "YH-4002"
+      ],
+      "width": 2380,
+      "height": 606,
+      "sourceBytes": 117754,
+      "publicPath": "/media/products/yh/page-20_image-152.webp",
+      "usage": [
+        "/products/yh-yh-4002/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 458
+    },
+    {
+      "source": "yh",
+      "file": "images/page-20_image-153.jpg",
+      "sourcePdf": "PRODUCT CATALOGUE V6.pdf",
+      "sourcePage": 20,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "YH-4002 aircraft in mountain scene",
+      "models": [
+        "YH-4002"
+      ],
+      "width": 514,
+      "height": 450,
+      "sourceBytes": 28346,
+      "publicPath": "/media/products/yh/page-20_image-153.webp",
+      "usage": [
+        "/products/yh-yh-4002/",
+        "/products/ card: yh-yh-4002"
+      ],
+      "unusedReason": null,
+      "outputWidth": 514,
+      "outputHeight": 450
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-00.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover aircraft rendering 1",
+      "models": [],
+      "width": 387,
+      "height": 218,
+      "sourceBytes": 7588,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-01.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover hybrid-wing aircraft",
+      "models": [],
+      "width": 1227,
+      "height": 695,
+      "sourceBytes": 41079,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-02.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover compact UAV",
+      "models": [],
+      "width": 216,
+      "height": 289,
+      "sourceBytes": 7490,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-03.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover red target drone",
+      "models": [],
+      "width": 359,
+      "height": 270,
+      "sourceBytes": 9809,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-04.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover loitering aircraft",
+      "models": [],
+      "width": 460,
+      "height": 221,
+      "sourceBytes": 10049,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-05.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover target drone on launcher",
+      "models": [],
+      "width": 412,
+      "height": 290,
+      "sourceBytes": 15113,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-06.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover quadcopter top view",
+      "models": [],
+      "width": 234,
+      "height": 273,
+      "sourceBytes": 8650,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-07.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover hybrid-wing front view",
+      "models": [],
+      "width": 638,
+      "height": 222,
+      "sourceBytes": 11919,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-08.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover multirotor top view",
+      "models": [],
+      "width": 462,
+      "height": 390,
+      "sourceBytes": 18172,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "cover_assets/page-01_image-09.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 1,
+      "role": "cover_product",
+      "imageType": "small_asset",
+      "caption": "Cover hybrid-wing top view",
+      "models": [],
+      "width": 456,
+      "height": 278,
+      "sourceBytes": 9738,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "images/page-02_image-11.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 2,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Sunset cloud background",
+      "models": [
+        "Y-140"
+      ],
+      "width": 1191,
+      "height": 1682,
+      "sourceBytes": 193243,
+      "publicPath": "/media/products/uav/page-02_image-11.webp",
+      "usage": [
+        "/products/uav-y-140/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1191,
+      "outputHeight": 1682
+    },
+    {
+      "source": "uav",
+      "file": "images/page-02_image-12.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 2,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-140 aircraft over sunset clouds",
+      "models": [
+        "Y-140"
+      ],
+      "width": 1058,
+      "height": 412,
+      "sourceBytes": 82411,
+      "publicPath": "/media/products/uav/page-02_image-12.webp",
+      "usage": [
+        "/products/uav-y-140/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1058,
+      "outputHeight": 412
+    },
+    {
+      "source": "uav",
+      "file": "images/page-02_image-13.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 2,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-140 aircraft rendering",
+      "models": [
+        "Y-140"
+      ],
+      "width": 276,
+      "height": 182,
+      "sourceBytes": 6872,
+      "publicPath": "/media/products/uav/page-02_image-13.webp",
+      "usage": [
+        "/products/uav-y-140/",
+        "/products/ card: uav-y-140"
+      ],
+      "unusedReason": null,
+      "outputWidth": 276,
+      "outputHeight": 182
+    },
+    {
+      "source": "uav",
+      "file": "images/page-03_image-14.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 3,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Mountain and cloud background",
+      "models": [
+        "Y-051"
+      ],
+      "width": 2380,
+      "height": 606,
+      "sourceBytes": 176077,
+      "publicPath": "/media/products/uav/page-03_image-14.webp",
+      "usage": [
+        "/products/uav-y-051/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 458
+    },
+    {
+      "source": "uav",
+      "file": "images/page-03_image-15.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 3,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-051 aircraft in mountain scene",
+      "models": [
+        "Y-051"
+      ],
+      "width": 490,
+      "height": 536,
+      "sourceBytes": 55254,
+      "publicPath": "/media/products/uav/page-03_image-15.webp",
+      "usage": [
+        "/products/uav-y-051/",
+        "/products/ card: uav-y-051"
+      ],
+      "unusedReason": null,
+      "outputWidth": 490,
+      "outputHeight": 536
+    },
+    {
+      "source": "uav",
+      "file": "images/page-04_image-16.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 4,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Mountain and cloud background",
+      "models": [
+        "Y-101"
+      ],
+      "width": 2380,
+      "height": 606,
+      "sourceBytes": 176077,
+      "publicPath": "/media/products/uav/page-04_image-16.webp",
+      "usage": [
+        "/products/uav-y-101/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 458
+    },
+    {
+      "source": "uav",
+      "file": "images/page-04_image-18.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 4,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-101 aircraft in mountain scene",
+      "models": [
+        "Y-101"
+      ],
+      "width": 502,
+      "height": 440,
+      "sourceBytes": 52972,
+      "publicPath": "/media/products/uav/page-04_image-18.webp",
+      "usage": [
+        "/products/uav-y-101/",
+        "/products/ card: uav-y-101"
+      ],
+      "unusedReason": null,
+      "outputWidth": 502,
+      "outputHeight": 440
+    },
+    {
+      "source": "uav",
+      "file": "images/page-05_image-19.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 5,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Mountain and cloud background",
+      "models": [
+        "Y-201"
+      ],
+      "width": 2380,
+      "height": 606,
+      "sourceBytes": 176077,
+      "publicPath": "/media/products/uav/page-05_image-19.webp",
+      "usage": [
+        "/products/uav-y-201/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 458
+    },
+    {
+      "source": "uav",
+      "file": "images/page-05_image-20.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 5,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-201 aircraft in mountain scene",
+      "models": [
+        "Y-201"
+      ],
+      "width": 514,
+      "height": 450,
+      "sourceBytes": 55647,
+      "publicPath": "/media/products/uav/page-05_image-20.webp",
+      "usage": [
+        "/products/uav-y-201/",
+        "/products/ card: uav-y-201"
+      ],
+      "unusedReason": null,
+      "outputWidth": 514,
+      "outputHeight": 450
+    },
+    {
+      "source": "uav",
+      "file": "images/page-06_image-21.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 6,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Cloud background",
+      "models": [
+        "Y-350"
+      ],
+      "width": 1191,
+      "height": 1682,
+      "sourceBytes": 163677,
+      "publicPath": "/media/products/uav/page-06_image-21.webp",
+      "usage": [
+        "/products/uav-y-350/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1191,
+      "outputHeight": 1682
+    },
+    {
+      "source": "uav",
+      "file": "images/page-06_image-22.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 6,
+      "role": "accessory",
+      "imageType": "product_detail",
+      "caption": "Portable controller",
+      "models": [
+        "Y-350"
+      ],
+      "width": 231,
+      "height": 186,
+      "sourceBytes": 11116,
+      "publicPath": "/media/products/uav/page-06_image-22.webp",
+      "usage": [
+        "/products/uav-y-350/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 231,
+      "outputHeight": 186
+    },
+    {
+      "source": "uav",
+      "file": "images/page-06_image-23.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 6,
+      "role": "accessory",
+      "imageType": "product_detail",
+      "caption": "Optional launch tube",
+      "models": [
+        "Y-350"
+      ],
+      "width": 85,
+      "height": 221,
+      "sourceBytes": 4038,
+      "publicPath": "/media/products/uav/page-06_image-23.webp",
+      "usage": [
+        "/products/uav-y-350/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 85,
+      "outputHeight": 221
+    },
+    {
+      "source": "uav",
+      "file": "images/page-06_image-24.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 6,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-350 UAV",
+      "models": [
+        "Y-350"
+      ],
+      "width": 207,
+      "height": 276,
+      "sourceBytes": 6561,
+      "publicPath": "/media/products/uav/page-06_image-24.webp",
+      "usage": [
+        "/products/uav-y-350/",
+        "/products/ card: uav-y-350"
+      ],
+      "unusedReason": null,
+      "outputWidth": 207,
+      "outputHeight": 276
+    },
+    {
+      "source": "uav",
+      "file": "images/page-06_image-25.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 6,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-350 UAV above clouds",
+      "models": [
+        "Y-350"
+      ],
+      "width": 1058,
+      "height": 514,
+      "sourceBytes": 80757,
+      "publicPath": "/media/products/uav/page-06_image-25.webp",
+      "usage": [
+        "/products/uav-y-350/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1058,
+      "outputHeight": 514
+    },
+    {
+      "source": "uav",
+      "file": "images/page-07_image-26.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 7,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-280 on launcher",
+      "models": [
+        "Y-280"
+      ],
+      "width": 350,
+      "height": 142,
+      "sourceBytes": 11664,
+      "publicPath": "/media/products/uav/page-07_image-26.webp",
+      "usage": [
+        "/products/uav-y-280/",
+        "/products/ card: uav-y-280"
+      ],
+      "unusedReason": null,
+      "outputWidth": 350,
+      "outputHeight": 142
+    },
+    {
+      "source": "uav",
+      "file": "images/page-07_image-32.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 7,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-280 rocket-assisted flight outdoors",
+      "models": [
+        "Y-280"
+      ],
+      "width": 684,
+      "height": 391,
+      "sourceBytes": 34868,
+      "publicPath": "/media/products/uav/page-07_image-32.webp",
+      "usage": [
+        "/products/uav-y-280/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 684,
+      "outputHeight": 391
+    },
+    {
+      "source": "uav",
+      "file": "images/page-08_image-38.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 8,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-240 on launcher",
+      "models": [
+        "Y-240"
+      ],
+      "width": 419,
+      "height": 295,
+      "sourceBytes": 15572,
+      "publicPath": "/media/products/uav/page-08_image-38.webp",
+      "usage": [
+        "/products/uav-y-240/",
+        "/products/ card: uav-y-240"
+      ],
+      "unusedReason": null,
+      "outputWidth": 419,
+      "outputHeight": 295
+    },
+    {
+      "source": "uav",
+      "file": "images/page-08_image-39.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 8,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-240 on launcher in field",
+      "models": [
+        "Y-240"
+      ],
+      "width": 730,
+      "height": 421,
+      "sourceBytes": 66220,
+      "publicPath": "/media/products/uav/page-08_image-39.webp",
+      "usage": [
+        "/products/uav-y-240/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 730,
+      "outputHeight": 421
+    },
+    {
+      "source": "uav",
+      "file": "images/page-09_image-40.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 9,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-150 on launcher",
+      "models": [
+        "Y-150"
+      ],
+      "width": 426,
+      "height": 322,
+      "sourceBytes": 14267,
+      "publicPath": "/media/products/uav/page-09_image-40.webp",
+      "usage": [
+        "/products/uav-y-150/",
+        "/products/ card: uav-y-150"
+      ],
+      "unusedReason": null,
+      "outputWidth": 426,
+      "outputHeight": 322
+    },
+    {
+      "source": "uav",
+      "file": "images/page-09_image-46.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 9,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-150 on launcher in field",
+      "models": [
+        "Y-150"
+      ],
+      "width": 611,
+      "height": 462,
+      "sourceBytes": 55648,
+      "publicPath": "/media/products/uav/page-09_image-46.webp",
+      "usage": [
+        "/products/uav-y-150/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 611,
+      "outputHeight": 462
+    },
+    {
+      "source": "uav",
+      "file": "images/page-10_image-47.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 10,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-70 aircraft rendering",
+      "models": [
+        "Y-70"
+      ],
+      "width": 667,
+      "height": 500,
+      "sourceBytes": 21249,
+      "publicPath": "/media/products/uav/page-10_image-47.webp",
+      "usage": [
+        "/products/uav-y-70/",
+        "/products/ card: uav-y-70"
+      ],
+      "unusedReason": null,
+      "outputWidth": 667,
+      "outputHeight": 500
+    },
+    {
+      "source": "uav",
+      "file": "images/page-10_image-52.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 10,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-70 aircraft on grass",
+      "models": [
+        "Y-70"
+      ],
+      "width": 552,
+      "height": 424,
+      "sourceBytes": 81339,
+      "publicPath": "/media/products/uav/page-10_image-52.webp",
+      "usage": [
+        "/products/uav-y-70/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 552,
+      "outputHeight": 424
+    },
+    {
+      "source": "uav",
+      "file": "images/page-11_image-53.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 11,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-500 aircraft rendering",
+      "models": [
+        "Y-500"
+      ],
+      "width": 1227,
+      "height": 695,
+      "sourceBytes": 41079,
+      "publicPath": "/media/products/uav/page-11_image-53.webp",
+      "usage": [
+        "/products/uav-y-500/",
+        "/products/ card: uav-y-500"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1227,
+      "outputHeight": 695
+    },
+    {
+      "source": "uav",
+      "file": "images/page-11_image-54.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 11,
+      "role": "source_table",
+      "imageType": "small_asset",
+      "caption": "Raster Chinese performance table",
+      "models": [
+        "Y-500"
+      ],
+      "width": 767,
+      "height": 856,
+      "sourceBytes": 103308,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "uav",
+      "file": "images/page-12_image-55.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 12,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-200 aircraft on road",
+      "models": [
+        "Y-200"
+      ],
+      "width": 538,
+      "height": 324,
+      "sourceBytes": 27533,
+      "publicPath": "/media/products/uav/page-12_image-55.webp",
+      "usage": [
+        "/products/uav-y-200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 538,
+      "outputHeight": 324
+    },
+    {
+      "source": "uav",
+      "file": "images/page-12_image-56.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 12,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-200 aircraft in field",
+      "models": [
+        "Y-200"
+      ],
+      "width": 538,
+      "height": 324,
+      "sourceBytes": 32358,
+      "publicPath": "/media/products/uav/page-12_image-56.webp",
+      "usage": [
+        "/products/uav-y-200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 538,
+      "outputHeight": 324
+    },
+    {
+      "source": "uav",
+      "file": "images/page-12_image-57.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 12,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-200 aircraft in flight",
+      "models": [
+        "Y-200"
+      ],
+      "width": 804,
+      "height": 370,
+      "sourceBytes": 31203,
+      "publicPath": "/media/products/uav/page-12_image-57.webp",
+      "usage": [
+        "/products/uav-y-200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 804,
+      "outputHeight": 370
+    },
+    {
+      "source": "uav",
+      "file": "images/page-12_image-58.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 12,
+      "role": "accessory",
+      "imageType": "product_detail",
+      "caption": "Payload module information image",
+      "models": [
+        "Y-200"
+      ],
+      "width": 404,
+      "height": 506,
+      "sourceBytes": 29135,
+      "publicPath": "/media/products/uav/page-12_image-58.webp",
+      "usage": [
+        "/products/uav-y-200/",
+        "/products/ card: uav-y-200"
+      ],
+      "unusedReason": null,
+      "outputWidth": 404,
+      "outputHeight": 506
+    },
+    {
+      "source": "uav",
+      "file": "images/page-13_image-59.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 13,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-40 aircraft in field",
+      "models": [
+        "Y-40"
+      ],
+      "width": 534,
+      "height": 324,
+      "sourceBytes": 39259,
+      "publicPath": "/media/products/uav/page-13_image-59.webp",
+      "usage": [
+        "/products/uav-y-40/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 534,
+      "outputHeight": 324
+    },
+    {
+      "source": "uav",
+      "file": "images/page-13_image-60.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 13,
+      "role": "accessory",
+      "imageType": "product_detail",
+      "caption": "Payload module information image",
+      "models": [
+        "Y-40"
+      ],
+      "width": 636,
+      "height": 394,
+      "sourceBytes": 35852,
+      "publicPath": "/media/products/uav/page-13_image-60.webp",
+      "usage": [
+        "/products/uav-y-40/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 636,
+      "outputHeight": 394
+    },
+    {
+      "source": "uav",
+      "file": "images/page-13_image-61.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 13,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "Y-40 quadcopter top view",
+      "models": [
+        "Y-40"
+      ],
+      "width": 234,
+      "height": 273,
+      "sourceBytes": 8650,
+      "publicPath": "/media/products/uav/page-13_image-61.webp",
+      "usage": [
+        "/products/uav-y-40/",
+        "/products/ card: uav-y-40"
+      ],
+      "unusedReason": null,
+      "outputWidth": 234,
+      "outputHeight": 273
+    },
+    {
+      "source": "uav",
+      "file": "images/page-14_image-62.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 14,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-60 aircraft in sky",
+      "models": [
+        "Y-60"
+      ],
+      "width": 547,
+      "height": 262,
+      "sourceBytes": 19206,
+      "publicPath": "/media/products/uav/page-14_image-62.webp",
+      "usage": [
+        "/products/uav-y-60/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 547,
+      "outputHeight": 262
+    },
+    {
+      "source": "uav",
+      "file": "images/page-14_image-63.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 14,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-60 aircraft near building",
+      "models": [
+        "Y-60"
+      ],
+      "width": 548,
+      "height": 325,
+      "sourceBytes": 18444,
+      "publicPath": "/media/products/uav/page-14_image-63.webp",
+      "usage": [
+        "/products/uav-y-60/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 548,
+      "outputHeight": 325
+    },
+    {
+      "source": "uav",
+      "file": "images/page-14_image-64.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 14,
+      "role": "accessory",
+      "imageType": "product_detail",
+      "caption": "Payload module information image",
+      "models": [
+        "Y-60"
+      ],
+      "width": 768,
+      "height": 410,
+      "sourceBytes": 37152,
+      "publicPath": "/media/products/uav/page-14_image-64.webp",
+      "usage": [
+        "/products/uav-y-60/",
+        "/products/ card: uav-y-60"
+      ],
+      "unusedReason": null,
+      "outputWidth": 768,
+      "outputHeight": 410
+    },
+    {
+      "source": "uav",
+      "file": "images/page-15_image-65.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 15,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-80 aircraft in flight",
+      "models": [
+        "Y-80"
+      ],
+      "width": 752,
+      "height": 356,
+      "sourceBytes": 23248,
+      "publicPath": "/media/products/uav/page-15_image-65.webp",
+      "usage": [
+        "/products/uav-y-80/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 752,
+      "outputHeight": 356
+    },
+    {
+      "source": "uav",
+      "file": "images/page-15_image-66.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 15,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "Y-80 aircraft with operators in field",
+      "models": [
+        "Y-80"
+      ],
+      "width": 595,
+      "height": 379,
+      "sourceBytes": 37267,
+      "publicPath": "/media/products/uav/page-15_image-66.webp",
+      "usage": [
+        "/products/uav-y-80/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 595,
+      "outputHeight": 379
+    },
+    {
+      "source": "uav",
+      "file": "images/page-15_image-67.jpg",
+      "sourcePdf": "UAV_CN&ENG.pdf",
+      "sourcePage": 15,
+      "role": "description_image",
+      "imageType": "product_detail",
+      "caption": "Raster Chinese description panel labeled ZY-80",
+      "models": [
+        "Y-80"
+      ],
+      "width": 820,
+      "height": 326,
+      "sourceBytes": 46507,
+      "publicPath": "/media/products/uav/page-15_image-67.webp",
+      "usage": [
+        "/products/uav-y-80/",
+        "/products/ card: uav-y-80"
+      ],
+      "unusedReason": null,
+      "outputWidth": 820,
+      "outputHeight": 326
+    },
+    {
+      "source": "md",
+      "file": "images/company_p02_company_scene_building_background.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 2,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "building_background",
+      "models": [],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 7394532,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/company_p04_company_scene_coastal_background.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 4,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "coastal_background",
+      "models": [],
+      "width": 5384,
+      "height": 2179,
+      "sourceBytes": 7645246,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/company_p05_company_scene_flight_test_site.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "flight_test_site",
+      "models": [],
+      "width": 690,
+      "height": 518,
+      "sourceBytes": 536564,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/company_p05_company_scene_office.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "office",
+      "models": [],
+      "width": 1136,
+      "height": 753,
+      "sourceBytes": 788928,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/company_p05_company_scene_showroom.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "showroom",
+      "models": [],
+      "width": 829,
+      "height": 518,
+      "sourceBytes": 453447,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/company_p05_company_scene_reception.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "reception",
+      "models": [],
+      "width": 1538,
+      "height": 928,
+      "sourceBytes": 1338896,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/company_p05_company_scene_workshop.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "company_scene",
+      "imageType": "factory",
+      "caption": "workshop",
+      "models": [],
+      "width": 1128,
+      "height": 680,
+      "sourceBytes": 893975,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G21_p06_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 6,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G21"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 1903558,
+      "publicPath": "/media/products/md/MD-G21_p06_scene.webp",
+      "usage": [
+        "/products/md-md-g21/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G21_p06_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 6,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "MD-G21"
+      ],
+      "width": 789,
+      "height": 536,
+      "sourceBytes": 114842,
+      "publicPath": "/media/products/md/MD-G21_p06_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-md-g21/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 789,
+      "outputHeight": 536
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G21_p06_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 6,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "MD-G21"
+      ],
+      "width": 793,
+      "height": 540,
+      "sourceBytes": 102406,
+      "publicPath": "/media/products/md/MD-G21_p06_product_view_top.webp",
+      "usage": [
+        "/products/md-md-g21/",
+        "/products/ card: md-md-g21"
+      ],
+      "unusedReason": null,
+      "outputWidth": 793,
+      "outputHeight": 540
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G21_p06_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 6,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-G21"
+      ],
+      "width": 793,
+      "height": 540,
+      "sourceBytes": 51292,
+      "publicPath": "/media/products/md/MD-G21_p06_product_view_side.webp",
+      "usage": [
+        "/products/md-md-g21/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 793,
+      "outputHeight": 540
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G21_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G21"
+      ],
+      "width": 314,
+      "height": 189,
+      "sourceBytes": 27194,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G25_p07_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 7,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G25"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 4127869,
+      "publicPath": "/media/products/md/MD-G25_p07_scene.webp",
+      "usage": [
+        "/products/md-md-g25/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G25_p07_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 7,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "MD-G25"
+      ],
+      "width": 840,
+      "height": 512,
+      "sourceBytes": 140526,
+      "publicPath": "/media/products/md/MD-G25_p07_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-md-g25/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 840,
+      "outputHeight": 512
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G25_p07_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 7,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "MD-G25"
+      ],
+      "width": 835,
+      "height": 520,
+      "sourceBytes": 111672,
+      "publicPath": "/media/products/md/MD-G25_p07_product_view_top.webp",
+      "usage": [
+        "/products/md-md-g25/",
+        "/products/ card: md-md-g25"
+      ],
+      "unusedReason": null,
+      "outputWidth": 835,
+      "outputHeight": 520
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G25_p07_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 7,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-G25"
+      ],
+      "width": 835,
+      "height": 520,
+      "sourceBytes": 56752,
+      "publicPath": "/media/products/md/MD-G25_p07_product_view_side.webp",
+      "usage": [
+        "/products/md-md-g25/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 835,
+      "outputHeight": 520
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G25_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G25"
+      ],
+      "width": 314,
+      "height": 194,
+      "sourceBytes": 26773,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G32_p08_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 8,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G32"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 1852081,
+      "publicPath": "/media/products/md/MD-G32_p08_scene.webp",
+      "usage": [
+        "/products/md-md-g32/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G32_p08_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 8,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "MD-G32"
+      ],
+      "width": 839,
+      "height": 516,
+      "sourceBytes": 133649,
+      "publicPath": "/media/products/md/MD-G32_p08_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-md-g32/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 839,
+      "outputHeight": 516
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G32_p08_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 8,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "MD-G32"
+      ],
+      "width": 837,
+      "height": 521,
+      "sourceBytes": 113329,
+      "publicPath": "/media/products/md/MD-G32_p08_product_view_top.webp",
+      "usage": [
+        "/products/md-md-g32/",
+        "/products/ card: md-md-g32"
+      ],
+      "unusedReason": null,
+      "outputWidth": 837,
+      "outputHeight": 521
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G32_p08_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 8,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-G32"
+      ],
+      "width": 837,
+      "height": 521,
+      "sourceBytes": 60866,
+      "publicPath": "/media/products/md/MD-G32_p08_product_view_side.webp",
+      "usage": [
+        "/products/md-md-g32/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 837,
+      "outputHeight": 521
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G32_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G32"
+      ],
+      "width": 314,
+      "height": 194,
+      "sourceBytes": 25891,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G35_p09_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 9,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G35"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 3927541,
+      "publicPath": "/media/products/md/MD-G35_p09_scene.webp",
+      "usage": [
+        "/products/md-md-g35/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G35_p09_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 9,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "MD-G35"
+      ],
+      "width": 836,
+      "height": 418,
+      "sourceBytes": 93563,
+      "publicPath": "/media/products/md/MD-G35_p09_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-md-g35/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 418
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G35_p09_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 9,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "MD-G35"
+      ],
+      "width": 836,
+      "height": 532,
+      "sourceBytes": 102745,
+      "publicPath": "/media/products/md/MD-G35_p09_product_view_top.webp",
+      "usage": [
+        "/products/md-md-g35/",
+        "/products/ card: md-md-g35"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 532
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G35_p09_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 9,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-G35"
+      ],
+      "width": 836,
+      "height": 530,
+      "sourceBytes": 70296,
+      "publicPath": "/media/products/md/MD-G35_p09_product_view_side.webp",
+      "usage": [
+        "/products/md-md-g35/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 530
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G35_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G35"
+      ],
+      "width": 314,
+      "height": 194,
+      "sourceBytes": 25694,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G39_p10_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 10,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G39"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 2450053,
+      "publicPath": "/media/products/md/MD-G39_p10_scene.webp",
+      "usage": [
+        "/products/md-md-g39/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G39_p10_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 10,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "MD-G39"
+      ],
+      "width": 836,
+      "height": 414,
+      "sourceBytes": 108248,
+      "publicPath": "/media/products/md/MD-G39_p10_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-md-g39/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 414
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G39_p10_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 10,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "MD-G39"
+      ],
+      "width": 836,
+      "height": 530,
+      "sourceBytes": 88616,
+      "publicPath": "/media/products/md/MD-G39_p10_product_view_top.webp",
+      "usage": [
+        "/products/md-md-g39/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 530
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G39_p10_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 10,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-G39"
+      ],
+      "width": 836,
+      "height": 532,
+      "sourceBytes": 50932,
+      "publicPath": "/media/products/md/MD-G39_p10_product_view_side.webp",
+      "usage": [
+        "/products/md-md-g39/",
+        "/products/ card: md-md-g39"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 532
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G39_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G39"
+      ],
+      "width": 314,
+      "height": 194,
+      "sourceBytes": 22471,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G44_p11_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 11,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G44"
+      ],
+      "width": 3076,
+      "height": 2490,
+      "sourceBytes": 2908423,
+      "publicPath": "/media/products/md/MD-G44_p11_scene.webp",
+      "usage": [
+        "/products/md-md-g44/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1457
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G44_p11_product_view_rear.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 11,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rear",
+      "models": [
+        "MD-G44"
+      ],
+      "width": 836,
+      "height": 293,
+      "sourceBytes": 89352,
+      "publicPath": "/media/products/md/MD-G44_p11_product_view_rear.webp",
+      "usage": [
+        "/products/md-md-g44/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 293
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G44_p11_product_view_engine_detail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 11,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "engine_detail",
+      "models": [
+        "MD-G44"
+      ],
+      "width": 836,
+      "height": 384,
+      "sourceBytes": 191551,
+      "publicPath": "/media/products/md/MD-G44_p11_product_view_engine_detail.webp",
+      "usage": [
+        "/products/md-md-g44/",
+        "/products/ card: md-md-g44"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 384
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G44_p11_product_view_wing_connection_detail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 11,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "wing_connection_detail",
+      "models": [
+        "MD-G44"
+      ],
+      "width": 836,
+      "height": 384,
+      "sourceBytes": 110563,
+      "publicPath": "/media/products/md/MD-G44_p11_product_view_wing_connection_detail.webp",
+      "usage": [
+        "/products/md-md-g44/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 384
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G44_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G44"
+      ],
+      "width": 318,
+      "height": 87,
+      "sourceBytes": 19696,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G48_p12_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 12,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G48"
+      ],
+      "width": 3081,
+      "height": 2490,
+      "sourceBytes": 3779841,
+      "publicPath": "/media/products/md/MD-G48_p12_scene.webp",
+      "usage": [
+        "/products/md-md-g48/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G48_p12_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 12,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-G48"
+      ],
+      "width": 840,
+      "height": 532,
+      "sourceBytes": 125753,
+      "publicPath": "/media/products/md/MD-G48_p12_product_view_side.webp",
+      "usage": [
+        "/products/md-md-g48/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 840,
+      "outputHeight": 532
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G48_p12_product_view_front.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 12,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "front",
+      "models": [
+        "MD-G48"
+      ],
+      "width": 836,
+      "height": 532,
+      "sourceBytes": 49347,
+      "publicPath": "/media/products/md/MD-G48_p12_product_view_front.webp",
+      "usage": [
+        "/products/md-md-g48/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 836,
+      "outputHeight": 532
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G48_p12_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 12,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "MD-G48"
+      ],
+      "width": 845,
+      "height": 532,
+      "sourceBytes": 106347,
+      "publicPath": "/media/products/md/MD-G48_p12_product_view_top.webp",
+      "usage": [
+        "/products/md-md-g48/",
+        "/products/ card: md-md-g48"
+      ],
+      "unusedReason": null,
+      "outputWidth": 845,
+      "outputHeight": 532
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G48_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G48"
+      ],
+      "width": 318,
+      "height": 103,
+      "sourceBytes": 17174,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G69_p13_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 13,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-G69"
+      ],
+      "width": 3081,
+      "height": 2490,
+      "sourceBytes": 2586440,
+      "publicPath": "/media/products/md/MD-G69_p13_scene.webp",
+      "usage": [
+        "/products/md-md-g69/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G69_p13_product_view_right.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 13,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "right",
+      "models": [
+        "MD-G69"
+      ],
+      "width": 840,
+      "height": 534,
+      "sourceBytes": 156558,
+      "publicPath": "/media/products/md/MD-G69_p13_product_view_right.webp",
+      "usage": [
+        "/products/md-md-g69/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 840,
+      "outputHeight": 534
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G69_p13_product_view_rear.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 13,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rear",
+      "models": [
+        "MD-G69"
+      ],
+      "width": 840,
+      "height": 533,
+      "sourceBytes": 104061,
+      "publicPath": "/media/products/md/MD-G69_p13_product_view_rear.webp",
+      "usage": [
+        "/products/md-md-g69/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 840,
+      "outputHeight": 533
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G69_p13_product_view_front.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 13,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "front",
+      "models": [
+        "MD-G69"
+      ],
+      "width": 844,
+      "height": 533,
+      "sourceBytes": 64815,
+      "publicPath": "/media/products/md/MD-G69_p13_product_view_front.webp",
+      "usage": [
+        "/products/md-md-g69/",
+        "/products/ card: md-md-g69"
+      ],
+      "unusedReason": null,
+      "outputWidth": 844,
+      "outputHeight": 533
+    },
+    {
+      "source": "md",
+      "file": "images/MD-G69_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-G69"
+      ],
+      "width": 318,
+      "height": 106,
+      "sourceBytes": 13279,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/MD-X8_p14_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 14,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "MD-X8"
+      ],
+      "width": 3080,
+      "height": 2489,
+      "sourceBytes": 4086457,
+      "publicPath": "/media/products/md/MD-X8_p14_scene.webp",
+      "usage": [
+        "/products/md-md-x8/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/MD-X8_p14_product_view_left.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 14,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "left",
+      "models": [
+        "MD-X8"
+      ],
+      "width": 808,
+      "height": 488,
+      "sourceBytes": 70556,
+      "publicPath": "/media/products/md/MD-X8_p14_product_view_left.webp",
+      "usage": [
+        "/products/md-md-x8/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 808,
+      "outputHeight": 488
+    },
+    {
+      "source": "md",
+      "file": "images/MD-X8_p14_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 14,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "MD-X8"
+      ],
+      "width": 818,
+      "height": 535,
+      "sourceBytes": 76167,
+      "publicPath": "/media/products/md/MD-X8_p14_product_view_side.webp",
+      "usage": [
+        "/products/md-md-x8/",
+        "/products/ card: md-md-x8"
+      ],
+      "unusedReason": null,
+      "outputWidth": 818,
+      "outputHeight": 535
+    },
+    {
+      "source": "md",
+      "file": "images/MD-X8_p14_product_view_front.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 14,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "front",
+      "models": [
+        "MD-X8"
+      ],
+      "width": 818,
+      "height": 471,
+      "sourceBytes": 53619,
+      "publicPath": "/media/products/md/MD-X8_p14_product_view_front.webp",
+      "usage": [
+        "/products/md-md-x8/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 818,
+      "outputHeight": 471
+    },
+    {
+      "source": "md",
+      "file": "images/MD-X8_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "MD-X8"
+      ],
+      "width": 318,
+      "height": 191,
+      "sourceBytes": 18938,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/HW61600_p15_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 15,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "HW61600"
+      ],
+      "width": 3080,
+      "height": 2489,
+      "sourceBytes": 2344147,
+      "publicPath": "/media/products/md/HW61600_p15_scene.webp",
+      "usage": [
+        "/products/md-hw61600/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/HW61600_p15_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 15,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "HW61600"
+      ],
+      "width": 814,
+      "height": 536,
+      "sourceBytes": 173623,
+      "publicPath": "/media/products/md/HW61600_p15_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-hw61600/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 814,
+      "outputHeight": 536
+    },
+    {
+      "source": "md",
+      "file": "images/HW61600_p15_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 15,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "HW61600"
+      ],
+      "width": 818,
+      "height": 544,
+      "sourceBytes": 127638,
+      "publicPath": "/media/products/md/HW61600_p15_product_view_top.webp",
+      "usage": [
+        "/products/md-hw61600/",
+        "/products/ card: md-hw61600"
+      ],
+      "unusedReason": null,
+      "outputWidth": 818,
+      "outputHeight": 544
+    },
+    {
+      "source": "md",
+      "file": "images/HW61600_p15_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 15,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "HW61600"
+      ],
+      "width": 810,
+      "height": 540,
+      "sourceBytes": 187756,
+      "publicPath": "/media/products/md/HW61600_p15_product_view_side.webp",
+      "usage": [
+        "/products/md-hw61600/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 810,
+      "outputHeight": 540
+    },
+    {
+      "source": "md",
+      "file": "images/HW61600_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "HW61600"
+      ],
+      "width": 318,
+      "height": 203,
+      "sourceBytes": 51044,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/HI61200_p16_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 16,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "HI61200"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 3255333,
+      "publicPath": "/media/products/md/HI61200_p16_scene.webp",
+      "usage": [
+        "/products/md-hi61200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/HI61200_p16_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 16,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "HI61200"
+      ],
+      "width": 814,
+      "height": 540,
+      "sourceBytes": 202557,
+      "publicPath": "/media/products/md/HI61200_p16_product_view_top.webp",
+      "usage": [
+        "/products/md-hi61200/",
+        "/products/ card: md-hi61200"
+      ],
+      "unusedReason": null,
+      "outputWidth": 814,
+      "outputHeight": 540
+    },
+    {
+      "source": "md",
+      "file": "images/HI61200_p16_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 16,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "HI61200"
+      ],
+      "width": 814,
+      "height": 540,
+      "sourceBytes": 144495,
+      "publicPath": "/media/products/md/HI61200_p16_product_view_side.webp",
+      "usage": [
+        "/products/md-hi61200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 814,
+      "outputHeight": 540
+    },
+    {
+      "source": "md",
+      "file": "images/HI61200_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "HI61200"
+      ],
+      "width": 314,
+      "height": 208,
+      "sourceBytes": 51134,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/HD61130_p17_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 17,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "HD61130"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 3237685,
+      "publicPath": "/media/products/md/HD61130_p17_scene.webp",
+      "usage": [
+        "/products/md-hd61130/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/HD61130_p17_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 17,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "HD61130"
+      ],
+      "width": 780,
+      "height": 756,
+      "sourceBytes": 203786,
+      "publicPath": "/media/products/md/HD61130_p17_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-hd61130/",
+        "/products/ card: md-hd61130"
+      ],
+      "unusedReason": null,
+      "outputWidth": 780,
+      "outputHeight": 756
+    },
+    {
+      "source": "md",
+      "file": "images/HD61130_p17_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 17,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "HD61130"
+      ],
+      "width": 833,
+      "height": 689,
+      "sourceBytes": 220313,
+      "publicPath": "/media/products/md/HD61130_p17_product_view_top.webp",
+      "usage": [
+        "/products/md-hd61130/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 833,
+      "outputHeight": 689
+    },
+    {
+      "source": "md",
+      "file": "images/HD61130_p17_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 17,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "HD61130"
+      ],
+      "width": 906,
+      "height": 632,
+      "sourceBytes": 186274,
+      "publicPath": "/media/products/md/HD61130_p17_product_view_side.webp",
+      "usage": [
+        "/products/md-hd61130/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 906,
+      "outputHeight": 632
+    },
+    {
+      "source": "md",
+      "file": "images/HD61130_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "HD61130"
+      ],
+      "width": 318,
+      "height": 210,
+      "sourceBytes": 45649,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/HI4830_p18_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 18,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "HI4830"
+      ],
+      "width": 3080,
+      "height": 2490,
+      "sourceBytes": 1336514,
+      "publicPath": "/media/products/md/HI4830_p18_scene.webp",
+      "usage": [
+        "/products/md-hi4830/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/HI4830_p18_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 18,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "HI4830"
+      ],
+      "width": 833,
+      "height": 735,
+      "sourceBytes": 210627,
+      "publicPath": "/media/products/md/HI4830_p18_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-hi4830/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 833,
+      "outputHeight": 735
+    },
+    {
+      "source": "md",
+      "file": "images/HI4830_p18_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 18,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "HI4830"
+      ],
+      "width": 908,
+      "height": 675,
+      "sourceBytes": 212401,
+      "publicPath": "/media/products/md/HI4830_p18_product_view_top.webp",
+      "usage": [
+        "/products/md-hi4830/",
+        "/products/ card: md-hi4830"
+      ],
+      "unusedReason": null,
+      "outputWidth": 908,
+      "outputHeight": 675
+    },
+    {
+      "source": "md",
+      "file": "images/HI4830_p18_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 18,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "HI4830"
+      ],
+      "width": 780,
+      "height": 745,
+      "sourceBytes": 205743,
+      "publicPath": "/media/products/md/HI4830_p18_product_view_side.webp",
+      "usage": [
+        "/products/md-hi4830/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 780,
+      "outputHeight": 745
+    },
+    {
+      "source": "md",
+      "file": "images/HI4830_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "HI4830"
+      ],
+      "width": 317,
+      "height": 210,
+      "sourceBytes": 43309,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/HI41200_p19_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 19,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "HI41200"
+      ],
+      "width": 3080,
+      "height": 2489,
+      "sourceBytes": 1184678,
+      "publicPath": "/media/products/md/HI41200_p19_scene.webp",
+      "usage": [
+        "/products/md-hi41200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/HI41200_p19_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 19,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "HI41200"
+      ],
+      "width": 805,
+      "height": 553,
+      "sourceBytes": 171922,
+      "publicPath": "/media/products/md/HI41200_p19_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-hi41200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 805,
+      "outputHeight": 553
+    },
+    {
+      "source": "md",
+      "file": "images/HI41200_p19_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 19,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "HI41200"
+      ],
+      "width": 814,
+      "height": 562,
+      "sourceBytes": 125041,
+      "publicPath": "/media/products/md/HI41200_p19_product_view_top.webp",
+      "usage": [
+        "/products/md-hi41200/",
+        "/products/ card: md-hi41200"
+      ],
+      "unusedReason": null,
+      "outputWidth": 814,
+      "outputHeight": 562
+    },
+    {
+      "source": "md",
+      "file": "images/HI41200_p19_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 19,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "HI41200"
+      ],
+      "width": 814,
+      "height": 560,
+      "sourceBytes": 180113,
+      "publicPath": "/media/products/md/HI41200_p19_product_view_side.webp",
+      "usage": [
+        "/products/md-hi41200/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 814,
+      "outputHeight": 560
+    },
+    {
+      "source": "md",
+      "file": "images/HI41200_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "HI41200"
+      ],
+      "width": 314,
+      "height": 210,
+      "sourceBytes": 46512,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "md",
+      "file": "images/HD6160_p20_scene.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 20,
+      "role": "scene",
+      "imageType": "application",
+      "caption": "",
+      "models": [
+        "HD6160"
+      ],
+      "width": 3080,
+      "height": 2489,
+      "sourceBytes": 4519115,
+      "publicPath": "/media/products/md/HD6160_p20_scene.webp",
+      "usage": [
+        "/products/md-hd6160/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 1800,
+      "outputHeight": 1455
+    },
+    {
+      "source": "md",
+      "file": "images/HD6160_p20_product_view_rapid_assembly.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 20,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "rapid_assembly",
+      "models": [
+        "HD6160"
+      ],
+      "width": 874,
+      "height": 536,
+      "sourceBytes": 204678,
+      "publicPath": "/media/products/md/HD6160_p20_product_view_rapid_assembly.webp",
+      "usage": [
+        "/products/md-hd6160/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 874,
+      "outputHeight": 536
+    },
+    {
+      "source": "md",
+      "file": "images/HD6160_p20_product_view_top.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 20,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "top",
+      "models": [
+        "HD6160"
+      ],
+      "width": 873,
+      "height": 562,
+      "sourceBytes": 161050,
+      "publicPath": "/media/products/md/HD6160_p20_product_view_top.webp",
+      "usage": [
+        "/products/md-hd6160/",
+        "/products/ card: md-hd6160"
+      ],
+      "unusedReason": null,
+      "outputWidth": 873,
+      "outputHeight": 562
+    },
+    {
+      "source": "md",
+      "file": "images/HD6160_p20_product_view_side.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 20,
+      "role": "product_view",
+      "imageType": "product_main",
+      "caption": "side",
+      "models": [
+        "HD6160"
+      ],
+      "width": 873,
+      "height": 562,
+      "sourceBytes": 220252,
+      "publicPath": "/media/products/md/HD6160_p20_product_view_side.webp",
+      "usage": [
+        "/products/md-hd6160/"
+      ],
+      "unusedReason": null,
+      "outputWidth": 873,
+      "outputHeight": 562
+    },
+    {
+      "source": "md",
+      "file": "images/HD6160_p05_catalog_thumbnail.png",
+      "sourcePdf": "明德新材画册——（去联系方式） .pdf",
+      "sourcePage": 5,
+      "role": "catalog_thumbnail",
+      "imageType": "small_asset",
+      "caption": "",
+      "models": [
+        "HD6160"
+      ],
+      "width": 318,
+      "height": 210,
+      "sourceBytes": 52398,
+      "publicPath": null,
+      "usage": [],
+      "unusedReason": "目录缩略图、封面资源或未用于产品页的公司/来源图片"
+    },
+    {
+      "source": "user-derived",
+      "file": "YH-1000_user_render.png",
+      "sourcePdf": null,
+      "sourcePage": null,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "基于用户两张实拍图制作的 YH-1000 外观展示图",
+      "models": [
+        "YH-1000"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sourceBytes": 2001875,
+      "publicPath": "/media/products/yh/YH-1000_user_render.png",
+      "usage": [
+        "/products/yh-yh-1000/",
+        "/products/ card: yh-yh-1000",
+        "/ homepage feature",
+        "header product menu"
+      ],
+      "unusedReason": null
+    },
+    {
+      "source": "user",
+      "file": "5d5f7dd3d504cea2500eeb35e2d2608d.jpg",
+      "sourcePdf": null,
+      "sourcePage": null,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "YH-1000 黑色三角翼第一视角实拍",
+      "models": [
+        "YH-1000"
+      ],
+      "width": 1080,
+      "height": 1440,
+      "sourceBytes": 58079,
+      "publicPath": "/media/products/yh/YH-1000_user_view_a.jpg",
+      "usage": [
+        "/products/yh-yh-1000/"
+      ],
+      "unusedReason": null
+    },
+    {
+      "source": "user",
+      "file": "8e043372bdfa9a389eb81507e9ef3520.jpg",
+      "sourcePdf": null,
+      "sourcePage": null,
+      "role": "product",
+      "imageType": "product_main",
+      "caption": "YH-1000 黑色三角翼第二视角实拍",
+      "models": [
+        "YH-1000"
+      ],
+      "width": 1080,
+      "height": 1440,
+      "sourceBytes": 53555,
+      "publicPath": "/media/products/yh/YH-1000_user_view_b.jpg",
+      "usage": [
+        "/products/yh-yh-1000/"
+      ],
+      "unusedReason": null
+    }
+  ]
+}

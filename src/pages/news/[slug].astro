@@ -1,0 +1,106 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import EditorialHero from '../../components/EditorialHero.astro';
+import EditorialFigure from '../../components/EditorialFigure.astro';
+import { articles, type Article } from '../../data/editorial';
+import '../../styles/editorial.css';
+
+export function getStaticPaths() {
+  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+
+interface Props {
+  article: Article;
+}
+const { article } = Astro.props;
+const next = articles.filter((item) => item.slug !== article.slug).slice(0, 2);
+---
+
+<SiteLayout title={article.title} description={article.summary}>
+  <EditorialHero
+    eyebrow={article.caseYear ? `${article.topic} / ${article.caseYear}` : article.topic}
+    title={article.title}
+    summary={article.summary}
+    image={article.image}
+    imageAlt={article.imageAlt}
+  />
+  <div class="editorial-wrap editorial-backline">
+    <a href="/news/">← 返回新闻与活动</a>
+    <span>{article.publisher}</span>
+  </div>
+
+  <article class="editorial-section editorial-article">
+    <div class="editorial-wrap editorial-article-grid">
+      <div class="editorial-article-main">
+        <span class="editorial-kicker">
+          {article.kind === 'product' ? 'PRODUCT GUIDE / 画册解读' : 'PUBLIC SOURCE / 行业资料'}
+        </span>
+        <p class="editorial-article-lead">{article.summary}</p>
+        {article.paragraphs.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+        {article.supportImage && (
+          <EditorialFigure
+            image={article.supportImage}
+            imageAlt={article.supportImageAlt ?? ''}
+            className="editorial-inline-figure"
+          />
+        )}
+        <div class="editorial-source-block">
+          <span>资料来源</span>
+          <a
+            href={article.sourceUrl}
+            target={article.kind === 'product' ? undefined : '_blank'}
+            rel={article.kind === 'product' ? undefined : 'noopener noreferrer'}
+          >
+            {article.publisher} · {article.sourceLabel} ↗
+          </a>
+          <p>
+            {article.kind === 'product'
+              ? '本文依据提供的产品画册整理；具体配置与表现以目标方案核对和验证为准。'
+              : '这是公开行业案例，非 YH 的客户或交付项目；配图仅用于说明相关任务。'}
+          </p>
+        </div>
+      </div>
+      <aside class="editorial-article-aside">
+        <span class="editorial-kicker">RELATED MODELS</span>
+        <h2>相关产品资料</h2>
+        {article.relatedProducts.map((product) => (
+          <a href={`/products/${product.id}/`}>
+            {product.name}
+            <span aria-hidden="true">↗</span>
+          </a>
+        ))}
+        <a class="editorial-aside-all" href="/products/">
+          浏览全部产品 ↗
+        </a>
+      </aside>
+    </div>
+  </article>
+
+  <section class="editorial-section editorial-related-news" aria-labelledby="related-news-title">
+    <div class="editorial-wrap">
+      <div class="editorial-section-head">
+        <div>
+          <span class="editorial-kicker">NEXT READING</span>
+          <h2 id="related-news-title">继续阅读。</h2>
+        </div>
+        <a class="editorial-text-link" href="/news/">
+          全部资讯 ↗
+        </a>
+      </div>
+      <div class="editorial-card-grid editorial-card-grid-two">
+        {next.map((item) => (
+          <a class="editorial-next-card" href={`/news/${item.slug}/`}>
+            <span>
+              {item.topic}{item.caseYear ? ` / ${item.caseYear}` : ''}
+            </span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <strong aria-hidden="true">↗</strong>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</SiteLayout>

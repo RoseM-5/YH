@@ -1,0 +1,48 @@
+﻿source_page,model,role,caption,file,width,height,source_image_number,source_object_id
+1,,cover_product,Cover aircraft rendering 1,cover_assets/page-01_image-00.jpg,387,218,0,7
+1,,cover_product,Cover hybrid-wing aircraft,cover_assets/page-01_image-01.jpg,1227,695,1,8
+1,,cover_product,Cover compact UAV,cover_assets/page-01_image-02.jpg,216,289,2,9
+1,,cover_product,Cover red target drone,cover_assets/page-01_image-03.jpg,359,270,3,14
+1,,cover_product,Cover loitering aircraft,cover_assets/page-01_image-04.jpg,460,221,4,15
+1,,cover_product,Cover target drone on launcher,cover_assets/page-01_image-05.jpg,412,290,5,16
+1,,cover_product,Cover quadcopter top view,cover_assets/page-01_image-06.jpg,234,273,6,17
+1,,cover_product,Cover hybrid-wing front view,cover_assets/page-01_image-07.jpg,638,222,7,18
+1,,cover_product,Cover multirotor top view,cover_assets/page-01_image-08.jpg,462,390,8,19
+1,,cover_product,Cover hybrid-wing top view,cover_assets/page-01_image-09.jpg,456,278,9,20
+2,Y-140,scene,Sunset cloud background,images/page-02_image-11.jpg,1191,1682,11,27
+2,Y-140,scene,Y-140 aircraft over sunset clouds,images/page-02_image-12.jpg,1058,412,12,35
+2,Y-140,product,Y-140 aircraft rendering,images/page-02_image-13.jpg,276,182,13,36
+3,Y-051,scene,Mountain and cloud background,images/page-03_image-14.jpg,2380,606,14,61
+3,Y-051,product,Y-051 aircraft in mountain scene,images/page-03_image-15.jpg,490,536,15,68
+4,Y-101,scene,Mountain and cloud background,images/page-04_image-16.jpg,2380,606,16,61
+4,Y-101,product,Y-101 aircraft in mountain scene,images/page-04_image-18.jpg,502,440,18,84
+5,Y-201,scene,Mountain and cloud background,images/page-05_image-19.jpg,2380,606,19,61
+5,Y-201,product,Y-201 aircraft in mountain scene,images/page-05_image-20.jpg,514,450,20,89
+6,Y-350,scene,Cloud background,images/page-06_image-21.jpg,1191,1682,21,94
+6,Y-350,accessory,Portable controller,images/page-06_image-22.jpg,231,186,22,95
+6,Y-350,accessory,Optional launch tube,images/page-06_image-23.jpg,85,221,23,96
+6,Y-350,product,Y-350 UAV,images/page-06_image-24.jpg,207,276,24,97
+6,Y-350,scene,Y-350 UAV above clouds,images/page-06_image-25.jpg,1058,514,25,107
+7,Y-280,product,Y-280 on launcher,images/page-07_image-26.jpg,350,142,26,118
+7,Y-280,scene,Y-280 rocket-assisted flight outdoors,images/page-07_image-32.jpg,684,391,32,124
+8,Y-240,product,Y-240 on launcher,images/page-08_image-38.jpg,419,295,38,140
+8,Y-240,scene,Y-240 on launcher in field,images/page-08_image-39.jpg,730,421,39,141
+9,Y-150,product,Y-150 on launcher,images/page-09_image-40.jpg,426,322,40,147
+9,Y-150,scene,Y-150 on launcher in field,images/page-09_image-46.jpg,611,462,46,149
+10,Y-70,product,Y-70 aircraft rendering,images/page-10_image-47.jpg,667,500,47,154
+10,Y-70,scene,Y-70 aircraft on grass,images/page-10_image-52.jpg,552,424,52,157
+11,Y-500,product,Y-500 aircraft rendering,images/page-11_image-53.jpg,1227,695,53,8
+11,Y-500,source_table,Raster Chinese performance table,images/page-11_image-54.jpg,767,856,54,162
+12,Y-200,scene,Y-200 aircraft on road,images/page-12_image-55.jpg,538,324,55,171
+12,Y-200,scene,Y-200 aircraft in field,images/page-12_image-56.jpg,538,324,56,172
+12,Y-200,scene,Y-200 aircraft in flight,images/page-12_image-57.jpg,804,370,57,175
+12,Y-200,accessory,Payload module information image,images/page-12_image-58.jpg,404,506,58,176
+13,Y-40,scene,Y-40 aircraft in field,images/page-13_image-59.jpg,534,324,59,181
+13,Y-40,accessory,Payload module information image,images/page-13_image-60.jpg,636,394,60,182
+13,Y-40,product,Y-40 quadcopter top view,images/page-13_image-61.jpg,234,273,61,17
+14,Y-60,scene,Y-60 aircraft in sky,images/page-14_image-62.jpg,547,262,62,193
+14,Y-60,scene,Y-60 aircraft near building,images/page-14_image-63.jpg,548,325,63,194
+14,Y-60,accessory,Payload module information image,images/page-14_image-64.jpg,768,410,64,195
+15,Y-80,scene,Y-80 aircraft in flight,images/page-15_image-65.jpg,752,356,65,200
+15,Y-80,scene,Y-80 aircraft with operators in field,images/page-15_image-66.jpg,595,379,66,201
+15,Y-80,description_image,Raster Chinese description panel labeled ZY-80,images/page-15_image-67.jpg,820,326,67,202

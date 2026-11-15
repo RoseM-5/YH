@@ -1,0 +1,42 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/site.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  home?: boolean;
+  newsLanding?: boolean;
+}
+
+const {
+  title,
+  description = 'YH 产品资料展示站：无人机平台、动力系统与碳纤维机架。',
+  home = false,
+  newsLanding = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content={newsLanding ? '#f4faff' : '#101112'} />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href="/media/brand/logo-icon.png" />
+    <title>{title} | YH</title>
+    <slot name="head" />
+  </head>
+  <body class:list={{ 'page-home': home, 'page-news-landing': newsLanding }}>
+    <SiteHeader home={home} />
+    <main id="main">
+      <slot />
+    </main>
+    <SiteFooter />
+    <script>
+      import '../scripts/site.ts';
+    </script>
+  </body>
+</html>

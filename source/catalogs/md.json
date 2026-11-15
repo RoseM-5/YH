@@ -1,0 +1,1650 @@
+{
+  "source_pdf": "明德新材画册——（去联系方式） .pdf",
+  "source_page_count": 20,
+  "product_count": 15,
+  "product_pages": "6-20",
+  "products": [
+    {
+      "model": "MD-G21",
+      "source_page": 6,
+      "title_zh_original": "MD-G21垂起复合翼无人机",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G21垂起复合翼无人机\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：2.5KG\n空载航时(Standard no-load duration of flight)：240min",
+      "highlights_original": [
+        "最大载荷(Max payload)：2.5KG",
+        "空载航时(Standard no-load duration of flight)：240min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "2.1mx0.98mx0.24m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "14KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "2.5KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "240min"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "20m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "4800m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        },
+        {
+          "label": "运输箱尺寸(Transport box size)",
+          "value": "1570mm*620mm*375mm"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G21",
+          "source_page": 6,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 85,
+          "path": "images/MD-G21_p06_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "MD-G21",
+          "source_page": 6,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 87,
+          "path": "images/MD-G21_p06_product_view_rapid_assembly.png",
+          "width": 789,
+          "height": 536
+        },
+        {
+          "model": "MD-G21",
+          "source_page": 6,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 89,
+          "path": "images/MD-G21_p06_product_view_top.png",
+          "width": 793,
+          "height": 540
+        },
+        {
+          "model": "MD-G21",
+          "source_page": 6,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 90,
+          "path": "images/MD-G21_p06_product_view_side.png",
+          "width": 793,
+          "height": 540
+        },
+        {
+          "model": "MD-G21",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 22,
+          "path": "images/MD-G21_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 189
+        }
+      ],
+      "source_page_text": "source_text/page-06.txt"
+    },
+    {
+      "model": "MD-G25",
+      "source_page": 7,
+      "title_zh_original": "MD-G25垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G25垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：2.5KG\n空载航时(Standard no-load duration of flight):240min",
+      "highlights_original": [
+        "最大载荷(Max payload)：2.5KG",
+        "空载航时(Standard no-load duration of flight):240min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "2.5mx1.26mx0.39m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "14KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "2.5KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "240min"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "20m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "4800m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        },
+        {
+          "label": "运输箱尺寸(Transport box size)",
+          "value": "1470mm*560mm*400mm"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G25",
+          "source_page": 7,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 91,
+          "path": "images/MD-G25_p07_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "MD-G25",
+          "source_page": 7,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 93,
+          "path": "images/MD-G25_p07_product_view_rapid_assembly.png",
+          "width": 840,
+          "height": 512
+        },
+        {
+          "model": "MD-G25",
+          "source_page": 7,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 95,
+          "path": "images/MD-G25_p07_product_view_top.png",
+          "width": 835,
+          "height": 520
+        },
+        {
+          "model": "MD-G25",
+          "source_page": 7,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 96,
+          "path": "images/MD-G25_p07_product_view_side.png",
+          "width": 835,
+          "height": 520
+        },
+        {
+          "model": "MD-G25",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 26,
+          "path": "images/MD-G25_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 194
+        }
+      ],
+      "source_page_text": "source_text/page-07.txt"
+    },
+    {
+      "model": "MD-G32",
+      "source_page": 8,
+      "title_zh_original": "MD-G32垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G32垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：5KG\n空载航时(Standard no-load duration of flight):240min",
+      "highlights_original": [
+        "最大载荷(Max payload)：5KG",
+        "空载航时(Standard no-load duration of flight):240min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "3.2x1.83x0.46m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "26KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "5KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "240min"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "21m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "4200m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        },
+        {
+          "label": "运输箱尺寸(Transport box size)",
+          "value": "1800mm*680mm*480mm"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G32",
+          "source_page": 8,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 97,
+          "path": "images/MD-G32_p08_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "MD-G32",
+          "source_page": 8,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 99,
+          "path": "images/MD-G32_p08_product_view_rapid_assembly.png",
+          "width": 839,
+          "height": 516
+        },
+        {
+          "model": "MD-G32",
+          "source_page": 8,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 101,
+          "path": "images/MD-G32_p08_product_view_top.png",
+          "width": 837,
+          "height": 521
+        },
+        {
+          "model": "MD-G32",
+          "source_page": 8,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 102,
+          "path": "images/MD-G32_p08_product_view_side.png",
+          "width": 837,
+          "height": 521
+        },
+        {
+          "model": "MD-G32",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 30,
+          "path": "images/MD-G32_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 194
+        }
+      ],
+      "source_page_text": "source_text/page-08.txt"
+    },
+    {
+      "model": "MD-G35",
+      "source_page": 9,
+      "title_zh_original": "MD-G35垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G35垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：10KG\n空载航时(Standard no-load duration of flight):190min",
+      "highlights_original": [
+        "最大载荷(Max payload)：10KG",
+        "空载航时(Standard no-load duration of flight):190min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "3.5x1.88x0.64m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "35KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "10KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "190min"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "21m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "4200m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        },
+        {
+          "label": "运输箱尺寸(Transport box size)",
+          "value": "2105mm*735mm*500mm"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G35",
+          "source_page": 9,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 103,
+          "path": "images/MD-G35_p09_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "MD-G35",
+          "source_page": 9,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 105,
+          "path": "images/MD-G35_p09_product_view_rapid_assembly.png",
+          "width": 836,
+          "height": 418
+        },
+        {
+          "model": "MD-G35",
+          "source_page": 9,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 106,
+          "path": "images/MD-G35_p09_product_view_top.png",
+          "width": 836,
+          "height": 532
+        },
+        {
+          "model": "MD-G35",
+          "source_page": 9,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 107,
+          "path": "images/MD-G35_p09_product_view_side.png",
+          "width": 836,
+          "height": 530
+        },
+        {
+          "model": "MD-G35",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 34,
+          "path": "images/MD-G35_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 194
+        }
+      ],
+      "source_page_text": "source_text/page-09.txt"
+    },
+    {
+      "model": "MD-G39",
+      "source_page": 10,
+      "title_zh_original": "MD-G39垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G39垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：5KG\n空载航时(Standard no-load duration of flight):240min",
+      "highlights_original": [
+        "最大载荷(Max payload)：5KG",
+        "空载航时(Standard no-load duration of flight):240min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "3.95x1.83x0.57m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "28KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "5KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "240min"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "21m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "4200m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        },
+        {
+          "label": "运输箱尺寸(Transport box size)",
+          "value": "2000mm*650mm*480mm"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G39",
+          "source_page": 10,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 108,
+          "path": "images/MD-G39_p10_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "MD-G39",
+          "source_page": 10,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 110,
+          "path": "images/MD-G39_p10_product_view_rapid_assembly.png",
+          "width": 836,
+          "height": 414
+        },
+        {
+          "model": "MD-G39",
+          "source_page": 10,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 112,
+          "path": "images/MD-G39_p10_product_view_top.png",
+          "width": 836,
+          "height": 530
+        },
+        {
+          "model": "MD-G39",
+          "source_page": 10,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 113,
+          "path": "images/MD-G39_p10_product_view_side.png",
+          "width": 836,
+          "height": 532
+        },
+        {
+          "model": "MD-G39",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 38,
+          "path": "images/MD-G39_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 194
+        }
+      ],
+      "source_page_text": "source_text/page-10.txt"
+    },
+    {
+      "model": "MD-G44",
+      "source_page": 11,
+      "title_zh_original": "MD-G44垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G44垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：10KG\n空载航时(Standard no-load duration of flight):480min",
+      "highlights_original": [
+        "最大载荷(Max payload)：10KG",
+        "空载航时(Standard no-load duration of flight):480min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "4.42x2.075x0.788m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "40KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "10KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "480min"
+        },
+        {
+          "label": "油箱容积（Oil Tank Capacity）",
+          "value": "8L"
+        },
+        {
+          "label": "发动机（Engine)",
+          "value": "LiDe 70 二冲发动机 Two stroke engine"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "20m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "6000m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        },
+        {
+          "label": "运输箱尺寸(Transport box size)",
+          "value": "1760mm*760mm*550mm"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G44",
+          "source_page": 11,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 114,
+          "path": "images/MD-G44_p11_scene.png",
+          "width": 3076,
+          "height": 2490
+        },
+        {
+          "model": "MD-G44",
+          "source_page": 11,
+          "kind": "product_view",
+          "view": "rear",
+          "source_image_number": 116,
+          "path": "images/MD-G44_p11_product_view_rear.png",
+          "width": 836,
+          "height": 293
+        },
+        {
+          "model": "MD-G44",
+          "source_page": 11,
+          "kind": "product_view",
+          "view": "engine_detail",
+          "source_image_number": 117,
+          "path": "images/MD-G44_p11_product_view_engine_detail.png",
+          "width": 836,
+          "height": 384
+        },
+        {
+          "model": "MD-G44",
+          "source_page": 11,
+          "kind": "product_view",
+          "view": "wing_connection_detail",
+          "source_image_number": 118,
+          "path": "images/MD-G44_p11_product_view_wing_connection_detail.png",
+          "width": 836,
+          "height": 384
+        },
+        {
+          "model": "MD-G44",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 42,
+          "path": "images/MD-G44_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 87
+        }
+      ],
+      "source_page_text": "source_text/page-11.txt"
+    },
+    {
+      "model": "MD-G48",
+      "source_page": 12,
+      "title_zh_original": "MD-G48垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G48垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：15KG\n空载航时(Standard no-load duration of flight):780min",
+      "highlights_original": [
+        "最大载荷(Max payload)：15KG",
+        "空载航时(Standard no-load duration of flight):780min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "4.80x2.79x0.51m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "64KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "15KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "780min"
+        },
+        {
+          "label": "油箱容积（Oil Tank Capacity）",
+          "value": "26L"
+        },
+        {
+          "label": "发动机（Engine)",
+          "value": "LiDe 170二冲发动机 Two stroke engine"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "37m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "6000m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G48",
+          "source_page": 12,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 119,
+          "path": "images/MD-G48_p12_scene.png",
+          "width": 3081,
+          "height": 2490
+        },
+        {
+          "model": "MD-G48",
+          "source_page": 12,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 120,
+          "path": "images/MD-G48_p12_product_view_side.png",
+          "width": 840,
+          "height": 532
+        },
+        {
+          "model": "MD-G48",
+          "source_page": 12,
+          "kind": "product_view",
+          "view": "front",
+          "source_image_number": 122,
+          "path": "images/MD-G48_p12_product_view_front.png",
+          "width": 836,
+          "height": 532
+        },
+        {
+          "model": "MD-G48",
+          "source_page": 12,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 124,
+          "path": "images/MD-G48_p12_product_view_top.png",
+          "width": 845,
+          "height": 532
+        },
+        {
+          "model": "MD-G48",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 47,
+          "path": "images/MD-G48_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 103
+        }
+      ],
+      "source_page_text": "source_text/page-12.txt"
+    },
+    {
+      "model": "MD-G69",
+      "source_page": 13,
+      "title_zh_original": "MD-G69垂起复合翼",
+      "category_en_original": "Vertical Takeoff Compound Wing UAV",
+      "description_original": "MD-G69垂起复合翼\nVertical Takeoff Compound Wing UAV\n最大载荷(Max payload)：40KG\n空载航时(Standard no-load duration of flight):600min",
+      "highlights_original": [
+        "最大载荷(Max payload)：40KG",
+        "空载航时(Standard no-load duration of flight):600min"
+      ],
+      "parameters": [
+        {
+          "label": "整机尺寸(Overall dimension)",
+          "value": "6.935x3.270x1.307m"
+        },
+        {
+          "label": "最大起飞重量(Maximum take-off weight)",
+          "value": "150KG"
+        },
+        {
+          "label": "最大载荷(Max payload)",
+          "value": "40KG"
+        },
+        {
+          "label": "空载航时(Standard no-load duration of flight)",
+          "value": "600min"
+        },
+        {
+          "label": "油箱容积（Oil Tank Capacity）",
+          "value": "35L"
+        },
+        {
+          "label": "发动机（Engine)",
+          "value": "LiDe 290 二冲发动机 Two stroke engine"
+        },
+        {
+          "label": "巡航速度(Cruising speed)",
+          "value": "35m/s"
+        },
+        {
+          "label": "最大海拔高度(Max flight altitude)",
+          "value": "6000m"
+        },
+        {
+          "label": "抗风性能(Maximum wind resistance)",
+          "value": "旋翼模式6级、固定翼模式7级（VTOL mode: strong breeze FW mode:Gale ）"
+        },
+        {
+          "label": "防护等级(Waterproof class)",
+          "value": "IP54"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-G69",
+          "source_page": 13,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 126,
+          "path": "images/MD-G69_p13_scene.png",
+          "width": 3081,
+          "height": 2490
+        },
+        {
+          "model": "MD-G69",
+          "source_page": 13,
+          "kind": "product_view",
+          "view": "right",
+          "source_image_number": 128,
+          "path": "images/MD-G69_p13_product_view_right.png",
+          "width": 840,
+          "height": 534
+        },
+        {
+          "model": "MD-G69",
+          "source_page": 13,
+          "kind": "product_view",
+          "view": "rear",
+          "source_image_number": 130,
+          "path": "images/MD-G69_p13_product_view_rear.png",
+          "width": 840,
+          "height": 533
+        },
+        {
+          "model": "MD-G69",
+          "source_page": 13,
+          "kind": "product_view",
+          "view": "front",
+          "source_image_number": 132,
+          "path": "images/MD-G69_p13_product_view_front.png",
+          "width": 844,
+          "height": 533
+        },
+        {
+          "model": "MD-G69",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 52,
+          "path": "images/MD-G69_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 106
+        }
+      ],
+      "source_page_text": "source_text/page-13.txt"
+    },
+    {
+      "model": "MD-X8",
+      "source_page": 14,
+      "title_zh_original": "MD-X8 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "MD-X8 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载重(MAX load weight）：60kg 18min / 30KG 30min\n空载飞行时间(No-load endurance)：55min（4pcs 14S 35000mah UliHVbattery）",
+      "highlights_original": [
+        "最大载重(MAX load weight）：60kg 18min / 30KG 30min",
+        "空载飞行时间(No-load endurance)：55min（4pcs 14S 35000mah UliHVbattery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "1.5mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "模压+内压( internal pressure)"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "2400mm"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "1000mm"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "15.5kg"
+        },
+        {
+          "label": "最大起飞重量（Max Take off weight)",
+          "value": "110KG"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "60kg 18min / 30KG 30min"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "55min（4pcs 14S 35000mah UliHVbattery）"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "60寸（60Inch）"
+        }
+      ],
+      "images": [
+        {
+          "model": "MD-X8",
+          "source_page": 14,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 134,
+          "path": "images/MD-X8_p14_scene.png",
+          "width": 3080,
+          "height": 2489
+        },
+        {
+          "model": "MD-X8",
+          "source_page": 14,
+          "kind": "product_view",
+          "view": "left",
+          "source_image_number": 136,
+          "path": "images/MD-X8_p14_product_view_left.png",
+          "width": 808,
+          "height": 488
+        },
+        {
+          "model": "MD-X8",
+          "source_page": 14,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 137,
+          "path": "images/MD-X8_p14_product_view_side.png",
+          "width": 818,
+          "height": 535
+        },
+        {
+          "model": "MD-X8",
+          "source_page": 14,
+          "kind": "product_view",
+          "view": "front",
+          "source_image_number": 138,
+          "path": "images/MD-X8_p14_product_view_front.png",
+          "width": 818,
+          "height": 471
+        },
+        {
+          "model": "MD-X8",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 57,
+          "path": "images/MD-X8_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 191
+        }
+      ],
+      "source_page_text": "source_text/page-14.txt"
+    },
+    {
+      "model": "HW61600",
+      "source_page": 15,
+      "title_zh_original": "HW61600 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "HW61600 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载重(MAX load weight）：7kg 25min\n空载飞行时间(No-load endurance)：75分钟（2pcs 25000mah battery）",
+      "highlights_original": [
+        "最大载重(MAX load weight）：7kg 25min",
+        "空载飞行时间(No-load endurance)：75分钟（2pcs 25000mah battery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "0.6mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "内压一体成形（Internal pressure forming）"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "1600mm"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "500mm"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "2200g"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "75分钟（2pcs 25000mah battery）"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "7kg 25min"
+        },
+        {
+          "label": "最大可装配电机（Max motor)",
+          "value": "U8"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "29寸（29Inch）"
+        }
+      ],
+      "images": [
+        {
+          "model": "HW61600",
+          "source_page": 15,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 139,
+          "path": "images/HW61600_p15_scene.png",
+          "width": 3080,
+          "height": 2489
+        },
+        {
+          "model": "HW61600",
+          "source_page": 15,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 141,
+          "path": "images/HW61600_p15_product_view_rapid_assembly.png",
+          "width": 814,
+          "height": 536
+        },
+        {
+          "model": "HW61600",
+          "source_page": 15,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 143,
+          "path": "images/HW61600_p15_product_view_top.png",
+          "width": 818,
+          "height": 544
+        },
+        {
+          "model": "HW61600",
+          "source_page": 15,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 144,
+          "path": "images/HW61600_p15_product_view_side.png",
+          "width": 810,
+          "height": 540
+        },
+        {
+          "model": "HW61600",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 61,
+          "path": "images/HW61600_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 203
+        }
+      ],
+      "source_page_text": "source_text/page-15.txt"
+    },
+    {
+      "model": "HI61200",
+      "source_page": 16,
+      "title_zh_original": "HI61200 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "HI61200 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载重(MAX load weight）：5kg 30min\n空载飞行时间(No-load endurance)：70min（2pcs 25000mah battery）",
+      "highlights_original": [
+        "最大载重(MAX load weight）：5kg 30min",
+        "空载飞行时间(No-load endurance)：70min（2pcs 25000mah battery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "0.6mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "内压一体成形（Internal pressure forming）"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "1200mm"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "500mm"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "2100g"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "70min（2pcs 25000mah battery）"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "5kg 30min"
+        },
+        {
+          "label": "最大可装配电机（Max motor)",
+          "value": "U6"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "22寸（22Inch）"
+        }
+      ],
+      "images": [
+        {
+          "model": "HI61200",
+          "source_page": 16,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 145,
+          "path": "images/HI61200_p16_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "HI61200",
+          "source_page": 16,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 147,
+          "path": "images/HI61200_p16_product_view_top.png",
+          "width": 814,
+          "height": 540
+        },
+        {
+          "model": "HI61200",
+          "source_page": 16,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 148,
+          "path": "images/HI61200_p16_product_view_side.png",
+          "width": 814,
+          "height": 540
+        },
+        {
+          "model": "HI61200",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 65,
+          "path": "images/HI61200_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 208
+        }
+      ],
+      "source_page_text": "source_text/page-16.txt"
+    },
+    {
+      "model": "HD61130",
+      "source_page": 17,
+      "title_zh_original": "HD61130 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "HD61130 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载重(MAX load weight）：5kg 30min\n空载飞行时间(No-load endurance)：70分钟（2pcs 25000mah battery）",
+      "highlights_original": [
+        "最大载重(MAX load weight）：5kg 30min",
+        "空载飞行时间(No-load endurance)：70分钟（2pcs 25000mah battery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "0.6mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "内压一体成形（Internal pressure forming）"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "1130mm"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "600mm"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "2200g"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "70min（2pcs 25000mah battery）"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "5kg 30min"
+        },
+        {
+          "label": "最大可装配电机（Max motor)",
+          "value": "U6"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "21寸（21Inch）"
+        }
+      ],
+      "images": [
+        {
+          "model": "HD61130",
+          "source_page": 17,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 149,
+          "path": "images/HD61130_p17_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "HD61130",
+          "source_page": 17,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 151,
+          "path": "images/HD61130_p17_product_view_rapid_assembly.png",
+          "width": 780,
+          "height": 756
+        },
+        {
+          "model": "HD61130",
+          "source_page": 17,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 153,
+          "path": "images/HD61130_p17_product_view_top.png",
+          "width": 833,
+          "height": 689
+        },
+        {
+          "model": "HD61130",
+          "source_page": 17,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 154,
+          "path": "images/HD61130_p17_product_view_side.png",
+          "width": 906,
+          "height": 632
+        },
+        {
+          "model": "HD61130",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 69,
+          "path": "images/HD61130_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 210
+        }
+      ],
+      "source_page_text": "source_text/page-17.txt"
+    },
+    {
+      "model": "HI4830",
+      "source_page": 18,
+      "title_zh_original": "HI4830 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "HI4830 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载荷(MAX load weight）：3kg 30min\n空载飞行时间(No-load endurance)：60分钟（2pcs 25000mah battery）",
+      "highlights_original": [
+        "最大载荷(MAX load weight）：3kg 30min",
+        "空载飞行时间(No-load endurance)：60分钟（2pcs 25000mah battery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "0.6mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "内压一体成形（Internal pressure forming）"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "830mm"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "500mm"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "1900g"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "60min（2pcs 25000mah battery）"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "3kg 30min"
+        },
+        {
+          "label": "最大可装配电机（Max motor)",
+          "value": "U6"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "21寸（22Inch）"
+        }
+      ],
+      "images": [
+        {
+          "model": "HI4830",
+          "source_page": 18,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 155,
+          "path": "images/HI4830_p18_scene.png",
+          "width": 3080,
+          "height": 2490
+        },
+        {
+          "model": "HI4830",
+          "source_page": 18,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 157,
+          "path": "images/HI4830_p18_product_view_rapid_assembly.png",
+          "width": 833,
+          "height": 735
+        },
+        {
+          "model": "HI4830",
+          "source_page": 18,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 158,
+          "path": "images/HI4830_p18_product_view_top.png",
+          "width": 908,
+          "height": 675
+        },
+        {
+          "model": "HI4830",
+          "source_page": 18,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 159,
+          "path": "images/HI4830_p18_product_view_side.png",
+          "width": 780,
+          "height": 745
+        },
+        {
+          "model": "HI4830",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 73,
+          "path": "images/HI4830_p05_catalog_thumbnail.png",
+          "width": 317,
+          "height": 210
+        }
+      ],
+      "source_page_text": "source_text/page-18.txt"
+    },
+    {
+      "model": "HI41200",
+      "source_page": 19,
+      "title_zh_original": "HI41200 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "HI41200 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载重(MAX load weight）：5kg 35min\n空载飞行时间(No-load endurance)：85min（2pcs 25000mah battery）",
+      "highlights_original": [
+        "最大载重(MAX load weight）：5kg 35min",
+        "空载飞行时间(No-load endurance)：85min（2pcs 25000mah battery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "0.6mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "内压一体成形（Internal pressure forming）"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "1200mm"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "500mm"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "1700g"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "85min（2pcs 25000mah battery）"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "5kg 35min"
+        },
+        {
+          "label": "最大可装配电机（Max motor)",
+          "value": "U8"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "29寸（29Inch）"
+        }
+      ],
+      "images": [
+        {
+          "model": "HI41200",
+          "source_page": 19,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 161,
+          "path": "images/HI41200_p19_scene.png",
+          "width": 3080,
+          "height": 2489
+        },
+        {
+          "model": "HI41200",
+          "source_page": 19,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 163,
+          "path": "images/HI41200_p19_product_view_rapid_assembly.png",
+          "width": 805,
+          "height": 553
+        },
+        {
+          "model": "HI41200",
+          "source_page": 19,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 165,
+          "path": "images/HI41200_p19_product_view_top.png",
+          "width": 814,
+          "height": 562
+        },
+        {
+          "model": "HI41200",
+          "source_page": 19,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 166,
+          "path": "images/HI41200_p19_product_view_side.png",
+          "width": 814,
+          "height": 560
+        },
+        {
+          "model": "HI41200",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 77,
+          "path": "images/HI41200_p05_catalog_thumbnail.png",
+          "width": 314,
+          "height": 210
+        }
+      ],
+      "source_page_text": "source_text/page-19.txt"
+    },
+    {
+      "model": "HD6160",
+      "source_page": 20,
+      "title_zh_original": "HD6160 碳纤维一体机架",
+      "category_en_original": "Carbon Fiber Monocoque Frame",
+      "description_original": "HD6160 碳纤维一体机架\nCarbon Fiber Monocoque Frame\n最大载重(MAX load weight）：8kg可定制最大载重20KG（Customizable MAX weight 20KG）\n空载飞行时间(No-load endurance)：91min（4pcs 25000mah battery）",
+      "highlights_original": [
+        "最大载重(MAX load weight）：8kg可定制最大载重20KG（Customizable MAX weight 20KG）",
+        "空载飞行时间(No-load endurance)：91min（4pcs 25000mah battery）"
+      ],
+      "parameters": [
+        {
+          "label": "整机壳体材质(Fuselage material)",
+          "value": "TORAY(日本东丽）3K碳纤维(cabon fiber)"
+        },
+        {
+          "label": "整机高度(Overall height)",
+          "value": "600mm"
+        },
+        {
+          "label": "制作工艺(Manufacturing process)",
+          "value": "内压一体成形（Internal pressure forming）"
+        },
+        {
+          "label": "对称轴距(Wheelbase)",
+          "value": "1600mm"
+        },
+        {
+          "label": "壳体厚度(Shell thickness)",
+          "value": "0.7mm可定制（Customizable）"
+        },
+        {
+          "label": "壳体重量(Case weight)",
+          "value": "3400g"
+        },
+        {
+          "label": "最大载重(MAX load weight）",
+          "value": "8kg可定制最大载重20KG（Customizable MAX weight 20KG）"
+        },
+        {
+          "label": "空载飞行时间(No-load endurance)",
+          "value": "91min（4pcs 25000mah battery）"
+        },
+        {
+          "label": "最大可装配桨(Max PROP)",
+          "value": "30寸（30Inch）"
+        },
+        {
+          "label": "最大可装配电机（Max motor)",
+          "value": "U12（U10 and U12 Customizable ）"
+        }
+      ],
+      "images": [
+        {
+          "model": "HD6160",
+          "source_page": 20,
+          "kind": "scene",
+          "view": "",
+          "source_image_number": 167,
+          "path": "images/HD6160_p20_scene.png",
+          "width": 3080,
+          "height": 2489
+        },
+        {
+          "model": "HD6160",
+          "source_page": 20,
+          "kind": "product_view",
+          "view": "rapid_assembly",
+          "source_image_number": 169,
+          "path": "images/HD6160_p20_product_view_rapid_assembly.png",
+          "width": 874,
+          "height": 536
+        },
+        {
+          "model": "HD6160",
+          "source_page": 20,
+          "kind": "product_view",
+          "view": "top",
+          "source_image_number": 171,
+          "path": "images/HD6160_p20_product_view_top.png",
+          "width": 873,
+          "height": 562
+        },
+        {
+          "model": "HD6160",
+          "source_page": 20,
+          "kind": "product_view",
+          "view": "side",
+          "source_image_number": 172,
+          "path": "images/HD6160_p20_product_view_side.png",
+          "width": 873,
+          "height": 562
+        },
+        {
+          "model": "HD6160",
+          "source_page": 5,
+          "kind": "catalog_thumbnail",
+          "view": "",
+          "source_image_number": 81,
+          "path": "images/HD6160_p05_catalog_thumbnail.png",
+          "width": 318,
+          "height": 210
+        }
+      ],
+      "source_page_text": "source_text/page-20.txt"
+    }
+  ],
+  "company_scenes": [
+    {
+      "model": "",
+      "source_page": 2,
+      "kind": "company_scene",
+      "view": "building_background",
+      "source_image_number": 13,
+      "path": "images/company_p02_company_scene_building_background.png",
+      "width": 3080,
+      "height": 2490
+    },
+    {
+      "model": "",
+      "source_page": 4,
+      "kind": "company_scene",
+      "view": "coastal_background",
+      "source_image_number": 16,
+      "path": "images/company_p04_company_scene_coastal_background.png",
+      "width": 5384,
+      "height": 2179
+    },
+    {
+      "model": "",
+      "source_page": 5,
+      "kind": "company_scene",
+      "view": "flight_test_site",
+      "source_image_number": 17,
+      "path": "images/company_p05_company_scene_flight_test_site.png",
+      "width": 690,
+      "height": 518
+    },
+    {
+      "model": "",
+      "source_page": 5,
+      "kind": "company_scene",
+      "view": "office",
+      "source_image_number": 18,
+      "path": "images/company_p05_company_scene_office.png",
+      "width": 1136,
+      "height": 753
+    },
+    {
+      "model": "",
+      "source_page": 5,
+      "kind": "company_scene",
+      "view": "showroom",
+      "source_image_number": 19,
+      "path": "images/company_p05_company_scene_showroom.png",
+      "width": 829,
+      "height": 518
+    },
+    {
+      "model": "",
+      "source_page": 5,
+      "kind": "company_scene",
+      "view": "reception",
+      "source_image_number": 20,
+      "path": "images/company_p05_company_scene_reception.png",
+      "width": 1538,
+      "height": 928
+    },
+    {
+      "model": "",
+      "source_page": 5,
+      "kind": "company_scene",
+      "view": "workshop",
+      "source_image_number": 21,
+      "path": "images/company_p05_company_scene_workshop.png",
+      "width": 1128,
+      "height": 680
+    }
+  ],
+  "notes": [
+    "字段与数值均保留画册原文，包括原文中的单位、拼写及可能不一致处。",
+    "产品描述取自产品页标题、英文类别及顶部两条摘要；画册没有单独的长篇产品介绍。",
+    "图片直接解码自 PDF 嵌入图像；装饰性底座、空白遮罩、专利证书未列入产品与场景图。",
+    "source_text 目录保留 20 个 PDF 页面可提取文字；第 3 页无可提取文字。"
+  ]
+}

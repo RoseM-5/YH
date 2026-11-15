@@ -1,0 +1,17 @@
+{
+  "routes": 69,
+  "products": 50,
+  "categories": 7,
+  "source_images": 208,
+  "copied_product_images": 172,
+  "used_product_images": 175,
+  "missing_routes": [],
+  "missing_assets": [],
+  "missing_main_images": [],
+  "missing_gallery": [],
+  "missing_image_types": [],
+  "old_brand_pages": [],
+  "homepage_video_paths": [
+    "/media/hero/hero.mp4"
+  ]
+}

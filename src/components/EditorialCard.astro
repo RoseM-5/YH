@@ -1,0 +1,49 @@
+---
+interface Props {
+  href: string;
+  image: string;
+  imageAlt: string;
+  index: string;
+  topic: string;
+  title: string;
+  summary: string;
+  layout?: 'standard' | 'overlay';
+  className?: string;
+  mediaLabel?: string;
+}
+const {
+  href,
+  image,
+  imageAlt,
+  index,
+  topic,
+  title,
+  summary,
+  layout = 'standard',
+  className = '',
+  mediaLabel,
+} = Astro.props;
+const small = image.replace(/\.webp$/, '-sm.webp');
+---
+
+<article class:list={['editorial-card', className, { 'editorial-card-overlay': layout === 'overlay' }]} data-reveal>
+  <a class="editorial-card-link" href={href} aria-label={`${title}，查看详情`}>
+    <div class="editorial-card-image">
+      <picture>
+        <source media="(max-width: 700px)" srcset={small} />
+        <img src={image} alt={imageAlt} loading="lazy" decoding="async" />
+      </picture>
+      <span class="editorial-card-index">{index}</span>
+      {mediaLabel && <span class="editorial-card-media-note">{mediaLabel}</span>}
+    </div>
+    <div class="editorial-card-copy">
+      <span class="editorial-card-topic">{topic}</span>
+      <h3>{title}</h3>
+      {layout === 'overlay' && <span class="editorial-card-rule" aria-hidden="true"></span>}
+      <p>{summary}</p>
+      <span class="editorial-card-arrow" aria-hidden="true">
+        ↗
+      </span>
+    </div>
+  </a>
+</article>

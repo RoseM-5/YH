@@ -1,0 +1,7 @@
+# YH-1000 首页展示图生成记录
+
+工具：内置 imagegen。输入：用户提供的 `5d5f7dd3d504cea2500eeb35e2d2608d.jpg` 与 `8e043372bdfa9a389eb81507e9ef3520.jpg`。输出：`public/media/products/yh/YH-1000_user_render.png`，透明背景的二维展示图；不是 CAD 或可旋转三维模型。
+
+最终提示词：
+
+> Use case: product-mockup. Create one high-resolution photorealistic 3D-style product render on a fully transparent background for a website banner. Image 1 and Image 2 are user-provided views of the exact YH-1000 aircraft; use BOTH as strict shape and finish references. Subject: a single matte black compact delta-wing fixed-wing UAV with a long central tapered fuselage, sharply pointed nose, broad triangular swept wings, dark rear tail/wingtip geometry, small blue fasteners seen on the supplied photos, and a metallic circular rear propulsion outlet. Keep the distinctive black flying-wing silhouette and relative proportions from the supplied images. Show an elevated three-quarter top view with the nose oriented toward the upper right and the wings spread widely, composed wider than tall so it fits a horizontal website feature banner. Preserve realistic material texture and lighting; subtle studio highlights only. Remove the white photographic background and the display stand. No text, no logo, no other aircraft, no runway, no new equipment or invented markings. Do not depict the earlier gray straight-wing runway aircraft. Keep transparent padding around the complete aircraft with no cropping. The result is a visualization derived from these user reference photos, not a specification diagram.

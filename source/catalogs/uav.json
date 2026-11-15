@@ -1,0 +1,1567 @@
+{
+  "source_pdf": "UAV_CN&ENG.pdf",
+  "source_pages": 15,
+  "extraction_note": "Bilingual source text and figures are preserved. Page 1 cover images are kept separately. Raster description and payload-module panels remain image assets where reliable OCR text was unavailable.",
+  "products": [
+    {
+      "model": "Y-140",
+      "source_page": 2,
+      "category_original": "察侦打击系列 / Loitering Munitions",
+      "description_original_zh": "Y-140 是一款专为远程任务设计的高性能低成本无人机，具备灵活部署、强隐身性与大载荷能力，可满足多样化战术需求。\n多款发射装置适配：可火箭助推、车载起飞，适应多样化任务场景。\n低信号特征：雷达反射面积小，难以被侦测。\n低成本可持续：低成本，可消耗，适合大规模部署，集群发射可形成饱和模式。",
+      "description_original_en": "Multiple launcher compatibility: Supports rocket-assisted launch and vehicle-borne takeoff, adaptable to diverse mission scenarios.\nLow signature: Small radar cross-section, hard to detect.\nCost-effective and sustainable: Low cost and expendable, suitable for large-scale deployment. Salvo launches of swarms can achieve saturation attack.",
+      "specifications": [
+        {
+          "name_original": "MTOW (summary)",
+          "value_original": "150kg"
+        },
+        {
+          "name_original": "Payload (summary)",
+          "value_original": "50kg"
+        },
+        {
+          "name_original": "Fight time (summary)",
+          "value_original": "6h"
+        },
+        {
+          "name_original": "Max range (summary)",
+          "value_original": "1000km"
+        },
+        {
+          "name_original": "Overall Length",
+          "value_original": "2480mm"
+        },
+        {
+          "name_original": "Height",
+          "value_original": "425mm"
+        },
+        {
+          "name_original": "Wingspan",
+          "value_original": "2150mm"
+        },
+        {
+          "name_original": "Airframe Material",
+          "value_original": "航空碳纤维复合材料 (Aviation Carbon Fiber Composite Material)"
+        },
+        {
+          "name_original": "Engine",
+          "value_original": "活塞发动机 (Piston Engine)"
+        },
+        {
+          "name_original": "Payload Capacity",
+          "value_original": "50kg"
+        },
+        {
+          "name_original": "Maximum Safe Takeoff Weight",
+          "value_original": "150kg"
+        },
+        {
+          "name_original": "Safe Level Flight Speed",
+          "value_original": "40-65m/s"
+        },
+        {
+          "name_original": "Cruise Speed",
+          "value_original": "50m/s"
+        },
+        {
+          "name_original": "Dive Speed",
+          "value_original": "58m/s"
+        },
+        {
+          "name_original": "Comprehensive Fuel Consumption",
+          "value_original": "10L/h"
+        },
+        {
+          "name_original": "Practical Ceiling",
+          "value_original": "4000m"
+        },
+        {
+          "name_original": "Operating Temperature",
+          "value_original": "-20℃-55℃"
+        },
+        {
+          "name_original": "Wind Resistance Level",
+          "value_original": "起降5级/飞行6级 (Level 5 for takeoff and landing / Level 6 for flight)"
+        },
+        {
+          "name_original": "Takeoff Mode",
+          "value_original": "火箭助推/车载起飞 (Rocket-assisted / vehicle-mounted takeoff)"
+        }
+      ],
+      "notes": "The source uses 'Fight time' in the top summary; preserved verbatim.",
+      "source_page_png": "UAV_CN&ENG_page-02.png",
+      "source_text_file": "source_text/page-02.txt",
+      "images": [
+        "images/page-02_image-11.jpg",
+        "images/page-02_image-12.jpg",
+        "images/page-02_image-13.jpg"
+      ]
+    },
+    {
+      "model": "Y-051",
+      "source_page": 3,
+      "category_original": "巡飞弹系列 / Loitering Munition",
+      "description_original_zh": "Y-051是一款可单兵背负执行任务的全电驱动巡飞平台，具备自主程控飞行编队、导航与通信抗干扰、测控通信频点可调等核心能力，单个集群最多支持64架编队飞行，同时拥有光学侦查观测、多路图像实时回传、任务回收及多重自主安控功能，可搭载多种任务载荷，放飞成功率高，是一款适配单兵作战的智能巡飞装备。\n性能特点：稳定性好、流线设计、高通信带宽、单兵背负。\n功能特点：任务规划、仿真飞行、编队飞行、察打一体。",
+      "description_original_en": "Performance Features: High stability, streamlined design, high communication bandwidth, man-portable for individual soldiers.\nFunctional Features: Mission planning, simulated flight, formation flight, integrated reconnaissance and strike.",
+      "specifications": [
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "20m (相对高度) (20m (relative height))"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "64机 (64 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长0.9m，翼展1.2m (Length 0.9m, Wingspan 1.2m)"
+        },
+        {
+          "name_original": "Takeoff and Launch Mode",
+          "value_original": "冷气/燃气发射 (Cold gas/gas launch)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "40m/s"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "4000m (海拔) (4000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "110km"
+        },
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "5级风 (Level 5 wind)"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "1kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "6.5kg"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-03.png",
+      "source_text_file": "source_text/page-03.txt",
+      "images": [
+        "images/page-03_image-14.jpg",
+        "images/page-03_image-15.jpg"
+      ]
+    },
+    {
+      "model": "Y-101",
+      "source_page": 4,
+      "category_original": "巡飞弹系列 / Loitering Munition",
+      "description_original_zh": "Y-101 是一款全电驱动的巡飞平台，具备任务规划、仿真飞行及自主程控飞行编队能力，单集群最多支持64机编队，拥有导航与通信抗干扰、测控通信频点可调特性，具备光学侦查观测、多路图像实时回传能力，配备回收及多重自主安控措施，可稳定完成各类巡飞任务，放飞成功率高。\n性能特点：稳定性好、流线设计、高通信带宽、抗干扰、抗风力强。\n功能特点：任务规划、仿真飞行、编队飞行、察打一体、伞降回收。",
+      "description_original_en": "Performance Features: Excellent stability, streamlined design, high communication bandwidth, anti-jamming capability and strong wind resistance.\nFunctional Features: Mission planning, simulated flight, formation flight, integrated reconnaissance and strike, parachute recovery.",
+      "specifications": [
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "20m (相对高度) (20m (relative height))"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "64机 (64 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长1.1m，翼展1.4m (Length 1.1m, Wingspan 1.4m)"
+        },
+        {
+          "name_original": "Takeoff and Landing Mode",
+          "value_original": "冷气/燃气发射，滑降/伞降回收 (Cold gas/gas launch, gliding/parachute recovery)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "50m/s"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "5000m (海拔) (5000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "180km"
+        },
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "6级风 (Level 6 wind)"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "2kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "10kg"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-04.png",
+      "source_text_file": "source_text/page-04.txt",
+      "images": [
+        "images/page-04_image-16.jpg",
+        "images/page-04_image-18.jpg"
+      ]
+    },
+    {
+      "model": "Y-201",
+      "source_page": 5,
+      "category_original": "巡飞弹系列 / Loitering Munition",
+      "description_original_zh": "Y-201 是一款全电驱动且具备长航时飞行能力的巡飞平台，除拥有任务规划、仿真飞行、自主程控飞行编队能力外，还具备导航通信抗干扰、卫星导航防欺骗、测控通信频点可调特性，单集群最多支持64机编队，配备光学侦查观测、多路图像实时回传功能，拥有完善的回收及自主安控措施，可搭载多种类型载荷，放飞成功率高，适配多样化战术巡飞任务。\n性能特点：长航时、稳定性好、流线设计、高带宽、抗干扰、防欺骗。\n功能特点：任务规划、仿真飞行、编队飞行、察打一体、伞降回收、多载荷适配。",
+      "description_original_en": "Performance Features: Long endurance, high stability, streamlined design, high bandwidth, anti-jamming and anti-deception capabilities.\nFunctional Features: Mission planning, simulated flight, formation flight, integrated reconnaissance and strike, parachute recovery, multi-payload compatibility.",
+      "specifications": [
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "20m (相对高度) (20m (relative height))"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "64机 (64 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长1.7m，翼展2.3m (Length 1.7m, Wingspan 2.3m)"
+        },
+        {
+          "name_original": "Takeoff and Launch Mode",
+          "value_original": "冷气/燃气发射 (Cold gas/gas launch)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "50m/s"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "5000m (海拔) (5000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "320km"
+        },
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "6级风 (Level 6 wind)"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "5kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "22kg"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-05.png",
+      "source_text_file": "source_text/page-05.txt",
+      "images": [
+        "images/page-05_image-19.jpg",
+        "images/page-05_image-20.jpg"
+      ]
+    },
+    {
+      "model": "Y-350",
+      "source_page": 6,
+      "category_original": "察侦打击系列 / Reconnaissance-Strike Integration",
+      "description_original_zh": "Y-350 主要应用于单兵作战，是一款高效、便捷、精准、单兵“智能弹药”。使用者随身携带（类似手榴弹携行包），通过抛飞或发射筒进行快速部署，根据需要使用单架无人机或由4架无人机组成小群作战。",
+      "description_original_en": "It is carried by operators in a pouch similar to a grenade carrier. It can be rapidly deployed by hand-throwing or via a launcher. Operators may employ a single drone or a swarm of four drones for combat missions as required.",
+      "specifications": [
+        {
+          "name_original": "Weight",
+          "value_original": "550g"
+        },
+        {
+          "name_original": "Overall Dimensions",
+          "value_original": "Φ56mm×260mm (折叠收纳) (Φ56mm×260mm (folded and stored))"
+        },
+        {
+          "name_original": "Mission Payload",
+          "value_original": "60g (30gZDB)"
+        },
+        {
+          "name_original": "Maximum Flight Speed",
+          "value_original": "≥20m/s"
+        },
+        {
+          "name_original": "Endurance Flight Time",
+          "value_original": "≥20min"
+        },
+        {
+          "name_original": "Strike Accuracy",
+          "value_original": "≤Φ3m (CEP)"
+        },
+        {
+          "name_original": "Recognition Distance for Typical Personnel Target",
+          "value_original": "≥50m (可见光) (≥50m (visible light))"
+        },
+        {
+          "name_original": "Communication Distance",
+          "value_original": "3km"
+        },
+        {
+          "name_original": "Networking Nodes",
+          "value_original": "≥5 个 (选配 20 个节点) (≥5 nodes (20 nodes optional))"
+        },
+        {
+          "name_original": "Deployment Mode",
+          "value_original": "弹射 / 抛飞 (Catapult / Hand launch)"
+        },
+        {
+          "name_original": "Visible Light",
+          "value_original": "≥1280×720 (电子变焦) (≥1280×720 (digital zoom))"
+        },
+        {
+          "name_original": "Visible Light Operating Distance",
+          "value_original": "50m 外的 1.8m×0.5m 的目标 (Target of 1.8m×0.5m at 50m away)"
+        },
+        {
+          "name_original": "System Configuration",
+          "value_original": "无人机 UAV; 便携控制站 Controller; 发射筒（可选） Launch Tube (Optional)"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-06.png",
+      "source_text_file": "source_text/page-06.txt",
+      "images": [
+        "images/page-06_image-21.jpg",
+        "images/page-06_image-22.jpg",
+        "images/page-06_image-23.jpg",
+        "images/page-06_image-24.jpg",
+        "images/page-06_image-25.jpg"
+      ]
+    },
+    {
+      "model": "Y-280",
+      "source_page": 7,
+      "category_original": "靶机系列 / Target Drone",
+      "description_original_zh": "Y-280型无人机是一款具有一定机动能力和RCS特征的高亚音速无人机，采用火箭助推起飞伞降回收，具备自主飞行和一站多机编队飞行能力，可装载龙伯球、曳光管、主动雷达导引头模拟设备、伴随式有源干扰设备，逼真模拟“四代战机”“隐身巡航导弹”等亚声速导弹的航路规划、机动突防、攻击方式等特征。\n产品定位：能够满足部队打靶试验以及防空雷达、电侦雷达的日常训练等需求。\n派生型号：陆用型、海用型、高原型；红外增强型、雷达增强型、机动型、隐身型、干扰型、抗干扰型。",
+      "description_original_en": "It can meet the requirements of troop target practice tests and routine training for air defense radars and electronic intelligence radars.",
+      "specifications": [
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "5级风 (Level 5 wind)"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "30机 (30 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长4.5米，翼展1.7米 (Length 4.5m, Wingspan 1.7m)"
+        },
+        {
+          "name_original": "Takeoff and Landing Mode",
+          "value_original": "支持陆地/舰载火箭助推起飞，陆地/海上伞降回收 (Supports land/shipborne rocket-assisted takeoff, land/sea parachute recovery)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "280m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "10m (relative height at sea); 50m (relative height on land)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "12000m (海拔) (12000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Maneuvering Overload",
+          "value_original": "8g"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "800km"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "25kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "200kg"
+        },
+        {
+          "name_original": "Engine Thrust",
+          "value_original": "120kgf"
+        },
+        {
+          "name_original": "RCS (Radar Cross Section)",
+          "value_original": "Bare aircraft ≤0.01m² (X/Ku band, forward ±30°); Luneburg lens can be installed to increase RCS to 2-3 square meters"
+        },
+        {
+          "name_original": "Maneuver Modes",
+          "value_original": "Steady turn, S-type sharp turn, half roll reversal, barrel roll, heading 180° + dive, etc."
+        },
+        {
+          "name_original": "Equipment",
+          "value_original": "曳光管、龙伯球、伴随式有源干扰设备、主动雷达导引头模拟设备、达导引头模拟设备、脱靶量指示器、抗干扰卫星定位"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-07.png",
+      "source_text_file": "source_text/page-07.txt",
+      "images": [
+        "images/page-07_image-26.jpg",
+        "images/page-07_image-32.jpg"
+      ]
+    },
+    {
+      "model": "Y-240",
+      "source_page": 8,
+      "category_original": "靶机系列 / Target Drone",
+      "description_original_zh": "Y-240型靶机是一款具有一定机动能力和RCS特征的亚音速靶机，采用火箭助推起飞伞降回收，具备自主飞行和一站多机编队飞行能力，可装载龙伯球、曳光管、主动雷达导引头模拟设备、伴随式有源干扰设备。\n产品定位：用于模拟三四代典型战机和“战斧”等亚音速巡航导弹的尺寸、速度、雷达散射特性和对抗能力等目标特性，满足武器装备试验和部队打靶日常训练用靶等任务需求。\n派生型号：陆用型、海用型、高原型；红外增强型、雷达增强型、机动型、隐身型、干扰型、抗干扰型。",
+      "description_original_en": "It simulates typical 3rd and 4th-generation fighter jets as well as subsonic cruise missiles such as Tomahawk, replicating their target characteristics including dimensions, speed, radar cross section and countermeasure capabilities. It fulfills mission requirements for weapon equipment tests and routine live-fire training of troops.",
+      "specifications": [
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "5级风 (Level 5 wind)"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "30机 (30 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长3.5米，翼展1.5米 (Length 3.5m, Wingspan 1.5m)"
+        },
+        {
+          "name_original": "Takeoff and Landing Mode",
+          "value_original": "支持陆地/舰载火箭助推起飞，陆地/海上伞降回收 (Supports land/shipborne rocket-assisted takeoff, land/sea parachute recovery)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "250m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "10m (relative height at sea); 50m (relative height on land)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "10000m (海拔) (10000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Maneuvering Overload",
+          "value_original": "6g"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "500km"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "15kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "140kg"
+        },
+        {
+          "name_original": "Engine Thrust",
+          "value_original": "90kgf"
+        },
+        {
+          "name_original": "RCS (Radar Cross Section)",
+          "value_original": "Bare aircraft ≤0.01m² (X/Ku band, forward ±30°); Luneburg lens can be installed to increase RCS to 2-3 square meters"
+        },
+        {
+          "name_original": "Maneuver Modes",
+          "value_original": "Steady turn, S-type sharp turn, half roll reversal, barrel roll, heading 180° + dive, etc."
+        },
+        {
+          "name_original": "Equipment",
+          "value_original": "曳光管、龙伯球、伴随式有源干扰设备、主动雷达导引头模拟设备"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-08.png",
+      "source_text_file": "source_text/page-08.txt",
+      "images": [
+        "images/page-08_image-38.jpg",
+        "images/page-08_image-39.jpg"
+      ]
+    },
+    {
+      "model": "Y-150",
+      "source_page": 9,
+      "category_original": "靶机系列 / Target Drone",
+      "description_original_zh": "Y-150无人机是一款小型、中速且具有一定机动能力和低RCS特征的无人机，此款机型目前为国内训练的主流靶机。采用火箭助推加伞降回收，气囊减震，具备自主飞行和地面站控制飞行能力、多机编队飞行能力。\n产品定位：可模拟携带自卫干扰舱的作战飞机，可用于部队雷达、高炮、导弹训练、任务演习及科研试验等。\n派生型号：陆用型、海用型、高原型；红外增强型、雷达增强型、机动型、干扰型。",
+      "description_original_en": "It can simulate combat aircraft equipped with self-defense jamming pods, and is applicable to troop training for radar, anti-aircraft artillery and missile systems, mission drills as well as scientific research tests.",
+      "specifications": [
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "5级风 (Level 5 wind)"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "30机 (30 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长3.2米，翼展1.6米 (Length 3.2m, Wingspan 1.6m)"
+        },
+        {
+          "name_original": "Takeoff and Landing Mode",
+          "value_original": "支持陆地/舰载火箭助推起飞，陆地/海上伞降回收 (Supports land/shipborne rocket-assisted takeoff, land/sea parachute recovery)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "200m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "50m (relative height at sea); 100m (relative height on land)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "7000m (海拔) (7000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Maneuvering Overload",
+          "value_original": "4g"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "500km"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "10kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "80kg"
+        },
+        {
+          "name_original": "Engine Thrust",
+          "value_original": "40kgf"
+        },
+        {
+          "name_original": "RCS (Radar Cross Section)",
+          "value_original": "0.1-3m²"
+        },
+        {
+          "name_original": "Maneuver Modes",
+          "value_original": "稳盘、S型急转弯 (Steady turn, S-type sharp turn)"
+        },
+        {
+          "name_original": "Equipment",
+          "value_original": "曳光管、龙伯球、伴随式有源干扰设备、主动雷达导引头模拟设备"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-09.png",
+      "source_text_file": "source_text/page-09.txt",
+      "images": [
+        "images/page-09_image-40.jpg",
+        "images/page-09_image-46.jpg"
+      ]
+    },
+    {
+      "model": "Y-70",
+      "source_page": 10,
+      "category_original": "靶机系列 / Target Drone",
+      "description_original_zh": "Y-70无人机是一款具有垂直起飞、火箭助推起飞两种起飞方式的小型低速靶机。系统安装等部分采用独特的快速卡连接结构，拆装简便，可在10分钟内完成组装、调试和回收，无需专用工具。具有完整的意外情况保护措施，包括姿态异常保护、高度异常保护、定位精度低保护、超出航线安全围栏保护、通讯中断超时保护等。\n产品定位：用于模拟低慢小和直升机目标，用于防空火炮、便携式防空导弹和直升机空空导弹测试及训练。\n派生型号：陆用型、高原型；火箭助推型、垂直起降型。",
+      "description_original_en": "It is used to simulate low, slow and small targets as well as helicopters, supporting the testing and training of anti-aircraft artillery, man-portable air-defense systems and air-to-air missiles carried by helicopters.",
+      "specifications": [
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "5级风 (Level 5 wind)"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "30机 (30 aircraft)"
+        },
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "机长2.2米，翼展2.6米 (Length 2.2m, Wingspan 2.6m)"
+        },
+        {
+          "name_original": "Takeoff and Landing Mode",
+          "value_original": "支持垂直起飞/火箭助推陆地/伞降回收 (Supports Vertical takeoff / Rocket-assisted launch, land recovery / Parachute recovery)"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "70m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "50m (relative height at sea); 100m (relative height on land)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "5000m (海拔) (5000m (above sea level))"
+        },
+        {
+          "name_original": "Maximum Maneuvering Overload",
+          "value_original": "2g"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "400km"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "8kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "60kg"
+        },
+        {
+          "name_original": "Engine Thrust",
+          "value_original": "18kgf"
+        },
+        {
+          "name_original": "RCS (Radar Cross Section)",
+          "value_original": "1-2m²"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-10.png",
+      "source_text_file": "source_text/page-10.txt",
+      "images": [
+        "images/page-10_image-47.jpg",
+        "images/page-10_image-52.jpg"
+      ]
+    },
+    {
+      "model": "Y-500",
+      "source_page": 11,
+      "category_original": "油动复合翼无人机 / Fuel-powered Hybrid-wing UAV",
+      "description_original_zh": null,
+      "description_original_en": null,
+      "specifications": [
+        {
+          "name_original": "Takeoff Weight",
+          "value_original": "150 kg"
+        },
+        {
+          "name_original": "Mission Payload",
+          "value_original": "40 kg"
+        },
+        {
+          "name_original": "Cruise Airspeed",
+          "value_original": "130-160 km/h"
+        },
+        {
+          "name_original": "VTOL Power",
+          "value_original": "Electric motor"
+        },
+        {
+          "name_original": "Cruise Power",
+          "value_original": "Fuel engine"
+        },
+        {
+          "name_original": "Maximum Endurance",
+          "value_original": "4h"
+        },
+        {
+          "name_original": "Wingspan",
+          "value_original": "5m"
+        },
+        {
+          "name_original": "Fuselage Length",
+          "value_original": "3.2 m"
+        },
+        {
+          "name_original": "Maximum Takeoff Altitude",
+          "value_original": "4000 m"
+        },
+        {
+          "name_original": "Service Ceiling",
+          "value_original": "5000 m"
+        },
+        {
+          "name_original": "Wind Resistance",
+          "value_original": "10 m/s (Level 5 wind)"
+        },
+        {
+          "name_original": "Takeoff/Landing Mode",
+          "value_original": "Fully automatic VTOL (with RTK positioning)"
+        },
+        {
+          "name_original": "Data & Video Link Range",
+          "value_original": "20-50 km"
+        },
+        {
+          "name_original": "Payload Resolution",
+          "value_original": "Visible light: 19201080; Thermal imaging: 645512"
+        },
+        {
+          "name_original": "Zoom Capability",
+          "value_original": "Visible light: 30× optical zoom"
+        },
+        {
+          "name_original": "Real-time Video Resolution",
+          "value_original": "1080P @ 30 fps"
+        },
+        {
+          "name_original": "Ground Control Station",
+          "value_original": "Portable control station"
+        },
+        {
+          "name_original": "Crew",
+          "value_original": "2 persons"
+        },
+        {
+          "name_original": "Mission Payload Interface",
+          "value_original": "Modular design, customizable according to customer interface requirements"
+        }
+      ],
+      "notes": "The source text layer displays resolution digits without multiplication signs; a raster Chinese table is kept among extracted images for checking.",
+      "source_page_png": "UAV_CN&ENG_page-11.png",
+      "source_text_file": "source_text/page-11.txt",
+      "images": [
+        "images/page-11_image-53.jpg",
+        "images/page-11_image-54.jpg"
+      ]
+    },
+    {
+      "model": "Y-200",
+      "source_page": 12,
+      "category_original": "轻型复合翼无人机 / Lightweight Hybrid-wing UAV",
+      "description_original_zh": null,
+      "description_original_en": null,
+      "specifications": [
+        {
+          "name_original": "Wingspan",
+          "value_original": "2.5 m"
+        },
+        {
+          "name_original": "Fuselage Length",
+          "value_original": "1.45 m"
+        },
+        {
+          "name_original": "Total Weight",
+          "value_original": "Empty weight ≤ 4.5 kg; Maximum takeoff weight ≤ 7.5 kg"
+        },
+        {
+          "name_original": "Mission Payload",
+          "value_original": "EO pod / Orthophoto camera / Multispectral camera (optional)"
+        },
+        {
+          "name_original": "Assembly Time",
+          "value_original": "≤ 5 min"
+        },
+        {
+          "name_original": "Power Type",
+          "value_original": "Electric"
+        },
+        {
+          "name_original": "Endurance",
+          "value_original": "2h"
+        },
+        {
+          "name_original": "Cruise Speed",
+          "value_original": "72 km/h"
+        },
+        {
+          "name_original": "Control Radius",
+          "value_original": "30 km"
+        },
+        {
+          "name_original": "Takeoff & Landing Mode",
+          "value_original": "Fully automatic VTOL (Vertical Takeoff and Landing)"
+        },
+        {
+          "name_original": "Payload Capacity",
+          "value_original": "≤ 1.2 kg"
+        },
+        {
+          "name_original": "Service Ceiling",
+          "value_original": "4500 m"
+        },
+        {
+          "name_original": "Wind Resistance",
+          "value_original": "Fixed-wing mode: Level 6 wind; Multirotor mode: Level 4 wind"
+        },
+        {
+          "name_original": "Climb Rate",
+          "value_original": "5 m/s"
+        },
+        {
+          "name_original": "Transport Case Dimensions",
+          "value_original": "1200 mm × 420 mm × 390 mm"
+        },
+        {
+          "name_original": "Operating Temperature",
+          "value_original": "-10℃ ~ +45℃"
+        }
+      ],
+      "notes": null,
+      "source_page_png": "UAV_CN&ENG_page-12.png",
+      "source_text_file": "source_text/page-12.txt",
+      "images": [
+        "images/page-12_image-55.jpg",
+        "images/page-12_image-56.jpg",
+        "images/page-12_image-57.jpg",
+        "images/page-12_image-58.jpg"
+      ]
+    },
+    {
+      "model": "Y-40",
+      "source_page": 13,
+      "category_original": "四旋翼无人机 / Quadcopter UAV",
+      "description_original_zh": null,
+      "description_original_en": null,
+      "specifications": [
+        {
+          "name_original": "Wheelbase (Quadrotor) / Span",
+          "value_original": "1.6 m"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "≥ 15 kg"
+        },
+        {
+          "name_original": "Maximum Flight Speed",
+          "value_original": "15 m/s"
+        },
+        {
+          "name_original": "Maximum Climb Rate",
+          "value_original": "5 m/s"
+        },
+        {
+          "name_original": "Endurance",
+          "value_original": "70 min (with 1 kg payload)"
+        },
+        {
+          "name_original": "Relative Flight Altitude",
+          "value_original": "≥ 1000 m"
+        },
+        {
+          "name_original": "Safe Payload Capacity",
+          "value_original": "≤ 5 kg"
+        },
+        {
+          "name_original": "Communication Frequency",
+          "value_original": "900 MHz"
+        },
+        {
+          "name_original": "Navigation System",
+          "value_original": "Single-point GPS + Differential (RTK)"
+        },
+        {
+          "name_original": "Maximum Wind Resistance",
+          "value_original": "Level 6"
+        },
+        {
+          "name_original": "Power Source",
+          "value_original": "Power battery"
+        },
+        {
+          "name_original": "Takeoff & Landing Mode",
+          "value_original": "Vertical Takeoff and Landing (VTOL)"
+        },
+        {
+          "name_original": "Hovering Accuracy",
+          "value_original": "Horizontal: ±1 m / Vertical: ±0.5 m"
+        },
+        {
+          "name_original": "Ground Control Station",
+          "value_original": "Portable control station"
+        },
+        {
+          "name_original": "Operating Temperature",
+          "value_original": "-20℃ ~ +45℃"
+        },
+        {
+          "name_original": "Video & Data Link Range",
+          "value_original": "15–20 km"
+        }
+      ],
+      "notes": "The page contains a separate raster payload-module diagram, preserved among the extracted images.",
+      "source_page_png": "UAV_CN&ENG_page-13.png",
+      "source_text_file": "source_text/page-13.txt",
+      "images": [
+        "images/page-13_image-59.jpg",
+        "images/page-13_image-60.jpg",
+        "images/page-13_image-61.jpg"
+      ]
+    },
+    {
+      "model": "Y-60",
+      "source_page": 14,
+      "category_original": "多旋翼无人机 / Multirotor UAV",
+      "description_original_zh": null,
+      "description_original_en": null,
+      "specifications": [
+        {
+          "name_original": "Wheelbase",
+          "value_original": "1.7 m"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "28 kg"
+        },
+        {
+          "name_original": "Maximum Flight Speed",
+          "value_original": "15 m/s"
+        },
+        {
+          "name_original": "Maximum Climb Rate",
+          "value_original": "5 m/s"
+        },
+        {
+          "name_original": "System Endurance",
+          "value_original": "24 h (with 5 kg payload)"
+        },
+        {
+          "name_original": "Service Ceiling",
+          "value_original": "5000 m"
+        },
+        {
+          "name_original": "Control Radius",
+          "value_original": "20 km"
+        },
+        {
+          "name_original": "Communication Frequency",
+          "value_original": "900 MHz"
+        },
+        {
+          "name_original": "Navigation System",
+          "value_original": "Single-point GPS + Differential (DGPS/RTK)"
+        },
+        {
+          "name_original": "Maximum Wind Resistance",
+          "value_original": "Level 6"
+        },
+        {
+          "name_original": "Powerplant Type",
+          "value_original": "Electric motor"
+        },
+        {
+          "name_original": "Takeoff & Landing Mode",
+          "value_original": "Vertical Takeoff and Landing (VTOL)"
+        },
+        {
+          "name_original": "Crew",
+          "value_original": "2 persons"
+        },
+        {
+          "name_original": "Ground Control Station",
+          "value_original": "Portable control station"
+        },
+        {
+          "name_original": "Operating Temperature",
+          "value_original": "-20℃ ~ +45℃"
+        },
+        {
+          "name_original": "Video & Data Link Range",
+          "value_original": "15–20 km"
+        }
+      ],
+      "notes": "The source states 24 h system endurance; value preserved as printed. A raster payload-module diagram is retained among images.",
+      "source_page_png": "UAV_CN&ENG_page-14.png",
+      "source_text_file": "source_text/page-14.txt",
+      "images": [
+        "images/page-14_image-62.jpg",
+        "images/page-14_image-63.jpg",
+        "images/page-14_image-64.jpg"
+      ]
+    },
+    {
+      "model": "Y-80",
+      "source_page": 15,
+      "category_original": "多旋翼无人机 / Multirotor UAV",
+      "description_original_zh": null,
+      "description_original_en": null,
+      "specifications": [
+        {
+          "name_original": "Wingspan (Wheelbase)",
+          "value_original": "2 m"
+        },
+        {
+          "name_original": "Endurance",
+          "value_original": "≥ 50 min (with 10 kg payload)"
+        },
+        {
+          "name_original": "Maximum Payload Capacity",
+          "value_original": "≥ 23 kg"
+        },
+        {
+          "name_original": "Power Source",
+          "value_original": "Electric"
+        },
+        {
+          "name_original": "Maximum Takeoff Altitude",
+          "value_original": "5000 m"
+        },
+        {
+          "name_original": "Relative Flight Altitude",
+          "value_original": "1000 m"
+        },
+        {
+          "name_original": "Positioning Accuracy",
+          "value_original": "0.05 m"
+        },
+        {
+          "name_original": "Gimbal Pointing Accuracy",
+          "value_original": "Better than 1° in both azimuth and pitch (under Level 5 wind)"
+        },
+        {
+          "name_original": "Crew",
+          "value_original": "2 persons"
+        },
+        {
+          "name_original": "Wind Resistance",
+          "value_original": "Level 6 wind"
+        },
+        {
+          "name_original": "Operating Temperature",
+          "value_original": "-10℃ ~ +45℃"
+        },
+        {
+          "name_original": "Takeoff & Landing Mode",
+          "value_original": "Vertical Takeoff and Landing (VTOL)"
+        },
+        {
+          "name_original": "Control Radius",
+          "value_original": "≥ 10 km"
+        },
+        {
+          "name_original": "Electromagnetic Protection",
+          "value_original": "Requirements refer to GJB1389A for fixed-wing aircraft; external environment value 2600 V/m (peak)"
+        },
+        {
+          "name_original": "Ground Control Station",
+          "value_original": "Portable control station"
+        }
+      ],
+      "notes": "The raster description panel says 'ZY-80' while the vector page heading says 'Y-80'. The panel is saved as an image; no uncertain OCR transcription is invented.",
+      "source_page_png": "UAV_CN&ENG_page-15.png",
+      "source_text_file": "source_text/page-15.txt",
+      "images": [
+        "images/page-15_image-65.jpg",
+        "images/page-15_image-66.jpg",
+        "images/page-15_image-67.jpg"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source_page": 1,
+      "source_image_number": 0,
+      "source_object_id": 7,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover aircraft rendering 1",
+      "file": "cover_assets/page-01_image-00.jpg",
+      "width": 387,
+      "height": 218
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 1,
+      "source_object_id": 8,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover hybrid-wing aircraft",
+      "file": "cover_assets/page-01_image-01.jpg",
+      "width": 1227,
+      "height": 695
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 2,
+      "source_object_id": 9,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover compact UAV",
+      "file": "cover_assets/page-01_image-02.jpg",
+      "width": 216,
+      "height": 289
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 3,
+      "source_object_id": 14,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover red target drone",
+      "file": "cover_assets/page-01_image-03.jpg",
+      "width": 359,
+      "height": 270
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 4,
+      "source_object_id": 15,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover loitering aircraft",
+      "file": "cover_assets/page-01_image-04.jpg",
+      "width": 460,
+      "height": 221
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 5,
+      "source_object_id": 16,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover target drone on launcher",
+      "file": "cover_assets/page-01_image-05.jpg",
+      "width": 412,
+      "height": 290
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 6,
+      "source_object_id": 17,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover quadcopter top view",
+      "file": "cover_assets/page-01_image-06.jpg",
+      "width": 234,
+      "height": 273
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 7,
+      "source_object_id": 18,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover hybrid-wing front view",
+      "file": "cover_assets/page-01_image-07.jpg",
+      "width": 638,
+      "height": 222
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 8,
+      "source_object_id": 19,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover multirotor top view",
+      "file": "cover_assets/page-01_image-08.jpg",
+      "width": 462,
+      "height": 390
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 9,
+      "source_object_id": 20,
+      "model": null,
+      "role": "cover_product",
+      "caption": "Cover hybrid-wing top view",
+      "file": "cover_assets/page-01_image-09.jpg",
+      "width": 456,
+      "height": 278
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 11,
+      "source_object_id": 27,
+      "model": "Y-140",
+      "role": "scene",
+      "caption": "Sunset cloud background",
+      "file": "images/page-02_image-11.jpg",
+      "width": 1191,
+      "height": 1682
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 12,
+      "source_object_id": 35,
+      "model": "Y-140",
+      "role": "scene",
+      "caption": "Y-140 aircraft over sunset clouds",
+      "file": "images/page-02_image-12.jpg",
+      "width": 1058,
+      "height": 412
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 13,
+      "source_object_id": 36,
+      "model": "Y-140",
+      "role": "product",
+      "caption": "Y-140 aircraft rendering",
+      "file": "images/page-02_image-13.jpg",
+      "width": 276,
+      "height": 182
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 14,
+      "source_object_id": 61,
+      "model": "Y-051",
+      "role": "scene",
+      "caption": "Mountain and cloud background",
+      "file": "images/page-03_image-14.jpg",
+      "width": 2380,
+      "height": 606
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 15,
+      "source_object_id": 68,
+      "model": "Y-051",
+      "role": "product",
+      "caption": "Y-051 aircraft in mountain scene",
+      "file": "images/page-03_image-15.jpg",
+      "width": 490,
+      "height": 536
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 16,
+      "source_object_id": 61,
+      "model": "Y-101",
+      "role": "scene",
+      "caption": "Mountain and cloud background",
+      "file": "images/page-04_image-16.jpg",
+      "width": 2380,
+      "height": 606
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 18,
+      "source_object_id": 84,
+      "model": "Y-101",
+      "role": "product",
+      "caption": "Y-101 aircraft in mountain scene",
+      "file": "images/page-04_image-18.jpg",
+      "width": 502,
+      "height": 440
+    },
+    {
+      "source_page": 5,
+      "source_image_number": 19,
+      "source_object_id": 61,
+      "model": "Y-201",
+      "role": "scene",
+      "caption": "Mountain and cloud background",
+      "file": "images/page-05_image-19.jpg",
+      "width": 2380,
+      "height": 606
+    },
+    {
+      "source_page": 5,
+      "source_image_number": 20,
+      "source_object_id": 89,
+      "model": "Y-201",
+      "role": "product",
+      "caption": "Y-201 aircraft in mountain scene",
+      "file": "images/page-05_image-20.jpg",
+      "width": 514,
+      "height": 450
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 21,
+      "source_object_id": 94,
+      "model": "Y-350",
+      "role": "scene",
+      "caption": "Cloud background",
+      "file": "images/page-06_image-21.jpg",
+      "width": 1191,
+      "height": 1682
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 22,
+      "source_object_id": 95,
+      "model": "Y-350",
+      "role": "accessory",
+      "caption": "Portable controller",
+      "file": "images/page-06_image-22.jpg",
+      "width": 231,
+      "height": 186
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 23,
+      "source_object_id": 96,
+      "model": "Y-350",
+      "role": "accessory",
+      "caption": "Optional launch tube",
+      "file": "images/page-06_image-23.jpg",
+      "width": 85,
+      "height": 221
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 24,
+      "source_object_id": 97,
+      "model": "Y-350",
+      "role": "product",
+      "caption": "Y-350 UAV",
+      "file": "images/page-06_image-24.jpg",
+      "width": 207,
+      "height": 276
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 25,
+      "source_object_id": 107,
+      "model": "Y-350",
+      "role": "scene",
+      "caption": "Y-350 UAV above clouds",
+      "file": "images/page-06_image-25.jpg",
+      "width": 1058,
+      "height": 514
+    },
+    {
+      "source_page": 7,
+      "source_image_number": 26,
+      "source_object_id": 118,
+      "model": "Y-280",
+      "role": "product",
+      "caption": "Y-280 on launcher",
+      "file": "images/page-07_image-26.jpg",
+      "width": 350,
+      "height": 142
+    },
+    {
+      "source_page": 7,
+      "source_image_number": 32,
+      "source_object_id": 124,
+      "model": "Y-280",
+      "role": "scene",
+      "caption": "Y-280 rocket-assisted flight outdoors",
+      "file": "images/page-07_image-32.jpg",
+      "width": 684,
+      "height": 391
+    },
+    {
+      "source_page": 8,
+      "source_image_number": 38,
+      "source_object_id": 140,
+      "model": "Y-240",
+      "role": "product",
+      "caption": "Y-240 on launcher",
+      "file": "images/page-08_image-38.jpg",
+      "width": 419,
+      "height": 295
+    },
+    {
+      "source_page": 8,
+      "source_image_number": 39,
+      "source_object_id": 141,
+      "model": "Y-240",
+      "role": "scene",
+      "caption": "Y-240 on launcher in field",
+      "file": "images/page-08_image-39.jpg",
+      "width": 730,
+      "height": 421
+    },
+    {
+      "source_page": 9,
+      "source_image_number": 40,
+      "source_object_id": 147,
+      "model": "Y-150",
+      "role": "product",
+      "caption": "Y-150 on launcher",
+      "file": "images/page-09_image-40.jpg",
+      "width": 426,
+      "height": 322
+    },
+    {
+      "source_page": 9,
+      "source_image_number": 46,
+      "source_object_id": 149,
+      "model": "Y-150",
+      "role": "scene",
+      "caption": "Y-150 on launcher in field",
+      "file": "images/page-09_image-46.jpg",
+      "width": 611,
+      "height": 462
+    },
+    {
+      "source_page": 10,
+      "source_image_number": 47,
+      "source_object_id": 154,
+      "model": "Y-70",
+      "role": "product",
+      "caption": "Y-70 aircraft rendering",
+      "file": "images/page-10_image-47.jpg",
+      "width": 667,
+      "height": 500
+    },
+    {
+      "source_page": 10,
+      "source_image_number": 52,
+      "source_object_id": 157,
+      "model": "Y-70",
+      "role": "scene",
+      "caption": "Y-70 aircraft on grass",
+      "file": "images/page-10_image-52.jpg",
+      "width": 552,
+      "height": 424
+    },
+    {
+      "source_page": 11,
+      "source_image_number": 53,
+      "source_object_id": 8,
+      "model": "Y-500",
+      "role": "product",
+      "caption": "Y-500 aircraft rendering",
+      "file": "images/page-11_image-53.jpg",
+      "width": 1227,
+      "height": 695
+    },
+    {
+      "source_page": 11,
+      "source_image_number": 54,
+      "source_object_id": 162,
+      "model": "Y-500",
+      "role": "source_table",
+      "caption": "Raster Chinese performance table",
+      "file": "images/page-11_image-54.jpg",
+      "width": 767,
+      "height": 856
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 55,
+      "source_object_id": 171,
+      "model": "Y-200",
+      "role": "scene",
+      "caption": "Y-200 aircraft on road",
+      "file": "images/page-12_image-55.jpg",
+      "width": 538,
+      "height": 324
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 56,
+      "source_object_id": 172,
+      "model": "Y-200",
+      "role": "scene",
+      "caption": "Y-200 aircraft in field",
+      "file": "images/page-12_image-56.jpg",
+      "width": 538,
+      "height": 324
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 57,
+      "source_object_id": 175,
+      "model": "Y-200",
+      "role": "scene",
+      "caption": "Y-200 aircraft in flight",
+      "file": "images/page-12_image-57.jpg",
+      "width": 804,
+      "height": 370
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 58,
+      "source_object_id": 176,
+      "model": "Y-200",
+      "role": "accessory",
+      "caption": "Payload module information image",
+      "file": "images/page-12_image-58.jpg",
+      "width": 404,
+      "height": 506
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 59,
+      "source_object_id": 181,
+      "model": "Y-40",
+      "role": "scene",
+      "caption": "Y-40 aircraft in field",
+      "file": "images/page-13_image-59.jpg",
+      "width": 534,
+      "height": 324
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 60,
+      "source_object_id": 182,
+      "model": "Y-40",
+      "role": "accessory",
+      "caption": "Payload module information image",
+      "file": "images/page-13_image-60.jpg",
+      "width": 636,
+      "height": 394
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 61,
+      "source_object_id": 17,
+      "model": "Y-40",
+      "role": "product",
+      "caption": "Y-40 quadcopter top view",
+      "file": "images/page-13_image-61.jpg",
+      "width": 234,
+      "height": 273
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 62,
+      "source_object_id": 193,
+      "model": "Y-60",
+      "role": "scene",
+      "caption": "Y-60 aircraft in sky",
+      "file": "images/page-14_image-62.jpg",
+      "width": 547,
+      "height": 262
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 63,
+      "source_object_id": 194,
+      "model": "Y-60",
+      "role": "scene",
+      "caption": "Y-60 aircraft near building",
+      "file": "images/page-14_image-63.jpg",
+      "width": 548,
+      "height": 325
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 64,
+      "source_object_id": 195,
+      "model": "Y-60",
+      "role": "accessory",
+      "caption": "Payload module information image",
+      "file": "images/page-14_image-64.jpg",
+      "width": 768,
+      "height": 410
+    },
+    {
+      "source_page": 15,
+      "source_image_number": 65,
+      "source_object_id": 200,
+      "model": "Y-80",
+      "role": "scene",
+      "caption": "Y-80 aircraft in flight",
+      "file": "images/page-15_image-65.jpg",
+      "width": 752,
+      "height": 356
+    },
+    {
+      "source_page": 15,
+      "source_image_number": 66,
+      "source_object_id": 201,
+      "model": "Y-80",
+      "role": "scene",
+      "caption": "Y-80 aircraft with operators in field",
+      "file": "images/page-15_image-66.jpg",
+      "width": 595,
+      "height": 379
+    },
+    {
+      "source_page": 15,
+      "source_image_number": 67,
+      "source_object_id": 202,
+      "model": "Y-80",
+      "role": "description_image",
+      "caption": "Raster Chinese description panel labeled ZY-80",
+      "file": "images/page-15_image-67.jpg",
+      "width": 820,
+      "height": 326
+    }
+  ]
+}

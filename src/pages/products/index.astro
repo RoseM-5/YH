@@ -1,0 +1,145 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import catalog from '../../data/products.json';
+import '../../styles/catalog.css';
+const { categories, products } = catalog;
+---
+
+<SiteLayout
+  title="产品中心"
+  description="按垂起复合翼、固定翼、多旋翼、靶机、特种飞行平台、动力系统和碳纤维机架浏览 YH 产品。"
+>
+  <div class="catalog-page">
+    <section class="catalog-banner">
+      <div class="catalog-shell">
+        <span class="catalog-kicker">YH / PRODUCT SYSTEM</span>
+        <h1>产品中心</h1>
+        <p>按飞行形态与结构类别浏览型号。页面参数与图片均依据提供的产品画册整理。</p>
+        <span class="catalog-banner-rule" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="catalog-listing catalog-shell" aria-labelledby="catalog-list-title">
+      <div class="catalog-section-head">
+        <div>
+          <span class="catalog-kicker">EXPLORE THE RANGE</span>
+          <h2 id="catalog-list-title">找到所需的产品类型</h2>
+        </div>
+        <p>共 {products.length} 个型号 · 7 个产品类型</p>
+      </div>
+
+      <div class="catalog-tools">
+        <div class="catalog-tabs" role="group" aria-label="按产品类型筛选">
+          <button type="button" class="is-active" data-category-tab="all" aria-pressed="true">
+            全部产品
+          </button>
+          {categories.map((category) => (
+            <button type="button" data-category-tab={category.key} aria-pressed="false">
+              {category.name}
+            </button>
+          ))}
+        </div>
+        <label class="catalog-search">
+          <span class="sr-only">搜索型号和产品类型</span>
+          <input
+            data-catalog-search
+            type="search"
+            autocomplete="off"
+            placeholder="搜索型号或产品类型"
+          />
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </div>
+
+      <p class="catalog-results" role="status" aria-live="polite" data-results-count>
+        显示 {products.length} 个型号
+      </p>
+      <div class="catalog-grid">
+        {products.map((product, index) => (
+          <CatalogCard product={product} index={index} />
+        ))}
+      </div>
+      <p class="catalog-empty" data-catalog-empty hidden>
+        没有匹配的型号，请更换关键词或产品类型。
+      </p>
+    </section>
+  </div>
+</SiteLayout>
+
+<script>
+  const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-category-tab]'));
+  const tabStrip = document.querySelector<HTMLElement>('.catalog-tabs');
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-product-card]'));
+  const input = document.querySelector<HTMLInputElement>('[data-catalog-search]');
+  const count = document.querySelector<HTMLElement>('[data-results-count]');
+  const empty = document.querySelector<HTMLElement>('[data-catalog-empty]');
+  const params = new URLSearchParams(location.search);
+  const initialCategory = params.get('category') || 'all';
+  let category = tabs.some((tab) => tab.dataset.categoryTab === initialCategory)
+    ? initialCategory
+    : 'all';
+  let query = params.get('q') || '';
+  if (input) input.value = query;
+
+  const alignActiveTab = () => {
+    const active = tabs.find((tab) => tab.dataset.categoryTab === category);
+    if (!active || !tabStrip) return;
+    const left =
+      active.getBoundingClientRect().left -
+      tabStrip.getBoundingClientRect().left +
+      tabStrip.scrollLeft;
+    tabStrip.scrollTo({
+      left: Math.max(0, left - (tabStrip.clientWidth - active.clientWidth) / 2),
+      behavior: 'instant',
+    });
+  };
+
+  const render = (updateUrl = false) => {
+    const normalized = query.trim().toLocaleLowerCase();
+    let visible = 0;
+    tabs.forEach((tab) => {
+      const active = tab.dataset.categoryTab === category;
+      tab.classList.toggle('is-active', active);
+      tab.setAttribute('aria-pressed', String(active));
+    });
+    cards.forEach((card) => {
+      const matched =
+        (category === 'all' || card.dataset.category === category) &&
+        (!normalized || (card.dataset.search || '').includes(normalized));
+      card.hidden = !matched;
+      if (matched) visible += 1;
+    });
+    if (count) count.textContent = `显示 ${visible} 个型号`;
+    if (empty) empty.hidden = visible !== 0;
+    if (updateUrl) {
+      const url = new URL(location.href);
+      if (category === 'all') url.searchParams.delete('category');
+      else url.searchParams.set('category', category);
+      if (query.trim()) url.searchParams.set('q', query.trim());
+      else url.searchParams.delete('q');
+      history.replaceState(null, '', url);
+    }
+  };
+  tabs.forEach((tab) =>
+    tab.addEventListener('click', () => {
+      category = tab.dataset.categoryTab || 'all';
+      render(true);
+      alignActiveTab();
+    }),
+  );
+  input?.addEventListener('input', () => {
+    query = input.value;
+    render(true);
+  });
+  window.addEventListener('popstate', () => {
+    const state = new URLSearchParams(location.search);
+    category = state.get('category') || 'all';
+    query = state.get('q') || '';
+    if (input) input.value = query;
+    render();
+    alignActiveTab();
+  });
+  render();
+  alignActiveTab();
+</script>

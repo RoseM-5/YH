@@ -1,0 +1,75 @@
+---
+import SceneStatusMark from './SceneStatusMark.jsx';
+
+interface Solution {
+  slug: string;
+  title: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+  imageCaption: string;
+}
+interface Props {
+  solutions: Solution[];
+}
+const { solutions } = Astro.props;
+---
+
+<section class="yh-applications yh-section" aria-labelledby="yh-applications-title" data-yh-scenes>
+  <div class="yh-wrap">
+    <div class="yh-section-head" data-yh-reveal>
+      <div>
+        <h2 id="yh-applications-title">解决方案</h2>
+      </div>
+    </div>
+    <div class="yh-scene-shell" data-yh-reveal>
+      <div class="yh-scene-tabs" role="group" aria-label="切换方案场景">
+        {solutions.map((solution, index) => (
+          <button
+            type="button"
+            data-yh-scene-select={index}
+            data-yh-scene-title={solution.title}
+            data-yh-scene-summary={solution.summary}
+            data-yh-scene-image={solution.image}
+            data-yh-scene-image-alt={solution.imageAlt}
+            data-yh-scene-url={`/solutions/${solution.slug}/`}
+            class:list={{ 'is-active': index === 0 }}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            <span class="yh-scene-icon" aria-hidden="true">
+              <SceneStatusMark initialActive={index === 0} client:load />
+            </span>
+            <strong>{solution.title}</strong>
+          </button>
+        ))}
+      </div>
+      <div class="yh-scene-stage" data-yh-scene-stage>
+        <img
+          src={solutions[0].image}
+          data-yh-scene-image
+          alt={solutions[0].imageAlt}
+          width="1440"
+          height="900"
+          loading="lazy"
+        />
+        <div class="yh-scene-shade" aria-hidden="true"></div>
+        <div class="yh-scene-copy" aria-live="polite">
+          <span class="yh-kicker">YH / SOLUTION VIEW</span>
+          <h3 data-yh-scene-heading>{solutions[0].title}</h3>
+          <p data-yh-scene-summary>{solutions[0].summary}</p>
+          <a class="yh-text-link" data-yh-scene-link href={`/solutions/${solutions[0].slug}/`}>
+            了解更多 <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="yh-scene-controls">
+          <button type="button" data-yh-scene-prev aria-label="上一个场景">
+            ←
+          </button>
+          <button type="button" data-yh-scene-next aria-label="下一个场景">
+            →
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

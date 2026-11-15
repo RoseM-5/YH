@@ -1,0 +1,2303 @@
+{
+  "source_pdf": "PRODUCT CATALOGUE V6.pdf",
+  "source_pages": 20,
+  "extraction_note": "Original English text is preserved. Images are extracted from embedded PDF objects; masks are restored as transparent PNGs. Where no standalone description exists on the page, description_original is null.",
+  "products": [
+    {
+      "model": "YH-1000",
+      "source_page": 1,
+      "category_original": "Gasoline/Turbine-Powered Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Airframe material",
+          "value_original": "Specialized composite polymer"
+        },
+        {
+          "name_original": "Production capacity",
+          "value_original": "≥4000 pcs/month (airframe)"
+        },
+        {
+          "name_original": "MTOW",
+          "value_original": "20 kg"
+        },
+        {
+          "name_original": "Control range",
+          "value_original": "30-150 km video (optional) & data"
+        },
+        {
+          "name_original": "Wind Scale",
+          "value_original": "Level 6"
+        },
+        {
+          "name_original": "Working temperature",
+          "value_original": "-25 ~ +60 °C"
+        },
+        {
+          "name_original": "GNSS",
+          "value_original": "GPS/BeiDou/Glonass/Galileo"
+        },
+        {
+          "name_original": "Launch method",
+          "value_original": "Catapult/Runway"
+        },
+        {
+          "name_original": "Guidance Mode",
+          "value_original": "GNSS/INS, Seeker Lock-on"
+        },
+        {
+          "name_original": "Available kit for sale",
+          "value_original": "Complete solution/PNP/Airframe only"
+        },
+        {
+          "name_original": "Power",
+          "value_original": "Electric motor"
+        },
+        {
+          "name_original": "Max endurance",
+          "value_original": "≥ 60 mins"
+        },
+        {
+          "name_original": "Flight range",
+          "value_original": "≥ 100 km"
+        },
+        {
+          "name_original": "Wingspan",
+          "value_original": "1234 mm"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "≤ 7 kg"
+        },
+        {
+          "name_original": "Cruise speed",
+          "value_original": "125 km/h"
+        },
+        {
+          "name_original": "Max speed",
+          "value_original": "160 km/h"
+        }
+      ],
+      "notes": "Page 1 shares a specification table with YH-1001; model-specific values are kept separate.",
+      "source_text_file": "source_text/page-01.txt",
+      "images": [
+        "images/page-01_image-004.jpg",
+        "images/page-01_image-005.jpg",
+        "images/page-01_image-017.jpg"
+      ]
+    },
+    {
+      "model": "YH-1001",
+      "source_page": 1,
+      "category_original": "Gasoline/Turbine-Powered Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Airframe material",
+          "value_original": "Specialized composite polymer"
+        },
+        {
+          "name_original": "Production capacity",
+          "value_original": "≥4000 pcs/month (airframe)"
+        },
+        {
+          "name_original": "MTOW",
+          "value_original": "20 kg"
+        },
+        {
+          "name_original": "Control range",
+          "value_original": "30-150 km video (optional) & data"
+        },
+        {
+          "name_original": "Wind Scale",
+          "value_original": "Level 6"
+        },
+        {
+          "name_original": "Working temperature",
+          "value_original": "-25 ~ +60 °C"
+        },
+        {
+          "name_original": "GNSS",
+          "value_original": "GPS/BeiDou/Glonass/Galileo"
+        },
+        {
+          "name_original": "Launch method",
+          "value_original": "Catapult/Runway"
+        },
+        {
+          "name_original": "Guidance Mode",
+          "value_original": "GNSS/INS, Seeker Lock-on"
+        },
+        {
+          "name_original": "Available kit for sale",
+          "value_original": "Complete solution/PNP/Airframe only"
+        },
+        {
+          "name_original": "Power",
+          "value_original": "Turbine jet engine"
+        },
+        {
+          "name_original": "Max endurance",
+          "value_original": "~20 mins"
+        },
+        {
+          "name_original": "Flight range",
+          "value_original": "≥ 80 km"
+        },
+        {
+          "name_original": "Wingspan",
+          "value_original": "1234 mm"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "≤ 7 kg"
+        },
+        {
+          "name_original": "Cruise speed (sea level)",
+          "value_original": "240 km/h"
+        },
+        {
+          "name_original": "Max speed (sea level)",
+          "value_original": "360 km/h"
+        }
+      ],
+      "notes": "Page 1 shares a specification table with YH-1000; model-specific values are kept separate.",
+      "source_text_file": "source_text/page-01.txt",
+      "images": [
+        "images/page-01_image-004.jpg",
+        "images/page-01_image-005.jpg",
+        "images/page-01_image-013.png"
+      ]
+    },
+    {
+      "model": "YH-1002",
+      "source_page": 2,
+      "category_original": "Gasoline/Turbine-Powered Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Power",
+          "value_original": "Gasoline engine (EFI & E starter)"
+        },
+        {
+          "name_original": "Airframe material",
+          "value_original": "Specialized composite polymer"
+        },
+        {
+          "name_original": "Production capacity",
+          "value_original": "≥1000 pcs/month (airframe)"
+        },
+        {
+          "name_original": "MTOW",
+          "value_original": "180 kg"
+        },
+        {
+          "name_original": "Max endurance",
+          "value_original": "≥ 8 hours"
+        },
+        {
+          "name_original": "Flight range",
+          "value_original": "≥ 1600 km"
+        },
+        {
+          "name_original": "Control range",
+          "value_original": "≥ 50 km (Fly & forget); longer distance optional, please consult"
+        },
+        {
+          "name_original": "Wind Scale",
+          "value_original": "Level 7"
+        },
+        {
+          "name_original": "Working temperature",
+          "value_original": "-25 ~ +60 °C"
+        },
+        {
+          "name_original": "GNSS",
+          "value_original": "GPS/BeiDou/Glonass/Galileo"
+        },
+        {
+          "name_original": "Launch method",
+          "value_original": "Catapult/Vehicle/Runway/Rocket booster"
+        },
+        {
+          "name_original": "Strike Method",
+          "value_original": "Coordinate/Seeker lock on"
+        },
+        {
+          "name_original": "Available kit for sale",
+          "value_original": "Complete solution/PNP/Airframe only"
+        },
+        {
+          "name_original": "Wingspan",
+          "value_original": "2500 mm"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "50 kg"
+        },
+        {
+          "name_original": "Cruise speed",
+          "value_original": "200 km/h"
+        },
+        {
+          "name_original": "Max speed",
+          "value_original": "230 km/h"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-02.txt",
+      "images": [
+        "images/page-02_image-020.jpg",
+        "images/page-02_image-021.jpg",
+        "images/page-02_image-022.jpg",
+        "images/page-02_image-023.jpg",
+        "images/page-02_image-024.jpg",
+        "images/page-02_image-025.jpg"
+      ]
+    },
+    {
+      "model": "YH-1003",
+      "source_page": 3,
+      "category_original": "Gasoline/Turbine-Powered Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Wingspan",
+          "value_original": "2590mm"
+        },
+        {
+          "name_original": "Wircraft commander",
+          "value_original": "2620mm"
+        },
+        {
+          "name_original": "Max payLoad",
+          "value_original": "50kg"
+        },
+        {
+          "name_original": "Max takeoff weight",
+          "value_original": "180kg"
+        },
+        {
+          "name_original": "Operation temperature",
+          "value_original": "-25℃~60℃"
+        },
+        {
+          "name_original": "Min turning radius",
+          "value_original": "400m"
+        },
+        {
+          "name_original": "Rate of Climb",
+          "value_original": "4~5m/s"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "180km/h"
+        },
+        {
+          "name_original": "Max speed",
+          "value_original": "230km/h"
+        },
+        {
+          "name_original": "Wind loading",
+          "value_original": "Level 7"
+        },
+        {
+          "name_original": "Max flight range",
+          "value_original": "1500km"
+        },
+        {
+          "name_original": "Max flight times",
+          "value_original": "9h"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "3000 m"
+        },
+        {
+          "name_original": "Fuel Type",
+          "value_original": "Gasoline"
+        },
+        {
+          "name_original": "Fuel tank",
+          "value_original": "90L"
+        },
+        {
+          "name_original": "Engine power",
+          "value_original": "560CC, 53HP/39Kw"
+        },
+        {
+          "name_original": "Takeoff method",
+          "value_original": "Air pump ejection"
+        }
+      ],
+      "notes": "The source table says 'Wircraft commander'; preserved verbatim. Video thumbnails on this page are still images, not video files.",
+      "source_text_file": "source_text/page-03.txt",
+      "images": [
+        "images/page-03_image-030.png",
+        "images/page-03_image-032.png",
+        "images/page-03_image-034.jpg",
+        "images/page-03_image-035.jpg",
+        "images/page-03_image-036.jpg",
+        "images/page-03_image-037.jpg",
+        "images/page-03_image-038.jpg",
+        "images/page-03_image-039.jpg",
+        "images/page-03_image-040.png"
+      ]
+    },
+    {
+      "model": "YH-2000",
+      "source_page": 4,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": "Featuring a compound aerodynamic layout that combines a quad-rotor configuration with a fixed wing, it integrates the vertical take-off and landing (VTOL) capability of rotorcraft with the long-endurance advantages of fixed-wing aircraft. Highly maneuverable and flexible, it adapts to a wide range of complex take-off and landing conditions. Powered by a hybrid gasoline-electric propulsion system, it delivers an endurance of over 10 hours, and is widely applied in defense surveillance, emergency communications and other fields.\n\nExcellent Waterproof Performance: The whole aircraft features a waterproof design, ensuring reliable flight under complex weather conditions.\nHybrid Gasoline-Electric Propulsion: Integrated hybrid power delivers an endurance of over 10 hours.\nModular Design: Tool-free disassembly across the entire aircraft enables rapid installation within 3 minutes.",
+      "specifications": [
+        {
+          "name_original": "Standard Take-off Weight",
+          "value_original": "60KG"
+        },
+        {
+          "name_original": "Maximum Payload",
+          "value_original": "15KG"
+        },
+        {
+          "name_original": "Cruise Speed",
+          "value_original": "85 km/h"
+        },
+        {
+          "name_original": "Maximum Flight Speed",
+          "value_original": "130 km/h"
+        },
+        {
+          "name_original": "Control Radius",
+          "value_original": "50–100 km (customizable)"
+        },
+        {
+          "name_original": "Maximum Rate of Climb",
+          "value_original": "4 m/s"
+        },
+        {
+          "name_original": "Maximum Rate of Descent",
+          "value_original": "5 m/s"
+        },
+        {
+          "name_original": "Maximum Take-off Altitude",
+          "value_original": "4000 m"
+        },
+        {
+          "name_original": "Maximum Wind Resistance",
+          "value_original": "Level 7"
+        },
+        {
+          "name_original": "Operating Temperature Range",
+          "value_original": "−10~60 °C"
+        },
+        {
+          "name_original": "Fuel Tank Capacity",
+          "value_original": "18 L"
+        },
+        {
+          "name_original": "Maximum Endurance",
+          "value_original": "600 min"
+        },
+        {
+          "name_original": "Range",
+          "value_original": "850 km"
+        },
+        {
+          "name_original": "Aircraft Dimensions",
+          "value_original": "4800 × 2580 × 850 mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-04.txt",
+      "images": [
+        "images/page-04_image-044.jpg",
+        "images/page-04_image-045.jpg",
+        "images/page-04_image-046.jpg",
+        "images/page-04_image-047.png",
+        "images/page-04_image-049.jpg"
+      ]
+    },
+    {
+      "model": "YH-2001",
+      "source_page": 5,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "2.1mx0.98mx0.24m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "14KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "2.5KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "240min"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "20m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "4800m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        },
+        {
+          "name_original": "Transport box size",
+          "value_original": "1570mm*620mm*375mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-05.txt",
+      "images": [
+        "images/page-05_image-052.jpg",
+        "images/page-05_image-053.jpg",
+        "images/page-05_image-054.jpg",
+        "images/page-05_image-055.jpg"
+      ]
+    },
+    {
+      "model": "YH-2002",
+      "source_page": 6,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "2.5mx1.26mx0.39m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "14KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "2.5KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "240min"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "20m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "4800m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        },
+        {
+          "name_original": "Transport box size",
+          "value_original": "1470mm*560mm*400mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-06.txt",
+      "images": [
+        "images/page-06_image-058.jpg",
+        "images/page-06_image-059.jpg",
+        "images/page-06_image-060.jpg",
+        "images/page-06_image-061.jpg"
+      ]
+    },
+    {
+      "model": "YH-2003",
+      "source_page": 7,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "3.2x1.83x0.46m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "26KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "5KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "240min"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "21m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "4200m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        },
+        {
+          "name_original": "Transport box size",
+          "value_original": "1800mm*680mm*480mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-07.txt",
+      "images": [
+        "images/page-07_image-064.jpg",
+        "images/page-07_image-065.jpg",
+        "images/page-07_image-066.jpg",
+        "images/page-07_image-067.jpg"
+      ]
+    },
+    {
+      "model": "YH-2004",
+      "source_page": 8,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "3.5x1.88x0.64m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "35KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "10KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "190min"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "21m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "4200m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        },
+        {
+          "name_original": "Transport box size",
+          "value_original": "2105mm*735mm*500mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-08.txt",
+      "images": [
+        "images/page-08_image-070.jpg",
+        "images/page-08_image-071.jpg",
+        "images/page-08_image-072.jpg",
+        "images/page-08_image-073.jpg"
+      ]
+    },
+    {
+      "model": "YH-2005",
+      "source_page": 9,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "3.95x1.83x0.57m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "28KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "5KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "240min"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "21m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "4200m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        },
+        {
+          "name_original": "Transport box size",
+          "value_original": "2000mm*650mm*480mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-09.txt",
+      "images": [
+        "images/page-09_image-076.jpg",
+        "images/page-09_image-077.jpg",
+        "images/page-09_image-078.jpg",
+        "images/page-09_image-079.jpg"
+      ]
+    },
+    {
+      "model": "YH-2006",
+      "source_page": 10,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "4.42x2.075x0.788m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "40KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "10KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "480min"
+        },
+        {
+          "name_original": "Oil Tank Capacity",
+          "value_original": "8L"
+        },
+        {
+          "name_original": "Engine",
+          "value_original": "LiDe 170 Two stroke engine"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "20m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "6000m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        },
+        {
+          "name_original": "Transport box size",
+          "value_original": "1760mm*760mm*550mm"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-10.txt",
+      "images": [
+        "images/page-10_image-082.jpg",
+        "images/page-10_image-083.jpg",
+        "images/page-10_image-084.jpg",
+        "images/page-10_image-085.jpg"
+      ]
+    },
+    {
+      "model": "YH-2008",
+      "source_page": 11,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "4.80x2.79x0.51m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "64KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "15KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "780min"
+        },
+        {
+          "name_original": "Oil Tank Capacity",
+          "value_original": "26L"
+        },
+        {
+          "name_original": "Engine",
+          "value_original": "LiDe 170 Two stroke engine"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "37m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "6000m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-11.txt",
+      "images": [
+        "images/page-11_image-088.jpg",
+        "images/page-11_image-089.jpg",
+        "images/page-11_image-090.jpg",
+        "images/page-11_image-091.jpg"
+      ]
+    },
+    {
+      "model": "YH-2009",
+      "source_page": 12,
+      "category_original": "VTOL Fixed-Wing UAV",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Overall dimension",
+          "value_original": "6.935x3.270x1.307m"
+        },
+        {
+          "name_original": "Maximum take-off weight",
+          "value_original": "150KG"
+        },
+        {
+          "name_original": "Max payload",
+          "value_original": "40KG"
+        },
+        {
+          "name_original": "Standard no-load duration of flight",
+          "value_original": "600min"
+        },
+        {
+          "name_original": "Oil Tank Capacity",
+          "value_original": "35L"
+        },
+        {
+          "name_original": "Engine",
+          "value_original": "LiDe 290 Two stroke engine"
+        },
+        {
+          "name_original": "Cruising speed",
+          "value_original": "35m/s"
+        },
+        {
+          "name_original": "Max flight altitude",
+          "value_original": "6000m"
+        },
+        {
+          "name_original": "Maximum wind resistance",
+          "value_original": "Level 6 (VTOL) / Level 7 (Fixed-Wing)"
+        },
+        {
+          "name_original": "Waterproof class",
+          "value_original": "IP54"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-12.txt",
+      "images": [
+        "images/page-12_image-094.jpg",
+        "images/page-12_image-095.jpg",
+        "images/page-12_image-096.jpg",
+        "images/page-12_image-097.jpg"
+      ]
+    },
+    {
+      "model": "YH-3000",
+      "source_page": 13,
+      "category_original": "Multirotor drone",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Fuselage material",
+          "value_original": "TORAY 3K cabon fiber"
+        },
+        {
+          "name_original": "Shell thickness",
+          "value_original": "1.5mm"
+        },
+        {
+          "name_original": "Manufacturing process",
+          "value_original": "internal pressure"
+        },
+        {
+          "name_original": "Wheelbase",
+          "value_original": "2400mm"
+        },
+        {
+          "name_original": "Overall height",
+          "value_original": "1000mm"
+        },
+        {
+          "name_original": "Case weight",
+          "value_original": "15.5kg"
+        },
+        {
+          "name_original": "Max Take off weight",
+          "value_original": "110KG"
+        },
+        {
+          "name_original": "MAX load weight",
+          "value_original": "60kg 18min / 30KG 30min"
+        },
+        {
+          "name_original": "No-load endurance",
+          "value_original": "55min (4pcs 14S 35000mah LiHV Battery)"
+        },
+        {
+          "name_original": "Max PROP",
+          "value_original": "60 Inch"
+        }
+      ],
+      "notes": "The source spells 'cabon fiber'; preserved verbatim.",
+      "source_text_file": "source_text/page-13.txt",
+      "images": [
+        "images/page-13_image-100.png",
+        "images/page-13_image-102.png",
+        "images/page-13_image-104.png",
+        "images/page-13_image-106.jpg"
+      ]
+    },
+    {
+      "model": "YH-3001",
+      "source_page": 14,
+      "category_original": "Multirotor drone",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Fuselage material",
+          "value_original": "TORAY 3K carbon fiber"
+        },
+        {
+          "name_original": "Shell thickness",
+          "value_original": "0.6mm"
+        },
+        {
+          "name_original": "Manufacturing process",
+          "value_original": "internal pressure forming"
+        },
+        {
+          "name_original": "Wheelbase",
+          "value_original": "1600mm"
+        },
+        {
+          "name_original": "Overall height",
+          "value_original": "500mm"
+        },
+        {
+          "name_original": "Case weight",
+          "value_original": "2200g"
+        },
+        {
+          "name_original": "No-load endurance",
+          "value_original": "75min (2pcs 25000mah battery)"
+        },
+        {
+          "name_original": "MAX load weight",
+          "value_original": "7kg 25min"
+        },
+        {
+          "name_original": "Max motor",
+          "value_original": "U8"
+        },
+        {
+          "name_original": "Max PROP",
+          "value_original": "29 Inch"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-14.txt",
+      "images": [
+        "images/page-14_image-109.png",
+        "images/page-14_image-111.png",
+        "images/page-14_image-113.png",
+        "images/page-14_image-115.jpg"
+      ]
+    },
+    {
+      "model": "YH-3002",
+      "source_page": 15,
+      "category_original": "Multirotor drone",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Fuselage material",
+          "value_original": "TORAY 3K carbon fiber"
+        },
+        {
+          "name_original": "Shell thickness",
+          "value_original": "0.6mm"
+        },
+        {
+          "name_original": "Manufacturing process",
+          "value_original": "internal pressure forming"
+        },
+        {
+          "name_original": "Wheelbase",
+          "value_original": "1200mm"
+        },
+        {
+          "name_original": "Overall height",
+          "value_original": "500mm"
+        },
+        {
+          "name_original": "Case weight",
+          "value_original": "2100g"
+        },
+        {
+          "name_original": "No-load endurance",
+          "value_original": "70min (2pcs 25000mah battery)"
+        },
+        {
+          "name_original": "MAX load weight",
+          "value_original": "5kg 30min"
+        },
+        {
+          "name_original": "Max motor",
+          "value_original": "U6"
+        },
+        {
+          "name_original": "Max PROP",
+          "value_original": "22 Inch"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-15.txt",
+      "images": [
+        "images/page-15_image-118.png",
+        "images/page-15_image-120.png",
+        "images/page-15_image-122.jpg"
+      ]
+    },
+    {
+      "model": "WP-4000",
+      "source_page": 16,
+      "category_original": "Micro Turbine Engine / Jet Engine",
+      "description_original": "The WP-4000 is a fuel-injected, air-cooled, two-stroke, horizontally opposed two-cylinder gasoline aircraft piston engine. Its compact, lightweight design delivers high reliability, low cost, easy maintenance, and excellent performance, making it ideal for fixed-wing and compound-wing UAVs.\n\nFeatures:\n1. Electronic fuel injection; redundant spark plugs and speed sensor.\n2. Real-time monitoring of barometric pressure, air temperature, cylinder head temperature, and exhaust gas temperature.\n3. Over-temperature and over-speed protection with control logic.\n4. Constant speed control.\n5. Adaptive control over a wide temperature range (-35°C ~ +65°C).\n6. Ambient temperature and barometric pressure compensation.\n7. ECU-to-host communication via RS232/CAN.\n8. Rear drive shaft output, counterclockwise rotation (viewed from propeller side).\n9. Synchronized two-cylinder ignition; ECU-controlled inductive discharge four-spark plug ignition.",
+      "specifications": [
+        {
+          "name_original": "Max power @6500 r/min",
+          "value_original": "39 kW"
+        },
+        {
+          "name_original": "Working volume (displacement)",
+          "value_original": "630 CC"
+        },
+        {
+          "name_original": "Bare weight",
+          "value_original": "18.6 kg"
+        },
+        {
+          "name_original": "Operation altitude",
+          "value_original": "≤ 5000 m"
+        },
+        {
+          "name_original": "Max torque @4000 r/min",
+          "value_original": "56 Nm"
+        },
+        {
+          "name_original": "Fuel type",
+          "value_original": "92 octane and above gasoline, 1:50 Two stroke full combination into lubricating oil"
+        },
+        {
+          "name_original": "Max RPM",
+          "value_original": "6800 r/min"
+        },
+        {
+          "name_original": "Stroke",
+          "value_original": "Horizontally opposed two-cylinder"
+        },
+        {
+          "name_original": "Dimension",
+          "value_original": "475*300*490 mm"
+        },
+        {
+          "name_original": "Bore × Stroke",
+          "value_original": "76*69 mm"
+        },
+        {
+          "name_original": "Economic fuel consumption",
+          "value_original": "320-430 g/kWh"
+        },
+        {
+          "name_original": "Maintenance interval",
+          "value_original": "150-200 h"
+        },
+        {
+          "name_original": "More options",
+          "value_original": "Starter (24V/12V optional), Generator (28V), Integrated starter-generator, Propeller clutch (not included in bare weight)"
+        }
+      ],
+      "notes": "The source category says 'Micro Turbine Engine / Jet Engine' while its prose describes a gasoline piston engine; both are preserved without reinterpretation.",
+      "source_text_file": "source_text/page-16.txt",
+      "images": [
+        "images/page-16_image-129.png"
+      ]
+    },
+    {
+      "model": "WP-4001",
+      "source_page": 17,
+      "category_original": "Engine (turbojet and internal combustion engine)",
+      "description_original": null,
+      "specifications": [
+        {
+          "name_original": "Type",
+          "value_original": "MTJ-80 / MTJ-220"
+        },
+        {
+          "name_original": "Full thurst",
+          "value_original": "MTJ-80: 8 kgf; MTJ-220: 22 kgf"
+        },
+        {
+          "name_original": "Dimension",
+          "value_original": "MTJ-80: Φ89.5*210 mm, 1045 g (Include ECU); MTJ-220: Φ117*285 mm, 1890 g (Include ECU)"
+        },
+        {
+          "name_original": "Idle RPM",
+          "value_original": "MTJ-80: 50,000 RPM; MTJ-220: 35,000 RPM"
+        },
+        {
+          "name_original": "Max RPM",
+          "value_original": "MTJ-80: 160,000 RPM; MTJ-220: 110,000 RPM"
+        },
+        {
+          "name_original": "Max fuel consumption",
+          "value_original": "MTJ-80: 280 ml/min; MTJ-220: 700 ml/min"
+        },
+        {
+          "name_original": "Max exhaust temperature",
+          "value_original": "750 °C"
+        },
+        {
+          "name_original": "Recommended fuel",
+          "value_original": "Kerosene/JetA1/Diesel fuel"
+        },
+        {
+          "name_original": "Lubricant",
+          "value_original": "~5 %"
+        }
+      ],
+      "notes": "This page presents MTJ-80 and MTJ-220 variants under WP-4001. 'Full thurst' is the source spelling.",
+      "source_text_file": "source_text/page-17.txt",
+      "images": [
+        "images/page-17_image-135.png",
+        "images/page-17_image-137.png",
+        "images/page-17_image-139.png"
+      ]
+    },
+    {
+      "model": "YH-4000",
+      "source_page": 18,
+      "category_original": "Loitering Munition",
+      "description_original": "Performance Features: High stability, streamlined design, high communication bandwidth, man-portable for individual soldiers.\nFunctional Features: Mission planning, simulated flight, formation flight, integrated reconnaissance and strike.",
+      "specifications": [
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "Length 0.9m, Wingspan 1.2m"
+        },
+        {
+          "name_original": "Takeoff and Launch Mode",
+          "value_original": "Cold gas/gas launch"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "40m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "20m (relative height)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "4000m (above sea level)"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "110km"
+        },
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "Level 5 wind"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "64 aircraft"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "1kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "6.5kg"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-18.txt",
+      "images": [
+        "images/page-18_image-143.jpg",
+        "images/page-18_image-144.jpg"
+      ]
+    },
+    {
+      "model": "YH-4001",
+      "source_page": 19,
+      "category_original": "Loitering Munition",
+      "description_original": "Performance Features: Excellent stability,streamlined design, high communication bandwidth, anti-jamming capability and strong wind resistance.\nFunctional Features: Mission planning, simulated flight, formation flight, integrated reconnaissance and strike, parachute recovery.",
+      "specifications": [
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "Length 1.1m, Wingspan 1.4m"
+        },
+        {
+          "name_original": "Takeoff and Landing Mode",
+          "value_original": "Cold gas/gas launch, gliding/parachute recovery"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "50m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "20m (relative height)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "5000m (above sea level)"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "180km"
+        },
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "Level 6 wind"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "64 aircraft"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "2kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "10kg"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-19.txt",
+      "images": [
+        "images/page-19_image-147.png",
+        "images/page-19_image-149.jpg"
+      ]
+    },
+    {
+      "model": "YH-4002",
+      "source_page": 20,
+      "category_original": "Loitering Munition",
+      "description_original": "Performance Features: Long endurance, high stability, streamlined design, high bandwidth, anti-jamming and anti-deception capabilities.\nFunctional Features: Mission planning, simulated flight, formation flight, integrated reconnaissance and strike, parachute recovery, multi-payload compatibility.",
+      "specifications": [
+        {
+          "name_original": "Appearance Dimensions",
+          "value_original": "Length 1.7m, Wingspan 2.3m"
+        },
+        {
+          "name_original": "Takeoff and Launch Mode",
+          "value_original": "Cold gas/gas launch"
+        },
+        {
+          "name_original": "Flight Speed",
+          "value_original": "50m/s"
+        },
+        {
+          "name_original": "Minimum Flight Altitude",
+          "value_original": "20m (relative height)"
+        },
+        {
+          "name_original": "Maximum Flight Altitude",
+          "value_original": "5000m (above sea level)"
+        },
+        {
+          "name_original": "Maximum Flight Range",
+          "value_original": "320km"
+        },
+        {
+          "name_original": "Wind Resistance Capacity",
+          "value_original": "Level 6 wind"
+        },
+        {
+          "name_original": "Number of Aircraft in the Same Airspace",
+          "value_original": "64 aircraft"
+        },
+        {
+          "name_original": "Maximum Mission Payload",
+          "value_original": "5kg"
+        },
+        {
+          "name_original": "Maximum Takeoff Weight",
+          "value_original": "22kg"
+        }
+      ],
+      "notes": null,
+      "source_text_file": "source_text/page-20.txt",
+      "images": [
+        "images/page-20_image-152.jpg",
+        "images/page-20_image-153.jpg"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source_page": 1,
+      "source_image_number": 4,
+      "models": [
+        "YH-1000",
+        "YH-1001"
+      ],
+      "role": "scene",
+      "caption": "Catapult (10-20kg)",
+      "file": "images/page-01_image-004.jpg",
+      "width": 1463,
+      "height": 788,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 5,
+      "models": [
+        "YH-1000",
+        "YH-1001"
+      ],
+      "role": "scene",
+      "caption": "Runway",
+      "file": "images/page-01_image-005.jpg",
+      "width": 782,
+      "height": 453,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 13,
+      "models": [
+        "YH-1001"
+      ],
+      "role": "product",
+      "caption": "YH-1001 aircraft",
+      "file": "images/page-01_image-013.png",
+      "width": 820,
+      "height": 459,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 1,
+      "source_image_number": 17,
+      "models": [
+        "YH-1000"
+      ],
+      "role": "diagram",
+      "caption": "YH-1000 aircraft structure",
+      "file": "images/page-01_image-017.jpg",
+      "width": 644,
+      "height": 327,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 20,
+      "models": [
+        "YH-1002"
+      ],
+      "role": "scene",
+      "caption": "Catapult (100-180kg)",
+      "file": "images/page-02_image-020.jpg",
+      "width": 986,
+      "height": 296,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 21,
+      "models": [
+        "YH-1002"
+      ],
+      "role": "scene",
+      "caption": "Rocket booster (10-200kg); two-panel source image",
+      "file": "images/page-02_image-021.jpg",
+      "width": 987,
+      "height": 1033,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 22,
+      "models": [
+        "YH-1002"
+      ],
+      "role": "product",
+      "caption": "Disassembled components",
+      "file": "images/page-02_image-022.jpg",
+      "width": 601,
+      "height": 485,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 23,
+      "models": [
+        "YH-1002"
+      ],
+      "role": "product",
+      "caption": "Perspective view",
+      "file": "images/page-02_image-023.jpg",
+      "width": 646,
+      "height": 485,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 24,
+      "models": [
+        "YH-1002"
+      ],
+      "role": "product",
+      "caption": "Side perspective view",
+      "file": "images/page-02_image-024.jpg",
+      "width": 647,
+      "height": 485,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 2,
+      "source_image_number": 25,
+      "models": [
+        "YH-1002"
+      ],
+      "role": "product",
+      "caption": "Front view",
+      "file": "images/page-02_image-025.jpg",
+      "width": 647,
+      "height": 485,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 30,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "product",
+      "caption": "Aircraft and launch stand, rear view",
+      "file": "images/page-03_image-030.png",
+      "width": 1087,
+      "height": 779,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 32,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "product",
+      "caption": "Aircraft and launch stand, perspective view",
+      "file": "images/page-03_image-032.png",
+      "width": 928,
+      "height": 866,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 34,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "detail",
+      "caption": "Airframe parts in production",
+      "file": "images/page-03_image-034.jpg",
+      "width": 879,
+      "height": 1173,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 35,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "detail",
+      "caption": "Fuselage parts in production",
+      "file": "images/page-03_image-035.jpg",
+      "width": 778,
+      "height": 584,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 36,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "scene",
+      "caption": "Aircraft at outdoor site",
+      "file": "images/page-03_image-036.jpg",
+      "width": 779,
+      "height": 584,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 37,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "detail",
+      "caption": "Aircraft in workshop",
+      "file": "images/page-03_image-037.jpg",
+      "width": 780,
+      "height": 585,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 38,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "scene",
+      "caption": "Aircraft on runway",
+      "file": "images/page-03_image-038.jpg",
+      "width": 780,
+      "height": 586,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 39,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "scene",
+      "caption": "Takeoff video preview still",
+      "file": "images/page-03_image-039.jpg",
+      "width": 650,
+      "height": 352,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 3,
+      "source_image_number": 40,
+      "models": [
+        "YH-1003"
+      ],
+      "role": "scene",
+      "caption": "Flight-test video preview still",
+      "file": "images/page-03_image-040.png",
+      "width": 647,
+      "height": 355,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 44,
+      "models": [
+        "YH-2000"
+      ],
+      "role": "detail",
+      "caption": "Waterproof surface detail",
+      "file": "images/page-04_image-044.jpg",
+      "width": 391,
+      "height": 266,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 45,
+      "models": [
+        "YH-2000"
+      ],
+      "role": "detail",
+      "caption": "Hybrid propulsion detail",
+      "file": "images/page-04_image-045.jpg",
+      "width": 444,
+      "height": 303,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 46,
+      "models": [
+        "YH-2000"
+      ],
+      "role": "diagram",
+      "caption": "Modular assembly diagram",
+      "file": "images/page-04_image-046.jpg",
+      "width": 548,
+      "height": 373,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 47,
+      "models": [
+        "YH-2000"
+      ],
+      "role": "product",
+      "caption": "Aircraft perspective rendering",
+      "file": "images/page-04_image-047.png",
+      "width": 1087,
+      "height": 414,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 4,
+      "source_image_number": 49,
+      "models": [
+        "YH-2000"
+      ],
+      "role": "diagram",
+      "caption": "Aircraft dimensions diagram",
+      "file": "images/page-04_image-049.jpg",
+      "width": 759,
+      "height": 775,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 5,
+      "source_image_number": 52,
+      "models": [
+        "YH-2001"
+      ],
+      "role": "diagram",
+      "caption": "Rapid assembly/disassembly",
+      "file": "images/page-05_image-052.jpg",
+      "width": 789,
+      "height": 536,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 5,
+      "source_image_number": 53,
+      "models": [
+        "YH-2001"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-05_image-053.jpg",
+      "width": 793,
+      "height": 540,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 5,
+      "source_image_number": 54,
+      "models": [
+        "YH-2001"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-05_image-054.jpg",
+      "width": 793,
+      "height": 540,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 5,
+      "source_image_number": 55,
+      "models": [
+        "YH-2001"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-05_image-055.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 58,
+      "models": [
+        "YH-2002"
+      ],
+      "role": "diagram",
+      "caption": "Rapid assembly/disassembly",
+      "file": "images/page-06_image-058.jpg",
+      "width": 754,
+      "height": 512,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 59,
+      "models": [
+        "YH-2002"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-06_image-059.jpg",
+      "width": 763,
+      "height": 520,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 60,
+      "models": [
+        "YH-2002"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-06_image-060.jpg",
+      "width": 763,
+      "height": 520,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 6,
+      "source_image_number": 61,
+      "models": [
+        "YH-2002"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-06_image-061.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 7,
+      "source_image_number": 64,
+      "models": [
+        "YH-2003"
+      ],
+      "role": "diagram",
+      "caption": "Rapid assembly/disassembly",
+      "file": "images/page-07_image-064.jpg",
+      "width": 759,
+      "height": 516,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 7,
+      "source_image_number": 65,
+      "models": [
+        "YH-2003"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-07_image-065.jpg",
+      "width": 765,
+      "height": 521,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 7,
+      "source_image_number": 66,
+      "models": [
+        "YH-2003"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-07_image-066.jpg",
+      "width": 765,
+      "height": 521,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 7,
+      "source_image_number": 67,
+      "models": [
+        "YH-2003"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-07_image-067.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 8,
+      "source_image_number": 70,
+      "models": [
+        "YH-2004"
+      ],
+      "role": "diagram",
+      "caption": "Rapid assembly/disassembly",
+      "file": "images/page-08_image-070.jpg",
+      "width": 616,
+      "height": 418,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 8,
+      "source_image_number": 71,
+      "models": [
+        "YH-2004"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-08_image-071.jpg",
+      "width": 782,
+      "height": 532,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 8,
+      "source_image_number": 72,
+      "models": [
+        "YH-2004"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-08_image-072.jpg",
+      "width": 778,
+      "height": 530,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 8,
+      "source_image_number": 73,
+      "models": [
+        "YH-2004"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-08_image-073.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 9,
+      "source_image_number": 76,
+      "models": [
+        "YH-2005"
+      ],
+      "role": "diagram",
+      "caption": "Rapid assembly/disassembly",
+      "file": "images/page-09_image-076.jpg",
+      "width": 610,
+      "height": 414,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 9,
+      "source_image_number": 77,
+      "models": [
+        "YH-2005"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-09_image-077.jpg",
+      "width": 778,
+      "height": 530,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 9,
+      "source_image_number": 78,
+      "models": [
+        "YH-2005"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-09_image-078.jpg",
+      "width": 782,
+      "height": 532,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 9,
+      "source_image_number": 79,
+      "models": [
+        "YH-2005"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-09_image-079.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 10,
+      "source_image_number": 82,
+      "models": [
+        "YH-2006"
+      ],
+      "role": "product",
+      "caption": "Rear view",
+      "file": "images/page-10_image-082.jpg",
+      "width": 432,
+      "height": 293,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 10,
+      "source_image_number": 83,
+      "models": [
+        "YH-2006"
+      ],
+      "role": "detail",
+      "caption": "Engine detail",
+      "file": "images/page-10_image-083.jpg",
+      "width": 564,
+      "height": 384,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 10,
+      "source_image_number": 84,
+      "models": [
+        "YH-2006"
+      ],
+      "role": "detail",
+      "caption": "Wing connection detail",
+      "file": "images/page-10_image-084.jpg",
+      "width": 564,
+      "height": 384,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 10,
+      "source_image_number": 85,
+      "models": [
+        "YH-2006"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-10_image-085.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 11,
+      "source_image_number": 88,
+      "models": [
+        "YH-2008"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-11_image-088.jpg",
+      "width": 784,
+      "height": 532,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 11,
+      "source_image_number": 89,
+      "models": [
+        "YH-2008"
+      ],
+      "role": "product",
+      "caption": "Front view",
+      "file": "images/page-11_image-089.jpg",
+      "width": 782,
+      "height": 532,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 11,
+      "source_image_number": 90,
+      "models": [
+        "YH-2008"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-11_image-090.jpg",
+      "width": 781,
+      "height": 532,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 11,
+      "source_image_number": 91,
+      "models": [
+        "YH-2008"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-11_image-091.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 94,
+      "models": [
+        "YH-2009"
+      ],
+      "role": "product",
+      "caption": "Right view",
+      "file": "images/page-12_image-094.jpg",
+      "width": 786,
+      "height": 534,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 95,
+      "models": [
+        "YH-2009"
+      ],
+      "role": "product",
+      "caption": "Rear view",
+      "file": "images/page-12_image-095.jpg",
+      "width": 782,
+      "height": 533,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 96,
+      "models": [
+        "YH-2009"
+      ],
+      "role": "product",
+      "caption": "Front view",
+      "file": "images/page-12_image-096.jpg",
+      "width": 782,
+      "height": 533,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 12,
+      "source_image_number": 97,
+      "models": [
+        "YH-2009"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-12_image-097.jpg",
+      "width": 1395,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 100,
+      "models": [
+        "YH-3000"
+      ],
+      "role": "product",
+      "caption": "Left view",
+      "file": "images/page-13_image-100.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 102,
+      "models": [
+        "YH-3000"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-13_image-102.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 104,
+      "models": [
+        "YH-3000"
+      ],
+      "role": "product",
+      "caption": "Front view",
+      "file": "images/page-13_image-104.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 13,
+      "source_image_number": 106,
+      "models": [
+        "YH-3000"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight above coast",
+      "file": "images/page-13_image-106.jpg",
+      "width": 1394,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 109,
+      "models": [
+        "YH-3001"
+      ],
+      "role": "diagram",
+      "caption": "Rapid assembly/disassembly",
+      "file": "images/page-14_image-109.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 111,
+      "models": [
+        "YH-3001"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-14_image-111.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 113,
+      "models": [
+        "YH-3001"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-14_image-113.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 14,
+      "source_image_number": 115,
+      "models": [
+        "YH-3001"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-14_image-115.jpg",
+      "width": 1394,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 15,
+      "source_image_number": 118,
+      "models": [
+        "YH-3002"
+      ],
+      "role": "product",
+      "caption": "Top view",
+      "file": "images/page-15_image-118.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 15,
+      "source_image_number": 120,
+      "models": [
+        "YH-3002"
+      ],
+      "role": "product",
+      "caption": "Side view",
+      "file": "images/page-15_image-120.png",
+      "width": 381,
+      "height": 259,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 15,
+      "source_image_number": 122,
+      "models": [
+        "YH-3002"
+      ],
+      "role": "scene",
+      "caption": "Aircraft in flight scene",
+      "file": "images/page-15_image-122.jpg",
+      "width": 1394,
+      "height": 1128,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 16,
+      "source_image_number": 129,
+      "models": [
+        "WP-4000"
+      ],
+      "role": "product",
+      "caption": "WP-4000 engine",
+      "file": "images/page-16_image-129.png",
+      "width": 774,
+      "height": 580,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 17,
+      "source_image_number": 135,
+      "models": [
+        "WP-4001"
+      ],
+      "role": "product",
+      "caption": "MTJ-80 engine",
+      "file": "images/page-17_image-135.png",
+      "width": 601,
+      "height": 431,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 17,
+      "source_image_number": 137,
+      "models": [
+        "WP-4001"
+      ],
+      "role": "product",
+      "caption": "MTJ-220 engine",
+      "file": "images/page-17_image-137.png",
+      "width": 726,
+      "height": 678,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 17,
+      "source_image_number": 139,
+      "models": [
+        "WP-4001"
+      ],
+      "role": "detail",
+      "caption": "Engine parts and equipment montage",
+      "file": "images/page-17_image-139.png",
+      "width": 1104,
+      "height": 229,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 18,
+      "source_image_number": 143,
+      "models": [
+        "YH-4000"
+      ],
+      "role": "scene",
+      "caption": "Mountain and cloud background",
+      "file": "images/page-18_image-143.jpg",
+      "width": 2380,
+      "height": 606,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 18,
+      "source_image_number": 144,
+      "models": [
+        "YH-4000"
+      ],
+      "role": "product",
+      "caption": "YH-4000 aircraft in mountain scene",
+      "file": "images/page-18_image-144.jpg",
+      "width": 490,
+      "height": 536,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 19,
+      "source_image_number": 147,
+      "models": [
+        "YH-4001"
+      ],
+      "role": "scene",
+      "caption": "YH-4001 aircraft in mountain scene",
+      "file": "images/page-19_image-147.png",
+      "width": 2380,
+      "height": 607,
+      "has_transparency_mask": true
+    },
+    {
+      "source_page": 19,
+      "source_image_number": 149,
+      "models": [
+        "YH-4001"
+      ],
+      "role": "product",
+      "caption": "YH-4001 close view in mountain scene",
+      "file": "images/page-19_image-149.jpg",
+      "width": 502,
+      "height": 440,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 20,
+      "source_image_number": 152,
+      "models": [
+        "YH-4002"
+      ],
+      "role": "scene",
+      "caption": "Mountain and cloud background",
+      "file": "images/page-20_image-152.jpg",
+      "width": 2380,
+      "height": 606,
+      "has_transparency_mask": false
+    },
+    {
+      "source_page": 20,
+      "source_image_number": 153,
+      "models": [
+        "YH-4002"
+      ],
+      "role": "product",
+      "caption": "YH-4002 aircraft in mountain scene",
+      "file": "images/page-20_image-153.jpg",
+      "width": 514,
+      "height": 450,
+      "has_transparency_mask": false
+    }
+  ]
+}

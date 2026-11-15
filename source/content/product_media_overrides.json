@@ -1,0 +1,45 @@
+{
+  "products": {
+    "yh-yh-1000": {
+      "keepRoles": ["diagram_structure"],
+      "imageConfidence": "user-provided YH-1000 product photographs; generated render derived from both views",
+      "sourceNote": "Product appearance follows the two user-provided YH-1000 photos; specifications remain catalog-sourced.",
+      "images": [
+        {
+          "src": "/media/products/yh/YH-1000_user_render.png",
+          "role": "product_main",
+          "alt": "参考用户提供的 YH-1000 实拍图制作的黑色三角翼外观展示图",
+          "width": 1536,
+          "height": 1024,
+          "sourceFile": "由用户提供的两张 YH-1000 照片生成的展示图",
+          "file": "YH-1000_user_render.png",
+          "source": "user-derived",
+          "caption": "基于用户两张实拍图制作的 YH-1000 外观展示图",
+          "additionalUsage": ["/ homepage feature", "header product menu"]
+        },
+        {
+          "src": "/media/products/yh/YH-1000_user_view_a.jpg",
+          "role": "product_main",
+          "alt": "用户提供的 YH-1000 黑色三角翼无人机第一视角实拍图",
+          "width": 1080,
+          "height": 1440,
+          "sourceFile": "用户提供的 5d5f7dd3d504cea2500eeb35e2d2608d.jpg",
+          "file": "5d5f7dd3d504cea2500eeb35e2d2608d.jpg",
+          "source": "user",
+          "caption": "YH-1000 黑色三角翼第一视角实拍"
+        },
+        {
+          "src": "/media/products/yh/YH-1000_user_view_b.jpg",
+          "role": "product_main",
+          "alt": "用户提供的 YH-1000 黑色三角翼无人机第二视角实拍图",
+          "width": 1080,
+          "height": 1440,
+          "sourceFile": "用户提供的 8e043372bdfa9a389eb81507e9ef3520.jpg",
+          "file": "8e043372bdfa9a389eb81507e9ef3520.jpg",
+          "source": "user",
+          "caption": "YH-1000 黑色三角翼第二视角实拍"
+        }
+      ]
+    }
+  }
+}

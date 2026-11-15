@@ -1,0 +1,41 @@
+---
+interface Props {
+  eyebrow: string;
+  title: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+  index?: string;
+  className?: string;
+  imageNote?: string;
+}
+const { eyebrow, title, summary, image, imageAlt, index, className = '', imageNote } = Astro.props;
+const small = image.replace(/\.webp$/, '-sm.webp');
+const titleParts = title.includes('，') ? title.split('，') : null;
+---
+
+<header class:list={['editorial-hero', className]}>
+  <picture class="editorial-hero-media">
+    <source media="(max-width: 700px)" srcset={small} />
+    <img src={image} alt={imageAlt} loading="eager" decoding="async" />
+  </picture>
+  <div class="editorial-hero-shade" aria-hidden="true"></div>
+  <div class="editorial-wrap editorial-hero-content">
+    <span class="editorial-kicker">
+      {eyebrow}
+      {index && <span> / {index}</span>}
+    </span>
+    <h1>
+      {titleParts
+        ? titleParts.map((part, index) => (
+            <span class="editorial-title-part">
+              {part}
+              {index < titleParts.length - 1 ? '，' : ''}
+            </span>
+          ))
+        : title}
+    </h1>
+    <p>{summary}</p>
+  </div>
+  {imageNote && <span class="editorial-hero-note">{imageNote}</span>}
+</header>

@@ -1,0 +1,75 @@
+---
+interface Article {
+  slug: string;
+  title: string;
+  summary: string;
+  image: string;
+  imageAlt?: string;
+  topic: string;
+  caseYear: string;
+}
+interface Props {
+  articles: Article[];
+}
+const { articles } = Astro.props;
+---
+
+<section class="yh-insights yh-section" aria-labelledby="yh-insights-title" data-yh-insights>
+  <div class="yh-wrap">
+    <div class="yh-section-head" data-yh-reveal>
+      <div>
+        <h2 id="yh-insights-title">动态</h2>
+      </div>
+      <div class="yh-insight-actions">
+        <a class="yh-text-link" href="/news/">
+          浏览全部内容 <span aria-hidden="true">↗</span>
+        </a>
+        <div class="yh-insight-controls" aria-label="动态翻页">
+          <button
+            type="button"
+            data-yh-insight-prev
+            aria-label="上一组动态"
+            aria-controls="yh-insight-track"
+          >
+            ←
+          </button>
+          <button
+            type="button"
+            data-yh-insight-next
+            aria-label="下一组动态"
+            aria-controls="yh-insight-track"
+          >
+            →
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="yh-insight-grid" id="yh-insight-track">
+      {articles.map((article, index) => (
+        <a
+          class="yh-insight-card"
+          href={`/news/${article.slug}/`}
+          data-yh-reveal
+          hidden={index >= 2}
+          style={`--yh-stagger: ${index * 0.09}s`}
+        >
+          <div class="yh-insight-image">
+            <img
+              src={article.image}
+              alt={article.imageAlt ?? ''}
+              width="900"
+              height="560"
+              loading="lazy"
+            />
+          </div>
+          <div class="yh-insight-copy">
+            <span>{article.topic}</span>
+            <h3>{article.title}</h3>
+            <time>{article.caseYear}</time>
+          </div>
+        </a>
+      ))}
+    </div>
+    <span class="sr-only" data-yh-insight-status aria-live="polite"></span>
+  </div>
+</section>

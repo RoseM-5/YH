@@ -1,0 +1,175 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import CatalogCard from '../../components/CatalogCard.astro';
+import catalog from '../../data/products.json';
+import '../../styles/catalog.css';
+
+export function getStaticPaths() {
+  return catalog.products.map((product) => ({ params: { id: product.id }, props: { product } }));
+}
+
+const { product } = Astro.props;
+const related = catalog.products
+  .filter((item) => item.categoryKey === product.categoryKey && item.id !== product.id)
+  .slice(0, 3);
+const featured =
+  product.gallery.find((image) => image.src === product.bestImage) ?? product.gallery[0];
+const detailImages = [featured, ...product.gallery.filter((image) => image !== featured)].filter(
+  Boolean,
+);
+const roleNames: Record<string, string> = {
+  product_main: '产品视图',
+  product_detail: '细节与配件',
+  application: '场景资料',
+  diagram_structure: '结构示意',
+};
+---
+
+<SiteLayout
+  title={`${product.model} · ${product.categoryName}`}
+  description={`${product.model} ${product.categoryName}。${product.summary}`}
+>
+  <div class="catalog-page">
+    <section class="catalog-detail-hero">
+      <div class="catalog-shell catalog-detail-hero-grid">
+        <div class="catalog-detail-copy">
+          <a class="catalog-back-link" href={`/products/?category=${product.categoryKey}`}>
+            ← 返回{product.categoryName}
+          </a>
+          <span class="catalog-kicker">YH / {product.categoryName}</span>
+          <h1>{product.model}</h1>
+          <p>{product.summary}</p>
+          <div class="catalog-detail-hero-meta">
+            <span>
+              产品类型
+              <br />
+              <strong>{product.categoryName}</strong>
+            </span>
+            <span>
+              画册页码
+              <br />
+              <strong>{String(product.sourcePage).padStart(2, '0')}</strong>
+            </span>
+          </div>
+        </div>
+        <div class="catalog-detail-main-image">
+          <img
+            src={product.bestImage}
+            alt={product.bestImageAlt}
+            fetchpriority="high"
+            decoding="async"
+          />
+          <span>{product.model} / PRODUCT VIEW</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-detail-section catalog-shell" aria-labelledby="detail-overview-title">
+      <div class="catalog-detail-section-head">
+        <span class="catalog-kicker">01 / OVERVIEW</span>
+        <h2 id="detail-overview-title">产品概览</h2>
+      </div>
+      <div class="catalog-detail-overview">
+        <p>{product.descriptionOriginal || product.summary}</p>
+        {product.originalCategory && (
+          <p class="catalog-original-type">画册原分类：{product.originalCategory}</p>
+        )}
+        <div class="catalog-detail-note">
+          页面展示画册中的型号、图片与参数。不同选配和测试条件请以最终产品资料核定。
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-detail-section catalog-shell" aria-labelledby="detail-gallery-title">
+      <div class="catalog-detail-section-head">
+        <span class="catalog-kicker">02 / VISUALS</span>
+        <h2 id="detail-gallery-title">产品图片</h2>
+      </div>
+      <div class="catalog-gallery" data-gallery>
+        <div class="catalog-gallery-main">
+          <img
+            data-gallery-main
+            src={featured.src}
+            alt={featured.alt}
+            width={featured.width}
+            height={featured.height}
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <div class="catalog-gallery-thumbs" aria-label="选择产品图片">
+          {detailImages.map((image, index) => (
+            <button
+              type="button"
+              class:list={{ 'is-active': index === 0 }}
+              data-gallery-thumb
+              data-src={image.src}
+              data-alt={image.alt}
+              aria-label={`查看 ${product.model} ${roleNames[image.role] || '画册图片'} ${index + 1}`}
+              aria-pressed={index === 0 ? 'true' : 'false'}
+            >
+              <img src={image.src} alt="" loading="lazy" decoding="async" />
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-detail-section catalog-shell" aria-labelledby="detail-specs-title">
+      <div class="catalog-detail-section-head">
+        <span class="catalog-kicker">03 / SPECIFICATIONS</span>
+        <h2 id="detail-specs-title">画册参数</h2>
+      </div>
+      <dl class="catalog-spec-grid">
+        {product.specs.length ? (
+          product.specs.map((spec) => (
+            <div class="catalog-spec-item">
+              <dt>{spec.label}</dt>
+              <dd>{spec.value}</dd>
+            </div>
+          ))
+        ) : (
+          <p>原画册未列出可直接引用的参数。</p>
+        )}
+      </dl>
+    </section>
+
+    {related.length > 0 && (
+      <section class="catalog-related catalog-shell" aria-labelledby="related-title">
+        <div class="catalog-section-head">
+          <div>
+            <span class="catalog-kicker">NEXT / DISCOVER</span>
+            <h2 id="related-title">同类产品</h2>
+          </div>
+          <a href={`/products/?category=${product.categoryKey}`}>
+            浏览全部 {product.categoryName} ↗
+          </a>
+        </div>
+        <div class="catalog-grid">
+          {related.map((item, index) => (
+            <CatalogCard product={item} index={index} />
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</SiteLayout>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach((gallery) => {
+    const main = gallery.querySelector<HTMLImageElement>('[data-gallery-main]');
+    const thumbs = Array.from(gallery.querySelectorAll<HTMLButtonElement>('[data-gallery-thumb]'));
+    thumbs.forEach((thumb) =>
+      thumb.addEventListener('click', () => {
+        if (!main) return;
+        main.src = thumb.dataset.src || main.src;
+        main.alt = thumb.dataset.alt || main.alt;
+        thumbs.forEach((button) => {
+          const active = button === thumb;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+      }),
+    );
+  });
+</script>
