@@ -22,6 +22,7 @@ const roleNames: Record<string, string> = {
   product_detail: '细节与配件',
   application: '场景资料',
   diagram_structure: '结构示意',
+  catalog_page: '画册原页',
 };
 ---
 
@@ -74,6 +75,7 @@ const roleNames: Record<string, string> = {
         {product.originalCategory && (
           <p class="catalog-original-type">画册原分类：{product.originalCategory}</p>
         )}
+        {product.sourceNotes && <p class="catalog-original-type">图片说明：{product.sourceNotes}</p>}
         <div class="catalog-detail-note">
           页面展示画册中的型号、图片与参数。不同选配和测试条件请以最终产品资料核定。
         </div>

@@ -4,10 +4,10 @@ interface Product {
   model: string;
   name: string;
   categoryName: string;
+  summary: string;
   bestImage: string;
   bestImageAlt: string;
   gallery: { src: string; width: number; height: number }[];
-  imageTypes?: { diagram_structure?: { src: string }[] };
 }
 interface Props {
   products: Product[];
@@ -17,7 +17,6 @@ interface Props {
 const { products, promoProduct: featured } = Astro.props;
 const productName = (product: Product) => product.name.replace(product.model, '').trim() || product.categoryName;
 const featuredImage = featured?.gallery.find((image) => image.src === featured.bestImage);
-const structureView = featured?.imageTypes?.diagram_structure?.[0]?.src;
 ---
 
 <section class="yh-products yh-section" aria-label="产品展示" data-yh-product-carousel>
@@ -39,12 +38,6 @@ const structureView = featured?.imageTypes?.diagram_structure?.[0]?.src;
         height={featuredImage?.height ?? 1024}
         loading="lazy"
       />
-      {structureView && (
-        <div class="yh-product-promo-preview">
-          <img src={structureView} alt="YH-1000 固定翼无人机机体结构示意图" width="644" height="327" loading="lazy" />
-          <span>YH-1000 · 机体结构</span>
-        </div>
-      )}
     </article>
   )}
   <div class="yh-wrap">
@@ -82,6 +75,7 @@ const structureView = featured?.imageTypes?.diagram_structure?.[0]?.src;
             <span class="yh-product-slide-copy">
               <span class="yh-product-slide-name">{productName(product)}</span>
               <strong>{product.model}</strong>
+              <span class="yh-product-slide-summary">{product.summary}</span>
             </span>
           </button>
           <a class="yh-product-slide-link" href={`/products/${product.id}/`} aria-label={`查看 ${product.model} 详情`}>

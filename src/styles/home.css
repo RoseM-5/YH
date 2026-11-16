@@ -1826,6 +1826,14 @@
   font-weight: 650;
   letter-spacing: -0.02em;
 }
+.yh-product-slide-summary {
+  display: block;
+  max-width: 31ch;
+  min-height: 2.8em;
+  color: #68747c;
+  font-size: 12px;
+  line-height: 1.4;
+}
 .yh-product-slide-link {
   position: absolute;
   z-index: 3;
@@ -1868,7 +1876,7 @@
 }
 .yh-product-carousel-arrows button:hover { background: #f2f3f4; border-color: #aeb5ba; transform: translateY(-2px); }
 
-/* Full-bleed YH-1000 feature uses the user-supplied aircraft views. */
+/* Full-bleed YH-1000 feature uses the V7 catalog product image. */
 .yh-product-promo {
   position: relative;
   min-height: 376px;
@@ -1942,33 +1950,6 @@
   object-fit: contain;
   filter: drop-shadow(0 15px 17px rgba(51, 90, 114, 0.16));
 }
-.yh-product-promo-preview {
-  position: absolute;
-  z-index: 4;
-  top: 108px;
-  right: max(24px, calc((100vw - 1240px) / 2));
-  width: 166px;
-  padding: 9px 9px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.92);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.86);
-  box-shadow: 0 14px 31px rgba(38, 81, 107, 0.14);
-}
-.yh-product-promo-preview img {
-  display: block;
-  width: 100%;
-  height: 78px;
-  object-fit: contain;
-  border-radius: 6px;
-  background: #e8ecef;
-}
-.yh-product-promo-preview span {
-  display: block;
-  margin-top: 7px;
-  color: #61798a;
-  font-size: 10px;
-  line-height: 1.2;
-}
 .yh-product-carousel-head { margin-top: 44px; }
 @media (max-width: 960px) {
   .yh-product-slide { flex-basis: calc((100% - 36px) / 2.2); }
@@ -1976,7 +1957,6 @@
   .yh-product-promo-copy { width: 50%; min-height: 350px; }
   .yh-product-promo-logo { margin-bottom: auto; }
   .yh-product-promo-visual { --promo-grid-step: clamp(18px, 2vw, 28px); width: 58%; }
-  .yh-product-promo-preview { width: 145px; }
 }
 @media (max-width: 700px) {
   .yh-products { padding-bottom: 58px; }
@@ -1986,8 +1966,6 @@
   .yh-product-promo-copy h2 { max-width: 280px; margin-top: 0; font-size: clamp(27px, 6.7vw, 33px); }
   .yh-product-promo-copy p { margin-bottom: 18px; }
   .yh-product-promo-visual { right: 0; top: auto; bottom: 1%; width: 100%; height: 245px; }
-  .yh-product-promo-preview { top: 170px; right: 14px; width: 108px; padding: 7px; }
-  .yh-product-promo-preview img { height: 52px; }
   .yh-product-carousel-head { margin-top: 34px; margin-bottom: 8px; }
   .yh-product-carousel-head h2 { font-size: 25px; }
   .yh-product-view-all { min-height: 38px; padding: 0 14px; gap: 10px; }

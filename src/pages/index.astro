@@ -9,7 +9,7 @@ import { solutions, articles } from '../data/editorial';
 import '../styles/home.css';
 
 const products = catalog.products;
-const featuredModels = ['MD-G48', 'YH-2000', 'Y-500', 'MD-X8', 'WP-4000'];
+const featuredModels = ['YH-2008', 'YH-1000', 'YH-3001', 'YH-5010', 'WP-4000'];
 const featured = featuredModels
   .map((model) => products.find((product) => product.model === model))
   .filter((product): product is (typeof products)[number] => product !== undefined);
