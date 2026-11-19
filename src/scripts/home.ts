@@ -3,16 +3,40 @@ if (!reduceMotion) document.documentElement.classList.add('yh-motion-ready');
 
 const hero = document.querySelector<HTMLElement>('[data-yh-hero]');
 const heroVideo = hero?.querySelector<HTMLVideoElement>('[data-yh-hero-video]');
+const soundButton = hero?.querySelector<HTMLButtonElement>('[data-yh-sound]');
 if (hero) {
   const showTitle = () => hero.classList.add('is-ready');
   if (reduceMotion || !heroVideo) {
     heroVideo?.pause();
     showTitle();
   } else {
+    const syncSoundButton = () => {
+      if (!soundButton) return;
+      const audible = !heroVideo.muted;
+      soundButton.setAttribute('aria-pressed', String(audible));
+      soundButton.setAttribute('aria-label', audible ? '静音视频' : '开启视频声音');
+      const label = soundButton.querySelector<HTMLElement>('[data-yh-sound-label]');
+      if (label) label.textContent = audible ? '静音' : '开启声音';
+    };
     const started = () => {
       hero.classList.add('is-video-playing');
+      if (soundButton) soundButton.hidden = false;
       showTitle();
     };
+    soundButton?.addEventListener('click', async () => {
+      heroVideo.muted = !heroVideo.muted;
+      if (!heroVideo.muted) {
+        heroVideo.volume = 1;
+        try {
+          await heroVideo.play();
+        } catch {
+          heroVideo.muted = true;
+        }
+      }
+      syncSoundButton();
+    });
+    heroVideo.addEventListener('volumechange', syncSoundButton);
+    syncSoundButton();
     heroVideo.addEventListener('playing', started, { once: true });
     heroVideo.addEventListener('error', showTitle, { once: true });
     if (!heroVideo.paused && heroVideo.currentTime > 0) started();

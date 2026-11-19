@@ -99,6 +99,33 @@
   z-index: 2;
   padding-top: 110px;
 }
+.yh-hero-sound {
+  position: absolute;
+  z-index: 3;
+  right: max(24px, calc((100vw - 1200px) / 2));
+  bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  padding: 10px 14px;
+  background: rgba(6, 16, 24, 0.62);
+  color: #fff;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+.yh-hero-sound[hidden] { display: none; }
+.yh-hero-sound:hover { background: rgba(6, 16, 24, 0.84); border-color: #fff; }
+.yh-hero-sound:focus-visible { outline: 2px solid #0099ff; outline-offset: 3px; }
+.yh-hero-sound svg { width: 18px; height: 18px; flex: none; }
+.yh-hero-sound .yh-sound-on-icon,
+.yh-hero-sound[aria-pressed='true'] .yh-sound-muted-icon { display: none; }
+.yh-hero-sound[aria-pressed='true'] .yh-sound-on-icon { display: block; }
 .yh-kicker {
   display: inline-flex;
   align-items: center;
@@ -1216,6 +1243,7 @@
     padding: 0 0 52px;
     text-align: left;
   }
+  .yh-hero-sound { right: 18px; bottom: 14px; padding: 8px 11px; font-size: 11px; }
   .yh-hero h1 {
     font-size: clamp(24px, 6vw, 35px);
   }
