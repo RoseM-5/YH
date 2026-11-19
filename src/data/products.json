@@ -46,7 +46,8 @@
       "categoryName": "固定翼无人机",
       "originalCategory": "固定翼无人机",
       "summary": "最大载荷 ≤ 7 kg · 飞行航程 ≥ 100 km",
-      "description": "YH-1000 为固定翼无人机，采用电机动力，最大起飞重量 20 kg、最大航时 ≥ 60 min，飞行航程 ≥ 100 km。",
+      "description": "YH-1000 为固定翼无人机，采用电动螺旋桨动力，最大起飞重量 20 kg、最大航时 ≥ 60 min，飞行航程 ≥ 100 km。",
+      "variantNote": "YH-1000 使用电动螺旋桨；YH-1001 使用涡喷发动机。两者最大航时分别为 ≥ 60 min 与约 20 min。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-1000-main.webp",
       "bestImageAlt": "YH-1000 固定翼无人机产品主图",
@@ -103,7 +104,7 @@
         },
         {
           "label": "动力",
-          "value": "Electric motor"
+          "value": "电动螺旋桨（电机驱动）"
         },
         {
           "label": "最大起飞重量",
@@ -116,11 +117,125 @@
         {
           "label": "翼展",
           "value": "1234 mm"
+        },
+        {
+          "label": "机身材料",
+          "value": "特种复合聚合物"
+        },
+        {
+          "label": "机身产能",
+          "value": "≥ 4000 架/月"
+        },
+        {
+          "label": "控制距离",
+          "value": "30–150 km 图传（可选）及数传"
+        },
+        {
+          "label": "抗风等级",
+          "value": "6 级"
+        },
+        {
+          "label": "工作温度",
+          "value": "−25～+60 °C"
+        },
+        {
+          "label": "卫星导航",
+          "value": "GPS / 北斗 / GLONASS / Galileo"
+        },
+        {
+          "label": "起飞方式",
+          "value": "弹射 / 跑道"
+        },
+        {
+          "label": "制导方式",
+          "value": "GNSS / INS、目标锁定"
+        },
+        {
+          "label": "供货形式",
+          "value": "整机方案 / PNP / 仅机体"
+        },
+        {
+          "label": "巡航速度",
+          "value": "125 km/h"
+        },
+        {
+          "label": "最大速度",
+          "value": "160 km/h"
+        },
+        {
+          "label": "弹射器规格",
+          "value": "10–20 kg"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 1,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": "YH-1000 与 YH-1001 共用原页产品视觉素材"
+      "sourceNotes": "YH-1000 与 YH-1001 共用原页产品视觉素材",
+      "comparison": {
+        "fields": [
+          "动力",
+          "最大载荷",
+          "最大航时",
+          "飞行航程",
+          "最大飞行航程",
+          "巡航速度",
+          "最大速度"
+        ],
+        "models": [
+          {
+            "model": "YH-1000",
+            "id": "yh-yh-1000",
+            "values": [
+              "电动螺旋桨（电机驱动）",
+              "≤ 7 kg",
+              "≥ 60 min",
+              "≥ 100 km",
+              "—",
+              "125 km/h",
+              "160 km/h"
+            ]
+          },
+          {
+            "model": "YH-1001",
+            "id": "yh-yh-1001",
+            "values": [
+              "涡喷发动机",
+              "≤ 7 kg",
+              "约 20 min",
+              "≥ 80 km",
+              "—",
+              "240 km/h（海平面）",
+              "360 km/h（海平面）"
+            ]
+          },
+          {
+            "model": "YH-1002",
+            "id": "yh-yh-1002",
+            "values": [
+              "汽油发动机（电喷、电启动）",
+              "50 kg",
+              "≥ 8 h",
+              "≥ 1600 km",
+              "—",
+              "200 km/h",
+              "230 km/h"
+            ]
+          },
+          {
+            "model": "YH-1003",
+            "id": "yh-yh-1003",
+            "values": [
+              "汽油发动机",
+              "50 kg",
+              "9 h",
+              "—",
+              "1500 km",
+              "180 km/h",
+              "230 km/h"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-1001",
@@ -130,7 +245,8 @@
       "categoryName": "固定翼无人机",
       "originalCategory": "固定翼无人机",
       "summary": "最大载荷 ≤ 7 kg · 飞行航程 ≥ 80 km",
-      "description": "YH-1001 为固定翼无人机，采用涡喷动力，最大起飞重量 20 kg、最大航时 约 20 min，飞行航程 ≥ 80 km。",
+      "description": "YH-1001 为固定翼无人机，采用涡喷发动机，最大起飞重量 20 kg、最大航时 约 20 min，飞行航程 ≥ 80 km。",
+      "variantNote": "YH-1001 使用涡喷发动机；YH-1000 使用电动螺旋桨。两者最高速度分别为 360 km/h（海平面）与 160 km/h。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-1001-main.webp",
       "bestImageAlt": "YH-1001 固定翼无人机产品主图",
@@ -187,7 +303,7 @@
         },
         {
           "label": "动力",
-          "value": "Turbine jet engine"
+          "value": "涡喷发动机"
         },
         {
           "label": "最大起飞重量",
@@ -200,11 +316,125 @@
         {
           "label": "翼展",
           "value": "1234 mm"
+        },
+        {
+          "label": "机身材料",
+          "value": "特种复合聚合物"
+        },
+        {
+          "label": "机身产能",
+          "value": "≥ 4000 架/月"
+        },
+        {
+          "label": "控制距离",
+          "value": "30–150 km 图传（可选）及数传"
+        },
+        {
+          "label": "抗风等级",
+          "value": "6 级"
+        },
+        {
+          "label": "工作温度",
+          "value": "−25～+60 °C"
+        },
+        {
+          "label": "卫星导航",
+          "value": "GPS / 北斗 / GLONASS / Galileo"
+        },
+        {
+          "label": "起飞方式",
+          "value": "弹射 / 跑道"
+        },
+        {
+          "label": "制导方式",
+          "value": "GNSS / INS、目标锁定"
+        },
+        {
+          "label": "供货形式",
+          "value": "整机方案 / PNP / 仅机体"
+        },
+        {
+          "label": "巡航速度",
+          "value": "240 km/h（海平面）"
+        },
+        {
+          "label": "最大速度",
+          "value": "360 km/h（海平面）"
+        },
+        {
+          "label": "弹射器规格",
+          "value": "10–20 kg"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 1,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": "YH-1000 与 YH-1001 共用原页产品视觉素材"
+      "sourceNotes": "YH-1000 与 YH-1001 共用原页产品视觉素材",
+      "comparison": {
+        "fields": [
+          "动力",
+          "最大载荷",
+          "最大航时",
+          "飞行航程",
+          "最大飞行航程",
+          "巡航速度",
+          "最大速度"
+        ],
+        "models": [
+          {
+            "model": "YH-1000",
+            "id": "yh-yh-1000",
+            "values": [
+              "电动螺旋桨（电机驱动）",
+              "≤ 7 kg",
+              "≥ 60 min",
+              "≥ 100 km",
+              "—",
+              "125 km/h",
+              "160 km/h"
+            ]
+          },
+          {
+            "model": "YH-1001",
+            "id": "yh-yh-1001",
+            "values": [
+              "涡喷发动机",
+              "≤ 7 kg",
+              "约 20 min",
+              "≥ 80 km",
+              "—",
+              "240 km/h（海平面）",
+              "360 km/h（海平面）"
+            ]
+          },
+          {
+            "model": "YH-1002",
+            "id": "yh-yh-1002",
+            "values": [
+              "汽油发动机（电喷、电启动）",
+              "50 kg",
+              "≥ 8 h",
+              "≥ 1600 km",
+              "—",
+              "200 km/h",
+              "230 km/h"
+            ]
+          },
+          {
+            "model": "YH-1003",
+            "id": "yh-yh-1003",
+            "values": [
+              "汽油发动机",
+              "50 kg",
+              "9 h",
+              "—",
+              "1500 km",
+              "180 km/h",
+              "230 km/h"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-1002",
@@ -215,6 +445,7 @@
       "originalCategory": "固定翼无人机",
       "summary": "最大载荷 50 kg · 飞行航程 ≥ 1600 km",
       "description": "YH-1002 为固定翼无人机，采用带电喷与电启动的汽油发动机，最大起飞重量 180 kg、最大航时 ≥ 8 h，飞行航程 ≥ 1600 km。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-1002-main.webp",
       "bestImageAlt": "YH-1002 固定翼无人机产品主图",
@@ -336,7 +567,7 @@
         },
         {
           "label": "动力",
-          "value": "Gasoline engine (EFI & E starter)"
+          "value": "汽油发动机（电喷、电启动）"
         },
         {
           "label": "最大起飞重量",
@@ -353,11 +584,125 @@
         {
           "label": "抗风等级",
           "value": "Level 7"
+        },
+        {
+          "label": "机身材料",
+          "value": "特种复合聚合物"
+        },
+        {
+          "label": "机身产能",
+          "value": "≥ 1000 架/月"
+        },
+        {
+          "label": "控制距离",
+          "value": "≥ 50 km（自主飞行）；更远距离可选"
+        },
+        {
+          "label": "工作温度",
+          "value": "−25～+60 °C"
+        },
+        {
+          "label": "卫星导航",
+          "value": "GPS / 北斗 / GLONASS / Galileo"
+        },
+        {
+          "label": "起飞方式",
+          "value": "弹射 / 车载 / 跑道 / 火箭助推"
+        },
+        {
+          "label": "打击方式",
+          "value": "坐标 / 目标锁定"
+        },
+        {
+          "label": "供货形式",
+          "value": "整机方案 / PNP / 仅机体"
+        },
+        {
+          "label": "巡航速度",
+          "value": "200 km/h"
+        },
+        {
+          "label": "最大速度",
+          "value": "230 km/h"
+        },
+        {
+          "label": "弹射器规格",
+          "value": "100–180 kg"
+        },
+        {
+          "label": "火箭助推器规格",
+          "value": "10–200 kg"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 2,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "动力",
+          "最大载荷",
+          "最大航时",
+          "飞行航程",
+          "最大飞行航程",
+          "巡航速度",
+          "最大速度"
+        ],
+        "models": [
+          {
+            "model": "YH-1000",
+            "id": "yh-yh-1000",
+            "values": [
+              "电动螺旋桨（电机驱动）",
+              "≤ 7 kg",
+              "≥ 60 min",
+              "≥ 100 km",
+              "—",
+              "125 km/h",
+              "160 km/h"
+            ]
+          },
+          {
+            "model": "YH-1001",
+            "id": "yh-yh-1001",
+            "values": [
+              "涡喷发动机",
+              "≤ 7 kg",
+              "约 20 min",
+              "≥ 80 km",
+              "—",
+              "240 km/h（海平面）",
+              "360 km/h（海平面）"
+            ]
+          },
+          {
+            "model": "YH-1002",
+            "id": "yh-yh-1002",
+            "values": [
+              "汽油发动机（电喷、电启动）",
+              "50 kg",
+              "≥ 8 h",
+              "≥ 1600 km",
+              "—",
+              "200 km/h",
+              "230 km/h"
+            ]
+          },
+          {
+            "model": "YH-1003",
+            "id": "yh-yh-1003",
+            "values": [
+              "汽油发动机",
+              "50 kg",
+              "9 h",
+              "—",
+              "1500 km",
+              "180 km/h",
+              "230 km/h"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-1003",
@@ -368,6 +713,7 @@
       "originalCategory": "固定翼无人机",
       "summary": "最大载荷 50 kg · 最大飞行航程 1500 km",
       "description": "YH-1003 为固定翼无人机，最大起飞重量 180 kg、最大航时 9 h，最大飞行航程 1500 km。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-1003-main.webp",
       "bestImageAlt": "YH-1003 固定翼无人机产品主图",
@@ -474,11 +820,121 @@
         {
           "label": "最大速度",
           "value": "230 km/h"
+        },
+        {
+          "label": "动力",
+          "value": "汽油发动机"
+        },
+        {
+          "label": "机体尺寸（原资料字段未明确）",
+          "value": "2620 mm"
+        },
+        {
+          "label": "爬升率",
+          "value": "4～5 m/s"
+        },
+        {
+          "label": "最大飞行高度",
+          "value": "3000 m"
+        },
+        {
+          "label": "燃料",
+          "value": "汽油"
+        },
+        {
+          "label": "油箱容量",
+          "value": "90 L"
+        },
+        {
+          "label": "发动机",
+          "value": "560 CC；53 HP / 39 kW"
+        },
+        {
+          "label": "抗风等级",
+          "value": "7 级"
+        },
+        {
+          "label": "工作温度",
+          "value": "−25～+60 °C"
+        },
+        {
+          "label": "起飞方式",
+          "value": "气泵弹射"
+        },
+        {
+          "label": "最小转弯半径",
+          "value": "400 m"
         }
       ],
+      "sourceIssue": "2620 mm 对应字段在原页写为 Wircraft commander，具体尺寸名称待核实。",
       "sourcePage": 3,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": "透明图包含原始图片中的发射架"
+      "sourceNotes": "透明图包含原始图片中的发射架",
+      "comparison": {
+        "fields": [
+          "动力",
+          "最大载荷",
+          "最大航时",
+          "飞行航程",
+          "最大飞行航程",
+          "巡航速度",
+          "最大速度"
+        ],
+        "models": [
+          {
+            "model": "YH-1000",
+            "id": "yh-yh-1000",
+            "values": [
+              "电动螺旋桨（电机驱动）",
+              "≤ 7 kg",
+              "≥ 60 min",
+              "≥ 100 km",
+              "—",
+              "125 km/h",
+              "160 km/h"
+            ]
+          },
+          {
+            "model": "YH-1001",
+            "id": "yh-yh-1001",
+            "values": [
+              "涡喷发动机",
+              "≤ 7 kg",
+              "约 20 min",
+              "≥ 80 km",
+              "—",
+              "240 km/h（海平面）",
+              "360 km/h（海平面）"
+            ]
+          },
+          {
+            "model": "YH-1002",
+            "id": "yh-yh-1002",
+            "values": [
+              "汽油发动机（电喷、电启动）",
+              "50 kg",
+              "≥ 8 h",
+              "≥ 1600 km",
+              "—",
+              "200 km/h",
+              "230 km/h"
+            ]
+          },
+          {
+            "model": "YH-1003",
+            "id": "yh-yh-1003",
+            "values": [
+              "汽油发动机",
+              "50 kg",
+              "9 h",
+              "—",
+              "1500 km",
+              "180 km/h",
+              "230 km/h"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2000",
@@ -489,6 +945,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 15 kg · 标准空载航时 10 h",
       "description": "YH-2000 采用四旋翼与固定翼结合的复合布局，可垂直起降。采用油电混合动力，最大载荷 15 kg，标准空载航时 10 h。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2000-main.webp",
       "bestImageAlt": "YH-2000 垂直起降固定翼无人机产品主图",
@@ -615,11 +1072,192 @@
         {
           "label": "机身尺寸",
           "value": "4800 × 2580 × 850 mm"
+        },
+        {
+          "label": "动力形式",
+          "value": "油电混合；四旋翼与固定翼复合布局"
+        },
+        {
+          "label": "最大抗风等级",
+          "value": "7 级"
+        },
+        {
+          "label": "工作温度",
+          "value": "−10～+60 °C"
+        },
+        {
+          "label": "控制半径",
+          "value": "50–100 km（可定制）"
+        },
+        {
+          "label": "最大航时",
+          "value": "600 min"
+        },
+        {
+          "label": "最大航程",
+          "value": "850 km"
+        },
+        {
+          "label": "最大爬升速度",
+          "value": "4 m/s"
+        },
+        {
+          "label": "最大下降速度",
+          "value": "5 m/s"
+        },
+        {
+          "label": "机身防水设计",
+          "value": "整机防水设计"
+        },
+        {
+          "label": "模块化装配",
+          "value": "无工具拆装，3 分钟内安装"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 4,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2001",
@@ -630,6 +1268,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 2.5 kg · 标准空载航时 240 min",
       "description": "YH-2001 为垂直起降固定翼无人机。最大起飞重量 14 kg、最大载荷 2.5 kg，标准空载航时 240 min。",
+      "variantNote": "与 YH-2002 的载荷、空载航时和起飞重量相同；主要区别是机身尺寸与运输箱尺寸。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2001-main.webp",
       "bestImageAlt": "YH-2001 垂直起降固定翼无人机产品主图",
@@ -752,11 +1391,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "运输箱尺寸",
+          "value": "1570 × 620 × 375 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 5,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2002",
@@ -767,6 +1555,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 2.5 kg · 标准空载航时 240 min",
       "description": "YH-2002 为垂直起降固定翼无人机。最大起飞重量 14 kg、最大载荷 2.5 kg，标准空载航时 240 min。",
+      "variantNote": "与 YH-2001 的载荷、空载航时和起飞重量相同；主要区别是机身尺寸与运输箱尺寸。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2002-main.webp",
       "bestImageAlt": "YH-2002 垂直起降固定翼无人机产品主图",
@@ -889,11 +1678,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "运输箱尺寸",
+          "value": "1470 × 560 × 400 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 6,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2003",
@@ -904,6 +1842,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 5 kg · 标准空载航时 240 min",
       "description": "YH-2003 为垂直起降固定翼无人机。最大起飞重量 26 kg、最大载荷 5 kg，标准空载航时 240 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2003-main.webp",
       "bestImageAlt": "YH-2003 垂直起降固定翼无人机产品主图",
@@ -1026,11 +1965,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "运输箱尺寸",
+          "value": "1800 × 680 × 480 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 7,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2004",
@@ -1041,6 +2129,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 10 kg · 标准空载航时 190 min",
       "description": "YH-2004 为垂直起降固定翼无人机。最大起飞重量 35 kg、最大载荷 10 kg，标准空载航时 190 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2004-main.webp",
       "bestImageAlt": "YH-2004 垂直起降固定翼无人机产品主图",
@@ -1163,11 +2252,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "运输箱尺寸",
+          "value": "2105 × 735 × 500 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 8,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2005",
@@ -1178,6 +2416,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 5 kg · 标准空载航时 240 min",
       "description": "YH-2005 为垂直起降固定翼无人机。最大起飞重量 28 kg、最大载荷 5 kg，标准空载航时 240 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2005-main.webp",
       "bestImageAlt": "YH-2005 垂直起降固定翼无人机产品主图",
@@ -1300,11 +2539,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "运输箱尺寸",
+          "value": "2000 × 650 × 480 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 9,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2006",
@@ -1315,6 +2703,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 10 kg · 标准空载航时 480 min",
       "description": "YH-2006 为垂直起降固定翼无人机。最大起飞重量 40 kg、最大载荷 10 kg，标准空载航时 480 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2006-main.webp",
       "bestImageAlt": "YH-2006 垂直起降固定翼无人机产品主图",
@@ -1441,11 +2830,164 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "发动机",
+          "value": "LiDe 170 二冲程发动机"
+        },
+        {
+          "label": "运输箱尺寸",
+          "value": "1760 × 760 × 550 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 10,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2008",
@@ -1456,6 +2998,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 15 kg · 标准空载航时 780 min",
       "description": "YH-2008 为垂直起降固定翼无人机。最大起飞重量 64 kg、最大载荷 15 kg，标准空载航时 780 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2008-main.webp",
       "bestImageAlt": "YH-2008 垂直起降固定翼无人机产品主图",
@@ -1582,11 +3125,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "发动机",
+          "value": "LiDe 170 二冲程发动机"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 11,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-2009",
@@ -1597,6 +3289,7 @@
       "originalCategory": "垂直起降固定翼无人机",
       "summary": "最大载荷 40 kg · 标准空载航时 600 min",
       "description": "YH-2009 为垂直起降固定翼无人机。最大起飞重量 150 kg、最大载荷 40 kg，标准空载航时 600 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-2009-main.webp",
       "bestImageAlt": "YH-2009 垂直起降固定翼无人机产品主图",
@@ -1723,11 +3416,160 @@
         {
           "label": "防水等级",
           "value": "IP54"
+        },
+        {
+          "label": "抗风等级",
+          "value": "垂起模式 6 级 / 固定翼模式 7 级"
+        },
+        {
+          "label": "发动机",
+          "value": "LiDe 290 二冲程发动机"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 12,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载荷",
+          "标准空载航时",
+          "最大起飞重量",
+          "标准起飞重量",
+          "巡航速度",
+          "最大飞行高度",
+          "最大起飞高度",
+          "发动机"
+        ],
+        "models": [
+          {
+            "model": "YH-2000",
+            "id": "yh-yh-2000",
+            "values": [
+              "15 kg",
+              "10 h",
+              "—",
+              "60 kg",
+              "85 km/h",
+              "—",
+              "4000 m",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2001",
+            "id": "yh-yh-2001",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2002",
+            "id": "yh-yh-2002",
+            "values": [
+              "2.5 kg",
+              "240 min",
+              "14 kg",
+              "—",
+              "20 m/s",
+              "4800 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2003",
+            "id": "yh-yh-2003",
+            "values": [
+              "5 kg",
+              "240 min",
+              "26 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2004",
+            "id": "yh-yh-2004",
+            "values": [
+              "10 kg",
+              "190 min",
+              "35 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2005",
+            "id": "yh-yh-2005",
+            "values": [
+              "5 kg",
+              "240 min",
+              "28 kg",
+              "—",
+              "21 m/s",
+              "4200 m",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-2006",
+            "id": "yh-yh-2006",
+            "values": [
+              "10 kg",
+              "480 min",
+              "40 kg",
+              "—",
+              "20 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2008",
+            "id": "yh-yh-2008",
+            "values": [
+              "15 kg",
+              "780 min",
+              "64 kg",
+              "—",
+              "37 m/s",
+              "6000 m",
+              "—",
+              "LiDe 170 二冲程发动机"
+            ]
+          },
+          {
+            "model": "YH-2009",
+            "id": "yh-yh-2009",
+            "values": [
+              "40 kg",
+              "600 min",
+              "150 kg",
+              "—",
+              "35 m/s",
+              "6000 m",
+              "—",
+              "LiDe 290 二冲程发动机"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-3000",
@@ -1738,6 +3580,7 @@
       "originalCategory": "多旋翼无人机",
       "summary": "最大载重 60 kg · 60 kg 载重续航 18 min",
       "description": "YH-3000 为多旋翼无人机，机身材料为 TORAY 3K carbon fiber、轴距 2400 mm。60 kg 载重续航 18 min，空载续航 55 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-3000-main.webp",
       "bestImageAlt": "YH-3000 多旋翼无人机产品主图",
@@ -1860,11 +3703,80 @@
         {
           "label": "空载续航",
           "value": "55 min"
+        },
+        {
+          "label": "制造工艺",
+          "value": "内压成型"
+        },
+        {
+          "label": "机壳厚度",
+          "value": "1.5 mm"
+        },
+        {
+          "label": "最大起飞重量",
+          "value": "110 kg"
+        },
+        {
+          "label": "30 kg 载重续航",
+          "value": "30 min"
+        },
+        {
+          "label": "空载续航测试电池",
+          "value": "4 组 14S 35000 mAh LiHV 电池"
+        },
+        {
+          "label": "最大适配桨叶",
+          "value": "60 英寸"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 13,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载重",
+          "空载续航",
+          "轴距",
+          "最大起飞重量",
+          "最大适配桨叶"
+        ],
+        "models": [
+          {
+            "model": "YH-3000",
+            "id": "yh-yh-3000",
+            "values": [
+              "60 kg",
+              "55 min",
+              "2400 mm",
+              "110 kg",
+              "60 英寸"
+            ]
+          },
+          {
+            "model": "YH-3001",
+            "id": "yh-yh-3001",
+            "values": [
+              "7 kg",
+              "75 min",
+              "1600 mm",
+              "—",
+              "29 英寸"
+            ]
+          },
+          {
+            "model": "YH-3002",
+            "id": "yh-yh-3002",
+            "values": [
+              "5 kg",
+              "70 min",
+              "1200 mm",
+              "—",
+              "22 英寸"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-3001",
@@ -1875,6 +3787,7 @@
       "originalCategory": "多旋翼无人机",
       "summary": "最大载重 7 kg · 7 kg 载重续航 25 min",
       "description": "YH-3001 为多旋翼无人机，机身材料为 TORAY 3K carbon fiber、轴距 1600 mm。7 kg 载重续航 25 min，空载续航 75 min。",
+      "variantNote": "与 YH-3002 相比，YH-3001 轴距更大，最大载重 7 kg，空载续航 75 min。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-3001-main.webp",
       "bestImageAlt": "YH-3001 多旋翼无人机产品主图",
@@ -1997,11 +3910,76 @@
         {
           "label": "空载续航",
           "value": "75 min"
+        },
+        {
+          "label": "制造工艺",
+          "value": "内压成型"
+        },
+        {
+          "label": "机壳厚度",
+          "value": "0.6 mm"
+        },
+        {
+          "label": "空载续航测试电池",
+          "value": "2 组 25000 mAh 电池"
+        },
+        {
+          "label": "最大适配电机",
+          "value": "U8"
+        },
+        {
+          "label": "最大适配桨叶",
+          "value": "29 英寸"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 14,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载重",
+          "空载续航",
+          "轴距",
+          "最大起飞重量",
+          "最大适配桨叶"
+        ],
+        "models": [
+          {
+            "model": "YH-3000",
+            "id": "yh-yh-3000",
+            "values": [
+              "60 kg",
+              "55 min",
+              "2400 mm",
+              "110 kg",
+              "60 英寸"
+            ]
+          },
+          {
+            "model": "YH-3001",
+            "id": "yh-yh-3001",
+            "values": [
+              "7 kg",
+              "75 min",
+              "1600 mm",
+              "—",
+              "29 英寸"
+            ]
+          },
+          {
+            "model": "YH-3002",
+            "id": "yh-yh-3002",
+            "values": [
+              "5 kg",
+              "70 min",
+              "1200 mm",
+              "—",
+              "22 英寸"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-3002",
@@ -2012,6 +3990,7 @@
       "originalCategory": "多旋翼无人机",
       "summary": "最大载重 5 kg · 5 kg 载重续航 30 min",
       "description": "YH-3002 为多旋翼无人机，机身材料为 TORAY 3K carbon fiber、轴距 1200 mm。5 kg 载重续航 30 min，空载续航 70 min。",
+      "variantNote": "与 YH-3001 相比，YH-3002 轴距更小，最大载重 5 kg，空载续航 70 min。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-3002-main.webp",
       "bestImageAlt": "YH-3002 多旋翼无人机产品主图",
@@ -2118,11 +4097,76 @@
         {
           "label": "空载续航",
           "value": "70 min"
+        },
+        {
+          "label": "制造工艺",
+          "value": "内压成型"
+        },
+        {
+          "label": "机壳厚度",
+          "value": "0.6 mm"
+        },
+        {
+          "label": "空载续航测试电池",
+          "value": "2 组 25000 mAh 电池"
+        },
+        {
+          "label": "最大适配电机",
+          "value": "U6"
+        },
+        {
+          "label": "最大适配桨叶",
+          "value": "22 英寸"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 15,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大载重",
+          "空载续航",
+          "轴距",
+          "最大起飞重量",
+          "最大适配桨叶"
+        ],
+        "models": [
+          {
+            "model": "YH-3000",
+            "id": "yh-yh-3000",
+            "values": [
+              "60 kg",
+              "55 min",
+              "2400 mm",
+              "110 kg",
+              "60 英寸"
+            ]
+          },
+          {
+            "model": "YH-3001",
+            "id": "yh-yh-3001",
+            "values": [
+              "7 kg",
+              "75 min",
+              "1600 mm",
+              "—",
+              "29 英寸"
+            ]
+          },
+          {
+            "model": "YH-3002",
+            "id": "yh-yh-3002",
+            "values": [
+              "5 kg",
+              "70 min",
+              "1200 mm",
+              "—",
+              "22 英寸"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-4000",
@@ -2133,6 +4177,7 @@
       "originalCategory": "巡飞器",
       "summary": "最大飞行航程 110 km · 最大任务载荷 1 kg",
       "description": "YH-4000 为巡飞器，外形尺寸为 机长 0.9 m · 翼展 1.2 m，最大飞行航程 110 km、最大任务载荷 1 kg。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-4000-main.webp",
       "bestImageAlt": "YH-4000 巡飞器产品主图",
@@ -2206,11 +4251,80 @@
         {
           "label": "抗风等级",
           "value": "Level 5"
+        },
+        {
+          "label": "最低飞行高度",
+          "value": "相对高度 20 m"
+        },
+        {
+          "label": "同空域飞行数量",
+          "value": "64 架"
+        },
+        {
+          "label": "任务功能",
+          "value": "任务规划、模拟飞行、编队飞行、侦察与打击一体化"
+        },
+        {
+          "label": "起飞方式",
+          "value": "冷气 / 燃气发射"
+        },
+        {
+          "label": "最高飞行高度",
+          "value": "海拔 4000 m"
+        },
+        {
+          "label": "性能特点",
+          "value": "高稳定性、流线型设计、高通信带宽、单兵便携"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 18,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大飞行航程",
+          "最大任务载荷",
+          "飞行速度",
+          "最大起飞重量",
+          "抗风等级"
+        ],
+        "models": [
+          {
+            "model": "YH-4000",
+            "id": "yh-yh-4000",
+            "values": [
+              "110 km",
+              "1 kg",
+              "40 m/s",
+              "6.5 kg",
+              "Level 5"
+            ]
+          },
+          {
+            "model": "YH-4001",
+            "id": "yh-yh-4001",
+            "values": [
+              "180 km",
+              "2 kg",
+              "50 m/s",
+              "10 kg",
+              "Level 6"
+            ]
+          },
+          {
+            "model": "YH-4002",
+            "id": "yh-yh-4002",
+            "values": [
+              "320 km",
+              "5 kg",
+              "50 m/s",
+              "22 kg",
+              "Level 6"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-4001",
@@ -2221,6 +4335,7 @@
       "originalCategory": "巡飞器",
       "summary": "最大飞行航程 180 km · 最大任务载荷 2 kg",
       "description": "YH-4001 为巡飞器，外形尺寸为 机长 1.1 m · 翼展 1.4 m，最大飞行航程 180 km、最大任务载荷 2 kg。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-4001-main.webp",
       "bestImageAlt": "YH-4001 巡飞器产品主图",
@@ -2294,11 +4409,84 @@
         {
           "label": "抗风等级",
           "value": "Level 6"
+        },
+        {
+          "label": "最低飞行高度",
+          "value": "相对高度 20 m"
+        },
+        {
+          "label": "同空域飞行数量",
+          "value": "64 架"
+        },
+        {
+          "label": "任务功能",
+          "value": "任务规划、模拟飞行、编队飞行、侦察与打击一体化"
+        },
+        {
+          "label": "起飞与回收",
+          "value": "冷气 / 燃气发射；滑翔 / 降落伞回收"
+        },
+        {
+          "label": "最高飞行高度",
+          "value": "海拔 5000 m"
+        },
+        {
+          "label": "性能特点",
+          "value": "高稳定性、流线型设计、高通信带宽、抗干扰、抗风"
+        },
+        {
+          "label": "补充功能",
+          "value": "降落伞回收"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 19,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大飞行航程",
+          "最大任务载荷",
+          "飞行速度",
+          "最大起飞重量",
+          "抗风等级"
+        ],
+        "models": [
+          {
+            "model": "YH-4000",
+            "id": "yh-yh-4000",
+            "values": [
+              "110 km",
+              "1 kg",
+              "40 m/s",
+              "6.5 kg",
+              "Level 5"
+            ]
+          },
+          {
+            "model": "YH-4001",
+            "id": "yh-yh-4001",
+            "values": [
+              "180 km",
+              "2 kg",
+              "50 m/s",
+              "10 kg",
+              "Level 6"
+            ]
+          },
+          {
+            "model": "YH-4002",
+            "id": "yh-yh-4002",
+            "values": [
+              "320 km",
+              "5 kg",
+              "50 m/s",
+              "22 kg",
+              "Level 6"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-4002",
@@ -2309,6 +4497,7 @@
       "originalCategory": "巡飞器",
       "summary": "最大飞行航程 320 km · 最大任务载荷 5 kg",
       "description": "YH-4002 为巡飞器，外形尺寸为 机长 1.7 m · 翼展 2.3 m，最大飞行航程 320 km、最大任务载荷 5 kg。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-4002-main.webp",
       "bestImageAlt": "YH-4002 巡飞器产品主图",
@@ -2382,11 +4571,84 @@
         {
           "label": "抗风等级",
           "value": "Level 6"
+        },
+        {
+          "label": "最低飞行高度",
+          "value": "相对高度 20 m"
+        },
+        {
+          "label": "同空域飞行数量",
+          "value": "64 架"
+        },
+        {
+          "label": "任务功能",
+          "value": "任务规划、模拟飞行、编队飞行、侦察与打击一体化"
+        },
+        {
+          "label": "起飞方式",
+          "value": "冷气 / 燃气发射"
+        },
+        {
+          "label": "最高飞行高度",
+          "value": "海拔 5000 m"
+        },
+        {
+          "label": "性能特点",
+          "value": "长航时、高稳定性、流线型设计、高带宽、抗干扰、抗欺骗"
+        },
+        {
+          "label": "补充功能",
+          "value": "降落伞回收、多载荷兼容"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 20,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "最大飞行航程",
+          "最大任务载荷",
+          "飞行速度",
+          "最大起飞重量",
+          "抗风等级"
+        ],
+        "models": [
+          {
+            "model": "YH-4000",
+            "id": "yh-yh-4000",
+            "values": [
+              "110 km",
+              "1 kg",
+              "40 m/s",
+              "6.5 kg",
+              "Level 5"
+            ]
+          },
+          {
+            "model": "YH-4001",
+            "id": "yh-yh-4001",
+            "values": [
+              "180 km",
+              "2 kg",
+              "50 m/s",
+              "10 kg",
+              "Level 6"
+            ]
+          },
+          {
+            "model": "YH-4002",
+            "id": "yh-yh-4002",
+            "values": [
+              "320 km",
+              "5 kg",
+              "50 m/s",
+              "22 kg",
+              "Level 6"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5000",
@@ -2397,6 +4659,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 2 kg · 空载续航 12 min",
       "description": "YH-5000 为 FPV 无人机套件，轴距 277 mm、额定载重 1 kg，最大载重 2 kg，空载续航 12 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5000-main.webp",
       "bestImageAlt": "YH-5000 FPV无人机套件产品主图",
@@ -2470,11 +4733,184 @@
         {
           "label": "净重",
           "value": "406 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 5；5 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "6 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*22071960kv 65（原资料原文，后缀待核）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "E601D 60 A，8 Bit，2–6S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "5 min（1 × 6S 1500 mAh，1.63 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "1 × 6S 1500 mAh，0.63 kg"
+        },
+        {
+          "label": "桨叶",
+          "value": "1310 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "1 × 6S 1500 mAh 130C，0.22 kg"
         }
       ],
+      "sourceIssue": "电机参数末尾在原页写为 65，供电后缀待核实。",
       "sourcePage": 21,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5001",
@@ -2485,6 +4921,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 2 kg · 空载续航 29 min",
       "description": "YH-5001 为 FPV 无人机套件，轴距 312 mm、额定载重 1.5 kg，最大载重 2 kg，空载续航 29 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5001-main.webp",
       "bestImageAlt": "YH-5001 FPV无人机套件产品主图",
@@ -2558,11 +4995,184 @@
         {
           "label": "净重",
           "value": "540 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 7；7 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "6 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*28071350k6S（原资料原文）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "E601D 60 A，8 Bit，2–6S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，40 通道，1.6 W"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "14 min（6S 10000 mAh，3.2 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "6S 8000 mAh，1.68 kg"
+        },
+        {
+          "label": "桨叶",
+          "value": "7040 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "6S 8000 mAh 50C，XT60，1 kg"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 22,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5002",
@@ -2573,6 +5183,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 4 kg · 空载续航 28 min",
       "description": "YH-5002 为 FPV 无人机套件，轴距 396 mm、额定载重 3 kg，最大载重 4 kg，空载续航 28 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5002-main.webp",
       "bestImageAlt": "YH-5002 FPV无人机套件产品主图",
@@ -2646,11 +5257,184 @@
         {
           "label": "净重",
           "value": "793 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 10；10 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "7 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*3115900kv 6S（原资料原文）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "E601D 60 A，8 Bit，2–6S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W，15 km"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "10 min 20 s（6S 10000 mAh，5.2 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "6S 8000 mAh，2.2 kg"
+        },
+        {
+          "label": "桨叶",
+          "value": "1050 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "原资料标为 610000 mAh 25C，1.35 kg（型号待核）"
         }
       ],
+      "sourceIssue": "推荐电池容量在原页写为 610000mah，需核实。",
       "sourcePage": 23,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5003",
@@ -2661,6 +5445,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 6 kg · 空载续航 30 min",
       "description": "YH-5003 为 FPV 无人机套件，轴距 740 mm、额定载重 5 kg，最大载重 6 kg，空载续航 30 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5003-main.webp",
       "bestImageAlt": "YH-5003 FPV无人机套件产品主图",
@@ -2734,11 +5519,184 @@
         {
           "label": "净重",
           "value": "1665 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 10 × 6；10 英寸 / 六轴"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "6 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*5315440kv 8S（原资料原文，数量待核）"
+        },
+        {
+          "label": "飞控",
+          "value": "F405 ICM 8S"
+        },
+        {
+          "label": "电调",
+          "value": "80 A 单体，3–8S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W；资料标注最远 15 km"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "13 min（2 × 8S 16000 mAh，13.5 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "2 × 8S 16000 mAh，8.5 kg"
+        },
+        {
+          "label": "桨叶",
+          "value": "1507 三叶 × 4（资料数量待核）"
+        },
+        {
+          "label": "推荐电池",
+          "value": "2 × 6S 6000 mAh 60C，2.23 kg"
         }
       ],
+      "sourceIssue": "原页六轴规格与电机、桨叶数量的标注不一致，需核实。",
       "sourcePage": 24,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5004",
@@ -2749,6 +5707,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 7 kg · 空载续航 38 min",
       "description": "YH-5004 为 FPV 无人机套件，轴距 600 mm、额定载重 6 kg，最大载重 7 kg，空载续航 38 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5004-main.webp",
       "bestImageAlt": "YH-5004 FPV无人机套件产品主图",
@@ -2822,11 +5781,184 @@
         {
           "label": "净重",
           "value": "1850 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 13；13 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "10 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*4214440kv 8S（原资料原文）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "80 A V1 单体，3–8S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "11 min（2 × 8S 8000 mAh，10.9 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "2 × 8S 8000 mAh，4.9 kg"
+        },
+        {
+          "label": "桨叶",
+          "value": "1310 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "2 × 8S 8000 mAh 30C，2.04 kg"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 25,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5005",
@@ -2837,6 +5969,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 8 kg · 空载续航 42 min",
       "description": "YH-5005 为 FPV 无人机套件，轴距 647 mm、额定载重 7 kg，最大载重 8 kg，空载续航 42 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5005-main.webp",
       "bestImageAlt": "YH-5005 FPV无人机套件产品主图",
@@ -2910,11 +6043,184 @@
         {
           "label": "净重",
           "value": "2050 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 15；15 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "10 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*4214-380kv 8S（原资料原文）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "80 A 单体，3–8S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "原资料标为 2 × 8S 800 mah，4.9 kg（容量待核）"
+        },
+        {
+          "label": "桨叶",
+          "value": "1507 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "2 × 8S 8000 mAh 30C，2.04 kg"
         }
       ],
+      "sourceIssue": "空载续航测试电池容量在原页写为 800mah，需核实。",
       "sourcePage": 26,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5006",
@@ -2925,6 +6231,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 18 kg · 空载续航 50 min",
       "description": "YH-5006 为 FPV 无人机套件，轴距 780 mm、额定载重 15 kg，最大载重 18 kg，空载续航 50 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5006-main.webp",
       "bestImageAlt": "YH-5006 FPV无人机套件产品主图",
@@ -2998,11 +6305,184 @@
         {
           "label": "净重",
           "value": "4280 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 15 × 6；15 英寸 / 六轴"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "φ25 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*5315440kv 8S（原资料原文，数量待核）"
+        },
+        {
+          "label": "飞控",
+          "value": "F405 ICM 8S"
+        },
+        {
+          "label": "电调",
+          "value": "100 A 单体，3–8S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W；资料标注最远 15 km"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "11 min（2 × 8S 16000 mAh，13.5 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "原资料标为 2 × 8516000 mah，8.5 kg（电池标记待核）"
+        },
+        {
+          "label": "桨叶",
+          "value": "1507 三叶 × 4（资料数量待核）"
+        },
+        {
+          "label": "推荐电池",
+          "value": "2 × 8S 22000 mAh 30C，4.4 kg"
         }
       ],
+      "sourceIssue": "原页六轴规格与电机、桨叶数量的标注不一致，电池标记也需核实。",
       "sourcePage": 27,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5007",
@@ -3013,6 +6493,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 12 kg · 空载续航 50 min",
       "description": "YH-5007 为 FPV 无人机套件，轴距 840 mm、额定载重 10 kg，最大载重 12 kg，空载续航 50 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5007-main.webp",
       "bestImageAlt": "YH-5007 FPV无人机套件产品主图",
@@ -3086,11 +6567,184 @@
         {
           "label": "净重",
           "value": "3971 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 18；18 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "13 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*5315200kv 12S（原资料原文）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "100 A 单体，12S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "26 min（原资料标为 1 × 12536000 mah，21 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "原资料标为 1 × 12536000 mah，11 kg（电池标记待核）"
+        },
+        {
+          "label": "桨叶",
+          "value": "1810 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "原资料标为 1 × 12536000 mah 5C，5 kg（电池标记待核）"
         }
       ],
+      "sourceIssue": "电池标记 12536000mah 需核实。",
       "sourcePage": 28,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5008",
@@ -3101,6 +6755,7 @@
       "originalCategory": "FPV无人机套件",
       "summary": "最大载重 15 kg · 空载续航 58 min",
       "description": "YH-5008 为 FPV 无人机套件，轴距 1160 mm、额定载重 12 kg，最大载重 15 kg，空载续航 58 min。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5008-main.webp",
       "bestImageAlt": "YH-5008 FPV无人机套件产品主图",
@@ -3170,11 +6825,188 @@
         {
           "label": "净重",
           "value": "6895 g"
+        },
+        {
+          "label": "摄像头（可选）",
+          "value": "1800 TVL，5–40 V"
+        },
+        {
+          "label": "天线",
+          "value": "5.8G 右旋 SMA 内针，长 150 mm"
+        },
+        {
+          "label": "接收机",
+          "value": "ELRS 915M"
+        },
+        {
+          "label": "规格",
+          "value": "Mark 22；22 英寸"
+        },
+        {
+          "label": "机臂厚度",
+          "value": "φ30 mm"
+        },
+        {
+          "label": "电机标记",
+          "value": "4*7220230kv 12S（原资料原文）"
+        },
+        {
+          "label": "飞控 / 固件",
+          "value": "F4 F405；BF / INAV"
+        },
+        {
+          "label": "电调",
+          "value": "160 A 单体，12S"
+        },
+        {
+          "label": "图传（可选）",
+          "value": "5.8G，48 通道，3 W；资料标注最远 15 km"
+        },
+        {
+          "label": "额定载重续航",
+          "value": "31 min（原资料标为 2 × 12536000 mah，29.1 kg）"
+        },
+        {
+          "label": "空载续航工况",
+          "value": "原资料标为 2 × 12536000 mah，17.1 kg（电池标记待核）"
+        },
+        {
+          "label": "产品尺寸",
+          "value": "原资料标为 750^750 × 150 mm（符号待核）"
+        },
+        {
+          "label": "桨叶",
+          "value": "2225 三叶 × 4"
+        },
+        {
+          "label": "推荐电池",
+          "value": "原资料标为 2 × 12536000 mah 5C，5 kg（电池标记待核）"
         }
       ],
+      "sourceIssue": "电池标记 12536000mah 和产品尺寸符号需核实。",
       "sourcePage": 29,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "额定载重",
+          "最大载重",
+          "空载续航",
+          "额定载重续航",
+          "轴距"
+        ],
+        "models": [
+          {
+            "model": "YH-5000",
+            "id": "yh-yh-5000",
+            "values": [
+              "Mark 5；5 英寸",
+              "1 kg",
+              "2 kg",
+              "12 min",
+              "5 min（1 × 6S 1500 mAh，1.63 kg）",
+              "277 mm"
+            ]
+          },
+          {
+            "model": "YH-5001",
+            "id": "yh-yh-5001",
+            "values": [
+              "Mark 7；7 英寸",
+              "1.5 kg",
+              "2 kg",
+              "29 min",
+              "14 min（6S 10000 mAh，3.2 kg）",
+              "312 mm"
+            ]
+          },
+          {
+            "model": "YH-5002",
+            "id": "yh-yh-5002",
+            "values": [
+              "Mark 10；10 英寸",
+              "3 kg",
+              "4 kg",
+              "28 min",
+              "10 min 20 s（6S 10000 mAh，5.2 kg）",
+              "396 mm"
+            ]
+          },
+          {
+            "model": "YH-5003",
+            "id": "yh-yh-5003",
+            "values": [
+              "Mark 10 × 6；10 英寸 / 六轴",
+              "5 kg",
+              "6 kg",
+              "30 min",
+              "13 min（2 × 8S 16000 mAh，13.5 kg）",
+              "740 mm"
+            ]
+          },
+          {
+            "model": "YH-5004",
+            "id": "yh-yh-5004",
+            "values": [
+              "Mark 13；13 英寸",
+              "6 kg",
+              "7 kg",
+              "38 min",
+              "11 min（2 × 8S 8000 mAh，10.9 kg）",
+              "600 mm"
+            ]
+          },
+          {
+            "model": "YH-5005",
+            "id": "yh-yh-5005",
+            "values": [
+              "Mark 15；15 英寸",
+              "7 kg",
+              "8 kg",
+              "42 min",
+              "12 min（原资料电池标为 2 × 8S 8000 ma，11.8 kg）",
+              "647 mm"
+            ]
+          },
+          {
+            "model": "YH-5006",
+            "id": "yh-yh-5006",
+            "values": [
+              "Mark 15 × 6；15 英寸 / 六轴",
+              "15 kg",
+              "18 kg",
+              "50 min",
+              "11 min（2 × 8S 16000 mAh，13.5 kg）",
+              "780 mm"
+            ]
+          },
+          {
+            "model": "YH-5007",
+            "id": "yh-yh-5007",
+            "values": [
+              "Mark 18；18 英寸",
+              "10 kg",
+              "12 kg",
+              "50 min",
+              "26 min（原资料标为 1 × 12536000 mah，21 kg）",
+              "840 mm"
+            ]
+          },
+          {
+            "model": "YH-5008",
+            "id": "yh-yh-5008",
+            "values": [
+              "Mark 22；22 英寸",
+              "12 kg",
+              "15 kg",
+              "58 min",
+              "31 min（原资料标为 2 × 12536000 mah，29.1 kg）",
+              "1160 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5009",
@@ -3185,6 +7017,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 277 mm · 机架重量 120 g",
       "description": "YH-5009 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 277 mm，机架重量 120 g，规格 5 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5009-main.webp",
       "bestImageAlt": "YH-5009 FPV无人机机架产品主图",
@@ -3258,11 +7091,160 @@
         {
           "label": "适配桨叶",
           "value": "5 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 5；5 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 16 × 16 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "21.8 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 30,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5010",
@@ -3273,6 +7255,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 311 mm · 机架重量 178.6 g",
       "description": "YH-5010 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 311 mm，机架重量 178.6 g，规格 7 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5010-main.webp",
       "bestImageAlt": "YH-5010 FPV无人机机架产品主图",
@@ -3346,11 +7329,160 @@
         {
           "label": "适配桨叶",
           "value": "7 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 7；7 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "3 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "3 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 16 × 19 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "25 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 31,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5011",
@@ -3361,6 +7493,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 396 mm · 机架重量 248 g",
       "description": "YH-5011 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 396 mm，机架重量 248 g，规格 10 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5011-main.webp",
       "bestImageAlt": "YH-5011 FPV无人机机架产品主图",
@@ -3434,11 +7567,160 @@
         {
           "label": "适配桨叶",
           "value": "10 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 10；10 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "3 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "3 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 16 × 19 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "25 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 32,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5012",
@@ -3449,6 +7731,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 427 mm · 机架重量 228 g",
       "description": "YH-5012 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 427 mm，机架重量 228 g，规格 10 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5012-main.webp",
       "bestImageAlt": "YH-5012 FPV无人机机架产品主图",
@@ -3522,11 +7805,160 @@
         {
           "label": "适配桨叶",
           "value": "10 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 4-10；10 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "3 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "2.5 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 16 × 19 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "25 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 33,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5013",
@@ -3537,6 +7969,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 600 mm · 机架重量 738 g",
       "description": "YH-5013 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 600 mm，机架重量 738 g，规格 13 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5013-main.webp",
       "bestImageAlt": "YH-5013 FPV无人机机架产品主图",
@@ -3610,11 +8043,160 @@
         {
           "label": "适配桨叶",
           "value": "13 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 13；13 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "4 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "4 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 19 × 19 / M4 × 30 × 30 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "25 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 34,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5014",
@@ -3625,6 +8207,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 647 mm · 机架重量 768 g",
       "description": "YH-5014 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 647 mm，机架重量 768 g，规格 15 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5014-main.webp",
       "bestImageAlt": "YH-5014 FPV无人机机架产品主图",
@@ -3698,11 +8281,160 @@
         {
           "label": "适配桨叶",
           "value": "15 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 15；15 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "4 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "4 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 19 × 19 / M4 × 30 × 30 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "25 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 35,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5015",
@@ -3713,6 +8445,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 840 mm · 机架重量 1150 g",
       "description": "YH-5015 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 840 mm，机架重量 1150 g，规格 18 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5015-main.webp",
       "bestImageAlt": "YH-5015 FPV无人机机架产品主图",
@@ -3786,11 +8519,160 @@
         {
           "label": "适配桨叶",
           "value": "18 inch"
+        },
+        {
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 18；18 英寸"
+        },
+        {
+          "label": "侧板厚度",
+          "value": "2 mm"
+        },
+        {
+          "label": "中板厚度",
+          "value": "4 mm"
+        },
+        {
+          "label": "底板厚度",
+          "value": "4.5 mm"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M3 × 30.5 × 30.5 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M3 × 19 × 19 / M4 × 30 × 30 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "内部空间高度",
+          "value": "25 mm"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 36,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-yh-5016",
@@ -3801,6 +8683,7 @@
       "originalCategory": "FPV无人机机架",
       "summary": "轴距 1160 mm · 臂管直径 φ30 mm",
       "description": "YH-5016 为 FPV 无人机机架，材质为 3K Carbon Fiber T300、轴距 1160 mm，臂管直径 φ30 mm，规格 22 inch。",
+      "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-5016-main.webp",
       "bestImageAlt": "YH-5016 FPV无人机机架产品主图",
@@ -3868,13 +8751,142 @@
           "value": "3 mm"
         },
         {
-          "label": "臂管直径",
-          "value": "φ30 mm"
+          "label": "机身材料",
+          "value": "3K 碳纤维 T300"
+        },
+        {
+          "label": "系列规格",
+          "value": "Mark 22；22 英寸"
+        },
+        {
+          "label": "飞控 / 电调安装孔",
+          "value": "M4 × 30 × 30 mm"
+        },
+        {
+          "label": "电机安装孔",
+          "value": "M2 × 19 × 19 mm"
+        },
+        {
+          "label": "相机安装孔",
+          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
+        },
+        {
+          "label": "图传安装孔",
+          "value": "30 mm"
         }
       ],
+      "sourceIssue": "原页末三行字段错位：底板厚度、内部空间高度、适配桨叶和重量无法确认，暂不展示。",
       "sourcePage": 37,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "规格",
+          "轴距",
+          "机架重量",
+          "顶板厚度",
+          "机臂厚度",
+          "臂管直径"
+        ],
+        "models": [
+          {
+            "model": "YH-5009",
+            "id": "yh-yh-5009",
+            "values": [
+              "5 inch",
+              "277 mm",
+              "120 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5010",
+            "id": "yh-yh-5010",
+            "values": [
+              "7 inch",
+              "311 mm",
+              "178.6 g",
+              "2 mm",
+              "6 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5011",
+            "id": "yh-yh-5011",
+            "values": [
+              "10 inch",
+              "396 mm",
+              "248 g",
+              "2 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5012",
+            "id": "yh-yh-5012",
+            "values": [
+              "10 inch",
+              "427 mm",
+              "228 g",
+              "2.5 mm",
+              "7 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5013",
+            "id": "yh-yh-5013",
+            "values": [
+              "13 inch",
+              "600 mm",
+              "738 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5014",
+            "id": "yh-yh-5014",
+            "values": [
+              "15 inch",
+              "647 mm",
+              "768 g",
+              "2 mm",
+              "10 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5015",
+            "id": "yh-yh-5015",
+            "values": [
+              "18 inch",
+              "840 mm",
+              "1150 g",
+              "2 mm",
+              "13 mm",
+              "—"
+            ]
+          },
+          {
+            "model": "YH-5016",
+            "id": "yh-yh-5016",
+            "values": [
+              "22 inch",
+              "1160 mm",
+              "—",
+              "3 mm",
+              "—",
+              "φ30 mm"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-wp-4000",
@@ -3885,6 +8897,7 @@
       "originalCategory": "发动机",
       "summary": "最大功率 39 kW @ 6500 r/min · 裸机重量 18.6 kg",
       "description": "WP-4000 是喷油、风冷、二冲程的水平对置双缸汽油航空活塞发动机。最大功率 39 kW @ 6500 r/min，裸机重量 18.6 kg。",
+      "variantNote": "WP-4000 为汽油活塞发动机；WP-4001 为 MTJ-80 / MTJ-220 涡喷发动机系列。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/wp-4000-main.webp",
       "bestImageAlt": "WP-4000 发动机产品主图",
@@ -3958,11 +8971,101 @@
         {
           "label": "尺寸",
           "value": "475 × 300 × 490 mm"
+        },
+        {
+          "label": "动力形式",
+          "value": "喷油、风冷、二冲程、水平对置双缸汽油活塞发动机"
+        },
+        {
+          "label": "缸径 × 行程",
+          "value": "76 × 69 mm"
+        },
+        {
+          "label": "经济油耗",
+          "value": "320–430 g/kWh"
+        },
+        {
+          "label": "燃料",
+          "value": "92 号及以上汽油；二冲程润滑油比例 1:50"
+        },
+        {
+          "label": "维护间隔",
+          "value": "150–200 h"
+        },
+        {
+          "label": "可选起动机",
+          "value": "24 V / 12 V"
+        },
+        {
+          "label": "可选发电机",
+          "value": "28 V"
+        },
+        {
+          "label": "其他可选配置",
+          "value": "一体化起动发电机、螺旋桨离合器（不计入裸机重量）"
+        },
+        {
+          "label": "电子控制",
+          "value": "电喷、冗余火花塞及转速传感器；恒速控制"
+        },
+        {
+          "label": "运行监测",
+          "value": "气压、气温、缸盖温度与排气温度实时监测"
+        },
+        {
+          "label": "保护功能",
+          "value": "超温与超速保护；环境温度及气压补偿"
+        },
+        {
+          "label": "适应温度",
+          "value": "−35～+65 °C"
+        },
+        {
+          "label": "通信接口",
+          "value": "RS232 / CAN"
+        },
+        {
+          "label": "输出与点火",
+          "value": "后输出轴；从桨侧看逆时针旋转；双缸同步点火；ECU 控制四火花塞感应放电点火"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 16,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": ""
+      "sourceNotes": "",
+      "comparison": {
+        "fields": [
+          "动力形式",
+          "最大功率",
+          "裸机重量",
+          "MTJ-80 推力",
+          "MTJ-220 推力"
+        ],
+        "models": [
+          {
+            "model": "WP-4000",
+            "id": "yh-wp-4000",
+            "values": [
+              "喷油、风冷、二冲程、水平对置双缸汽油活塞发动机",
+              "39 kW @ 6500 r/min",
+              "18.6 kg",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "WP-4001",
+            "id": "yh-wp-4001",
+            "values": [
+              "涡喷发动机；MTJ-80 / MTJ-220 两种规格",
+              "—",
+              "—",
+              "8 kgf",
+              "22 kgf"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "yh-wp-4001",
@@ -3973,6 +9076,7 @@
       "originalCategory": "发动机",
       "summary": "MTJ-80 推力 8 kgf · MTJ-220 推力 22 kgf",
       "description": "WP-4001 包含 MTJ-80 与 MTJ-220 两款涡喷发动机，推力分别为 8 kgf 和 22 kgf。",
+      "variantNote": "WP-4001 为涡喷发动机系列；WP-4000 为汽油活塞发动机。MTJ-80 与 MTJ-220 的推力分别为 8 kgf 和 22 kgf。",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/wp-4001-main.webp",
       "bestImageAlt": "WP-4001 发动机产品主图",
@@ -4063,11 +9167,81 @@
         {
           "label": "最高排气温度",
           "value": "750 °C"
+        },
+        {
+          "label": "动力形式",
+          "value": "涡喷发动机；MTJ-80 / MTJ-220 两种规格"
+        },
+        {
+          "label": "MTJ-80 尺寸",
+          "value": "φ89.5 × 210 mm"
+        },
+        {
+          "label": "MTJ-220 尺寸",
+          "value": "φ117 × 285 mm"
+        },
+        {
+          "label": "MTJ-80 重量（含 ECU）",
+          "value": "1045 g"
+        },
+        {
+          "label": "MTJ-220 重量（含 ECU）",
+          "value": "1890 g"
+        },
+        {
+          "label": "MTJ-80 怠速转速",
+          "value": "50,000 RPM"
+        },
+        {
+          "label": "MTJ-220 怠速转速",
+          "value": "35,000 RPM"
+        },
+        {
+          "label": "推荐燃料",
+          "value": "煤油 / Jet A-1 / 柴油"
+        },
+        {
+          "label": "润滑剂比例",
+          "value": "约 5%"
         }
       ],
+      "sourceIssue": "",
       "sourcePage": 17,
       "sourceCatalog": "YH 产品资料",
-      "sourceNotes": "目录另有第二款发动机透明图"
+      "sourceNotes": "目录另有第二款发动机透明图",
+      "comparison": {
+        "fields": [
+          "动力形式",
+          "最大功率",
+          "裸机重量",
+          "MTJ-80 推力",
+          "MTJ-220 推力"
+        ],
+        "models": [
+          {
+            "model": "WP-4000",
+            "id": "yh-wp-4000",
+            "values": [
+              "喷油、风冷、二冲程、水平对置双缸汽油活塞发动机",
+              "39 kW @ 6500 r/min",
+              "18.6 kg",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "model": "WP-4001",
+            "id": "yh-wp-4001",
+            "values": [
+              "涡喷发动机；MTJ-80 / MTJ-220 两种规格",
+              "—",
+              "—",
+              "8 kgf",
+              "22 kgf"
+            ]
+          }
+        ]
+      }
     }
   ]
 }

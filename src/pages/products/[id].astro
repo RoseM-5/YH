@@ -26,6 +26,7 @@ const galleryOptions = [product.gallery[0], ...detailImages];
         </a>
         <h1 id="product-model">{product.model}</h1>
         <p>{description}</p>
+        {product.variantNote && <p class="catalog-variant-note">{product.variantNote}</p>}
       </div>
       <div class="catalog-detail-visual">
         <div class="catalog-detail-image">
@@ -59,6 +60,33 @@ const galleryOptions = [product.gallery[0], ...detailImages];
       </div>
     </section>
 
+    <section class="catalog-compare-section catalog-shell" aria-labelledby="model-comparison-title">
+      <div class="catalog-compare-heading">
+        <h2 id="model-comparison-title">同类型号区别</h2>
+        <p>并列查看同类产品的关键参数；点击型号可查看对应详情。</p>
+      </div>
+      <div class="catalog-compare-scroll" tabindex="0" role="region" aria-label={`${product.categoryName}型号对照表`}>
+        <table class="catalog-compare-table">
+          <thead>
+            <tr>
+              <th scope="col">型号</th>
+              {product.comparison.fields.map((field) => <th scope="col">{field}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {product.comparison.models.map((item) => (
+              <tr class:list={{ 'is-current': item.model === product.model }}>
+                <th scope="row">
+                  <a href={`/products/${item.id}/`} aria-current={item.model === product.model ? 'page' : undefined}>{item.model}</a>
+                </th>
+                {item.values.map((value) => <td>{value}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
     <section class="catalog-spec-section catalog-shell" aria-labelledby="detail-specs-title">
       <h2 id="detail-specs-title">详细参数</h2>
       <div class="catalog-spec-table-wrap">
@@ -74,6 +102,7 @@ const galleryOptions = [product.gallery[0], ...detailImages];
           </tbody>
         </table>
       </div>
+      {product.sourceIssue && <p class="catalog-source-issue">参数核对提示：{product.sourceIssue}</p>}
     </section>
   </div>
 </SiteLayout>

@@ -6,6 +6,7 @@ The source catalog is intentionally kept outside the public repository.
 
 import csv
 import json
+import os
 import re
 import subprocess
 import sys
@@ -13,10 +14,15 @@ import tempfile
 from pathlib import Path
 
 from PIL import Image
+from catalog_full_specs import FULL_SPECS, SOURCE_ISSUES
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(r"C:\Users\SHU\Desktop\建站资料\上架资料\PRODUCT_CATALOGUE_V7")
+SOURCE = next(
+    (Path(arg) for arg in sys.argv[1:] if not arg.startswith("--")),
+    Path(os.environ.get("YH_CATALOG_SOURCE", Path.home() / "Desktop" / "建站资料" / "上架资料" / "PRODUCT_CATALOGUE_V7")),
+)
+DATA_ONLY = "--data-only" in sys.argv
 OUTPUT = ROOT / "public/media/products/v7"
 
 CATEGORIES = [
@@ -76,9 +82,9 @@ METRICS = {
 # Additional fields read from each model's original catalog page. Keep the
 # two short METRICS values above for card summaries; use both sets on details.
 DETAIL_METRICS = {
-    "YH-1000": [("动力", "Electric motor"), ("最大起飞重量", "20 kg"), ("最大航时", "≥ 60 min"), ("翼展", "1234 mm")],
-    "YH-1001": [("动力", "Turbine jet engine"), ("最大起飞重量", "20 kg"), ("最大航时", "约 20 min"), ("翼展", "1234 mm")],
-    "YH-1002": [("动力", "Gasoline engine (EFI & E starter)"), ("最大起飞重量", "180 kg"), ("最大航时", "≥ 8 h"), ("翼展", "2500 mm"), ("抗风等级", "Level 7")],
+    "YH-1000": [("动力", "电动螺旋桨（电机驱动）"), ("最大起飞重量", "20 kg"), ("最大航时", "≥ 60 min"), ("翼展", "1234 mm")],
+    "YH-1001": [("动力", "涡喷发动机"), ("最大起飞重量", "20 kg"), ("最大航时", "约 20 min"), ("翼展", "1234 mm")],
+    "YH-1002": [("动力", "汽油发动机（电喷、电启动）"), ("最大起飞重量", "180 kg"), ("最大航时", "≥ 8 h"), ("翼展", "2500 mm"), ("抗风等级", "Level 7")],
     "YH-1003": [("最大起飞重量", "180 kg"), ("最大航时", "9 h"), ("翼展", "2590 mm"), ("巡航速度", "180 km/h"), ("最大速度", "230 km/h")],
     "YH-2000": [("标准起飞重量", "60 kg"), ("最大起飞高度", "4000 m"), ("巡航速度", "85 km/h"), ("最大飞行速度", "130 km/h"), ("油箱容量", "18 L"), ("机身尺寸", "4800 × 2580 × 850 mm")],
     "YH-2001": [("外形尺寸", "2.1 × 0.98 × 0.24 m"), ("最大起飞重量", "14 kg"), ("巡航速度", "20 m/s"), ("最大飞行高度", "4800 m"), ("防水等级", "IP54")],
@@ -144,9 +150,9 @@ def describe_product(model: str, category: str, metrics: list, details: list) ->
     if category == "固定翼无人机":
         power = values.get("动力")
         power_text = {
-            "Electric motor": "采用电机动力，",
-            "Turbine jet engine": "采用涡喷动力，",
-            "Gasoline engine (EFI & E starter)": "采用带电喷与电启动的汽油发动机，",
+            "电动螺旋桨（电机驱动）": "采用电动螺旋桨动力，",
+            "涡喷发动机": "采用涡喷发动机，",
+            "汽油发动机（电喷、电启动）": "采用带电喷与电启动的汽油发动机，",
         }.get(power, "")
         return (f"{model} 为固定翼无人机，{power_text}最大起飞重量 {values['最大起飞重量']}、"
                 f"最大航时 {values['最大航时']}，{metrics[1][0]} {metrics[1][1]}。")
@@ -223,13 +229,16 @@ def main() -> None:
     with (SOURCE / "产品索引.csv").open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
     models = [row["型号"] for row in rows]
-    if len(models) != 38 or len(set(models)) != 38 or set(models) != set(METRICS) or set(models) != set(DETAIL_METRICS):
+    if len(models) != 38 or len(set(models)) != 38 or set(models) != set(METRICS) or set(models) != set(DETAIL_METRICS) or set(models) != set(FULL_SPECS):
         raise ValueError("The V7 index and curated model list differ")
     category_order = {name: index for index, (_, name, _) in enumerate(CATEGORIES)}
     rows.sort(key=lambda row: category_order[row["类别"]])
     OUTPUT.mkdir(parents=True, exist_ok=True)
     products = []
-    manifest = []
+    manifest = [] if not DATA_ONLY else json.loads((ROOT / "src/data/product-image-manifest-v7.json").read_text(encoding="utf-8"))
+    existing_products = {} if not DATA_ONLY else {
+        item["model"]: item for item in json.loads((ROOT / "src/data/products.json").read_text(encoding="utf-8"))["products"]
+    }
     for row in rows:
         model = row["型号"]
         category = row["类别"]
@@ -240,39 +249,53 @@ def main() -> None:
         details = DETAIL_METRICS[model]
         for _, value in metrics + details:
             ensure_source_value(model, value, source_text)
-        gallery = []
-        for source_name, suffix, role, alt in [
-            ("透明产品图.png", "main", "product_main", f"{model} {category}产品主图"),
-            ("产品页.png", "page", "catalog_page", f"{model} 产品参数页"),
-        ]:
-            source_image = source_dir / source_name
-            destination = OUTPUT / f"{model.lower()}-{suffix}.webp"
-            dimensions = convert_image(source_image, destination, 1400 if suffix == "main" else 1100)
-            gallery.append({
-                "src": f"/media/products/v7/{destination.name}",
-                "role": role,
-                "alt": alt,
-                **dimensions,
-                "sourceFile": str(source_image.relative_to(SOURCE)).replace("\\", "/"),
-            })
-            manifest.append({"model": model, "role": role, "source": gallery[-1]["sourceFile"], "output": gallery[-1]["src"], **dimensions})
-        detail_images = extract_detail_views(model, source_dir, page, manifest)
-        gallery.extend(detail_images)
-        variants = []
-        alternate_image = source_dir / "透明产品图_另一型号.png"
-        if alternate_image.exists():
-            destination = OUTPUT / f"{model.lower()}-alternate.webp"
-            dimensions = convert_image(alternate_image, destination, 1400)
-            alternate = {
-                "src": f"/media/products/v7/{destination.name}",
-                "role": "product_variant",
-                "alt": f"{model} 同系列另一型号发动机产品图",
-                **dimensions,
-                "sourceFile": str(alternate_image.relative_to(SOURCE)).replace("\\", "/"),
-            }
-            variants.append(alternate)
-            gallery.append(alternate)
-            manifest.append({"model": model, "role": "product_variant", "source": alternate["sourceFile"], "output": alternate["src"], **dimensions})
+        spec_pairs = []
+        seen_specs = {}
+        for label, value in metrics + details + FULL_SPECS[model]:
+            if label in seen_specs:
+                if seen_specs[label] != value:
+                    raise ValueError(f"{model}: conflicting specification {label}")
+                continue
+            seen_specs[label] = value
+            spec_pairs.append((label, value))
+        if DATA_ONLY:
+            gallery = existing_products[model]["gallery"]
+            detail_images = existing_products[model]["imageTypes"]["product_detail"]
+            variants = existing_products[model]["imageTypes"]["product_variant"]
+        else:
+            gallery = []
+            for source_name, suffix, role, alt in [
+                ("透明产品图.png", "main", "product_main", f"{model} {category}产品主图"),
+                ("产品页.png", "page", "catalog_page", f"{model} 产品参数页"),
+            ]:
+                source_image = source_dir / source_name
+                destination = OUTPUT / f"{model.lower()}-{suffix}.webp"
+                dimensions = convert_image(source_image, destination, 1400 if suffix == "main" else 1100)
+                gallery.append({
+                    "src": f"/media/products/v7/{destination.name}",
+                    "role": role,
+                    "alt": alt,
+                    **dimensions,
+                    "sourceFile": str(source_image.relative_to(SOURCE)).replace("\\", "/"),
+                })
+                manifest.append({"model": model, "role": role, "source": gallery[-1]["sourceFile"], "output": gallery[-1]["src"], **dimensions})
+            detail_images = extract_detail_views(model, source_dir, page, manifest)
+            gallery.extend(detail_images)
+            variants = []
+            alternate_image = source_dir / "透明产品图_另一型号.png"
+            if alternate_image.exists():
+                destination = OUTPUT / f"{model.lower()}-alternate.webp"
+                dimensions = convert_image(alternate_image, destination, 1400)
+                alternate = {
+                    "src": f"/media/products/v7/{destination.name}",
+                    "role": "product_variant",
+                    "alt": f"{model} 同系列另一型号发动机产品图",
+                    **dimensions,
+                    "sourceFile": str(alternate_image.relative_to(SOURCE)).replace("\\", "/"),
+                }
+                variants.append(alternate)
+                gallery.append(alternate)
+                manifest.append({"model": model, "role": "product_variant", "source": alternate["sourceFile"], "output": alternate["src"], **dimensions})
         summary = " · ".join(f"{label} {value}" for label, value in metrics)
         products.append({
             "id": f"yh-{model.lower()}",
@@ -283,16 +306,50 @@ def main() -> None:
             "originalCategory": category,
             "summary": summary,
             "description": describe_product(model, category, metrics, details),
+            "variantNote": {
+                "YH-1000": "YH-1000 使用电动螺旋桨；YH-1001 使用涡喷发动机。两者最大航时分别为 ≥ 60 min 与约 20 min。",
+                "YH-1001": "YH-1001 使用涡喷发动机；YH-1000 使用电动螺旋桨。两者最高速度分别为 360 km/h（海平面）与 160 km/h。",
+                "YH-2001": "与 YH-2002 的载荷、空载航时和起飞重量相同；主要区别是机身尺寸与运输箱尺寸。",
+                "YH-2002": "与 YH-2001 的载荷、空载航时和起飞重量相同；主要区别是机身尺寸与运输箱尺寸。",
+                "YH-3001": "与 YH-3002 相比，YH-3001 轴距更大，最大载重 7 kg，空载续航 75 min。",
+                "YH-3002": "与 YH-3001 相比，YH-3002 轴距更小，最大载重 5 kg，空载续航 70 min。",
+                "WP-4000": "WP-4000 为汽油活塞发动机；WP-4001 为 MTJ-80 / MTJ-220 涡喷发动机系列。",
+                "WP-4001": "WP-4001 为涡喷发动机系列；WP-4000 为汽油活塞发动机。MTJ-80 与 MTJ-220 的推力分别为 8 kgf 和 22 kgf。",
+            }.get(model, ""),
             "descriptionOriginal": "",
             "bestImage": gallery[0]["src"],
             "bestImageAlt": gallery[0]["alt"],
             "gallery": gallery,
             "imageTypes": {"product_main": [gallery[0]], "catalog_page": [gallery[1]], "product_detail": detail_images, "product_variant": variants},
-            "specs": [{"label": label, "value": value} for label, value in metrics + details],
+            "specs": [{"label": label, "value": value} for label, value in spec_pairs],
+            "sourceIssue": SOURCE_ISSUES.get(model, ""),
             "sourcePage": page,
             "sourceCatalog": "YH 产品资料",
             "sourceNotes": row["备注"].replace("画册原有", "原始图片中的"),
         })
+    comparison_fields = {
+        "fixed-wing": ["动力", "最大载荷", "最大航时", "飞行航程", "最大飞行航程", "巡航速度", "最大速度"],
+        "vtol": ["最大载荷", "标准空载航时", "最大起飞重量", "标准起飞重量", "巡航速度", "最大飞行高度", "最大起飞高度", "发动机"],
+        "multirotor": ["最大载重", "空载续航", "轴距", "最大起飞重量", "最大适配桨叶"],
+        "loitering": ["最大飞行航程", "最大任务载荷", "飞行速度", "最大起飞重量", "抗风等级"],
+        "fpv-kit": ["规格", "额定载重", "最大载重", "空载续航", "额定载重续航", "轴距"],
+        "fpv-frame": ["规格", "轴距", "机架重量", "顶板厚度", "机臂厚度", "臂管直径"],
+        "engine": ["动力形式", "最大功率", "裸机重量", "MTJ-80 推力", "MTJ-220 推力"],
+    }
+    for product in products:
+        siblings = [other for other in products if other["categoryKey"] == product["categoryKey"]]
+        fields = comparison_fields[product["categoryKey"]]
+        product["comparison"] = {
+            "fields": fields,
+            "models": [
+                {
+                    "model": other["model"],
+                    "id": other["id"],
+                    "values": [next((spec["value"] for spec in other["specs"] if spec["label"] == field), "—") for field in fields],
+                }
+                for other in siblings
+            ],
+        }
     data = {"brand": "YH", "categories": [{"key": key, "name": name, "intro": intro} for key, name, intro in CATEGORIES], "products": products}
     (ROOT / "src/data/products.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "src/data/product-image-manifest-v7.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -368,6 +368,16 @@
   font-size: 16px;
   line-height: 1.85;
 }
+.catalog-detail-intro .catalog-variant-note {
+  margin-top: 22px;
+  padding: 14px 17px;
+  border-left: 3px solid var(--catalog-blue);
+  border-radius: 0 8px 8px 0;
+  background: #edf7ff;
+  color: #235371;
+  font-size: 14px;
+  line-height: 1.7;
+}
 .catalog-detail-visual {
   min-width: 0;
 }
@@ -419,6 +429,93 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+.catalog-compare-section {
+  padding-block: 54px 8px;
+}
+.catalog-compare-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 22px;
+  margin-bottom: 24px;
+}
+.catalog-compare-heading h2 {
+  margin: 0;
+  color: #17252e;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+.catalog-compare-heading p {
+  max-width: 440px;
+  margin: 0;
+  color: #607480;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.catalog-compare-scroll {
+  overflow-x: auto;
+  border: 1px solid #dce5eb;
+  border-radius: 12px;
+  scrollbar-color: #9bb7c7 #edf2f5;
+}
+.catalog-compare-scroll:focus-visible {
+  outline: 2px solid var(--catalog-blue);
+  outline-offset: 3px;
+}
+.catalog-compare-table {
+  width: 100%;
+  min-width: 940px;
+  border-collapse: collapse;
+  background: #fff;
+  text-align: left;
+}
+.catalog-compare-table th,
+.catalog-compare-table td {
+  min-width: 112px;
+  padding: 16px 18px;
+  border-bottom: 1px solid #e5ecef;
+  color: #425b69;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.catalog-compare-table thead th {
+  color: #375d73;
+  background: #eaf2f6;
+  font-weight: 700;
+}
+.catalog-compare-table tbody tr:last-child th,
+.catalog-compare-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.catalog-compare-table tbody tr.is-current {
+  background: #eaf6ff;
+}
+.catalog-compare-table tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+}
+.catalog-compare-table tbody tr.is-current th {
+  background: #eaf6ff;
+}
+.catalog-compare-table tbody th a {
+  color: #174969;
+  font-weight: 700;
+}
+.catalog-compare-table tbody th a:hover {
+  color: var(--catalog-blue);
+}
+.catalog-compare-table tbody th a:focus-visible {
+  outline: 2px solid var(--catalog-blue);
+  outline-offset: 3px;
+}
+.catalog-source-issue {
+  margin: 18px 0 0;
+  color: #647684;
+  font-size: 13px;
+  line-height: 1.7;
 }
 .catalog-spec-section {
   padding-block: 55px 120px;
@@ -644,6 +741,15 @@
   }
   .catalog-spec-section {
     padding-block: 44px 90px;
+  }
+  .catalog-compare-section {
+    padding-block: 42px 0;
+  }
+  .catalog-compare-heading {
+    display: block;
+  }
+  .catalog-compare-heading p {
+    margin-top: 8px;
   }
   .catalog-spec-section h2 {
     font-size: 26px;
