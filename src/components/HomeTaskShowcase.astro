@@ -1,0 +1,91 @@
+---
+interface Story {
+  slug: string;
+  topic: string;
+  title: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+  imageLabel: string;
+}
+interface Props {
+  stories: Story[];
+}
+
+const { stories } = Astro.props;
+---
+
+<section class="yh-task-showcase" aria-labelledby="yh-task-title" data-yh-task-showcase>
+  <div class="yh-after-wrap">
+    <div class="yh-task-intro" data-yh-reveal>
+      <div>
+        <span class="yh-after-eyebrow">TASK IN FOCUS</span>
+        <h2 id="yh-task-title">先看任务，<br />再选平台。</h2>
+      </div>
+      <p>不同现场需要不同的飞行形态与作业方式。明确要观察什么、如何记录，再核对对应平台和配置。</p>
+    </div>
+
+    <div class="yh-task-stage" data-yh-task-stage>
+      <div class="yh-task-canvas" aria-hidden="true">
+        {stories.map((story, index) => (
+          <img
+            class:list={['yh-task-product', { 'is-active': index === 0 }]}
+            src={story.image}
+            alt=""
+            width="1672"
+            height="941"
+            loading="lazy"
+            data-yh-task-image={index}
+          />
+        ))}
+        <div class="yh-task-canvas-caption">
+          <span>MISSION / SCENE</span>
+          <strong data-yh-task-label>{stories[0].imageLabel}</strong>
+        </div>
+      </div>
+
+      <div class="yh-task-panel">
+        <div class="yh-task-tabs" role="tablist" aria-label="按任务切换">
+          {stories.map((story, index) => (
+            <button
+              id={`yh-task-tab-${index}`}
+              type="button"
+              role="tab"
+              aria-controls={`yh-task-panel-${index}`}
+              aria-selected={index === 0 ? 'true' : 'false'}
+              tabindex={index === 0 ? 0 : -1}
+              class:list={{ 'is-active': index === 0 }}
+              data-yh-task-tab={index}
+              data-yh-task-label={story.imageLabel}
+            >
+              {story.topic}
+            </button>
+          ))}
+        </div>
+        <div class="yh-task-panel-body">
+          {stories.map((story, index) => (
+            <div
+              id={`yh-task-panel-${index}`}
+              class:list={['yh-task-story', { 'is-active': index === 0 }]}
+              role="tabpanel"
+              aria-labelledby={`yh-task-tab-${index}`}
+              aria-hidden={index === 0 ? 'false' : 'true'}
+              data-yh-task-story={index}
+            >
+              <span class="yh-task-story-index">0{index + 1} / 0{stories.length}</span>
+              <h3>{story.title}</h3>
+              <p>{story.summary}</p>
+              <a href={`/solutions/mission/${story.slug}/`} tabindex={index === 0 ? 0 : -1}>
+                了解任务方案 <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          ))}
+        </div>
+        <div class="yh-task-panel-foot" aria-hidden="true">
+          <span class="yh-task-progress"><span data-yh-task-progress></span></span>
+          <span data-yh-task-count>01 / 0{stories.length}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

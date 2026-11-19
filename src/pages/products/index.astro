@@ -8,14 +8,14 @@ const { categories, products } = catalog;
 
 <SiteLayout
   title="产品中心"
-  description="浏览 PRODUCT CATALOGUE V7 中的固定翼、垂起固定翼、多旋翼、巡飞器、FPV 套件、机架和发动机产品。"
+  description="浏览 YH 固定翼、垂起固定翼、多旋翼、巡飞器、FPV 套件、机架和发动机产品。"
+  lightLanding={true}
 >
-  <div class="catalog-page">
+  <div class="catalog-page catalog-index-page">
     <section class="catalog-banner">
       <div class="catalog-shell">
         <span class="catalog-kicker">YH / PRODUCT SYSTEM</span>
         <h1>产品中心</h1>
-        <p>按飞行形态与结构类别浏览型号。页面参数与图片均依据提供的产品画册整理。</p>
         <span class="catalog-banner-rule" aria-hidden="true"></span>
       </div>
     </section>
@@ -26,54 +26,73 @@ const { categories, products } = catalog;
           <span class="catalog-kicker">EXPLORE THE RANGE</span>
           <h2 id="catalog-list-title">找到所需的产品类型</h2>
         </div>
-        <p>共 {products.length} 个型号 · {categories.length} 个产品类型</p>
       </div>
 
-      <div class="catalog-tools">
-        <div class="catalog-tabs" role="group" aria-label="按产品类型筛选">
-          <button type="button" class="is-active" data-category-tab="all" aria-pressed="true">
-            全部产品
+      <div class="catalog-layout">
+        <aside class="catalog-sidebar" aria-label="产品分类">
+          <p class="catalog-sidebar-title">产品分类</p>
+          <button
+            type="button"
+            class="catalog-mobile-filter"
+            data-category-toggle
+            aria-controls="catalog-category-options"
+            aria-expanded="false"
+          >
+            <span class="catalog-mobile-filter-label">产品分类</span>
+            <strong data-current-category>全部产品</strong>
+            <span class="catalog-mobile-filter-chevron" aria-hidden="true"></span>
           </button>
-          {categories.map((category) => (
-            <button type="button" data-category-tab={category.key} aria-pressed="false">
-              {category.name}
+          <div class="catalog-tabs" id="catalog-category-options" role="group" aria-label="按产品类型筛选">
+            <button type="button" class="is-active" data-category-tab="all" aria-pressed="true">
+              全部产品
             </button>
-          ))}
-        </div>
-        <label class="catalog-search">
-          <span class="sr-only">搜索型号和产品类型</span>
-          <input
-            data-catalog-search
-            type="search"
-            autocomplete="off"
-            placeholder="搜索型号或产品类型"
-          />
-          <span aria-hidden="true">⌕</span>
-        </label>
-      </div>
+            {categories.map((category) => (
+              <button type="button" data-category-tab={category.key} aria-pressed="false">
+                {category.name}
+              </button>
+            ))}
+          </div>
+        </aside>
+        <div class="catalog-main">
+          <div class="catalog-tools">
+            <label class="catalog-search" id="catalog-search">
+              <span class="sr-only">搜索型号和产品类型</span>
+              <input
+                data-catalog-search
+                type="search"
+                autocomplete="off"
+                placeholder="搜索型号或产品类型"
+              />
+              <span aria-hidden="true">⌕</span>
+            </label>
+          </div>
 
-      <p class="catalog-results" role="status" aria-live="polite" data-results-count>
-        显示 {products.length} 个型号
-      </p>
-      <div class="catalog-grid">
-        {products.map((product, index) => (
-          <CatalogCard product={product} index={index} />
-        ))}
+          <p class="catalog-results" role="status" aria-live="polite" data-results-count>
+            显示 {products.length} 个型号
+          </p>
+          <div class="catalog-grid">
+            {products.map((product) => (
+              <CatalogCard product={product} />
+            ))}
+          </div>
+          <p class="catalog-empty" data-catalog-empty hidden>
+            没有匹配的型号，请更换关键词或产品类型。
+          </p>
+        </div>
       </div>
-      <p class="catalog-empty" data-catalog-empty hidden>
-        没有匹配的型号，请更换关键词或产品类型。
-      </p>
     </section>
   </div>
 </SiteLayout>
 
 <script>
   const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-category-tab]'));
-  const tabStrip = document.querySelector<HTMLElement>('.catalog-tabs');
   const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-product-card]'));
   const input = document.querySelector<HTMLInputElement>('[data-catalog-search]');
   const count = document.querySelector<HTMLElement>('[data-results-count]');
   const empty = document.querySelector<HTMLElement>('[data-catalog-empty]');
+  const sidebar = document.querySelector<HTMLElement>('.catalog-sidebar');
+  const toggle = document.querySelector<HTMLButtonElement>('[data-category-toggle]');
+  const currentCategory = document.querySelector<HTMLElement>('[data-current-category]');
   const params = new URLSearchParams(location.search);
   const initialCategory = params.get('category') || 'all';
   let category = tabs.some((tab) => tab.dataset.categoryTab === initialCategory)
@@ -81,19 +100,6 @@ const { categories, products } = catalog;
     : 'all';
   let query = params.get('q') || '';
   if (input) input.value = query;
-
-  const alignActiveTab = () => {
-    const active = tabs.find((tab) => tab.dataset.categoryTab === category);
-    if (!active || !tabStrip) return;
-    const left =
-      active.getBoundingClientRect().left -
-      tabStrip.getBoundingClientRect().left +
-      tabStrip.scrollLeft;
-    tabStrip.scrollTo({
-      left: Math.max(0, left - (tabStrip.clientWidth - active.clientWidth) / 2),
-      behavior: 'instant',
-    });
-  };
 
   const render = (updateUrl = false) => {
     const normalized = query.trim().toLocaleLowerCase();
@@ -103,6 +109,9 @@ const { categories, products } = catalog;
       tab.classList.toggle('is-active', active);
       tab.setAttribute('aria-pressed', String(active));
     });
+    if (currentCategory) {
+      currentCategory.textContent = tabs.find((tab) => tab.dataset.categoryTab === category)?.textContent?.trim() || '全部产品';
+    }
     cards.forEach((card) => {
       const matched =
         (category === 'all' || card.dataset.category === category) &&
@@ -125,9 +134,28 @@ const { categories, products } = catalog;
     tab.addEventListener('click', () => {
       category = tab.dataset.categoryTab || 'all';
       render(true);
-      alignActiveTab();
+      sidebar?.classList.remove('is-open');
+      toggle?.setAttribute('aria-expanded', 'false');
+      if (matchMedia('(max-width: 700px)').matches) toggle?.focus();
     }),
   );
+  toggle?.addEventListener('click', () => {
+    const open = sidebar?.classList.toggle('is-open') || false;
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  document.addEventListener('click', (event) => {
+    if (!sidebar?.contains(event.target as Node)) {
+      sidebar?.classList.remove('is-open');
+      toggle?.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && sidebar?.classList.contains('is-open')) {
+      sidebar.classList.remove('is-open');
+      toggle?.setAttribute('aria-expanded', 'false');
+      toggle?.focus();
+    }
+  });
   input?.addEventListener('input', () => {
     query = input.value;
     render(true);
@@ -138,8 +166,11 @@ const { categories, products } = catalog;
     query = state.get('q') || '';
     if (input) input.value = query;
     render();
-    alignActiveTab();
   });
   render();
-  alignActiveTab();
+  const focusSearchFromNavigation = () => {
+    if (location.hash === '#catalog-search') input?.focus({ preventScroll: true });
+  };
+  window.addEventListener('hashchange', focusSearchFromNavigation);
+  requestAnimationFrame(focusSearchFromNavigation);
 </script>

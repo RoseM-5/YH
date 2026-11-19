@@ -1,0 +1,48 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import '../styles/mission.css';
+
+interface Story {
+  title: string;
+  topic: string;
+  summary: string;
+  paragraphs: string[];
+  image: string;
+  imageAlt: string;
+  imageCaption: string;
+  productNames: string[];
+  productIds: string[];
+}
+interface Props { story: Story; kind: 'solution' | 'article' }
+const { story, kind } = Astro.props;
+const back = kind === 'solution' ? '/solutions/' : '/news/';
+---
+
+<SiteLayout title={story.title} description={story.summary} lightLanding={true}>
+  <article class="mission-story-page">
+    <div class="mission-shell">
+      <a class="mission-story-back" href={back}>← 返回{kind === 'solution' ? '解决方案' : '新闻与活动'}</a>
+      <header class="mission-story-head">
+        <span class="mission-eyebrow">{kind === 'solution' ? 'SOLUTION' : 'INSIGHT'} / {story.topic}</span>
+        <h1>{story.title}</h1>
+        <p>{story.summary}</p>
+      </header>
+      <div class="mission-story-body">
+        {story.paragraphs.map((paragraph, index) => (
+          <>
+            <p>{paragraph}</p>
+            {index === 1 && (
+              <figure class="mission-story-figure">
+                <img src={story.image} alt={story.imageAlt} width="1672" height="941" loading="lazy" decoding="async" />
+                <figcaption>{story.imageCaption}</figcaption>
+              </figure>
+            )}
+          </>
+        ))}
+        <div class="mission-story-products" aria-label="相关产品">
+          {story.productIds.map((id, index) => <a href={`/products/${id}/`}>{story.productNames[index]} ↗</a>)}
+        </div>
+      </div>
+    </div>
+  </article>
+</SiteLayout>

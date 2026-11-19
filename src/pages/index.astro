@@ -1,19 +1,26 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
 import HomeHero from '../components/HomeHero.astro';
-import HomeProducts from '../components/HomeProducts.astro';
-import HomeApplications from '../components/HomeApplications.astro';
-import HomeInsights from '../components/HomeInsights.astro';
+import HomeTaskShowcase from '../components/HomeTaskShowcase.astro';
+import HomeLatest from '../components/HomeLatest.astro';
+import HomeClosing from '../components/HomeClosing.astro';
 import catalog from '../data/products.json';
-import { solutions, articles } from '../data/editorial';
+import { missionContent as mission } from '../data/mission-scenes';
 import '../styles/home.css';
+import '../styles/home-after.css';
 
 const products = catalog.products;
-const featuredModels = ['YH-2008', 'YH-1000', 'YH-3001', 'YH-5010', 'WP-4000'];
-const featured = featuredModels
+const closingVisuals = ['YH-1000', 'YH-3001', 'YH-2008', 'YH-2000']
   .map((model) => products.find((product) => product.model === model))
-  .filter((product): product is (typeof products)[number] => product !== undefined);
-const promoProduct = products.find((product) => product.model === 'YH-1000');
+  .filter((product): product is (typeof products)[number] => product !== undefined)
+  .map((product) => ({
+    id: product.id,
+    model: product.model,
+    image: product.bestImage,
+    alt: product.bestImageAlt,
+    category: product.categoryName,
+    performance: product.summary,
+  }));
 ---
 
 <SiteLayout
@@ -22,11 +29,12 @@ const promoProduct = products.find((product) => product.model === 'YH-1000');
   home={true}
 >
   <HomeHero />
-  <HomeProducts products={featured} promoProduct={promoProduct} />
-  <HomeApplications solutions={solutions.slice(0, 4)} />
-  <HomeInsights articles={articles.slice(0, 4)} />
+  <HomeClosing visuals={closingVisuals} />
+  <HomeTaskShowcase stories={mission.solutions.slice(5, 8)} />
+  <HomeLatest articles={mission.articles.slice(0, 5)} />
 </SiteLayout>
 
 <script>
   import '../scripts/home.ts';
+  import '../scripts/home-after.ts';
 </script>

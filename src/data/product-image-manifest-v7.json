@@ -48,6 +48,38 @@
     "height": 1100
   },
   {
+    "model": "YH-1002",
+    "role": "product_detail",
+    "source": "产品目录/YH-1002/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-1002-detail-structure.webp",
+    "width": 601,
+    "height": 485
+  },
+  {
+    "model": "YH-1002",
+    "role": "product_detail",
+    "source": "产品目录/YH-1002/产品页.pdf#image-005",
+    "output": "/media/products/v7/yh-1002-detail-left.webp",
+    "width": 646,
+    "height": 485
+  },
+  {
+    "model": "YH-1002",
+    "role": "product_detail",
+    "source": "产品目录/YH-1002/产品页.pdf#image-006",
+    "output": "/media/products/v7/yh-1002-detail-right.webp",
+    "width": 647,
+    "height": 485
+  },
+  {
+    "model": "YH-1002",
+    "role": "product_detail",
+    "source": "产品目录/YH-1002/产品页.pdf#image-007",
+    "output": "/media/products/v7/yh-1002-detail-top.webp",
+    "width": 647,
+    "height": 485
+  },
+  {
     "model": "YH-1003",
     "role": "product_main",
     "source": "产品目录/YH-1003/透明产品图.png",
@@ -62,6 +94,22 @@
     "output": "/media/products/v7/yh-1003-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-1003",
+    "role": "product_detail",
+    "source": "产品目录/YH-1003/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-1003-detail-rear.webp",
+    "width": 900,
+    "height": 645
+  },
+  {
+    "model": "YH-1003",
+    "role": "product_detail",
+    "source": "产品目录/YH-1003/产品页.pdf#image-006",
+    "output": "/media/products/v7/yh-1003-detail-angle.webp",
+    "width": 900,
+    "height": 840
   },
   {
     "model": "YH-2000",
@@ -80,6 +128,30 @@
     "height": 1100
   },
   {
+    "model": "YH-2000",
+    "role": "product_detail",
+    "source": "产品目录/YH-2000/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2000-detail-waterproof.webp",
+    "width": 391,
+    "height": 266
+  },
+  {
+    "model": "YH-2000",
+    "role": "product_detail",
+    "source": "产品目录/YH-2000/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2000-detail-engine.webp",
+    "width": 444,
+    "height": 303
+  },
+  {
+    "model": "YH-2000",
+    "role": "product_detail",
+    "source": "产品目录/YH-2000/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2000-detail-modular.webp",
+    "width": 548,
+    "height": 373
+  },
+  {
     "model": "YH-2001",
     "role": "product_main",
     "source": "产品目录/YH-2001/透明产品图.png",
@@ -94,6 +166,30 @@
     "output": "/media/products/v7/yh-2001-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-2001",
+    "role": "product_detail",
+    "source": "产品目录/YH-2001/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2001-detail-assembly.webp",
+    "width": 789,
+    "height": 536
+  },
+  {
+    "model": "YH-2001",
+    "role": "product_detail",
+    "source": "产品目录/YH-2001/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2001-detail-top.webp",
+    "width": 793,
+    "height": 540
+  },
+  {
+    "model": "YH-2001",
+    "role": "product_detail",
+    "source": "产品目录/YH-2001/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2001-detail-side.webp",
+    "width": 793,
+    "height": 540
   },
   {
     "model": "YH-2002",
@@ -112,6 +208,30 @@
     "height": 1100
   },
   {
+    "model": "YH-2002",
+    "role": "product_detail",
+    "source": "产品目录/YH-2002/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2002-detail-assembly.webp",
+    "width": 754,
+    "height": 512
+  },
+  {
+    "model": "YH-2002",
+    "role": "product_detail",
+    "source": "产品目录/YH-2002/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2002-detail-top.webp",
+    "width": 763,
+    "height": 520
+  },
+  {
+    "model": "YH-2002",
+    "role": "product_detail",
+    "source": "产品目录/YH-2002/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2002-detail-side.webp",
+    "width": 763,
+    "height": 520
+  },
+  {
     "model": "YH-2003",
     "role": "product_main",
     "source": "产品目录/YH-2003/透明产品图.png",
@@ -126,6 +246,30 @@
     "output": "/media/products/v7/yh-2003-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-2003",
+    "role": "product_detail",
+    "source": "产品目录/YH-2003/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2003-detail-assembly.webp",
+    "width": 759,
+    "height": 516
+  },
+  {
+    "model": "YH-2003",
+    "role": "product_detail",
+    "source": "产品目录/YH-2003/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2003-detail-top.webp",
+    "width": 765,
+    "height": 521
+  },
+  {
+    "model": "YH-2003",
+    "role": "product_detail",
+    "source": "产品目录/YH-2003/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2003-detail-side.webp",
+    "width": 765,
+    "height": 521
   },
   {
     "model": "YH-2004",
@@ -144,6 +288,30 @@
     "height": 1100
   },
   {
+    "model": "YH-2004",
+    "role": "product_detail",
+    "source": "产品目录/YH-2004/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2004-detail-assembly.webp",
+    "width": 616,
+    "height": 418
+  },
+  {
+    "model": "YH-2004",
+    "role": "product_detail",
+    "source": "产品目录/YH-2004/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2004-detail-top.webp",
+    "width": 782,
+    "height": 532
+  },
+  {
+    "model": "YH-2004",
+    "role": "product_detail",
+    "source": "产品目录/YH-2004/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2004-detail-side.webp",
+    "width": 778,
+    "height": 530
+  },
+  {
     "model": "YH-2005",
     "role": "product_main",
     "source": "产品目录/YH-2005/透明产品图.png",
@@ -158,6 +326,30 @@
     "output": "/media/products/v7/yh-2005-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-2005",
+    "role": "product_detail",
+    "source": "产品目录/YH-2005/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2005-detail-assembly.webp",
+    "width": 610,
+    "height": 414
+  },
+  {
+    "model": "YH-2005",
+    "role": "product_detail",
+    "source": "产品目录/YH-2005/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2005-detail-top.webp",
+    "width": 778,
+    "height": 530
+  },
+  {
+    "model": "YH-2005",
+    "role": "product_detail",
+    "source": "产品目录/YH-2005/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2005-detail-side.webp",
+    "width": 782,
+    "height": 532
   },
   {
     "model": "YH-2006",
@@ -176,6 +368,30 @@
     "height": 1100
   },
   {
+    "model": "YH-2006",
+    "role": "product_detail",
+    "source": "产品目录/YH-2006/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2006-detail-rear.webp",
+    "width": 432,
+    "height": 293
+  },
+  {
+    "model": "YH-2006",
+    "role": "product_detail",
+    "source": "产品目录/YH-2006/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2006-detail-engine.webp",
+    "width": 564,
+    "height": 384
+  },
+  {
+    "model": "YH-2006",
+    "role": "product_detail",
+    "source": "产品目录/YH-2006/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2006-detail-wing.webp",
+    "width": 564,
+    "height": 384
+  },
+  {
     "model": "YH-2008",
     "role": "product_main",
     "source": "产品目录/YH-2008/透明产品图.png",
@@ -190,6 +406,30 @@
     "output": "/media/products/v7/yh-2008-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-2008",
+    "role": "product_detail",
+    "source": "产品目录/YH-2008/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2008-detail-side.webp",
+    "width": 784,
+    "height": 532
+  },
+  {
+    "model": "YH-2008",
+    "role": "product_detail",
+    "source": "产品目录/YH-2008/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2008-detail-front.webp",
+    "width": 782,
+    "height": 532
+  },
+  {
+    "model": "YH-2008",
+    "role": "product_detail",
+    "source": "产品目录/YH-2008/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2008-detail-top.webp",
+    "width": 781,
+    "height": 532
   },
   {
     "model": "YH-2009",
@@ -208,6 +448,30 @@
     "height": 1100
   },
   {
+    "model": "YH-2009",
+    "role": "product_detail",
+    "source": "产品目录/YH-2009/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-2009-detail-right.webp",
+    "width": 786,
+    "height": 534
+  },
+  {
+    "model": "YH-2009",
+    "role": "product_detail",
+    "source": "产品目录/YH-2009/产品页.pdf#image-003",
+    "output": "/media/products/v7/yh-2009-detail-rear.webp",
+    "width": 782,
+    "height": 533
+  },
+  {
+    "model": "YH-2009",
+    "role": "product_detail",
+    "source": "产品目录/YH-2009/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-2009-detail-front.webp",
+    "width": 782,
+    "height": 533
+  },
+  {
     "model": "YH-3000",
     "role": "product_main",
     "source": "产品目录/YH-3000/透明产品图.png",
@@ -222,6 +486,30 @@
     "output": "/media/products/v7/yh-3000-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-3000",
+    "role": "product_detail",
+    "source": "产品目录/YH-3000/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-3000-detail-left.webp",
+    "width": 381,
+    "height": 259
+  },
+  {
+    "model": "YH-3000",
+    "role": "product_detail",
+    "source": "产品目录/YH-3000/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-3000-detail-side.webp",
+    "width": 381,
+    "height": 259
+  },
+  {
+    "model": "YH-3000",
+    "role": "product_detail",
+    "source": "产品目录/YH-3000/产品页.pdf#image-006",
+    "output": "/media/products/v7/yh-3000-detail-front.webp",
+    "width": 381,
+    "height": 259
   },
   {
     "model": "YH-3001",
@@ -240,6 +528,30 @@
     "height": 1100
   },
   {
+    "model": "YH-3001",
+    "role": "product_detail",
+    "source": "产品目录/YH-3001/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-3001-detail-assembly.webp",
+    "width": 381,
+    "height": 259
+  },
+  {
+    "model": "YH-3001",
+    "role": "product_detail",
+    "source": "产品目录/YH-3001/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-3001-detail-top.webp",
+    "width": 381,
+    "height": 259
+  },
+  {
+    "model": "YH-3001",
+    "role": "product_detail",
+    "source": "产品目录/YH-3001/产品页.pdf#image-006",
+    "output": "/media/products/v7/yh-3001-detail-side.webp",
+    "width": 381,
+    "height": 259
+  },
+  {
     "model": "YH-3002",
     "role": "product_main",
     "source": "产品目录/YH-3002/透明产品图.png",
@@ -254,6 +566,22 @@
     "output": "/media/products/v7/yh-3002-page.webp",
     "width": 778,
     "height": 1100
+  },
+  {
+    "model": "YH-3002",
+    "role": "product_detail",
+    "source": "产品目录/YH-3002/产品页.pdf#image-002",
+    "output": "/media/products/v7/yh-3002-detail-top.webp",
+    "width": 381,
+    "height": 259
+  },
+  {
+    "model": "YH-3002",
+    "role": "product_detail",
+    "source": "产品目录/YH-3002/产品页.pdf#image-004",
+    "output": "/media/products/v7/yh-3002-detail-side.webp",
+    "width": 381,
+    "height": 259
   },
   {
     "model": "YH-4000",
@@ -609,7 +937,7 @@
   },
   {
     "model": "WP-4001",
-    "role": "product_detail",
+    "role": "product_variant",
     "source": "产品目录/WP-4001/透明产品图_另一型号.png",
     "output": "/media/products/v7/wp-4001-alternate.webp",
     "width": 726,

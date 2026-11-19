@@ -10,7 +10,7 @@ interface Props {
   imageNote?: string;
 }
 const { eyebrow, title, summary, image, imageAlt, index, className = '', imageNote } = Astro.props;
-const small = image.replace(/\.webp$/, '-sm.webp');
+const small = image.startsWith('/media/editorial/') ? image.replace(/\.webp$/, '-sm.webp') : image;
 const titleParts = title.includes('，') ? title.split('，') : null;
 ---
 

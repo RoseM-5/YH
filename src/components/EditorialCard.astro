@@ -23,7 +23,7 @@ const {
   className = '',
   mediaLabel,
 } = Astro.props;
-const small = image.replace(/\.webp$/, '-sm.webp');
+const small = image.startsWith('/media/editorial/') ? image.replace(/\.webp$/, '-sm.webp') : image;
 ---
 
 <article class:list={['editorial-card', className, { 'editorial-card-overlay': layout === 'overlay' }]} data-reveal>

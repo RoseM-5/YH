@@ -1,88 +1,55 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import EditorialHero from '../../components/EditorialHero.astro';
-import EditorialCard from '../../components/EditorialCard.astro';
-import { solutions } from '../../data/editorial';
-import '../../styles/editorial.css';
+import { missionContent } from '../../data/mission-scenes';
+import '../../styles/mission.css';
 
-const featuredSlugs = [
-  'ecological-mapping',
-  'infrastructure-inspection',
-  'carbon-fiber-integration',
-];
-const featuredSolutions = featuredSlugs
-  .map((slug) => solutions.find((solution) => solution.slug === slug))
-  .filter((solution): solution is (typeof solutions)[number] => solution !== undefined);
-const mediaLabels: Record<string, string> = {
-  'ecological-mapping': '公开行业场景 · 非 YH 项目',
-  'infrastructure-inspection': 'YH-2009 产品图 · 非案例现场',
-  'carbon-fiber-integration': 'YH-5013 机架产品图',
-};
+// The three homepage task stories have their own entry point. This page shows the other seven.
+const solutions = [...missionContent.solutions.slice(0, 5), ...missionContent.solutions.slice(8)];
 ---
 
-<SiteLayout
-  title="解决方案"
-  description="浏览 YH 的航测、设施巡检与碳纤维机架集成方案，按任务成果、配置和验证路径选择平台。"
->
-  <EditorialHero
-    eyebrow="APPLICATION / YH"
-    title="解决方案"
-    summary="从任务出发，选择平台"
-    image="/media/editorial/usgs-2023-meadow.webp"
-    imageAlt="USGS 人员在 Ackerson Meadow 开展无人机测绘的行业资料图"
-    imageNote="公开行业场景示意 · USGS 测绘现场，非 YH 客户项目"
-    className="editorial-landing-hero"
-  />
+<SiteLayout title="解决方案" description="浏览 YH 巡检、救援与侦察任务方案，按现场需求选择平台。" lightLanding={true}>
+  <div class="mission-landing">
+    <header class="mission-hero">
+      <div class="mission-hero-copy">
+        <span class="mission-eyebrow">YH / SOLUTIONS</span>
+        <h1>解决方案</h1>
+        <p>从任务出发，选择平台。</p>
+      </div>
+    </header>
 
-  <section class="editorial-section solutions-featured" aria-labelledby="solutions-list-title">
-    <div class="editorial-wrap">
-      <div class="editorial-section-head" data-reveal>
-        <div>
-          <span class="editorial-kicker">SOLUTION PATHS</span>
-          <h2 id="solutions-list-title">按任务场景浏览</h2>
-        </div>
-        <p>从现场成果出发，浏览关联产品、配置条件和验证重点。</p>
-      </div>
-      <div class="editorial-card-grid solutions-feature-grid">
-        {featuredSolutions.map((solution, index) => (
-          <EditorialCard
-            href={`/solutions/${solution.slug}/`}
-            image={solution.image}
-            imageAlt={solution.imageAlt}
-            index={String(index + 1).padStart(2, '0')}
-            topic={solution.topic}
-            title={solution.title}
-            summary={solution.summary}
-            layout="overlay"
-            className={index === 0 ? 'is-wide' : ''}
-            mediaLabel={mediaLabels[solution.slug]}
-          />
-        ))}
-      </div>
+    <div class="mission-intro mission-shell">
+      <span class="mission-eyebrow">PATROL / RESCUE / RECON</span>
+      <h2 id="mission-stories-title">按任务场景浏览</h2>
+      <p>围绕巡检、救援与灾后侦察中的现场问题，查看任务路径和对应平台。</p>
     </div>
-  </section>
 
-  <section class="editorial-process solutions-process" aria-labelledby="solution-process-title">
-    <div class="editorial-wrap">
-      <span class="editorial-kicker" data-reveal>THREE STEPS / 任务路径</span>
-      <h2 id="solution-process-title" data-reveal>从需求走向验证</h2>
-      <div class="editorial-process-grid">
-        <div data-reveal>
-          <span>01</span>
-          <h3>定义成果</h3>
-          <p>先确定要得到的影像、巡检记录或结构集成结果。</p>
+    <section class="mission-reel" data-mission-reel aria-labelledby="mission-stories-title" style={`--mission-count: ${solutions.length}`}>
+      <div class="mission-reel-stage">
+        <div class="mission-reel-rail" aria-hidden="true">
+          <span class="mission-reel-rail-base"></span>
+          <span class="mission-reel-rail-fill" data-reel-fill></span>
+          <span class="mission-reel-rail-dot" data-reel-dot></span>
         </div>
-        <div data-reveal>
-          <span>02</span>
-          <h3>核对配置</h3>
-          <p>把画册指标与载荷、接口、供电和作业环境逐项对应。</p>
-        </div>
-        <div data-reveal>
-          <span>03</span>
-          <h3>完成验证</h3>
-          <p>在目标配置下复核实际航时、数据质量与整机表现。</p>
+        <div class="mission-reel-count" aria-live="off"><span data-reel-count>01</span> / {String(solutions.length).padStart(2, '0')}</div>
+        <div class="mission-reel-frames">
+          {solutions.map((solution, index) => (
+            <article class="mission-reel-frame" data-reel-frame>
+              <div class="mission-reel-copy">
+                <span class="mission-reel-number">{String(index + 1).padStart(2, '0')} / {solution.topic}</span>
+                <h3>{solution.title}</h3>
+                <p>{solution.summary}</p>
+                <a href={`/solutions/mission/${solution.slug}/`} class="mission-text-link">了解方案 <span aria-hidden="true">↗</span></a>
+              </div>
+              <a class="mission-reel-visual" href={`/solutions/mission/${solution.slug}/`} aria-label={`阅读${solution.title}`}>
+                <img src={solution.image} alt={solution.imageAlt} loading="lazy" decoding="async" />
+                <span class="mission-reel-model">{solution.imageLabel}</span>
+              </a>
+            </article>
+          ))}
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </div>
+  <script>import '../../scripts/mission-reel.ts';</script>
 </SiteLayout>

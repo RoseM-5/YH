@@ -11,12 +11,6 @@ interface Props {
   articles: Article[];
 }
 const { articles } = Astro.props;
-const shortTitles: Record<string, string> = {
-  'repeatable-aerial-imagery': '生态修复与空中影像',
-  'facility-inspection-workflow': '无人机巡检与设施维护',
-  'disaster-communication-system': '灾后空中通信',
-  'airframe-system-validation': '机架材料与整机验证',
-};
 ---
 
 <section class="news-latest editorial-section" aria-labelledby="latest-title" data-news-carousel>
@@ -43,14 +37,14 @@ const shortTitles: Record<string, string> = {
             class="news-carousel-card"
             data-news-slide
             href={`/news/${article.slug}/`}
-            aria-label={`${shortTitles[article.slug] ?? article.title}，阅读文章`}
+            aria-label={`${article.title}，阅读文章`}
           >
             <div class="news-carousel-image">
               <img src={article.image} alt={article.imageAlt} loading="lazy" decoding="async" />
             </div>
             <div class="news-carousel-copy">
               <span>{article.topic}</span>
-              <h3>{shortTitles[article.slug] ?? article.title}</h3>
+              <h3>{article.title}</h3>
               <p>{article.summary}</p>
             </div>
           </a>
@@ -60,9 +54,9 @@ const shortTitles: Record<string, string> = {
     </div>
     <div class="news-carousel-foot" aria-label="轮播进度">
       <div class="news-carousel-progress" aria-hidden="true"><span data-news-progress></span></div>
-      <output data-news-count aria-live="polite">01 / 04</output>
+      <output data-news-count aria-live="polite">01 / {String(articles.length).padStart(2, '0')}</output>
     </div>
-    <p class="news-carousel-note">公开行业场景仅作示意，非 YH 客户项目；产品图片来自提供的画册。</p>
+    <p class="news-carousel-note">产品参数须结合实际配置和现场条件核定。</p>
   </div>
 </section>
 

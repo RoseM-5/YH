@@ -1,0 +1,42 @@
+---
+interface Visual {
+  id: string;
+  model: string;
+  image: string;
+  alt: string;
+  category: string;
+  performance: string;
+}
+interface Props {
+  visuals: Visual[];
+}
+
+const { visuals } = Astro.props;
+---
+
+<section class="yh-closing" aria-labelledby="yh-closing-title" data-yh-closing>
+  <div class="yh-after-wrap yh-closing-copy" data-yh-reveal>
+    <span class="yh-after-eyebrow">YH / EXPLORE</span>
+    <h2 id="yh-closing-title">让下一次任务，<br />从合适的装备开始。</h2>
+    <a class="yh-after-pill" href="/products/">浏览全部产品 <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="yh-closing-gallery" aria-label="YH 产品展示">
+    {visuals.map((visual, index) => (
+      <a
+        class={`yh-closing-tile yh-closing-tile-${index + 1}`}
+        href={`/products/${visual.id}/`}
+        aria-label={`查看 ${visual.model} 产品详情`}
+        data-yh-closing-tile
+      >
+        <span class="yh-closing-tile-visual">
+          <img src={visual.image} alt={visual.alt} width="800" height="600" loading="lazy" />
+        </span>
+        <span class="yh-closing-tile-copy">
+          <span class="yh-closing-tile-type">{visual.category}</span>
+          <span class="yh-closing-tile-title"><strong>{visual.model}</strong><span aria-hidden="true">↗</span></span>
+          <span class="yh-closing-tile-performance">{visual.performance}</span>
+        </span>
+      </a>
+    ))}
+  </div>
+</section>

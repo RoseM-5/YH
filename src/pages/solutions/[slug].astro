@@ -1,120 +1,18 @@
 ---
-import SiteLayout from '../../layouts/SiteLayout.astro';
-import EditorialHero from '../../components/EditorialHero.astro';
-import EditorialFigure from '../../components/EditorialFigure.astro';
-import { solutions, type Solution } from '../../data/editorial';
-import '../../styles/editorial.css';
+import { solutions } from '../../data/editorial';
 
 export function getStaticPaths() {
-  return solutions.map((solution) => ({ params: { slug: solution.slug }, props: { solution } }));
+  return solutions.map(({ slug }) => ({ params: { slug } }));
 }
-
-interface Props {
-  solution: Solution;
-}
-const { solution } = Astro.props;
-const related = solutions.filter((item) => item.slug !== solution.slug).slice(0, 2);
 ---
 
-<SiteLayout title={solution.title} description={solution.summary}>
-  <EditorialHero
-    eyebrow={`SOLUTION / ${solution.topic}`}
-    index={solution.index}
-    title={solution.title}
-    summary={solution.summary}
-    image={solution.image}
-    imageAlt={solution.imageAlt}
-  />
-
-  <div class="editorial-wrap editorial-backline">
-    <a href="/solutions/">← 返回解决方案</a>
-    <span>YH / APPLICATION</span>
-  </div>
-
-  <section
-    class="editorial-section editorial-detail-layout"
-    aria-labelledby="solution-content-title"
-  >
-    <div class="editorial-wrap editorial-detail-grid">
-      <div class="editorial-detail-main">
-        <span class="editorial-kicker">TASK → PLATFORM → VERIFICATION</span>
-        <h2 id="solution-content-title">从现场问题到可验证的方案。</h2>
-        {solution.sections.map((section, index) => (
-          <section class="editorial-detail-section" data-reveal>
-            <span class="editorial-step">0{index + 1}</span>
-            <div>
-              <h3>{section.heading}</h3>
-              {section.paragraphs.map((paragraph) => (
-                <p>{paragraph}</p>
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
-      <aside class="editorial-product-panel" aria-label="关联画册产品">
-        <EditorialFigure
-          image={solution.productImage}
-          imageAlt={solution.productImageAlt}
-        />
-        <div class="editorial-product-panel-copy">
-          <span class="editorial-kicker">RELATED PRODUCT</span>
-          <h3>方案涉及的产品</h3>
-          <div class="editorial-product-links">
-            {solution.productIds.map((id, index) => (
-              <a href={`/products/${id}/`}>
-                {solution.productNames[index]} <span aria-hidden="true">↗</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <section class="editorial-case" aria-labelledby="case-title">
-    <div class="editorial-wrap editorial-case-grid">
-      <div class="editorial-case-copy">
-        <span class="editorial-kicker">PUBLIC REFERENCE / 非 YH 项目</span>
-        <h2 id="case-title">{solution.caseReference.title}</h2>
-        <p>{solution.caseReference.text}</p>
-        <p class="editorial-case-note">{solution.caseReference.note}</p>
-        <a href={solution.caseReference.sourceUrl} target="_blank" rel="noopener noreferrer">
-          {solution.caseReference.sourceLabel} <span aria-hidden="true">↗</span>
-        </a>
-      </div>
-      {solution.caseReference.image && (
-        <EditorialFigure
-          image={solution.caseReference.image}
-          imageAlt={solution.caseReference.imageAlt ?? ''}
-          className="editorial-case-figure"
-        />
-      )}
-    </div>
-  </section>
-
-  <section class="editorial-section" aria-labelledby="related-solutions-title">
-    <div class="editorial-wrap">
-      <div class="editorial-section-head">
-        <div>
-          <span class="editorial-kicker">KEEP EXPLORING</span>
-          <h2 id="related-solutions-title">继续看其他现场。</h2>
-        </div>
-        <a class="editorial-text-link" href="/solutions/">
-          全部解决方案 ↗
-        </a>
-      </div>
-      <div class="editorial-card-grid editorial-card-grid-two">
-        {related.map((item) => (
-          <a class="editorial-next-card" href={`/solutions/${item.slug}/`}>
-            <span>
-              {item.index} / {item.topic}
-            </span>
-            <h3>{item.title}</h3>
-            <p>{item.summary}</p>
-            <strong aria-hidden="true">↗</strong>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-</SiteLayout>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/solutions/" />
+    <meta name="robots" content="noindex" />
+    <title>方案已更新 | YH</title>
+  </head>
+  <body><p>方案已更新。<a href="/solutions/">查看解决方案</a></p></body>
+</html>

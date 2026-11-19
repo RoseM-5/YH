@@ -3,23 +3,30 @@ import SiteLayout from '../../layouts/SiteLayout.astro';
 import EditorialCard from '../../components/EditorialCard.astro';
 import NewsCarousel from '../../components/NewsCarousel.astro';
 import Topography from '../../components/Topography.jsx';
-import { articles } from '../../data/editorial';
+import { missionContent } from '../../data/mission-scenes';
+import { articles as editorialArticles } from '../../data/editorial';
 import '../../styles/editorial.css';
 
-const featuredSlugs = [
-  'light-vtol-selection-guide',
-  'carbon-frame-three-numbers',
-  'yh-vtol-payload-guide',
+const featuredArticles = missionContent.articles.slice(5, 8);
+const editorialLatest = editorialArticles
+  .filter((article) => ['repeatable-aerial-imagery', 'facility-inspection-workflow', 'disaster-communication-system'].includes(article.slug))
+  .map((article) => ({
+    ...article,
+    ...(article.slug === 'repeatable-aerial-imagery'
+      ? { image: '/media/scenes/river-boundary.webp', imageAlt: '场景示意：森林中的河道与周边地形' }
+      : article.slug === 'facility-inspection-workflow'
+        ? { image: '/media/scenes/power-corridor.webp', imageAlt: '场景示意：穿越林地的设施通道' }
+        : { image: '/media/scenes/rescue-observation.webp', imageAlt: '场景示意：洪水后道路与建筑的区域观察' }),
+  }));
+const latestArticles = [
+  ...missionContent.articles.slice(8).map((article) => ({ ...article, slug: `mission/${article.slug}` })),
+  ...editorialLatest,
 ];
-const featuredArticles = featuredSlugs
-  .map((slug) => articles.find((article) => article.slug === slug))
-  .filter((article): article is (typeof articles)[number] => article !== undefined);
-const latestArticles = articles.filter((article) => article.kind !== 'product');
 ---
 
 <SiteLayout
   title="新闻与活动"
-  description="阅读 YH 产品选型文章与公开行业观察；活动时间及报名方式确认后公布。"
+  description="阅读 YH 巡检、救援与灾后侦察文章；活动时间及报名方式确认后公布。"
   newsLanding={true}
 >
   <div class="news-landing">
@@ -44,7 +51,7 @@ const latestArticles = articles.filter((article) => article.kind !== 'product');
       <div class="editorial-wrap news-masthead-content">
         <span class="editorial-kicker">INSIGHTS &amp; EVENTS</span>
         <h1>新闻与活动</h1>
-        <p>从真实产品资料出发，阅读选型思路与行业现场观察。</p>
+        <p>从巡检、救援与灾后侦察出发，阅读平台选型与现场任务思路。</p>
       </div>
     </header>
 
@@ -59,7 +66,7 @@ const latestArticles = articles.filter((article) => article.kind !== 'product');
         <div class="editorial-card-grid news-feature-grid">
           {featuredArticles.map((article, index) => (
             <EditorialCard
-              href={`/news/${article.slug}/`}
+              href={`/news/mission/${article.slug}/`}
               image={article.image}
               imageAlt={article.imageAlt}
               index={String(index + 1).padStart(2, '0')}
@@ -68,7 +75,6 @@ const latestArticles = articles.filter((article) => article.kind !== 'product');
               summary={article.summary}
               layout="overlay"
               className={index === 0 ? 'is-lead' : ''}
-              mediaLabel="YH 产品画册图"
             />
           ))}
         </div>

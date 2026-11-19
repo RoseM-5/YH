@@ -705,8 +705,26 @@ main:has(> .editorial-hero) {
 }
 
 /* Landing pages share the editorial cards, navigation and typography. */
+main:has(> .editorial-landing-hero) { padding-top: 0; }
 .editorial-landing-hero {
   min-height: clamp(420px, 59svh, 600px);
+  background: var(--light-page-hero);
+}
+.editorial-landing-hero .editorial-hero-media img {
+  filter: saturate(0.68) brightness(1.12);
+  opacity: 0.5;
+}
+.editorial-landing-hero .editorial-hero-shade {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.82) 43%, rgba(255, 255, 255, 0.46)),
+    linear-gradient(180deg, rgba(245, 250, 253, 0.88), transparent 40%);
+}
+.editorial-landing-hero .editorial-kicker { color: #2589c4; }
+.editorial-landing-hero h1 { color: #182532; }
+.editorial-landing-hero .editorial-hero-content > p { color: #384c5b; }
+.editorial-landing-hero .editorial-hero-note {
+  background: rgba(255, 255, 255, 0.84);
+  color: #3f5969;
 }
 .editorial-landing-hero .editorial-hero-media img {
   animation: editorial-hero-arrive 1.4s cubic-bezier(0.18, 0.7, 0.25, 1) both;
@@ -752,8 +770,14 @@ main:has(> .editorial-hero) {
 }
 
 .solutions-featured {
-  background: #101112;
+  background: var(--light-page-bg);
+  color: #202936;
 }
+.solutions-featured .editorial-kicker,
+.solutions-process .editorial-kicker { color: #5a83a4; }
+.solutions-featured .editorial-section-head h2,
+.solutions-process h2 { color: #1d2732; }
+.solutions-featured .editorial-section-head > p { color: #50616c; }
 .solutions-feature-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
@@ -866,12 +890,17 @@ main:has(> .editorial-hero) {
   transform: translate(5px, -5px);
 }
 .solutions-process {
-  background: #1b2227;
+  background: var(--light-page-flow);
+  color: #202936;
 }
 .solutions-process .editorial-process-grid > div {
   position: relative;
-  background: #252d33;
+  background: #fff;
+  border-top-color: #9bcbe5;
+  box-shadow: 0 12px 28px rgba(41, 99, 132, 0.08);
 }
+.solutions-process .editorial-process-grid h3 { color: #1d2732; }
+.solutions-process .editorial-process-grid p { color: #536a79; }
 .solutions-process .editorial-process-grid > div:not(:last-child)::after {
   content: '→';
   position: absolute;
@@ -883,18 +912,9 @@ main:has(> .editorial-hero) {
   transform: translateY(-50%);
 }
 
-.page-news-landing .site-header:not(.is-scrolled):not(:has(.product-menu[open])):not(:has(.mobile-nav:not([hidden]))) {
-  background: transparent;
-  color: #172d3c;
-  border-color: rgba(35, 121, 183, 0.16);
-  box-shadow: none;
-}
-.page-news-landing .site-header .desktop-nav > a[aria-current='page'] { color: #17394e; }
-.page-news-landing .site-header:not(.is-scrolled):not(:has(.product-menu[open])):not(:has(.mobile-nav:not([hidden]))) .site-brand img { filter: none; }
-.page-news-landing .site-header:not(.is-scrolled):not(:has(.product-menu[open])):not(:has(.mobile-nav:not([hidden]))) .nav-actions { border-color: rgba(35, 121, 183, 0.22); }
 .news-landing {
   padding-top: 0;
-  background: #fff;
+  background: var(--light-page-bg);
   color: #202936;
 }
 .news-masthead {
@@ -905,7 +925,7 @@ main:has(> .editorial-hero) {
   padding-block: clamp(72px, 7vw, 104px);
   overflow: hidden;
   isolation: isolate;
-  background: radial-gradient(circle at 76% 45%, #cfe6f5 0%, #e9f4fa 44%, #fff 100%);
+  background: var(--light-page-hero);
 }
 .news-topography,
 .news-topography astro-island {
@@ -968,7 +988,7 @@ main:has(> .editorial-hero) {
 .news-featured {
   padding-top: 82px;
   padding-bottom: 95px;
-  background: #fff;
+  background: var(--light-page-bg);
 }
 .news-featured .editorial-section-head h2 { color: #1d2732; }
 .news-featured .editorial-kicker { color: #5a83a4; }
@@ -995,10 +1015,23 @@ main:has(> .editorial-hero) {
 .news-feature-grid .editorial-card-copy {
   padding-bottom: 22px;
 }
+.news-feature-grid .editorial-card-image {
+  background: #dfe8ec;
+}
+.news-feature-grid .editorial-card-image picture {
+  display: block;
+}
+.news-feature-grid .editorial-card-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .news-latest {
   padding-top: 88px;
   padding-bottom: 90px;
-  background: linear-gradient(180deg, #fff 0%, #eaf5fc 35%, #cde9f7 72%, #a9d7ef 100%);
+  background: var(--light-page-flow);
 }
 .news-latest-head {
   display: flex;

@@ -1,0 +1,46 @@
+---
+interface Story {
+  slug: string;
+  title: string;
+  topic: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+}
+interface Props { articles: Story[] }
+const { articles } = Astro.props;
+---
+
+<section class="mission-insights" aria-labelledby="mission-insights-title" data-mission-insights>
+  <div class="mission-shell">
+    <div class="mission-insights-head">
+      <div>
+        <span class="mission-eyebrow">PATROL / RESCUE / RECON</span>
+        <h2 id="mission-insights-title">任务观察</h2>
+        <p>从巡检、救援与灾后侦察任务出发，整理选型和现场记录思路。</p>
+      </div>
+      <div class="mission-insights-actions">
+        <a href="/news/" class="mission-insights-all">查看全部</a>
+        <button type="button" data-insights-prev aria-label="上一篇文章" disabled>←</button>
+        <button type="button" data-insights-next aria-label="下一篇文章">→</button>
+      </div>
+    </div>
+    <div class="mission-insights-track" data-insights-track tabindex="0" role="region" aria-label="任务观察文章，可横向滑动">
+      {articles.map((article) => (
+        <a class="mission-insights-card" data-insights-card href={`/news/mission/${article.slug}/`}>
+          <span class="mission-insights-image">
+            <img src={article.image} alt={article.imageAlt} loading="lazy" decoding="async" />
+          </span>
+          <span class="mission-insights-meta"><span>{article.topic}</span><span>专题文章</span></span>
+          <strong>{article.title}</strong>
+          <span class="mission-insights-card-arrow" aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+    <div class="mission-insights-progress" aria-hidden="true"><span data-insights-progress></span></div>
+  </div>
+</section>
+
+<script>
+  import '../scripts/mission-insights.ts';
+</script>

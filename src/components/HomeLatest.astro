@@ -1,0 +1,52 @@
+---
+interface Article {
+  slug: string;
+  title: string;
+  topic: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+}
+interface Props {
+  articles: Article[];
+}
+
+const { articles } = Astro.props;
+---
+
+<section class="yh-latest" aria-labelledby="yh-latest-title" data-yh-latest>
+  <div class="yh-after-wrap">
+    <div class="yh-latest-head" data-yh-reveal>
+      <div>
+        <span class="yh-after-eyebrow">INSIGHTS</span>
+        <h2 id="yh-latest-title">动态</h2>
+        <p>从产品选型到任务组织，阅读更具体的飞行装备应用思路。</p>
+      </div>
+      <div class="yh-latest-actions">
+        <a class="yh-after-pill" href="/news/">查看全部 <span aria-hidden="true">↗</span></a>
+        <button type="button" data-yh-latest-prev aria-label="上一组动态" aria-controls="yh-latest-cards">←</button>
+        <button type="button" data-yh-latest-next aria-label="下一组动态" aria-controls="yh-latest-cards">→</button>
+      </div>
+    </div>
+    <div class="yh-latest-grid" id="yh-latest-cards" data-yh-latest-grid tabindex="0" aria-label="动态卡片，可用左右方向键切换">
+      {articles.map((article, index) => (
+        <a
+          class="yh-latest-card"
+          href={`/news/mission/${article.slug}/`}
+          data-yh-latest-card={index}
+          hidden={index >= 3}
+          style={`--yh-card-order: ${index}`}
+        >
+          <div class="yh-latest-image">
+            <img src={article.image} alt={article.imageAlt} width="800" height="560" loading="lazy" />
+          </div>
+          <div class="yh-latest-meta"><span>{article.topic}</span><span>YH INSIGHTS</span></div>
+          <h3>{article.title}</h3>
+          <p>{article.summary}</p>
+          <span class="yh-latest-card-arrow" aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+    <span class="sr-only" data-yh-latest-status aria-live="polite"></span>
+  </div>
+</section>

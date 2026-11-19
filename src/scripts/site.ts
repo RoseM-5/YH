@@ -63,33 +63,6 @@ document.addEventListener('click', (event) => {
   if (productMenu && !productMenu.contains(event.target as Node)) productMenu.open = false;
 });
 
-const searchDialog = document.querySelector<HTMLDialogElement>('#search-dialog');
-const searchInput = document.querySelector<HTMLInputElement>('#site-search');
-const searchItems = Array.from(document.querySelectorAll<HTMLElement>('[data-search-item]'));
-const emptyState = document.querySelector<HTMLElement>('#search-empty');
-document.querySelector('[data-search-open]')?.addEventListener('click', () => {
-  closeMobile();
-  searchDialog?.showModal();
-  searchInput?.focus();
-});
-document
-  .querySelector('[data-search-close]')
-  ?.addEventListener('click', () => searchDialog?.close());
-searchDialog?.addEventListener('click', (event) => {
-  if (event.target === searchDialog) searchDialog.close();
-});
-const filterSearch = () => {
-  const query = searchInput?.value.trim().toLowerCase() ?? '';
-  let visible = 0;
-  searchItems.forEach((item) => {
-    const match = Boolean(query && item.dataset.searchText?.includes(query) && visible < 8);
-    item.hidden = !match;
-    if (match) visible += 1;
-  });
-  if (emptyState) emptyState.hidden = !query || visible > 0;
-};
-searchInput?.addEventListener('input', filterSearch);
-
 if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const targets = document.querySelectorAll<HTMLElement>('[data-reveal]');
   const observer = new IntersectionObserver(
