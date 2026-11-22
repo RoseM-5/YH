@@ -1,4 +1,5 @@
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const heroEnglish = document.documentElement.lang === 'en';
 if (!reduceMotion) document.documentElement.classList.add('yh-motion-ready');
 
 const hero = document.querySelector<HTMLElement>('[data-yh-hero]');
@@ -14,9 +15,9 @@ if (hero) {
       if (!soundButton) return;
       const audible = !heroVideo.muted;
       soundButton.setAttribute('aria-pressed', String(audible));
-      soundButton.setAttribute('aria-label', audible ? '静音视频' : '开启视频声音');
+      soundButton.setAttribute('aria-label', heroEnglish ? (audible ? 'Mute video' : 'Turn on video sound') : (audible ? '静音视频' : '开启视频声音'));
       const label = soundButton.querySelector<HTMLElement>('[data-yh-sound-label]');
-      if (label) label.textContent = audible ? '静音' : '开启声音';
+      if (label) label.textContent = heroEnglish ? (audible ? 'Mute' : 'Sound on') : (audible ? '静音' : '开启声音');
     };
     const started = () => {
       hero.classList.add('is-video-playing');

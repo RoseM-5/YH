@@ -23,22 +23,32 @@ const solutions = [...missionContent.solutions.slice(0, 5), ...missionContent.so
       <p>围绕巡检、救援与灾后侦察中的现场问题，查看任务路径和对应平台。</p>
     </div>
 
-    <section class="mission-reel" data-mission-reel aria-labelledby="mission-stories-title" style={`--mission-count: ${solutions.length}`}>
+    <section class="mission-reel" data-mission-reel aria-labelledby="mission-stories-title">
       <div class="mission-reel-stage">
         <div class="mission-reel-rail" aria-hidden="true">
           <span class="mission-reel-rail-base"></span>
           <span class="mission-reel-rail-fill" data-reel-fill></span>
           <span class="mission-reel-rail-dot" data-reel-dot></span>
         </div>
-        <div class="mission-reel-count" aria-live="off"><span data-reel-count>01</span> / {String(solutions.length).padStart(2, '0')}</div>
+        <span class="mission-reel-fixed-number" aria-hidden="true"><span data-reel-current>01</span><small>/{String(solutions.length).padStart(2, '0')}</small></span>
         <div class="mission-reel-frames">
           {solutions.map((solution, index) => (
             <article class="mission-reel-frame" data-reel-frame>
               <div class="mission-reel-copy">
-                <span class="mission-reel-number">{String(index + 1).padStart(2, '0')} / {solution.topic}</span>
-                <h3>{solution.title}</h3>
-                <p>{solution.summary}</p>
-                <a href={`/solutions/mission/${solution.slug}/`} class="mission-text-link">了解方案 <span aria-hidden="true">↗</span></a>
+                <span class="mission-reel-number" aria-label={`第 ${index + 1} 个方案，共 ${solutions.length} 个`}>
+                  {String(index + 1).padStart(2, '0')}<small>/{String(solutions.length).padStart(2, '0')}</small>
+                </span>
+                <div class="mission-reel-copy-main">
+                  <h3>{solution.title}</h3>
+                  <p>{solution.summary}</p>
+                  <div class="mission-reel-actions">
+                    <a href={`/solutions/mission/${solution.slug}/`} class="mission-text-link">了解方案 <span aria-hidden="true">↗</span></a>
+                    <div class="mission-reel-controls" aria-label="切换解决方案">
+                      <button type="button" data-reel-prev aria-label="上一个方案" disabled>↑</button>
+                      <button type="button" data-reel-next aria-label="下一个方案">↓</button>
+                    </div>
+                  </div>
+                </div>
               </div>
               <a class="mission-reel-visual" href={`/solutions/mission/${solution.slug}/`} aria-label={`阅读${solution.title}`}>
                 <img src={solution.image} alt={solution.imageAlt} loading="lazy" decoding="async" />
@@ -47,6 +57,7 @@ const solutions = [...missionContent.solutions.slice(0, 5), ...missionContent.so
             </article>
           ))}
         </div>
+        <span class="mission-reel-status" data-reel-status aria-live="polite">第 1 个方案，共 {solutions.length} 个</span>
       </div>
     </section>
 

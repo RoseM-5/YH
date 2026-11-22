@@ -23,12 +23,12 @@ jobs:
         with:
           node-version: '24'
           cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - run: npm ci
       - run: npm run check
       - run: npm run build
-        env:
-          GITHUB_PAGES: '1'
-      - run: node scripts/prefix_pages_paths.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

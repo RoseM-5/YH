@@ -85,6 +85,7 @@ const { categories, products } = catalog;
 </SiteLayout>
 
 <script>
+  const english = document.documentElement.lang === 'en';
   const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-category-tab]'));
   const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-product-card]'));
   const input = document.querySelector<HTMLInputElement>('[data-catalog-search]');
@@ -110,7 +111,7 @@ const { categories, products } = catalog;
       tab.setAttribute('aria-pressed', String(active));
     });
     if (currentCategory) {
-      currentCategory.textContent = tabs.find((tab) => tab.dataset.categoryTab === category)?.textContent?.trim() || '全部产品';
+      currentCategory.textContent = tabs.find((tab) => tab.dataset.categoryTab === category)?.textContent?.trim() || (english ? 'All products' : '全部产品');
     }
     cards.forEach((card) => {
       const matched =
@@ -119,7 +120,7 @@ const { categories, products } = catalog;
       card.hidden = !matched;
       if (matched) visible += 1;
     });
-    if (count) count.textContent = `显示 ${visible} 个型号`;
+    if (count) count.textContent = english ? `Showing ${visible} models` : `显示 ${visible} 个型号`;
     if (empty) empty.hidden = visible !== 0;
     if (updateUrl) {
       const url = new URL(location.href);

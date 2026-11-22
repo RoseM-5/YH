@@ -109,14 +109,15 @@
   color: #1d2730;
   box-shadow: 0 24px 52px rgba(37, 58, 72, 0.11);
 }
-.yh-task-tabs { display: flex; gap: 19px; overflow-x: auto; border-bottom: 1px solid #d8e0e6; scrollbar-width: none; }
+.yh-task-tabs { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
 .yh-task-tabs::-webkit-scrollbar { display: none; }
 .yh-task-tabs button {
   position: relative;
   flex: 0 0 auto;
   min-height: 42px;
   border: 0;
-  padding: 0 0 11px;
+  border-radius: 6px;
+  padding: 7px 10px;
   background: none;
   color: #6b7882;
   font-size: 12px;
@@ -124,21 +125,8 @@
   cursor: pointer;
   transition: color 0.3s ease;
 }
-.yh-task-tabs button::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -1px;
-  left: 0;
-  height: 2px;
-  background: #0099ff;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.3s ease;
-}
 .yh-task-tabs button.is-active,
-.yh-task-tabs button:hover { color: #1d2730; }
-.yh-task-tabs button.is-active::after { transform: scaleX(1); }
+.yh-task-tabs button:hover { color: #1d2730; background: #e8eef4; }
 .yh-task-panel-body { position: relative; flex: 1; min-height: 305px; }
 .yh-task-story {
   position: absolute;
@@ -152,8 +140,7 @@
   transition: opacity 0.38s ease, transform 0.38s ease, visibility 0.38s;
 }
 .yh-task-story.is-active { opacity: 1; visibility: visible; transform: translateY(0); }
-.yh-task-story-index { margin-top: 31px; color: #087fcb; font-size: 11px; letter-spacing: 0.16em; }
-.yh-task-story h3 { margin: 20px 0 11px; font-size: clamp(20px, 2.2vw, 27px); line-height: 1.2; letter-spacing: -0.035em; }
+.yh-task-story h3 { margin: 31px 0 11px; font-size: clamp(20px, 2.2vw, 27px); line-height: 1.2; letter-spacing: -0.035em; }
 .yh-task-story p { margin: 0; color: #5e6b75; font-size: 14px; line-height: 1.7; }
 .yh-task-story a {
   display: inline-flex;
@@ -296,8 +283,7 @@
   .yh-task-panel-body { min-height: 268px; }
   .yh-task-tabs { gap: 11px; }
   .yh-task-tabs button { font-size: 11px; }
-  .yh-task-story-index { margin-top: 20px; }
-  .yh-task-story h3 { margin-top: 14px; font-size: 21px; }
+  .yh-task-story h3 { margin-top: 20px; font-size: 21px; }
   .yh-task-story p { font-size: 12px; }
   .yh-latest-grid { gap: 16px; }
   .yh-latest-image { height: 205px; }

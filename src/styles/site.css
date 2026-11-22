@@ -633,3 +633,17 @@ em {
     transform: none;
   }
 }
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  min-height: 42px;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-decoration: none;
+}
+.language-switch:hover,
+.language-switch:focus-visible { color: #0785d1; }

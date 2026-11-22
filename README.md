@@ -1,54 +1,29 @@
-# YH 产品资料展示站
+# YH 企业官网
 
-这是基于上一版 Astro 网站框架制作的独立副本。页面使用用户提供的 YH Logo、三份产品画册、案例文案、配图和 `展示视频.mp4`；三套画册产品统一按 YH 品牌呈现，原始画册名称与页码留在数据中供核对。本站只做展示，不接收询盘，也不使用业务数据库。
+基于 Astro 的静态展示站。中文页面位于 `/`，英文页面位于 `/en/`；顶部语言入口会打开当前页面的对应版本。网站展示产品、解决方案、新闻与活动、关于我们及联系方式，不使用询盘表单或数据库。
 
-## 页面与组件
+## 内容来源
 
-| 页面 | 路径 | 内容 |
-| --- | --- | --- |
-| 首页 | `/` | 展示视频与两行宣传标语、紧凑产品主推、全宽解决方案轮播与可翻页动态卡片 |
-| 产品中心 | `/products/` | 50 个型号、7 类筛选与站内搜索 |
-| 产品详情 | `/products/{id}/` | 画册图片、产品描述、原始参数、同类产品 |
-| 解决方案 | `/solutions/`、`/solutions/{slug}/` | 6 个任务场景；横幅使用资料配图 |
-| 新闻与活动 | `/news/`、`/news/{slug}/` | 7 篇行业观察与活动状态说明；横幅使用资料配图 |
-| 关于与联系 | `/about/`、`/contact/` | 资料范围与联系说明，不展示虚构联系方式 |
+- `src/data/products.json` 是 38 个型号、7 个类别和详情参数的站内数据源。原资料不明确的字段保留提示，详见 `PRODUCT_DATA_AUDIT.md`。
+- `src/data/mission-content.json` 保存方案和新闻文章。页面使用项目内的产品图片与场景配图。
+- 公司邮箱为 `info@yunhetech.net`；WhatsApp 联系二维码位于 `public/media/contact/`。
+- `src/data/en-strings.json` 保存英文文案。构建时从同一套中文 Astro 页面生成对应英文页面，保持型号、数值、图片与路由一致。
 
-共生成 69 个静态页面。公共布局在 `src/layouts/SiteLayout.astro`；`SiteHeader`、`SiteFooter`、首页 `HomeHero` / `HomeProducts` / `HomeApplications` / `HomeInsights`、产品 `Catalog*`、内容 `Editorial*` 组件分别处理导航、页面结构和交互。`src/scripts/site.ts` 管理导航、搜索和滚动入场；首页脚本只管理首屏和首页动画。
-
-## 数据与素材
-
-- `src/data/products.json` 是产品列表、搜索和详情页的唯一运行时产品数据源。它由 `scripts/prepare_catalog.py` 从三份 `catalog.json` 生成，不在组件中手写型号或参数。
-- `image_manifest.json` 记录 205 张画册源图的归属、尺寸、用途与未用原因；172 张产品图片经保持内容的 WebP 转换放在 `public/media/products/`。
-- `src/data/editorial.ts` 保存解决方案与行业观察内容，配图映射与案例边界见 `source/content/EDITORIAL_MAPPING.md`。
-- 首页视频由文件夹中的 `展示视频.mp4` 转为适合网页加载的 1280 像素宽静音 MP4，放在 `public/media/hero/hero.mp4`；加载前显示同视频画面的 `poster.webp`。其他页面暂不使用视频。
-- YH 原始 Logo 位于 `public/media/brand/`。目录中的源数据副本放在 `source/catalogs/` 和 `source/content/`，不依赖运行时连接桌面文件夹。
-
-## 运行与更新
-
-### GitHub Pages 部署
-
-本公开仓库内的 `.github/workflows/deploy.yml` 会在推送到 `main` 后构建并部署网站。首次使用时，在仓库 **Settings → Pages → Build and deployment** 中将来源设为 **GitHub Actions**。部署网址为 `https://rosem-5.github.io/YH/`。构建使用 `GITHUB_PAGES=1` 和 `/YH/` 前缀，不影响本地根路径预览。
-
-### Cloudflare Pages 部署
-
-连接此 GitHub 仓库到 Cloudflare Pages，生产分支选 `main`，构建命令填 `npm run build`，输出目录填 `dist`。站点建好后，可在构建环境变量中设置 `PUBLIC_SITE_URL` 为实际网站域名。连接完成后，推送到 `main` 会自动重新部署。
-
-### 本地运行
+## 本地验证
 
 ```powershell
 npm ci
-npm run dev
 npm run check
 npm run build
-python scripts/verify_site.py
+npm run preview
 ```
 
-重新从桌面资料生成产品数据与图片：
+`npm run build` 先生成 87 个中文静态页面，再生成 87 个英文静态页面。通过 `npm run preview` 查看双语站。`npm run dev` 用于编辑中文 Astro 页面；英文静态页面在构建后预览。
 
-```powershell
-python scripts/prepare_catalog.py --source-dir '..\建站资料'
-```
+新增或修改中文页面文案时，先运行 `npm run build:zh`，再运行 `python scripts/update_en_strings.py` 收集并翻译新增文本。逐条核对 `src/data/en-strings.json` 中的产品术语、数值与资料疑点，然后运行 `npm run build`。正常构建只读取本地词库，不访问翻译服务；缺少英文词条时会报错。
 
-视频转换脚本：`python scripts/prepare_hero.py '..\建站资料\展示视频.mp4'`，需要 `ffmpeg` 或 `imageio-ffmpeg`。运行前将示例路径改为本机资料目录。新增型号时先更新对应画册结构化数据，再运行生成脚本与构建，不需要复制详情页代码。
+## 部署
 
-资料中未提供正式企业联系方式。公开机构案例只用于说明行业任务，页面提供原始链接，不把案例写作 YH 客户项目。参数保留画册原文和单位；具体配置以正式资料为准。
+`.github/workflows/deploy.yml` 在 `main` 推送后运行检查和构建。站点基址为 `/`，目标域名为 `https://yunhetech.net`；本地修改不会自动推送。
+
+GitHub Pages 使用 Actions 发布，必须在仓库 **Settings → Pages → Custom domain** 中设置 `yunhetech.net`。此发布模式不会从 `CNAME` 文件读取域名设置。随后在阿里云 DNS 中为主机记录 `@` 添加四条 A 记录，分别指向 `185.199.108.153`、`185.199.109.153`、`185.199.110.153` 和 `185.199.111.153`；为 `www` 添加 CNAME，指向 `rosem-5.github.io`。保留现有邮件的 MX、TXT 等记录。待解析和证书就绪后，在 Pages 设置中启用 **Enforce HTTPS**。

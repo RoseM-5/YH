@@ -1,0 +1,79 @@
+.contact-page {
+  min-height: 100svh;
+  padding: clamp(130px, 14vw, 205px) 24px clamp(90px, 10vw, 145px);
+  background: linear-gradient(145deg, #f7fafc 0%, #ecf4f9 58%, #e5f1f8 100%);
+  color: #17242d;
+}
+
+.contact-shell {
+  display: grid;
+  grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
+  align-items: center;
+  gap: clamp(42px, 7vw, 110px);
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.contact-eyebrow {
+  display: block;
+  color: #2384bd;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .16em;
+}
+
+.contact-intro h1 {
+  margin: 20px 0 22px;
+  font-size: clamp(52px, 6vw, 82px);
+  font-weight: 600;
+  letter-spacing: -.055em;
+  line-height: 1.1;
+}
+
+.contact-intro p {
+  max-width: 28ch;
+  margin: 0;
+  color: #637988;
+  font-size: clamp(17px, 1.8vw, 21px);
+  line-height: 1.8;
+}
+
+.contact-panel {
+  border: 1px solid #dfeaf1;
+  border-radius: 22px;
+  padding: clamp(30px, 4vw, 56px);
+  background: #fff;
+  box-shadow: 0 26px 75px rgba(35, 79, 107, .09);
+}
+
+.contact-panel-heading h2 {
+  margin: 12px 0 0;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 600;
+  letter-spacing: -.04em;
+}
+
+.contact-methods { margin-top: 37px; }
+.contact-method { padding: 25px 0; border-top: 1px solid #e4edf2; }
+.contact-method-label { display: block; margin-bottom: 12px; color: #6b8290; font-size: 13px; font-weight: 650; }
+.contact-email { display: inline-flex; align-items: baseline; gap: 12px; color: #17242d; font-size: clamp(18px, 2vw, 25px); font-weight: 600; overflow-wrap: anywhere; }
+.contact-email span { color: #0099ff; }
+.contact-email:hover { color: #087fcb; }
+.contact-method-whatsapp { display: grid; grid-template-columns: minmax(0, 1fr) 205px; gap: 22px; align-items: center; padding-bottom: 0; }
+.contact-method-whatsapp p { max-width: 22ch; margin: 0; color: #637988; font-size: 15px; }
+.contact-qr-window { position: relative; width: 205px; aspect-ratio: 1; overflow: hidden; border: 1px solid #e4edf2; border-radius: 10px; background: #fff; }
+.contact-qr-window img { position: absolute; top: 50%; left: 50%; width: 215%; height: auto; max-width: none; transform: translate(-50%, -50%); }
+
+@media (max-width: 800px) {
+  .contact-page { padding: 125px 24px 85px; }
+  .contact-shell { grid-template-columns: 1fr; gap: 42px; max-width: 600px; }
+  .contact-intro p { max-width: 42ch; }
+}
+
+@media (max-width: 480px) {
+  .contact-page { padding: 112px 18px 70px; }
+  .contact-panel { padding: 27px 22px; }
+  .contact-methods { margin-top: 27px; }
+  .contact-method-whatsapp { grid-template-columns: 1fr; gap: 18px; }
+  .contact-qr-window { width: min(205px, 100%); }
+}

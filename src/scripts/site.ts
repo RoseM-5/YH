@@ -1,4 +1,5 @@
 const header = document.querySelector<HTMLElement>('#site-header');
+const siteEnglish = document.documentElement.lang === 'en';
 const updateHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 40);
 updateHeader();
 window.addEventListener('scroll', updateHeader, { passive: true });
@@ -9,7 +10,7 @@ const closeMobile = () => {
   if (!mobileButton || !mobileNav) return;
   mobileNav.hidden = true;
   mobileButton.setAttribute('aria-expanded', 'false');
-  mobileButton.setAttribute('aria-label', '打开菜单');
+  mobileButton.setAttribute('aria-label', siteEnglish ? 'Open menu' : '打开菜单');
   document.body.classList.remove('mobile-open');
 };
 mobileButton?.addEventListener('click', () => {
@@ -17,7 +18,7 @@ mobileButton?.addEventListener('click', () => {
   const open = mobileNav.hidden === true;
   mobileNav.hidden = !open;
   mobileButton.setAttribute('aria-expanded', String(open));
-  mobileButton.setAttribute('aria-label', open ? '关闭菜单' : '打开菜单');
+  mobileButton.setAttribute('aria-label', siteEnglish ? (open ? 'Close menu' : 'Open menu') : (open ? '关闭菜单' : '打开菜单'));
   document.body.classList.toggle('mobile-open', open);
 });
 mobileNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMobile));

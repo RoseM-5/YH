@@ -1,31 +1,44 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import '../../styles/contact.css';
 ---
 
-<SiteLayout title="联系我们" description="YH 产品资料展示站联系说明。">
-  <section class="info-hero info-hero-plain">
-    <div class="wrap info-hero-content">
-      <span class="eyebrow">CONTACT / YH</span>
-      <h1>
-        先了解产品，
-        <br />
-        <em>再展开交流。</em>
-      </h1>
-      <p>当前版本仅展示产品与应用资料。</p>
-    </div>
-  </section>
-  <section class="wrap info-section info-section-last" data-reveal>
-    <div>
-      <span class="eyebrow">CONTACT INFORMATION</span>
-      <h2>联系说明</h2>
-    </div>
-    <div class="info-copy">
-      <p>
-        提供的资料中没有可核实的企业联系电话、邮箱或地址，因此本站暂不展示联系方式，也不收集访客信息。需要正式联系信息时，请以品牌方对外发布的资料为准。
-      </p>
-      <a class="info-link" href="/products/">
-        继续浏览产品 <span aria-hidden="true">↗</span>
-      </a>
-    </div>
-  </section>
+<SiteLayout title="联系我们" description="通过电子邮件或 WhatsApp 联系 YH。" lightLanding={true}>
+  <div class="contact-page">
+    <section class="contact-shell" aria-labelledby="contact-title">
+      <div class="contact-intro">
+        <span class="contact-eyebrow">CONTACT / YH</span>
+        <h1 id="contact-title">联系我们</h1>
+        <p>关于产品与应用场景，欢迎通过电子邮件或 WhatsApp 与我们交流。</p>
+      </div>
+
+      <div class="contact-panel">
+        <div class="contact-panel-heading">
+          <span class="contact-eyebrow">GET IN TOUCH</span>
+          <h2>开启交流</h2>
+        </div>
+        <div class="contact-methods">
+          <div class="contact-method">
+            <span class="contact-method-label">电子邮件</span>
+            <a class="contact-email" href="mailto:info@yunhetech.net">info@yunhetech.net <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-method contact-method-whatsapp">
+            <div>
+              <span class="contact-method-label">WhatsApp</span>
+              <p>使用 WhatsApp 相机扫描二维码，联系 yunhe。</p>
+            </div>
+            <div class="contact-qr-window">
+              <img
+                src="/media/contact/whatsapp-yunhe.jpg"
+                alt="yunhe 的 WhatsApp 联系二维码"
+                width="900"
+                height="1600"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </SiteLayout>

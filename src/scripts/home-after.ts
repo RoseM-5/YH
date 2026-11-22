@@ -7,7 +7,6 @@ if (taskShowcase) {
   const stories = Array.from(taskShowcase.querySelectorAll<HTMLElement>('[data-yh-task-story]'));
   const images = Array.from(taskShowcase.querySelectorAll<HTMLImageElement>('[data-yh-task-image]'));
   const label = taskShowcase.querySelector<HTMLElement>('[data-yh-task-label]');
-  const count = taskShowcase.querySelector<HTMLElement>('[data-yh-task-count]');
   const progress = taskShowcase.querySelector<HTMLElement>('[data-yh-task-progress]');
   let active = 0;
   let visible = false;
@@ -44,7 +43,6 @@ if (taskShowcase) {
     });
     images.forEach((image, itemIndex) => image.classList.toggle('is-active', itemIndex === active));
     if (label) label.textContent = tabs[active]?.dataset.yhTaskLabel ?? '';
-    if (count) count.textContent = `${String(active + 1).padStart(2, '0')} / ${String(tabs.length).padStart(2, '0')}`;
     schedule();
   };
 
@@ -105,7 +103,9 @@ if (latest) {
       void grid.offsetWidth;
       visibleIndices.forEach((index) => cards[index].classList.add('is-entering'));
     }
-    if (status) status.textContent = `展示第 ${start + 1} 项起的 ${count} 条动态，共 ${cards.length} 条`;
+    if (status) status.textContent = document.documentElement.lang === 'en'
+      ? `Showing ${count} updates from item ${start + 1} of ${cards.length}`
+      : `展示第 ${start + 1} 项起的 ${count} 条动态，共 ${cards.length} 条`;
   };
   const step = (direction: number) => {
     start = (start + direction + cards.length) % cards.length;
