@@ -47,7 +47,7 @@
 .mission-reel-fixed-number { display: none; }
 .mission-reel-actions { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
 .mission-reel-controls, .mission-reel-status { display: none; }
-.mission-reel.is-enhanced .mission-reel-stage { height: calc(100svh - 74px); min-height: 620px; padding-top: 0; padding-bottom: 0; overflow: hidden; }
+.mission-reel.is-enhanced .mission-reel-stage { position: sticky; top: 74px; height: calc(100svh - 74px); min-height: 620px; padding-top: 0; padding-bottom: 0; overflow: hidden; }
 .mission-reel.is-enhanced .mission-reel-frames { position: relative; height: 100%; display: block; }
 .mission-reel.is-enhanced .mission-reel-frame { position: absolute; inset: 0; height: 100%; min-height: 0; visibility: hidden; pointer-events: none; transition: visibility .9s; }
 .mission-reel.is-enhanced .mission-reel-frame.is-active { z-index: 1; visibility: visible; pointer-events: auto; }
@@ -130,7 +130,7 @@ body:has(.mission-landing) .footer-bottom { border-top-color: #d9e8f1; }
   .mission-intro { padding-bottom: 12px; }
   .mission-reel-frame { gap: 25px; grid-template-columns: 1fr; min-height: auto; }
   .mission-reel-visual { min-height: 0; aspect-ratio: 1.42; }
-  .mission-reel.is-enhanced .mission-reel-stage { height: calc(100svh - 68px); min-height: 600px; }
+  .mission-reel.is-enhanced .mission-reel-stage { top: 68px; height: calc(100svh - 68px); min-height: 600px; }
   .mission-reel.is-enhanced .mission-reel-frame { align-content: center; gap: 20px; padding: 0 28px 20px 0; }
   .mission-reel.is-enhanced .mission-reel-rail { left: auto; right: clamp(3px, 3vw, 16px); top: 12%; height: 76%; }
   .mission-reel-copy { grid-template-columns: 66px minmax(0, 1fr); gap: 16px; padding: 0; }
