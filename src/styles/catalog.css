@@ -511,6 +511,12 @@
   outline: 2px solid var(--catalog-blue);
   outline-offset: 3px;
 }
+.catalog-compare-note {
+  display: block;
+  color: #718592;
+  font-size: 11px;
+  font-weight: 400;
+}
 .catalog-source-issue {
   margin: 18px 0 0;
   color: #647684;

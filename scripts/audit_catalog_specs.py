@@ -91,8 +91,37 @@ def main() -> int:
         for item in product["comparison"]["models"]:
             sibling = by_model[item["model"]]
             specs = {spec["label"]: spec["value"] for spec in sibling["specs"]}
-            expected_values = [specs.get(field, "—") for field in product["comparison"]["fields"]]
-            if item["values"] != expected_values:
+            expected_values = []
+            expected_notes = []
+            for field in product["comparison"]["fields"]:
+                source_label = field
+                if product["categoryKey"] == "vtol":
+                    if field == "起飞重量":
+                        source_label = "标准起飞重量" if sibling["model"] == "YH-2000" else "最大起飞重量"
+                    elif field == "最大高度":
+                        source_label = "最大起飞高度" if sibling["model"] == "YH-2000" else "最大飞行高度"
+                    elif field == "发动机":
+                        if sibling["model"] == "YH-2000":
+                            expected_values.append("油电混合动力")
+                            expected_notes.append("")
+                        elif sibling["model"] in {"YH-2001", "YH-2002", "YH-2003", "YH-2004", "YH-2005"}:
+                            expected_values.append("电动发电机")
+                            expected_notes.append("")
+                        elif "发动机" in specs:
+                            match = re.fullmatch(r"(LiDe \d+) (二冲程发动机)", specs["发动机"])
+                            if match:
+                                expected_values.append(match.group(1))
+                                expected_notes.append(match.group(2))
+                            else:
+                                expected_values.append(specs["发动机"])
+                                expected_notes.append("")
+                        else:
+                            expected_values.append("—")
+                            expected_notes.append("")
+                        continue
+                expected_values.append(specs.get(source_label, "—"))
+                expected_notes.append(source_label if source_label != field else "")
+            if item["values"] != expected_values or (product["categoryKey"] == "vtol" and item.get("notes") != expected_notes):
                 problems.append(f"{model}: comparison values for {item['model']} are misplaced")
     print(f"Models: {len(products)}; specification rows: {sum(len(product['specs']) for product in products)}")
     print(f"Gallery assets checked: {image_count}")

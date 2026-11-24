@@ -1389,5 +1389,10 @@
   "≥ 50 km (autonomous flight); longer distances optional": "≥ 50 km (vuelo autónomo); distancias más largas opcionales",
   "≥ 60 min": "≥ 60 minutos",
   "≥ 8 h": "≥ 8 h",
-  "≥ 80 km": "≥ 80 kilómetros"
+  "≥ 80 km": "≥ 80 kilómetros",
+  "Takeoff weight": "Peso de despegue",
+  "Maximum altitude": "Altitud máxima",
+  "Gasoline-electric hybrid propulsion": "Propulsión híbrida gasolina-eléctrica",
+  "Electric generator": "Generador eléctrico",
+  "Two-stroke engine": "Motor de dos tiempos"
 }

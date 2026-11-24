@@ -36,6 +36,7 @@ CATEGORIES = [
 ]
 KEY_BY_CATEGORY = {name: key for key, name, _ in CATEGORIES}
 DISPLAY_CATEGORY = {"巡飞器": "巡飞弹"}
+USER_CONFIRMED_ENGINE = {f"YH-{number}": "电动发电机" for number in range(2001, 2006)}
 
 # Values below are transcribed from each model's 原页文字.txt.  They retain
 # qualification such as ≥, ≤, no-load, and payload-conditioned endurance.
@@ -226,6 +227,30 @@ def convert_image(path: Path, destination: Path, max_edge: int, mask_path: Path 
         return {"width": image.width, "height": image.height}
 
 
+def comparison_cell(product: dict, field: str) -> tuple[str, str]:
+    """Keep the V7 wording visible when related VTOL fields share a column."""
+    specs = {item["label"]: item["value"] for item in product["specs"]}
+    if product["categoryKey"] == "vtol":
+        aliases = {
+            "起飞重量": ("标准起飞重量", "最大起飞重量"),
+            "最大高度": ("最大起飞高度", "最大飞行高度"),
+        }
+        for source_label in aliases.get(field, ()):
+            if source_label in specs:
+                return specs[source_label], source_label
+        if field == "发动机":
+            engine = specs.get("发动机")
+            if engine:
+                match = re.fullmatch(r"(LiDe \d+) (二冲程发动机)", engine)
+                return (match.group(1), match.group(2)) if match else (engine, "")
+            if product["model"] == "YH-2000" and "动力形式" in specs:
+                return "油电混合动力", ""
+            if product["model"] in USER_CONFIRMED_ENGINE:
+                return USER_CONFIRMED_ENGINE[product["model"]], ""
+            return "—", ""
+    return specs.get(field, "—"), ""
+
+
 def main() -> None:
     with (SOURCE / "产品索引.csv").open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
@@ -331,7 +356,7 @@ def main() -> None:
         })
     comparison_fields = {
         "fixed-wing": ["动力", "最大载荷", "最大航时", "飞行航程", "最大飞行航程", "巡航速度", "最大速度"],
-        "vtol": ["最大载荷", "标准空载航时", "最大起飞重量", "标准起飞重量", "巡航速度", "最大飞行高度", "最大起飞高度", "发动机"],
+        "vtol": ["最大载荷", "标准空载航时", "起飞重量", "巡航速度", "最大高度", "发动机"],
         "multirotor": ["最大载重", "空载续航", "轴距", "最大起飞重量", "最大适配桨叶"],
         "loitering": ["最大飞行航程", "最大任务载荷", "飞行速度", "最大起飞重量", "抗风等级"],
         "fpv-kit": ["规格", "额定载重", "最大载重", "空载续航", "额定载重续航", "轴距"],
@@ -347,7 +372,8 @@ def main() -> None:
                 {
                     "model": other["model"],
                     "id": other["id"],
-                    "values": [next((spec["value"] for spec in other["specs"] if spec["label"] == field), "—") for field in fields],
+                    "values": [comparison_cell(other, field)[0] for field in fields],
+                    **({"notes": [comparison_cell(other, field)[1] for field in fields]} if product["categoryKey"] == "vtol" else {}),
                 }
                 for other in siblings
             ],

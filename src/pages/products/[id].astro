@@ -79,7 +79,12 @@ const galleryOptions = [product.gallery[0], ...detailImages];
                 <th scope="row">
                   <a href={`/products/${item.id}/`} aria-current={item.model === product.model ? 'page' : undefined}>{item.model}</a>
                 </th>
-                {item.values.map((value) => <td>{value}</td>)}
+                {item.values.map((value, index) => (
+                  <td>
+                    {value}
+                    {'notes' in item && item.notes[index] && <span class="catalog-compare-note">{item.notes[index]}</span>}
+                  </td>
+                ))}
               </tr>
             ))}
           </tbody>

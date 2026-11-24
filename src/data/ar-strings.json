@@ -1389,5 +1389,10 @@
   "≥ 50 km (autonomous flight); longer distances optional": "≥ 50 كم (رحلة مستقلة)؛ مسافات أطول اختيارية",
   "≥ 60 min": "≥ 60 دقيقة",
   "≥ 8 h": "≥ 8 ساعات",
-  "≥ 80 km": "≥ 80 كم"
+  "≥ 80 km": "≥ 80 كم",
+  "Takeoff weight": "وزن الإقلاع",
+  "Maximum altitude": "الارتفاع الأقصى",
+  "Gasoline-electric hybrid propulsion": "نظام دفع هجين يعمل بالبنزين والكهرباء",
+  "Electric generator": "مولد كهربائي",
+  "Two-stroke engine": "محرك ثنائي الأشواط"
 }

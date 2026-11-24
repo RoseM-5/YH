@@ -1082,5 +1082,10 @@
   "飞行速度": "flight speed",
   "首次飞行应建立影像基线，固定各工区的编号、观察方向和拍摄高度。后续任务优先沿相同顺序复拍，必要时再增加局部细节。对围挡变化、积水或道路受阻等疑似问题，记录位置和时间，交由现场管理人员核实。影像能提示变化，但不能替代工程质量或安全验收。": "The first flight should establish an image baseline and fix the number, observation direction and shooting height of each work area. For subsequent tasks, priority will be given to reshooting in the same order, and local details will be added if necessary. For suspected problems such as changes in enclosures, water accumulation, or blocked roads, record the location and time and submit them to on-site management personnel for verification. Images can prompt changes, but they cannot replace project quality or safety acceptance.",
   "高稳定性、流线型设计、高通信带宽、单兵便携": "High stability, streamlined design, high communication bandwidth, individual soldier portability",
-  "高稳定性、流线型设计、高通信带宽、抗干扰、抗风": "High stability, streamlined design, high communication bandwidth, anti-interference, and wind resistance"
+  "高稳定性、流线型设计、高通信带宽、抗干扰、抗风": "High stability, streamlined design, high communication bandwidth, anti-interference, and wind resistance",
+  "起飞重量": "Takeoff weight",
+  "最大高度": "Maximum altitude",
+  "油电混合动力": "Gasoline-electric hybrid propulsion",
+  "电动发电机": "Electric generator",
+  "二冲程发动机": "Two-stroke engine"
 }
