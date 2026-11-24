@@ -1,3 +1,5 @@
+import { updatesStatus } from './ui-locale';
+
 const reducedAfterMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const taskShowcase = document.querySelector<HTMLElement>('[data-yh-task-showcase]');
@@ -103,9 +105,7 @@ if (latest) {
       void grid.offsetWidth;
       visibleIndices.forEach((index) => cards[index].classList.add('is-entering'));
     }
-    if (status) status.textContent = document.documentElement.lang === 'en'
-      ? `Showing ${count} updates from item ${start + 1} of ${cards.length}`
-      : `展示第 ${start + 1} 项起的 ${count} 条动态，共 ${cards.length} 条`;
+    if (status) status.textContent = updatesStatus(start + 1, count, cards.length);
   };
   const step = (direction: number) => {
     start = (start + direction + cards.length) % cards.length;

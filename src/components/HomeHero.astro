@@ -10,7 +10,6 @@
   <video
     class="yh-hero-video"
     data-yh-hero-video
-    autoplay
     muted
     loop
     playsinline
@@ -21,6 +20,14 @@
     <source src="/media/hero/hero.mp4" type="video/mp4" />
   </video>
   <div class="yh-hero-shade" aria-hidden="true"></div>
+  <button class="yh-hero-play" type="button" data-yh-play aria-label="播放视频" aria-pressed="false">
+    <svg class="yh-play-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <path d="M16 10.5 37 24 16 37.5v-27Z" fill="currentColor" />
+    </svg>
+    <svg class="yh-pause-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <path d="M14 11h8v26h-8zm12 0h8v26h-8z" fill="currentColor" />
+    </svg>
+  </button>
   <div class="yh-wrap yh-hero-content">
     <div class="yh-title-mask">
       <h1 id="yh-hero-title">

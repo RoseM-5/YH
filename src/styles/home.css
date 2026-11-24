@@ -126,6 +126,7 @@
 .yh-hero-sound .yh-sound-on-icon,
 .yh-hero-sound[aria-pressed='true'] .yh-sound-muted-icon { display: none; }
 .yh-hero-sound[aria-pressed='true'] .yh-sound-on-icon { display: block; }
+.yh-hero-play { display: none; }
 .yh-kicker {
   display: inline-flex;
   align-items: center;
@@ -1564,6 +1565,40 @@
   font-size: 12px;
 }
 @media (max-width: 760px) {
+  .yh-hero-play {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    border: 2px solid rgba(255, 255, 255, .95);
+    border-radius: 50%;
+    background: rgba(4, 13, 22, .56);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+    color: #fff;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+  }
+  .yh-hero-play:focus-visible { outline: 3px solid #0099ff; outline-offset: 4px; }
+  .yh-hero-play svg { width: 42px; height: 42px; }
+  .yh-hero-play .yh-pause-icon { display: none; }
+  .yh-hero.is-mobile-playing .yh-hero-play {
+    top: auto;
+    bottom: 14px;
+    left: 18px;
+    width: 42px;
+    height: 42px;
+    border-width: 1px;
+    background: rgba(4, 13, 22, .72);
+    transform: none;
+  }
+  .yh-hero.is-mobile-playing .yh-hero-play svg { width: 22px; height: 22px; }
+  .yh-hero.is-mobile-playing .yh-hero-play .yh-play-icon { display: none; }
+  .yh-hero.is-mobile-playing .yh-hero-play .yh-pause-icon { display: block; }
   .yh-hero {
     height: 100svh;
     min-height: 600px;

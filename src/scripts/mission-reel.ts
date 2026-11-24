@@ -1,3 +1,5 @@
+import { solutionStatus } from './ui-locale';
+
 document.querySelectorAll<HTMLElement>('[data-mission-reel]').forEach((root) => {
   const frames = Array.from(root.querySelectorAll<HTMLElement>('[data-reel-frame]'));
   const stage = root.querySelector<HTMLElement>('.mission-reel-stage');
@@ -46,9 +48,7 @@ document.querySelectorAll<HTMLElement>('[data-mission-reel]').forEach((root) => 
     }
     previous.forEach((button) => { button.disabled = active === 0; });
     next.forEach((button) => { button.disabled = active === frames.length - 1; });
-    status.textContent = document.documentElement.lang === 'en'
-      ? `Solution ${active + 1} of ${frames.length}`
-      : `第 ${active + 1} 个方案，共 ${frames.length} 个`;
+    status.textContent = solutionStatus(active + 1, frames.length);
   };
 
   const reelStart = () => {

@@ -35,6 +35,7 @@ CATEGORIES = [
     ("engine", "发动机", "按功率、重量或推力查看动力产品。"),
 ]
 KEY_BY_CATEGORY = {name: key for key, name, _ in CATEGORIES}
+DISPLAY_CATEGORY = {"巡飞器": "巡飞弹"}
 
 # Values below are transcribed from each model's 原页文字.txt.  They retain
 # qualification such as ≥, ≤, no-load, and payload-conditioned endurance.
@@ -163,7 +164,7 @@ def describe_product(model: str, category: str, metrics: list, details: list) ->
         return (f"{model} 为多旋翼无人机，机身材料为 {values['机身材料']}、轴距 {values['轴距']}。"
                 f"{metrics[1][0]} {metrics[1][1]}，空载续航 {values['空载续航']}。")
     if category == "巡飞器":
-        return (f"{model} 为巡飞器，外形尺寸为 {values['外形尺寸']}，"
+        return (f"{model} 为巡飞弹，外形尺寸为 {values['外形尺寸']}，"
                 f"最大飞行航程 {values['最大飞行航程']}、最大任务载荷 {values['最大任务载荷']}。")
     if category == "FPV无人机套件":
         return (f"{model} 为 FPV 无人机套件，轴距 {values['轴距']}、额定载重 {values['额定载重']}，"
@@ -242,6 +243,7 @@ def main() -> None:
     for row in rows:
         model = row["型号"]
         category = row["类别"]
+        display_category = DISPLAY_CATEGORY.get(category, category)
         page = int(row["画册页码"])
         source_dir = SOURCE / "产品目录" / model
         source_text = (source_dir / "原页文字.txt").read_text(encoding="utf-8")
@@ -265,7 +267,7 @@ def main() -> None:
         else:
             gallery = []
             for source_name, suffix, role, alt in [
-                ("透明产品图.png", "main", "product_main", f"{model} {category}产品主图"),
+                ("透明产品图.png", "main", "product_main", f"{model} {display_category}产品主图"),
                 ("产品页.png", "page", "catalog_page", f"{model} 产品参数页"),
             ]:
                 source_image = source_dir / source_name
@@ -302,7 +304,7 @@ def main() -> None:
             "model": model,
             "name": model,
             "categoryKey": KEY_BY_CATEGORY[category],
-            "categoryName": category,
+            "categoryName": display_category,
             "originalCategory": category,
             "summary": summary,
             "description": describe_product(model, category, metrics, details),
@@ -350,7 +352,7 @@ def main() -> None:
                 for other in siblings
             ],
         }
-    data = {"brand": "YH", "categories": [{"key": key, "name": name, "intro": intro} for key, name, intro in CATEGORIES], "products": products}
+    data = {"brand": "YH", "categories": [{"key": key, "name": DISPLAY_CATEGORY.get(name, name), "intro": intro} for key, name, intro in CATEGORIES], "products": products}
     (ROOT / "src/data/products.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "src/data/product-image-manifest-v7.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {len(products)} products, {len(CATEGORIES)} categories, {len(manifest)} images")

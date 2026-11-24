@@ -1,13 +1,18 @@
+import { ui } from './ui-locale';
+
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-const heroEnglish = document.documentElement.lang === 'en';
 if (!reduceMotion) document.documentElement.classList.add('yh-motion-ready');
 
 const hero = document.querySelector<HTMLElement>('[data-yh-hero]');
 const heroVideo = hero?.querySelector<HTMLVideoElement>('[data-yh-hero-video]');
 const soundButton = hero?.querySelector<HTMLButtonElement>('[data-yh-sound]');
+const playButton = hero?.querySelector<HTMLButtonElement>('[data-yh-play]');
+const mobileVideo = window.matchMedia('(max-width: 760px)').matches;
 if (hero) {
   const showTitle = () => hero.classList.add('is-ready');
-  if (reduceMotion || !heroVideo) {
+  if (!heroVideo) {
+    showTitle();
+  } else if (reduceMotion && !mobileVideo) {
     heroVideo?.pause();
     showTitle();
   } else {
@@ -15,14 +20,21 @@ if (hero) {
       if (!soundButton) return;
       const audible = !heroVideo.muted;
       soundButton.setAttribute('aria-pressed', String(audible));
-      soundButton.setAttribute('aria-label', heroEnglish ? (audible ? 'Mute video' : 'Turn on video sound') : (audible ? '静音视频' : '开启视频声音'));
+      soundButton.setAttribute('aria-label', audible ? ui.muteVideo : ui.enableSound);
       const label = soundButton.querySelector<HTMLElement>('[data-yh-sound-label]');
-      if (label) label.textContent = heroEnglish ? (audible ? 'Mute' : 'Sound on') : (audible ? '静音' : '开启声音');
+      if (label) label.textContent = audible ? ui.mute : ui.soundOn;
     };
     const started = () => {
       hero.classList.add('is-video-playing');
       if (soundButton) soundButton.hidden = false;
       showTitle();
+    };
+    const syncPlayButton = () => {
+      if (!playButton || !mobileVideo) return;
+      const playing = !heroVideo.paused && !heroVideo.ended;
+      hero.classList.toggle('is-mobile-playing', playing);
+      playButton.setAttribute('aria-label', playing ? ui.pauseVideo : ui.playVideo);
+      playButton.setAttribute('aria-pressed', String(playing));
     };
     soundButton?.addEventListener('click', async () => {
       heroVideo.muted = !heroVideo.muted;
@@ -39,10 +51,37 @@ if (hero) {
     heroVideo.addEventListener('volumechange', syncSoundButton);
     syncSoundButton();
     heroVideo.addEventListener('playing', started, { once: true });
+    heroVideo.addEventListener('playing', syncPlayButton);
+    heroVideo.addEventListener('pause', syncPlayButton);
+    heroVideo.addEventListener('ended', syncPlayButton);
     heroVideo.addEventListener('error', showTitle, { once: true });
-    if (!heroVideo.paused && heroVideo.currentTime > 0) started();
-    else heroVideo.play().catch(showTitle);
-    window.setTimeout(showTitle, 2000);
+    if (mobileVideo) {
+      heroVideo.autoplay = false;
+      heroVideo.loop = false;
+      heroVideo.pause();
+      showTitle();
+      syncPlayButton();
+      playButton?.addEventListener('click', async () => {
+        if (!heroVideo.paused) {
+          heroVideo.pause();
+          return;
+        }
+        if (heroVideo.ended) heroVideo.currentTime = 0;
+        heroVideo.muted = false;
+        try {
+          await heroVideo.play();
+        } catch {
+          heroVideo.muted = true;
+          heroVideo.play().catch(syncPlayButton);
+        }
+      });
+    } else {
+      heroVideo.autoplay = true;
+      heroVideo.preload = 'auto';
+      if (!heroVideo.paused && heroVideo.currentTime > 0) started();
+      else heroVideo.play().catch(showTitle);
+      window.setTimeout(showTitle, 2000);
+    }
   }
 }
 

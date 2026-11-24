@@ -1,5 +1,6 @@
+import { ui } from './ui-locale';
+
 const header = document.querySelector<HTMLElement>('#site-header');
-const siteEnglish = document.documentElement.lang === 'en';
 const updateHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 40);
 updateHeader();
 window.addEventListener('scroll', updateHeader, { passive: true });
@@ -10,7 +11,7 @@ const closeMobile = () => {
   if (!mobileButton || !mobileNav) return;
   mobileNav.hidden = true;
   mobileButton.setAttribute('aria-expanded', 'false');
-  mobileButton.setAttribute('aria-label', siteEnglish ? 'Open menu' : '打开菜单');
+  mobileButton.setAttribute('aria-label', ui.openMenu);
   document.body.classList.remove('mobile-open');
 };
 mobileButton?.addEventListener('click', () => {
@@ -18,7 +19,7 @@ mobileButton?.addEventListener('click', () => {
   const open = mobileNav.hidden === true;
   mobileNav.hidden = !open;
   mobileButton.setAttribute('aria-expanded', String(open));
-  mobileButton.setAttribute('aria-label', siteEnglish ? (open ? 'Close menu' : 'Open menu') : (open ? '关闭菜单' : '打开菜单'));
+  mobileButton.setAttribute('aria-label', open ? ui.closeMenu : ui.openMenu);
   document.body.classList.toggle('mobile-open', open);
 });
 mobileNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMobile));
@@ -64,6 +65,11 @@ document.addEventListener('click', (event) => {
   if (productMenu && !productMenu.contains(event.target as Node)) productMenu.open = false;
 });
 
+const languageMenu = document.querySelector<HTMLDetailsElement>('[data-language-menu]');
+document.addEventListener('click', (event) => {
+  if (languageMenu && !languageMenu.contains(event.target as Node)) languageMenu.open = false;
+});
+
 if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const targets = document.querySelectorAll<HTMLElement>('[data-reveal]');
   const observer = new IntersectionObserver(
@@ -85,5 +91,8 @@ if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: re
 }
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') closeMobile();
+  if (event.key === 'Escape') {
+    closeMobile();
+    if (languageMenu) languageMenu.open = false;
+  }
 });

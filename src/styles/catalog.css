@@ -538,6 +538,13 @@
   background: #fff;
   text-align: left;
 }
+html[dir='rtl'] .catalog-tabs button,
+html[dir='rtl'] .catalog-compare-table,
+html[dir='rtl'] .catalog-spec-table { text-align: right; }
+html[dir='rtl'] .catalog-tabs button::after { left: auto; right: 0; }
+html[dir='rtl'] .catalog-compare-table tbody th { left: auto; right: 0; }
+html[dir='rtl'] .catalog-compare-table td,
+html[dir='rtl'] .catalog-spec-table td { unicode-bidi: plaintext; }
 .catalog-spec-table th,
 .catalog-spec-table td {
   padding: 19px 24px;

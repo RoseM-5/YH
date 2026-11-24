@@ -53,6 +53,7 @@
 .mission-reel.is-enhanced .mission-reel-frame.is-active { z-index: 1; visibility: visible; pointer-events: auto; }
 .mission-reel.is-enhanced .mission-reel-frame .mission-reel-number { display: none; }
 .mission-reel.is-enhanced .mission-reel-fixed-number { position: absolute; z-index: 4; left: clamp(22px, 5.5vw, 82px); display: flex; align-items: baseline; }
+html[dir='rtl'] .mission-reel.is-enhanced .mission-reel-fixed-number { left: auto; right: clamp(22px, 5.5vw, 82px); direction: ltr; }
 .mission-reel-fixed-number > span.is-changing { animation: mission-number-in .55s cubic-bezier(.16, 1, .3, 1) both; }
 .mission-reel.is-enhanced .mission-reel-copy-main { grid-column: 2; display: flex; flex-direction: column; min-height: 400px; }
 .mission-reel.is-enhanced .mission-reel-actions { width: 100%; margin-top: auto; }
@@ -133,6 +134,7 @@ body:has(.mission-landing) .footer-bottom { border-top-color: #d9e8f1; }
   .mission-reel.is-enhanced .mission-reel-stage { top: 68px; height: calc(100svh - 68px); min-height: 600px; }
   .mission-reel.is-enhanced .mission-reel-frame { align-content: center; gap: 20px; padding: 0 28px 20px 0; }
   .mission-reel.is-enhanced .mission-reel-rail { left: auto; right: clamp(3px, 3vw, 16px); top: 12%; height: 76%; }
+  html[dir='rtl'] .mission-reel.is-enhanced .mission-reel-rail { right: auto; left: clamp(3px, 3vw, 16px); }
   .mission-reel-copy { grid-template-columns: 66px minmax(0, 1fr); gap: 16px; padding: 0; }
   .mission-reel-number, .mission-reel-fixed-number { font-size: 32px; }
   .mission-reel-number small, .mission-reel-fixed-number small { font-size: 11px; }

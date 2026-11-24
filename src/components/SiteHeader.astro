@@ -88,7 +88,16 @@ const first = featured[0];
       <a href="/contact/">联系我们</a>
     </nav>
     <div class="nav-actions">
-      <a class="language-switch" href={`/en${currentPath}${Astro.url.search}`} aria-label="Switch to English">EN</a>
+      <details class="language-menu" data-language-menu>
+        <summary aria-label="选择语言"><span data-current-language>中文</span><span aria-hidden="true">⌄</span></summary>
+        <div class="language-menu-list">
+          <a data-language-link href={`${currentPath}${Astro.url.search}`} lang="zh-CN">中文</a>
+          <a data-language-link href={`/en${currentPath}${Astro.url.search}`} lang="en">English</a>
+          <a data-language-link href={`/fr${currentPath}${Astro.url.search}`} lang="fr">Français</a>
+          <a data-language-link href={`/es${currentPath}${Astro.url.search}`} lang="es">Español</a>
+          <a data-language-link href={`/ar${currentPath}${Astro.url.search}`} lang="ar">العربية</a>
+        </div>
+      </details>
       <a class="nav-search" href="/products/#catalog-search" aria-label="跳转到产品搜索">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <circle cx="10.8" cy="10.8" r="6.5" stroke="currentColor" stroke-width="1.7" />

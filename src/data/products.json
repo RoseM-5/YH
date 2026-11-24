@@ -18,7 +18,7 @@
     },
     {
       "key": "loitering",
-      "name": "巡飞器",
+      "name": "巡飞弹",
       "intro": "按最大飞行航程与任务载荷查看型号。"
     },
     {
@@ -4173,19 +4173,19 @@
       "model": "YH-4000",
       "name": "YH-4000",
       "categoryKey": "loitering",
-      "categoryName": "巡飞器",
+      "categoryName": "巡飞弹",
       "originalCategory": "巡飞器",
       "summary": "最大飞行航程 110 km · 最大任务载荷 1 kg",
-      "description": "YH-4000 为巡飞器，外形尺寸为 机长 0.9 m · 翼展 1.2 m，最大飞行航程 110 km、最大任务载荷 1 kg。",
+      "description": "YH-4000 为巡飞弹，外形尺寸为 机长 0.9 m · 翼展 1.2 m，最大飞行航程 110 km、最大任务载荷 1 kg。",
       "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-4000-main.webp",
-      "bestImageAlt": "YH-4000 巡飞器产品主图",
+      "bestImageAlt": "YH-4000 巡飞弹产品主图",
       "gallery": [
         {
           "src": "/media/products/v7/yh-4000-main.webp",
           "role": "product_main",
-          "alt": "YH-4000 巡飞器产品主图",
+          "alt": "YH-4000 巡飞弹产品主图",
           "width": 1400,
           "height": 700,
           "sourceFile": "产品目录/YH-4000/透明产品图.png"
@@ -4204,7 +4204,7 @@
           {
             "src": "/media/products/v7/yh-4000-main.webp",
             "role": "product_main",
-            "alt": "YH-4000 巡飞器产品主图",
+            "alt": "YH-4000 巡飞弹产品主图",
             "width": 1400,
             "height": 700,
             "sourceFile": "产品目录/YH-4000/透明产品图.png"
@@ -4331,19 +4331,19 @@
       "model": "YH-4001",
       "name": "YH-4001",
       "categoryKey": "loitering",
-      "categoryName": "巡飞器",
+      "categoryName": "巡飞弹",
       "originalCategory": "巡飞器",
       "summary": "最大飞行航程 180 km · 最大任务载荷 2 kg",
-      "description": "YH-4001 为巡飞器，外形尺寸为 机长 1.1 m · 翼展 1.4 m，最大飞行航程 180 km、最大任务载荷 2 kg。",
+      "description": "YH-4001 为巡飞弹，外形尺寸为 机长 1.1 m · 翼展 1.4 m，最大飞行航程 180 km、最大任务载荷 2 kg。",
       "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-4001-main.webp",
-      "bestImageAlt": "YH-4001 巡飞器产品主图",
+      "bestImageAlt": "YH-4001 巡飞弹产品主图",
       "gallery": [
         {
           "src": "/media/products/v7/yh-4001-main.webp",
           "role": "product_main",
-          "alt": "YH-4001 巡飞器产品主图",
+          "alt": "YH-4001 巡飞弹产品主图",
           "width": 1400,
           "height": 614,
           "sourceFile": "产品目录/YH-4001/透明产品图.png"
@@ -4362,7 +4362,7 @@
           {
             "src": "/media/products/v7/yh-4001-main.webp",
             "role": "product_main",
-            "alt": "YH-4001 巡飞器产品主图",
+            "alt": "YH-4001 巡飞弹产品主图",
             "width": 1400,
             "height": 614,
             "sourceFile": "产品目录/YH-4001/透明产品图.png"
@@ -4493,19 +4493,19 @@
       "model": "YH-4002",
       "name": "YH-4002",
       "categoryKey": "loitering",
-      "categoryName": "巡飞器",
+      "categoryName": "巡飞弹",
       "originalCategory": "巡飞器",
       "summary": "最大飞行航程 320 km · 最大任务载荷 5 kg",
-      "description": "YH-4002 为巡飞器，外形尺寸为 机长 1.7 m · 翼展 2.3 m，最大飞行航程 320 km、最大任务载荷 5 kg。",
+      "description": "YH-4002 为巡飞弹，外形尺寸为 机长 1.7 m · 翼展 2.3 m，最大飞行航程 320 km、最大任务载荷 5 kg。",
       "variantNote": "",
       "descriptionOriginal": "",
       "bestImage": "/media/products/v7/yh-4002-main.webp",
-      "bestImageAlt": "YH-4002 巡飞器产品主图",
+      "bestImageAlt": "YH-4002 巡飞弹产品主图",
       "gallery": [
         {
           "src": "/media/products/v7/yh-4002-main.webp",
           "role": "product_main",
-          "alt": "YH-4002 巡飞器产品主图",
+          "alt": "YH-4002 巡飞弹产品主图",
           "width": 1400,
           "height": 581,
           "sourceFile": "产品目录/YH-4002/透明产品图.png"
@@ -4524,7 +4524,7 @@
           {
             "src": "/media/products/v7/yh-4002-main.webp",
             "role": "product_main",
-            "alt": "YH-4002 巡飞器产品主图",
+            "alt": "YH-4002 巡飞弹产品主图",
             "width": 1400,
             "height": 581,
             "sourceFile": "产品目录/YH-4002/透明产品图.png"
@@ -8757,25 +8757,9 @@
         {
           "label": "系列规格",
           "value": "Mark 22；22 英寸"
-        },
-        {
-          "label": "飞控 / 电调安装孔",
-          "value": "M4 × 30 × 30 mm"
-        },
-        {
-          "label": "电机安装孔",
-          "value": "M2 × 19 × 19 mm"
-        },
-        {
-          "label": "相机安装孔",
-          "value": "M2 × 20 × 20 / 30.5 × 30.5 mm"
-        },
-        {
-          "label": "图传安装孔",
-          "value": "30 mm"
         }
       ],
-      "sourceIssue": "原页末三行字段错位：底板厚度、内部空间高度、适配桨叶和重量无法确认，暂不展示。",
+      "sourceIssue": "原页右侧安装孔至重量等字段的数值连续错位，底板厚度也异常；这些字段的对应关系无法确认，暂不展示。",
       "sourcePage": 37,
       "sourceCatalog": "YH 产品资料",
       "sourceNotes": "",

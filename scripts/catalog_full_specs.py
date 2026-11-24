@@ -334,10 +334,6 @@ FULL_SPECS = {
 """),
     "YH-5016": SHARED_FRAME + rows("""
 系列规格 | Mark 22；22 英寸
-飞控 / 电调安装孔 | M4 × 30 × 30 mm
-电机安装孔 | M2 × 19 × 19 mm
-相机安装孔 | M2 × 20 × 20 / 30.5 × 30.5 mm
-图传安装孔 | 30 mm
 """),
     "WP-4000": rows("""
 动力形式 | 喷油、风冷、二冲程、水平对置双缸汽油活塞发动机
@@ -368,13 +364,13 @@ MTJ-220 怠速转速 | 35,000 RPM
 """),
 }
 
-# The YH-5016 source page has shifted cells in its last three rows. These
-# values cannot be assigned safely: bottom plate, space height, propeller,
-# and weight. Keep this internal note out of the public comparison table.
+# The YH-5016 source page shifts the right-hand values across several rows.
+# Its hole dimensions, space height, propeller, weight, and bottom plate cannot
+# be assigned safely. Keep those values out of published specifications.
 SOURCE_ISSUES = {
     "YH-1003": "2620 mm 对应字段在原页写为 Wircraft commander，具体尺寸名称待核实。",
     "YH-5000": "电机参数末尾在原页写为 65，供电后缀待核实。",
-    "YH-5016": "原页末三行字段错位：底板厚度、内部空间高度、适配桨叶和重量无法确认，暂不展示。",
+    "YH-5016": "原页右侧安装孔至重量等字段的数值连续错位，底板厚度也异常；这些字段的对应关系无法确认，暂不展示。",
     "YH-5002": "推荐电池容量在原页写为 610000mah，需核实。",
     "YH-5003": "原页六轴规格与电机、桨叶数量的标注不一致，需核实。",
     "YH-5005": "空载续航测试电池容量在原页写为 800mah，需核实。",
